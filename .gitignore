@@ -1,0 +1,17 @@
+# Local virtual environments
+mf_quant_env/
+temp_market_env/
+.venv/
+venv/
+ENV/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Operating system files
+.DS_Store
+Thumbs.db
