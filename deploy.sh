@@ -96,22 +96,24 @@ else
     echo "             INCREMENTAL DELTA DEPLOYMENT INTERFACE"
     echo "========================================================="
     echo ""
-    read -p "Enter commit classification message [Press Enter for default]: " commit_msg
-
-    if [ -z "$commit_msg" ]; then
-        commit_msg="Refine codebase configurations and processing core parameters"
-    fi
-
+    
     echo "Staging modifications..."
     git add .
     
     # Run size check before allowing the git commit step to fire
     check_file_sizes
     
-    # Verify delta changes exist before attempting a commit execution
-    if git diff-index --quiet HEAD --; then
-        echo "Info: Workstation files match upstream state. Sync bypassed."
+    # FIX: Check if there are actually changes BEFORE bothering you for a message
+    if git diff --cached --quiet; then
+        echo "Info: No new changes detected in your workspace. Sync bypassed."
     else
+        # Only prompt for a message if there is actual work to be done!
+        read -p "Enter commit classification message [Press Enter for default]: " commit_msg
+
+        if [ -z "$commit_msg" ]; then
+            commit_msg="Refine codebase configurations and processing core parameters"
+        fi
+
         git commit -m "$commit_msg"
         echo "Deploying delta vectors to GitHub tracking tree..."
         git push
