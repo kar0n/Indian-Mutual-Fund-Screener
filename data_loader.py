@@ -7,9 +7,24 @@ import time
 from typing import Dict, List, Optional, Tuple
 import pandas as pd
 import requests
-import streamlit as st
 import yfinance as yf
 import config
+
+# Optional Streamlit support with dummy cache fallback when run outside Streamlit or without it installed
+try:
+    import streamlit as st
+    from streamlit.runtime.scriptrunner import get_script_run_ctx
+    if get_script_run_ctx() is None:
+        def cache_data_dummy(*args, **kwargs):
+            return lambda func: func
+        st_cache = cache_data_dummy
+    else:
+        st_cache = st.cache_data
+except ImportError:
+    st = None
+    def cache_data_dummy(*args, **kwargs):
+        return lambda func: func
+    st_cache = cache_data_dummy
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
@@ -75,7 +90,7 @@ class DataLoader:
     """Retrieves and normalizes baseline pricing data from external endpoints with caching protocols."""
 
     @staticmethod
-    @st.cache_data(ttl=86400)  # Cache index calculations for 24 hours
+    @st_cache(ttl=86400)  # Cache index calculations for 24 hours
     def fetch_benchmark_returns(ticker: str, years: int) -> pd.DataFrame:
         """Downloads benchmark time-series and evaluates daily percentage variance with index fund fallback."""
         end_date = datetime.date.today()
@@ -111,7 +126,7 @@ class DataLoader:
         return pd.DataFrame(columns=["Bench_Return"])
 
     @staticmethod
-    @st.cache_data(ttl=43200)  # Cache raw scheme NAV files for 12 hours
+    @st_cache(ttl=43200)  # Cache raw scheme NAV files for 12 hours
     def fetch_fund_returns(scheme_code: str) -> Optional[pd.DataFrame]:
         """Pulls clean historical NAV time-series arrays from open api layers with backoff retries."""
         url = f"{config.MF_API_BASE_URL}{scheme_code}"
@@ -139,7 +154,7 @@ class DataLoader:
         return None
 
     @staticmethod
-    @st.cache_data(ttl=86400)  # Cache sovereign interest logs for 24 hours
+    @st_cache(ttl=86400)  # Cache sovereign interest logs for 24 hours
     def fetch_live_risk_free_rate() -> Tuple[float, str]:
         """Dynamically pulls the latest 91-Day Sovereign India T-Bill rate from live market logs."""
         headers = {
@@ -160,7 +175,7 @@ class DataLoader:
         return config.FALLBACK_RISK_FREE_RATE, "Baseline"
 
     @staticmethod
-    @st.cache_data(ttl=86400)  # Cache qualitative data for 24 hours
+    @st_cache(ttl=86400)  # Cache qualitative data for 24 hours
     def fetch_fund_details(scheme_code: str) -> Optional[Dict]:
         """Pulls comprehensive holdings, AUM, expense ratio, and manager info from FinAPI Upvaly with backoff retries."""
         url = f"https://finapi.upvaly.com/api/mf/scheme-code/{scheme_code}"
