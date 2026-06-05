@@ -1,3 +1,9 @@
 {
-  "cleanUrls": true
+  "version": 2,
+  "builds": [
+    { "src": "index.html", "use": "@vercel/static" },
+    { "src": "app.js", "use": "@vercel/static" },
+    { "src": "index.css", "use": "@vercel/static" },
+    { "src": "mf_universe_data.json", "use": "@vercel/static" }
+  ]
 }
