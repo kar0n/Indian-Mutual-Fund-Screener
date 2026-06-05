@@ -157,7 +157,7 @@ class StreamlitDashboard:
             st.warning("No portfolios in this segment passed current operational data validation parameters.")
             return
 
-        metrics_df = metrics_df.sort_values(by="Information Ratio (3Y)", ascending=False)
+        metrics_df = metrics_df.sort_values(by="Rating_Score", ascending=False)
 
         top_skill_fund = metrics_df.iloc[0]
         avg_1y = metrics_df["1Y Return (%)"].mean()
@@ -168,13 +168,12 @@ class StreamlitDashboard:
         # Summary Matrix Cards Layout
         card_col1, card_col2, card_col3 = st.columns(3)
         with card_col1:
-            ir_val = top_skill_fund['Information Ratio (3Y)']
-            ir_str = f"Information Ratio: {ir_val:.2f}" if not np.isnan(ir_val) else "Information Ratio: N/A"
+            rating_str = top_skill_fund['Rating']
             st.markdown(f"""
                 <div class="stat-card">
-                    <div class="stat-label">Category Alpha Leader</div>
+                    <div class="stat-label">Category Quant Leader</div>
                     <div class="stat-value">{top_skill_fund['Fund Name']}</div>
-                    <div class="stat-delta">{ir_str}</div>
+                    <div class="stat-delta">Rating: {rating_str}</div>
                 </div>
             """, unsafe_allow_html=True)
             
@@ -200,28 +199,33 @@ class StreamlitDashboard:
         st.markdown("<div style='margin-top: 20px;'></div>", unsafe_allow_html=True)
         st.markdown("""
             <div class="methodology-box">
-                <div class="methodology-title">Risk-Adjusted Parameters Reference</div>
+                <div class="methodology-title">Quantitative Workstation Framework Methodology</div>
                 <div class="methodology-text">
-                    <strong>Information Ratio (3Y):</strong> Evaluates a manager's consistency in generating excess returns relative to the tracking error of the benchmark index. Higher readings isolate persistent, repeatable portfolio management skill over luck.<br>
-                    <strong>Sharpe Ratio (3Y):</strong> Reflects risk efficiency by showing the asset returns achieved per unit of total structural volatility. Higher numbers confirm clean capital allocation efficiency.
+                    <strong>⭐ Rating (Out of 5):</strong> Dynamic scoring combining Rolling Return Consistency (1.25★), Information Ratio (1.25★), CAPM Alpha (1.25★), and Downside Capital Protection (1.25★).<br>
+                    <strong>3Y Rolling Return:</strong> Evaluates performance consistency by averaging all trailing 3-year compound returns across the historical life of the scheme.<br>
+                    <strong>Downside Capture:</strong> Capital protection indicator. Measures the percentage of the benchmark's losses captured by the fund on negative days. Values below 100 indicate capital protection (i.e. fund fell less than market).<br>
+                    <strong>CAPM Alpha (3Y):</strong> Risk-adjusted excess return. Isolates manager's stock picking outperformance relative to the benchmark index.
                 </div>
             </div>
         """, unsafe_allow_html=True)
 
         display_df = metrics_df[[
+            "Rating",
             "Fund Name", 
             "1Y Return (%)", 
             "3Y Return (%)", 
-            "5Y Return (%)", 
-            "Sharpe (3Y)", 
-            "Information Ratio (3Y)"
+            "3Y Rolling Return (%)",
+            "Alpha (3Y)",
+            "Beta (3Y)",
+            "Downside Capture (3Y)",
+            "Information Ratio (3Y)",
+            "Sharpe (3Y)"
         ]].copy()
 
         display_df.insert(0, "Sr. No.", range(1, len(display_df) + 1))
 
         st.markdown("<h3 style='font-size: 1rem; margin-bottom: 12px; color: #f8fafc; font-weight: 600;'>Fund Performance & Risk Ranking Profile</h3>", unsafe_allow_html=True)
 
-        # Configured with width="content" and updated the label parameter to "Scheme Name"
         st.dataframe(
             display_df,
             width="content",
@@ -229,11 +233,15 @@ class StreamlitDashboard:
             hide_index=True,
             column_config={
                 "Sr. No.": st.column_config.NumberColumn("Rank", format="%d", width=60),
-                "Fund Name": st.column_config.TextColumn("Scheme Name", width=550),
-                "1Y Return (%)": st.column_config.NumberColumn("1Y Return", format="%.2f%%", help="Trailing 1-Year Annualized Compounded Return", width=110),
-                "3Y Return (%)": st.column_config.NumberColumn("3Y Return", format="%.2f%%", help="Trailing 3-Year Annualized Compounded Return", width=110),
-                "5Y Return (%)": st.column_config.NumberColumn("5Y Return", format="%.2f%%", help="Trailing 5-Year Annualized Compounded Return", width=110),
-                "Sharpe (3Y)": st.column_config.NumberColumn("Sharpe (3Y)", format="%.2f", help="Higher is Better. Measures asset returns achieved per unit of total structural risk.", width=110),
-                "Information Ratio (3Y)": st.column_config.NumberColumn("Info Ratio (3Y)", format="%.2f", help="Higher is Better. Isolates systemic risk-adjusted stock picking skill over basic luck.", width=130)
+                "Rating": st.column_config.TextColumn("Rating", width=100, help="Dynamic 5-Star Quant Rating based on Performance Consistency, IR, CAPM Alpha, and Downside Capture."),
+                "Fund Name": st.column_config.TextColumn("Scheme Name", width=380),
+                "1Y Return (%)": st.column_config.NumberColumn("1Y Return", format="%.2f%%", help="Trailing 1-Year Annualized Compounded Return", width=95),
+                "3Y Return (%)": st.column_config.NumberColumn("3Y Return", format="%.2f%%", help="Trailing 3-Year Annualized Compounded Return", width=95),
+                "3Y Rolling Return (%)": st.column_config.NumberColumn("3Y Rolling Return", format="%.2f%%", help="Historical Average 3-Year Rolling Compounded Return", width=125),
+                "Alpha (3Y)": st.column_config.NumberColumn("Alpha (3Y)", format="%.2f%%", help="CAPM Alpha: Risk-adjusted excess return vs benchmark index", width=90),
+                "Beta (3Y)": st.column_config.NumberColumn("Beta (3Y)", format="%.2f", help="CAPM Beta: Systematic market risk sensitivity", width=80),
+                "Downside Capture (3Y)": st.column_config.NumberColumn("Downside Capture", format="%.1f", help="Downside Capture Ratio: lower is better (protects capital during market drops)", width=120),
+                "Information Ratio (3Y)": st.column_config.NumberColumn("Info Ratio (3Y)", format="%.2f", help="Consistency of beating the benchmark relative to risk.", width=105),
+                "Sharpe (3Y)": st.column_config.NumberColumn("Sharpe (3Y)", format="%.2f", help="Asset returns achieved per unit of total structural risk.", width=95),
             }
         )

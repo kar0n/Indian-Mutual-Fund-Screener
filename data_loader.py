@@ -121,7 +121,7 @@ class DataLoader:
             df["date"] = pd.to_datetime(df["date"], format="%d-%m-%Y")
             df = df.sort_values("date").set_index("date")
             df["Fund_Return"] = df["nav"].pct_change()
-            return df[["Fund_Return"]]
+            return df[["nav", "Fund_Return"]]
         except Exception:
             return None
 
