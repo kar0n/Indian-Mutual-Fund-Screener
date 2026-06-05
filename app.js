@@ -284,6 +284,7 @@ function getSortValue(item, column) {
         case 'aum': return item['AUM (Cr)'];
         case 'manager': return item.Managers;
         case 'r3y_roll': return item['3Y Rolling Return (%)'];
+        case 'r5y_roll': return item['5Y Rolling Return (%)'];
         case 'alpha': return item['Alpha (3Y)'];
         case 'downside': return item['Downside Capture (3Y)'];
         case 'ir': return item['Information Ratio (3Y)'];
@@ -329,7 +330,7 @@ function renderTableData() {
     tableBody.innerHTML = '';
     
     if (processedFunds.length === 0) {
-        tableBody.innerHTML = `<tr><td colspan="9" style="text-align: center; color: var(--text-muted); padding: 2rem;">No funds matching search criteria.</td></tr>`;
+        tableBody.innerHTML = `<tr><td colspan="10" style="text-align: center; color: var(--text-muted); padding: 2rem;">No funds matching search criteria.</td></tr>`;
         return;
     }
 
@@ -340,6 +341,9 @@ function renderTableData() {
         // Colors & classes for percentages and decimals
         const r3yRollVal = fund['3Y Rolling Return (%)'];
         const r3yRollClass = isNilOrNaN(r3yRollVal) ? '' : (r3yRollVal > 0 ? 'percentage-val positive' : 'percentage-val negative');
+
+        const r5yRollVal = fund['5Y Rolling Return (%)'];
+        const r5yRollClass = isNilOrNaN(r5yRollVal) ? '' : (r5yRollVal > 0 ? 'percentage-val positive' : 'percentage-val negative');
 
         const alphaVal = fund['Alpha (3Y)'];
         const alphaClass = isNilOrNaN(alphaVal) ? '' : (alphaVal > 0 ? 'percentage-val positive' : 'percentage-val negative');
@@ -359,6 +363,7 @@ function renderTableData() {
             <td class="rating-stars">${fund.Rating}</td>
             <td class="aum-col">${aumText}</td>
             <td class="${r3yRollClass}">${formatPercent(r3yRollVal)}</td>
+            <td class="${r5yRollClass}">${formatPercent(r5yRollVal)}</td>
             <td class="${alphaClass}">${formatAlpha(alphaVal)}</td>
             <td class="${downsideClass}">${formatPercentNoSign(downsideVal)}</td>
             <td>${formatNum(fund['Information Ratio (3Y)'])}</td>
