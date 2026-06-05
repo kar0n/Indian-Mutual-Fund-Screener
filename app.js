@@ -11,7 +11,7 @@ let sortOrder = 'asc';
 let categoryFunds = []; // Copy of the selected category funds with origRank mapped
 
 // DOM Elements
-const categorySelect = document.getElementById('category-select');
+const categoryPills = document.getElementById('category-pills');
 const searchInput = document.getElementById('search-input');
 const leaderName = document.getElementById('leader-name');
 const leaderRating = document.getElementById('leader-rating');
@@ -49,6 +49,17 @@ function formatNum(val, decimals = 2) {
 function formatAlpha(val) {
     if (isNilOrNaN(val)) return 'N/A';
     return (val > 0 ? '+' : '') + val.toFixed(2);
+}
+
+function formatManagerLinks(managersStr) {
+    if (isNilOrNaN(managersStr) || managersStr === 'N/A') return 'N/A';
+    const managers = managersStr.split(',');
+    return managers.map(m => {
+        const name = m.trim();
+        if (!name) return '';
+        const encoded = encodeURIComponent(name + ' mutual fund manager');
+        return `<a href="https://www.linkedin.com/search/results/all/?keywords=${encoded}" target="_blank" class="manager-linkedin-link" title="Verify tenure and career history for ${name} on LinkedIn" onclick="event.stopPropagation();">${name}</a>`;
+    }).filter(Boolean).join(', ');
 }
 
 // Initializer
@@ -93,26 +104,28 @@ function renderHeaderMeta() {
 
 function populateCategories() {
     if (!window.mfData || !window.mfData.categories) return;
-    categorySelect.innerHTML = '';
+    categoryPills.innerHTML = '';
     const categories = Object.keys(window.mfData.categories);
     categories.forEach(cat => {
-        const option = document.createElement('option');
-        option.value = cat;
-        option.textContent = cat.replace('Equity Scheme - ', '').replace('Hybrid Scheme - ', '').replace('Debt Scheme - ', '');
-        categorySelect.appendChild(option);
+        const btn = document.createElement('button');
+        btn.className = 'category-pill';
+        btn.textContent = cat.replace('Equity Scheme - ', '').replace('Hybrid Scheme - ', '').replace('Debt Scheme - ', '');
+        btn.addEventListener('click', () => {
+            document.querySelectorAll('.category-pill').forEach(p => p.classList.remove('active'));
+            btn.classList.add('active');
+            currentCategory = cat;
+            handleCategoryChange();
+        });
+        categoryPills.appendChild(btn);
     });
     if (categories.length > 0) {
         currentCategory = categories[0];
-        categorySelect.value = currentCategory;
+        const firstPill = categoryPills.querySelector('.category-pill');
+        if (firstPill) firstPill.classList.add('active');
     }
 }
 
 function setupEventListeners() {
-    categorySelect.addEventListener('change', (e) => {
-        currentCategory = e.target.value;
-        handleCategoryChange();
-    });
-
     searchInput.addEventListener('input', (e) => {
         searchQuery = e.target.value.toLowerCase().trim();
         renderTableData();
@@ -312,12 +325,12 @@ function renderTableData() {
             <td>${fund.origRank}</td>
             <td class="scheme-name text-left">${fund['Fund Name']}</td>
             <td class="rating-stars">${fund.Rating}</td>
-            <td>${aumText}</td>
-            <td class="text-left" style="font-size: 0.8rem; color: var(--text-muted); max-width: 220px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" title="${managerTitleText}">${managerText}</td>
+            <td class="aum-col">${aumText}</td>
             <td class="${r3yRollClass}">${formatPercent(r3yRollVal)}</td>
             <td class="${alphaClass}">${formatAlpha(alphaVal)}</td>
             <td class="${downsideClass}">${formatPercentNoSign(downsideVal)}</td>
             <td>${formatNum(fund['Information Ratio (3Y)'])}</td>
+            <td class="text-left manager-col" title="${managerTitleText}">${formatManagerLinks(managerText)}</td>
         `;
         
         tr.addEventListener('click', () => {
@@ -329,7 +342,7 @@ function renderTableData() {
 }
 
 function showDrawer(fund) {
-    const category = categorySelect.value;
+    const category = currentCategory;
     const isMidOrSmall = category.toLowerCase().includes('mid cap') || category.toLowerCase().includes('small cap');
     
     // Fetch average rolling 3Y return for the category to compute performance consistency sub-rating
@@ -552,8 +565,8 @@ function showDrawer(fund) {
             <div class="drawer-section-title">Fund Management</div>
             <div class="modal-grid">
                 <div class="modal-item" style="grid-column: span 2;">
-                    <span class="modal-item-label">Current Managers & Tenure Profile</span>
-                    <span class="modal-item-value" style="font-size:0.9rem; font-weight:500; color:#e2e8f0; line-height: 1.4;">${fund.Managers || 'N/A'}</span>
+                    <span class="modal-item-label">Current Managers & Tenure Profile (Click for LinkedIn Lookup)</span>
+                    <span class="modal-item-value" style="font-size:0.9rem; font-weight:500; color:#e2e8f0; line-height: 1.4;">${formatManagerLinks(fund.Managers)}</span>
                 </div>
             </div>
         </div>
