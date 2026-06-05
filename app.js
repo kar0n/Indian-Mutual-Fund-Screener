@@ -218,7 +218,7 @@ function renderCategoryStats() {
     // Leader (first element in original array which is sorted by score)
     const leader = categoryFunds[0];
     leaderName.textContent = leader['Fund Name'];
-    leaderRating.textContent = `${leader.Rating} (${leader.Rating_Score.toFixed(3)})`;
+    leaderRating.innerHTML = `<span class="rating-stars">${leader.Rating}</span> <span class="score-val">(${leader.Rating_Score.toFixed(3)})</span>`;
 
     // Averages
     let sumRoll = 0, countRoll = 0;
@@ -364,7 +364,7 @@ function renderTableData() {
         tr.innerHTML = `
             <td>${fund.origRank}</td>
             <td class="scheme-name text-left">${fund['Fund Name']}</td>
-            <td>
+            <td class="rating-cell">
                 <div class="rating-stars">${fund.Rating}</div>
                 <div class="rating-score-subtext">${fund.Rating_Score.toFixed(3)}</div>
             </td>
