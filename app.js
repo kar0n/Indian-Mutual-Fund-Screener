@@ -387,61 +387,11 @@ function showDrawer(fund) {
     const category = currentCategory;
     const isMidOrSmall = category.toLowerCase().includes('mid cap') || category.toLowerCase().includes('small cap');
     
-    // Fetch average rolling 3Y return for the category to compute performance consistency sub-rating
-    const validRollingReturns = categoryFunds
-        .map(item => item['3Y Rolling Return (%)'])
-        .filter(val => !isNilOrNaN(val));
-    const avgRolling3Y = validRollingReturns.length > 0 
-        ? validRollingReturns.reduce((sum, val) => sum + val, 0) / validRollingReturns.length 
-        : 0.0;
-
-    // Calculate sub-ratings based on Python engine guidelines (max 1.25 each)
-    
-    // 1. Performance Consistency
-    let scoreRoll = 0.625;
-    const r3yRoll = fund['3Y Rolling Return (%)'];
-    if (!isNilOrNaN(r3yRoll)) {
-        const diff = r3yRoll - avgRolling3Y;
-        if (diff >= 3.0) scoreRoll = 1.25;
-        else if (diff >= 0.0) scoreRoll = 0.9375;
-        else if (diff >= -3.0) scoreRoll = 0.625;
-        else if (diff >= -6.0) scoreRoll = 0.3125;
-        else scoreRoll = 0.0;
-    }
-
-    // 2. Information Ratio
-    let scoreIr = 0.625;
-    const ir = fund['Information Ratio (3Y)'];
-    if (!isNilOrNaN(ir)) {
-        if (ir >= 1.0) scoreIr = 1.25;
-        else if (ir >= 0.75) scoreIr = 0.9375;
-        else if (ir >= 0.5) scoreIr = 0.625;
-        else if (ir >= 0.0) scoreIr = 0.3125;
-        else scoreIr = 0.0;
-    }
-
-    // 3. CAPM Alpha
-    let scoreAlpha = 0.625;
-    const expense = fund['Expense Ratio (%)'] || 0;
-    const netAlpha = !isNilOrNaN(fund['Alpha (3Y)']) ? (fund['Alpha (3Y)'] - expense) : null;
-    if (netAlpha !== null) {
-        if (netAlpha >= 5.0) scoreAlpha = 1.25;
-        else if (netAlpha >= 2.5) scoreAlpha = 0.9375;
-        else if (netAlpha >= 0.0) scoreAlpha = 0.625;
-        else if (netAlpha >= -2.0) scoreAlpha = 0.3125;
-        else scoreAlpha = 0.0;
-    }
-
-    // 4. Downside Capital Protection
-    let scoreDownside = 0.625;
-    const downside = fund['Downside Capture (3Y)'];
-    if (!isNilOrNaN(downside)) {
-        if (downside <= 80.0) scoreDownside = 1.25;
-        else if (downside <= 95.0) scoreDownside = 0.9375;
-        else if (downside <= 100.0) scoreDownside = 0.78125;
-        else if (downside <= 110.0) scoreDownside = 0.46875;
-        else scoreDownside = 0.0;
-    }
+    // Read compiled sub-ratings directly from the JSON database records
+    const scoreRoll = fund.Sub_Rating_Performance !== undefined && fund.Sub_Rating_Performance !== null ? fund.Sub_Rating_Performance : 0.625;
+    const scoreIr = fund.Sub_Rating_IR !== undefined && fund.Sub_Rating_IR !== null ? fund.Sub_Rating_IR : 0.625;
+    const scoreAlpha = fund.Sub_Rating_Alpha !== undefined && fund.Sub_Rating_Alpha !== null ? fund.Sub_Rating_Alpha : 0.625;
+    const scoreDownside = fund.Sub_Rating_Protection !== undefined && fund.Sub_Rating_Protection !== null ? fund.Sub_Rating_Protection : 0.625;
 
     function toStars(score) {
         const fullStars = Math.floor(score);
@@ -451,19 +401,32 @@ function showDrawer(fund) {
         return '⭐'.repeat(fullStars) + halfStar;
     }
 
-    // AUM warning check
+    // AUM warning & bonus check
     let aumWarningHtml = '';
     const aum = fund['AUM (Cr)'];
-    if (isMidOrSmall && !isNilOrNaN(aum)) {
-        if (category.toLowerCase().includes('small cap') && aum > 15000) {
-            aumWarningHtml = `<div class="alert-value warning">⚠️ Bloated AUM: ${aum.toLocaleString()} Cr (-0.5★ Penalty Applied)</div>`;
-        } else if (category.toLowerCase().includes('mid cap') && aum > 25000) {
-            aumWarningHtml = `<div class="alert-value warning">⚠️ Bloated AUM: ${aum.toLocaleString()} Cr (-0.5★ Penalty Applied)</div>`;
+    const aumAdj = fund.AUM_Adj || 0;
+    const catLower = category.toLowerCase();
+    
+    if (!isNilOrNaN(aum)) {
+        if (catLower.includes('small cap') || catLower.includes('mid-cap') || catLower.includes('mid cap')) {
+            if (aumAdj < 0) {
+                aumWarningHtml = `<div class="alert-value warning">⚠️ Bloated AUM: ${aum.toLocaleString()} Cr (-0.5★ Size Penalty Applied)</div>`;
+            } else {
+                aumWarningHtml = `<div class="alert-value success">✓ AUM: ${aum.toLocaleString()} Cr (Healthy size)</div>`;
+            }
+        } else if (catLower.includes('liquid') || catLower.includes('debt') || catLower.includes('arbitrage')) {
+            if (aumAdj > 0) {
+                aumWarningHtml = `<div class="alert-value success">✓ AUM: ${aum.toLocaleString()} Cr (+0.25★ Safety Bonus Applied)</div>`;
+            } else {
+                aumWarningHtml = `<div class="alert-value success">✓ AUM: ${aum.toLocaleString()} Cr (Healthy size)</div>`;
+            }
         } else {
-            aumWarningHtml = `<div class="alert-value success">✓ AUM: ${aum.toLocaleString()} Cr (Healthy size)</div>`;
+            if (aumAdj > 0) {
+                aumWarningHtml = `<div class="alert-value success">✓ AUM: ${aum.toLocaleString()} Cr (+0.25★ Scale Bonus Applied)</div>`;
+            } else {
+                aumWarningHtml = `<div class="alert-value success">✓ AUM: ${aum.toLocaleString()} Cr (Healthy size)</div>`;
+            }
         }
-    } else if (!isNilOrNaN(aum)) {
-        aumWarningHtml = `<div>${aum.toLocaleString()} Cr</div>`;
     } else {
         aumWarningHtml = `<div class="text-muted">N/A</div>`;
     }
@@ -516,6 +479,22 @@ function showDrawer(fund) {
         mcapHtml = '<div class="text-muted">N/A</div>';
     }
 
+    // Manager tenure alert block
+    let managerTenureHtml = '';
+    const tenureYears = fund.Manager_Tenure_Years;
+    const tenureAdj = fund.Manager_Tenure_Adj || 0;
+    if (tenureYears !== undefined && tenureYears !== null) {
+        if (tenureAdj < 0) {
+            managerTenureHtml = `<div class="alert-value warning" style="margin-top: 5px; font-size: 0.8rem;">⚠️ Lead Manager Tenure: ${tenureYears} years (-0.5★ Transition Penalty Applied)</div>`;
+        } else if (tenureAdj > 0) {
+            managerTenureHtml = `<div class="alert-value success" style="margin-top: 5px; font-size: 0.8rem;">✓ Lead Manager Tenure: ${tenureYears} years (+0.25★ Veteran Stability Bonus Applied)</div>`;
+        } else {
+            managerTenureHtml = `<div class="alert-value success" style="margin-top: 5px; font-size: 0.8rem;">✓ Lead Manager Tenure: ${tenureYears} years (Stable tenure)</div>`;
+        }
+    } else {
+        managerTenureHtml = `<div class="text-muted" style="margin-top: 5px; font-size: 0.8rem;">Tenure details: Stable / Neutral (3.5 year baseline assumed)</div>`;
+    }
+
     drawerContent.innerHTML = `
         <h2 class="drawer-title">${fund['Fund Name']}</h2>
         
@@ -526,15 +505,15 @@ function showDrawer(fund) {
                 <span class="rating-detail-stars">${fund.Rating} (${fund.Rating_Score.toFixed(3)}★ / 5★)</span>
             </div>
             <div class="rating-detail-item">
-                <span class="rating-detail-label">Performance Consistency (Rolling 3Y)</span>
+                <span class="rating-detail-label">Performance Consistency (Rolling Returns)</span>
                 <span class="rating-detail-stars">${toStars(scoreRoll)} (${scoreRoll.toFixed(4)}★)</span>
             </div>
             <div class="rating-detail-item">
-                <span class="rating-detail-label">Information Ratio (3Y Skill vs Luck)</span>
+                <span class="rating-detail-label">Information Ratio (Skill vs Luck)</span>
                 <span class="rating-detail-stars">${toStars(scoreIr)} (${scoreIr.toFixed(4)}★)</span>
             </div>
             <div class="rating-detail-item">
-                <span class="rating-detail-label">CAPM Net Alpha (3Y Risk-Adjusted)</span>
+                <span class="rating-detail-label">CAPM Net Alpha (Risk-Adjusted)</span>
                 <span class="rating-detail-stars">${toStars(scoreAlpha)} (${scoreAlpha.toFixed(4)}★)</span>
             </div>
             <div class="rating-detail-item">
@@ -611,8 +590,9 @@ function showDrawer(fund) {
             <div class="drawer-section-title">Fund Management</div>
             <div class="modal-grid">
                 <div class="modal-item" style="grid-column: span 2;">
-                    <span class="modal-item-label">Current Managers & Tenure Profile (Click for LinkedIn Lookup)</span>
-                    <span class="modal-item-value" style="font-size:0.9rem; font-weight:500; color:#e2e8f0; line-height: 1.4;">${formatManagerLinks(fund.Managers, true)}</span>
+                    <span class="modal-item-label">Current Managers (Click for LinkedIn Lookup)</span>
+                    <span class="modal-item-value" style="font-size:0.9rem; font-weight:500; color:#e2e8f0; line-height: 1.4; margin-bottom: 5px;">${formatManagerLinks(fund.Managers, true)}</span>
+                    ${managerTenureHtml}
                 </div>
             </div>
         </div>

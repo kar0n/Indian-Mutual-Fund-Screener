@@ -201,97 +201,162 @@ class QuantEngine:
         # Calculate Net Alpha
         df["Net Alpha (%)"] = df["Alpha (3Y)"] - df["Expense Ratio (%)"].fillna(0)
 
+        # 1. Define Category Weightings Map (Dynamic Weighting by Mandate)
+        cat_name_lower = category_name.lower()
+        if "hybrid" in cat_name_lower or "balanced advantage" in cat_name_lower or "dynamic asset" in cat_name_lower:
+            w = {"roll": 0.25, "ir": 0.25, "alpha": 0.15, "dc": 0.35}
+        elif "debt" in cat_name_lower or "liquid" in cat_name_lower or "arbitrage" in cat_name_lower:
+            w = {"roll": 0.35, "ir": 0.20, "alpha": 0.05, "dc": 0.40}
+        elif "small cap" in cat_name_lower or "mid cap" in cat_name_lower:
+            w = {"roll": 0.20, "ir": 0.25, "alpha": 0.35, "dc": 0.20}
+        else:
+            w = {"roll": 0.25, "ir": 0.25, "alpha": 0.25, "dc": 0.25}
+
+        # 2. Manager Tenure Lookup Map (Top Indian Mutual Funds)
+        MANAGER_TENURE_MAP = {
+            "122639": 13.0,  # Parag Parikh Flexi Cap Fund
+            "118955": 4.0,   # HDFC Flexi Cap Fund
+            "118968": 4.0,   # HDFC Balanced Advantage Fund
+            "118989": 19.0,  # HDFC Mid-Cap Opportunities Fund
+            "119609": 14.0,  # SBI Equity Hybrid Fund
+            "120586": 8.0,   # ICICI Prudential Large Cap (Bluechip)
+            "118778": 9.0,   # Nippon India Small Cap (Growth)
+            "118777": 9.0,   # Nippon India Small Cap (Bonus)
+            "120377": 16.0,  # ICICI Prudential Balanced Advantage
+            "119771": 12.0,  # Kotak Arbitrage Fund
+            "120323": 14.0,  # ICICI Prudential Value Discovery
+            "119775": 14.0,  # Kotak Midcap Fund
+            "119598": 2.0,   # SBI Large Cap Fund
+            "118650": 19.0,  # Nippon India Multi Cap (Growth)
+            "118651": 19.0,  # Nippon India Multi Cap (Bonus)
+            "118632": 19.0,  # Nippon India Large Cap (Growth)
+            "118633": 19.0,  # Nippon India Large Cap (Bonus)
+            "120251": 14.0,  # ICICI Prudential Equity & Debt
+            "120166": 14.0,  # Kotak Flexicap Fund
+            "119835": 8.0,   # SBI Contra Fund
+            "119779": 0.8,   # SBI Small Cap Fund (Transition Penalty)
+        }
+
         ratings = []
+        sub_roll_list = []
+        sub_ir_list = []
+        sub_alpha_list = []
+        sub_dc_list = []
+        tenure_list = []
+        tenure_adjustment_list = []
+        aum_adjustment_list = []
+
         for idx, row in df.iterrows():
-            # 1. Performance Consistency (Rolling 3Y vs Category Average) - max 1.25
+            # 1. Performance Consistency
             r3y_roll = row["3Y Rolling Return (%)"]
             if pd.notna(r3y_roll) and not np.isnan(r3y_roll):
                 diff = r3y_roll - category_avg_rolling_3y
-                if diff >= 3.0:
-                    roll_score = 1.25
-                elif diff >= 0.0:
-                    roll_score = 0.9375
-                elif diff >= -3.0:
-                    roll_score = 0.625
-                elif diff >= -6.0:
-                    roll_score = 0.3125
-                else:
-                    roll_score = 0.0
+                if diff >= 3.0: raw_roll = 5.0
+                elif diff >= 0.0: raw_roll = 3.75
+                elif diff >= -3.0: raw_roll = 2.5
+                elif diff >= -6.0: raw_roll = 1.25
+                else: raw_roll = 0.0
             else:
-                roll_score = 0.625
+                raw_roll = 2.5
 
-            # 2. Information Ratio (Skill vs Luck) - max 1.25
+            # 2. Information Ratio
             ir3y = row["Information Ratio (3Y)"]
             if pd.notna(ir3y) and not np.isnan(ir3y):
-                if ir3y >= 1.0:
-                    ir_score = 1.25
-                elif ir3y >= 0.75:
-                    ir_score = 0.9375
-                elif ir3y >= 0.5:
-                    ir_score = 0.625
-                elif ir3y >= 0.0:
-                    ir_score = 0.3125
-                else:
-                    ir_score = 0.0
+                if ir3y >= 1.0: raw_ir = 5.0
+                elif ir3y >= 0.75: raw_ir = 3.75
+                elif ir3y >= 0.5: raw_ir = 2.5
+                elif ir3y >= 0.0: raw_ir = 1.25
+                else: raw_ir = 0.0
             else:
-                ir_score = 0.625
+                raw_ir = 2.5
 
-            # 3. Net Alpha (Risk-adjusted excess return net of expense ratio) - max 1.25
+            # 3. Net Alpha
             net_alpha = row["Net Alpha (%)"]
             if pd.notna(net_alpha) and not np.isnan(net_alpha):
-                if net_alpha >= 5.0:
-                    alpha_score = 1.25
-                elif net_alpha >= 2.5:
-                    alpha_score = 0.9375
-                elif net_alpha >= 0.0:
-                    alpha_score = 0.625
-                elif net_alpha >= -2.0:
-                    alpha_score = 0.3125
-                else:
-                    alpha_score = 0.0
+                if net_alpha >= 5.0: raw_alpha = 5.0
+                elif net_alpha >= 2.5: raw_alpha = 3.75
+                elif net_alpha >= 0.0: raw_alpha = 2.5
+                elif net_alpha >= -2.0: raw_alpha = 1.25
+                else: raw_alpha = 0.0
             else:
-                alpha_score = 0.625
+                raw_alpha = 2.5
 
-            # 4. Downside Capture Ratio (Capital protection) - max 1.25
+            # 4. Downside Capture
             dc3y = row["Downside Capture (3Y)"]
             if pd.notna(dc3y) and not np.isnan(dc3y):
-                if dc3y <= 80.0:
-                    dc_score = 1.25
-                elif dc3y <= 95.0:
-                    dc_score = 0.9375
-                elif dc3y <= 100.0:
-                    dc_score = 0.78125
-                elif dc3y <= 110.0:
-                    dc_score = 0.46875
-                else:
-                    dc_score = 0.0
+                if dc3y <= 80.0: raw_dc = 5.0
+                elif dc3y <= 95.0: raw_dc = 3.75
+                elif dc3y <= 100.0: raw_dc = 3.125
+                elif dc3y <= 110.0: raw_dc = 1.875
+                else: raw_dc = 0.0
             else:
-                dc_score = 0.625
+                raw_dc = 2.5
 
-            total_score = roll_score + ir_score + alpha_score + dc_score
+            # Compute weighted contributions out of 5 stars
+            roll_contrib = raw_roll * w["roll"]
+            ir_contrib = raw_ir * w["ir"]
+            alpha_contrib = raw_alpha * w["alpha"]
+            dc_contrib = raw_dc * w["dc"]
+
+            sub_roll_list.append(round(roll_contrib, 4))
+            sub_ir_list.append(round(ir_contrib, 4))
+            sub_alpha_list.append(round(alpha_contrib, 4))
+            sub_dc_list.append(round(dc_contrib, 4))
+
+            total_score = roll_contrib + ir_contrib + alpha_contrib + dc_contrib
+
+            # Apply Dynamic AUM Adjustments
+            aum_val = row["AUM (Cr)"]
+            aum_adj = 0.0
             
-            # Apply Qualitative Penalties (AUM and Concentration)
-            cat_name_lower = category_name.lower()
             is_mid_or_small = "mid cap" in cat_name_lower or "small cap" in cat_name_lower
+            is_liquid_or_debt = "debt" in cat_name_lower or "liquid" in cat_name_lower or "arbitrage" in cat_name_lower
             
-            if is_mid_or_small:
-                # Penalty A: Bloated AUM check
-                aum_val = row["AUM (Cr)"]
-                if pd.notna(aum_val) and not np.isnan(aum_val):
+            if pd.notna(aum_val) and not np.isnan(aum_val):
+                if is_mid_or_small:
+                    # Penalty for scale bloat in small/mid caps
                     if "small cap" in cat_name_lower and aum_val > 15000:
-                        total_score = max(0.0, total_score - 0.5)
+                        aum_adj = -0.5
                     elif "mid cap" in cat_name_lower and aum_val > 25000:
-                        total_score = max(0.0, total_score - 0.5)
-                        
-                # Penalty B: Concentration outside optimal 20%-45% check
-                top10_val = row["Top 10 Stocks Weight (%)"]
-                if pd.notna(top10_val) and not np.isnan(top10_val):
-                    if top10_val < 20.0 or top10_val > 45.0:
-                        total_score = max(0.0, total_score - 0.25)
-                        
-            ratings.append(total_score)
+                        aum_adj = -0.5
+                elif is_liquid_or_debt:
+                    # Bonus for systemic safety in debt/liquid (AUM > 30,000 Cr)
+                    if aum_val > 30000:
+                        aum_adj = 0.25
+                else:
+                    # Bonus for scale advantage in Large/Flexi/Multi/Hybrid (AUM > 20,000 Cr)
+                    if aum_val > 20000:
+                        aum_adj = 0.25
+            
+            total_score += aum_adj
+            aum_adjustment_list.append(aum_adj)
+
+            # Apply Manager Tenure Adjustments
+            scheme_code = str(row["code"])
+            tenure = MANAGER_TENURE_MAP.get(scheme_code, 3.5)  # Default to neutral 3.5 years
+            tenure_list.append(tenure)
+            
+            tenure_adj = 0.0
+            if tenure < 1.0:
+                tenure_adj = -0.5  # Transition Penalty
+            elif tenure > 5.0:
+                tenure_adj = 0.25  # Veteran Bonus
+                
+            total_score += tenure_adj
+            tenure_adjustment_list.append(tenure_adj)
+
+            # Cap the final score between 0.5 and 5.0 stars
+            final_rating_score = min(5.0, max(0.5, total_score))
+            ratings.append(final_rating_score)
 
         df["Rating_Score"] = ratings
+        df["Sub_Rating_Performance"] = sub_roll_list
+        df["Sub_Rating_IR"] = sub_ir_list
+        df["Sub_Rating_Alpha"] = sub_alpha_list
+        df["Sub_Rating_Protection"] = sub_dc_list
+        df["Manager_Tenure_Years"] = tenure_list
+        df["Manager_Tenure_Adj"] = tenure_adjustment_list
+        df["AUM_Adj"] = aum_adjustment_list
 
         def to_stars(score):
             if np.isnan(score):
@@ -299,7 +364,7 @@ class QuantEngine:
             full_stars = int(score)
             half_star = "½" if (score - full_stars) >= 0.25 else ""
             if full_stars == 0 and not half_star:
-                return "½" # minimum score representation
+                return "½"  # minimum score representation
             return "⭐" * full_stars + half_star
 
         df["Rating"] = df["Rating_Score"].apply(to_stars)
