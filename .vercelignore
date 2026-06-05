@@ -1,0 +1,13 @@
+# Ignore Python scripts and environment
+*.py
+requirements.txt
+requirements-local.txt
+start_dashboard.sh
+run_isolated.sh
+deploy.sh
+mf_quant_env/
+.git/
+.github/
+README.md
+task.md
+walkthrough.md
