@@ -199,10 +199,10 @@ class StreamlitDashboard:
         st.markdown("<div style='margin-top: 20px;'></div>", unsafe_allow_html=True)
         st.markdown("""
             <div class="methodology-box">
-                <div class="methodology-title">Quantitative Workstation Framework Methodology</div>
+                <div class="methodology-title">Screener Guide & Key Definitions</div>
                 <div class="methodology-text">
                     <strong>⭐ Rating (Out of 5):</strong> Dynamic scoring combining Rolling Return Consistency (1.25★), Information Ratio (1.25★), CAPM Alpha (1.25★), and Downside Capital Protection (1.25★).<br>
-                    <strong>3Y Rolling Return:</strong> Evaluates performance consistency by averaging all trailing 3-year compound returns across the historical life of the scheme.<br>
+                    <strong>3Y & 5Y Rolling Return:</strong> Evaluates performance consistency by averaging all trailing 3-year or 5-year compound returns across the historical life of the scheme.<br>
                     <strong>Downside Capture:</strong> Capital protection indicator. Measures the percentage of the benchmark's losses captured by the fund on negative days. Values below 100 indicate capital protection (i.e. fund fell less than market).<br>
                     <strong>CAPM Alpha (3Y):</strong> Risk-adjusted excess return. Isolates manager's stock picking outperformance relative to the benchmark index.
                 </div>
@@ -215,6 +215,7 @@ class StreamlitDashboard:
             "1Y Return (%)", 
             "3Y Return (%)", 
             "3Y Rolling Return (%)",
+            "5Y Rolling Return (%)",
             "Alpha (3Y)",
             "Beta (3Y)",
             "Downside Capture (3Y)",
@@ -238,6 +239,7 @@ class StreamlitDashboard:
                 "1Y Return (%)": st.column_config.NumberColumn("1Y Return", format="%.2f%%", help="Trailing 1-Year Annualized Compounded Return", width=95),
                 "3Y Return (%)": st.column_config.NumberColumn("3Y Return", format="%.2f%%", help="Trailing 3-Year Annualized Compounded Return", width=95),
                 "3Y Rolling Return (%)": st.column_config.NumberColumn("3Y Rolling Return", format="%.2f%%", help="Historical Average 3-Year Rolling Compounded Return", width=125),
+                "5Y Rolling Return (%)": st.column_config.NumberColumn("5Y Rolling Return", format="%.2f%%", help="Historical Average 5-Year Rolling Compounded Return", width=125),
                 "Alpha (3Y)": st.column_config.NumberColumn("Alpha (3Y)", format="%.2f%%", help="CAPM Alpha: Risk-adjusted excess return vs benchmark index", width=90),
                 "Beta (3Y)": st.column_config.NumberColumn("Beta (3Y)", format="%.2f", help="CAPM Beta: Systematic market risk sensitivity", width=80),
                 "Downside Capture (3Y)": st.column_config.NumberColumn("Downside Capture", format="%.1f", help="Downside Capture Ratio: lower is better (protects capital during market drops)", width=120),
