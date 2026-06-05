@@ -1,7 +1,7 @@
 """Quantitative processing core for multi-timeframe risk-adjusted analysis."""
 
 import concurrent.futures
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Tuple
 import numpy as np
 import pandas as pd
 import config
@@ -15,18 +15,25 @@ class QuantEngine:
         self.benchmark_df = DataLoader.fetch_benchmark_returns(benchmark_ticker, years=5)
         self.risk_free_rate = risk_free_rate
 
-    def _slice_and_compute(self, df: pd.DataFrame, days: int) -> tuple:
+    def _slice_and_compute(self, df: pd.DataFrame, days: int) -> Tuple[Optional[float], Optional[float], Optional[float]]:
         """Slices a specific trailing trading day window to compute localized metrics."""
         slice_df = df.tail(days)
         if len(slice_df) < (days * 0.85):
             return None, None, None
 
-        ann_return = slice_df["Fund_Return"].mean() * config.TRADING_DAYS_PER_YEAR
-        bench_return = slice_df["Bench_Return"].mean() * config.TRADING_DAYS_PER_YEAR
-        vol = slice_df["Fund_Return"].std() * np.sqrt(config.TRADING_DAYS_PER_YEAR)
+        # Calculate true compounded annualized returns (CAGR)
+        compounded_return = (1 + slice_df["Fund_Return"]).prod() - 1
+        compounded_bench_return = (1 + slice_df["Bench_Return"]).prod() - 1
+        years = len(slice_df) / config.TRADING_DAYS_PER_YEAR
 
+        ann_return = (1 + compounded_return) ** (1 / years) - 1 if compounded_return > -1.0 else -1.0
+        bench_return = (1 + compounded_bench_return) ** (1 / years) - 1 if compounded_bench_return > -1.0 else -1.0
+
+        # Annualized Volatility and Sharpe
+        vol = slice_df["Fund_Return"].std() * np.sqrt(config.TRADING_DAYS_PER_YEAR)
         sharpe = (ann_return - self.risk_free_rate) / vol if vol > 0 else 0
 
+        # Tracking Error and Information Ratio
         slice_df = slice_df.copy()
         slice_df["Active_Return"] = slice_df["Fund_Return"] - slice_df["Bench_Return"]
         tracking_error = slice_df["Active_Return"].std() * np.sqrt(config.TRADING_DAYS_PER_YEAR)
@@ -57,7 +64,7 @@ class QuantEngine:
             "3Y Return (%)": r3y if r3y is not None else np.nan,
             "5Y Return (%)": r5y if r5y is not None else np.nan,
             "Sharpe (3Y)": s3y if s3y is not None else np.nan,
-            "Information Ratio (3Y)": i1y if i3y is None else i3y,
+            "Information Ratio (3Y)": i3y if i3y is not None else np.nan,
         }
 
     def process_category_concurrently(self, funds_list: List[Dict[str, str]]) -> pd.DataFrame:

@@ -134,7 +134,8 @@ class StreamlitDashboard:
         # Clean Main Filtering Layout Row
         col_ctrl1, col_ctrl2 = st.columns([2, 2])
         with col_ctrl1:
-            default_idx = categories.index("Flexi Cap Fund") if "Flexi Cap Fund" in categories else 0
+            default_target = "Equity Scheme - Flexi Cap Fund"
+            default_idx = categories.index(default_target) if default_target in categories else 0
             selected_category = st.selectbox(
                 "Category", 
                 categories, 
@@ -167,11 +168,13 @@ class StreamlitDashboard:
         # Summary Matrix Cards Layout
         card_col1, card_col2, card_col3 = st.columns(3)
         with card_col1:
+            ir_val = top_skill_fund['Information Ratio (3Y)']
+            ir_str = f"Information Ratio: {ir_val:.2f}" if not np.isnan(ir_val) else "Information Ratio: N/A"
             st.markdown(f"""
                 <div class="stat-card">
                     <div class="stat-label">Category Alpha Leader</div>
                     <div class="stat-value">{top_skill_fund['Fund Name']}</div>
-                    <div class="stat-delta">Information Ratio: {top_skill_fund['Information Ratio (3Y)']:.2f}</div>
+                    <div class="stat-delta">{ir_str}</div>
                 </div>
             """, unsafe_allow_html=True)
             

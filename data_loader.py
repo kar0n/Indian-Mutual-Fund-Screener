@@ -3,7 +3,7 @@
 import datetime
 import logging
 import re
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Tuple
 import pandas as pd
 import requests
 import streamlit as st
@@ -38,7 +38,7 @@ class AmfiRegistry:
         category_map: Dict[str, List[Dict[str, str]]] = {}
         current_category: Optional[str] = None
         
-        category_regex = re.compile(r"Open Ended Schemes\s*\(\s*Equity Scheme\s*-\s*([\w\s]+?)\s*\)")
+        category_regex = re.compile(r"Open Ended Schemes\s*\(\s*([\w\s]+?Scheme)\s*-\s*(.+?)\s*\)")
 
         for line in lines:
             line = line.strip()
@@ -47,7 +47,9 @@ class AmfiRegistry:
 
             cat_match = category_regex.search(line)
             if cat_match:
-                current_category = cat_match.group(1).strip()
+                scheme_type = cat_match.group(1).strip()
+                category_name = cat_match.group(2).strip()
+                current_category = f"{scheme_type} - {category_name}"
                 if current_category not in category_map:
                     category_map[current_category] = []
                 continue
@@ -78,10 +80,22 @@ class DataLoader:
         end_date = datetime.date.today()
         start_date = end_date - datetime.timedelta(days=years * 365)
         
-        df = yf.download(ticker, start=start_date, end=end_date, progress=False)
+        try:
+            df = yf.download(ticker, start=start_date, end=end_date, progress=False)
+        except Exception as e:
+            logging.error(f"Failed to download benchmark return data for {ticker}: {e}")
+            return pd.DataFrame(columns=["Bench_Return"])
+            
+        if df is None or df.empty:
+            logging.error(f"No benchmark return data retrieved for {ticker}")
+            return pd.DataFrame(columns=["Bench_Return"])
         
         if isinstance(df.columns, pd.MultiIndex):
             df.columns = [col[0] for col in df.columns]
+            
+        if "Close" not in df.columns:
+            logging.error(f"Close price column missing in downloaded data for {ticker}")
+            return pd.DataFrame(columns=["Bench_Return"])
             
         df = df[["Close"]].copy()
         df.columns = ["Benchmark_Close"]
@@ -113,7 +127,7 @@ class DataLoader:
 
     @staticmethod
     @st.cache_data(ttl=86400)  # Cache sovereign interest logs for 24 hours
-    def fetch_live_risk_free_rate() -> tuple[float, str]:
+    def fetch_live_risk_free_rate() -> Tuple[float, str]:
         """Dynamically pulls the latest 91-Day Sovereign India T-Bill rate from live market logs."""
         headers = {
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
@@ -122,9 +136,12 @@ class DataLoader:
             res = requests.get(config.RISK_FREE_RATE_API, headers=headers, timeout=5)
             if res.status_code == 200:
                 data = res.json()
-                if "91_Day_T_Bill" in data:
-                    rate = float(data["91_Day_T_Bill"]) / 100
-                    return rate, "Live"
-        except Exception:
-            pass
+                if isinstance(data, list):
+                    for item in data:
+                        sec_name = item.get("GovernmentSecurityName", "")
+                        if sec_name.strip().lower() == "91 day t-bills":
+                            rate = float(item["Percent"]) / 100
+                            return rate, "Live"
+        except Exception as e:
+            logging.error(f"Error fetching live risk free rate: {e}")
         return config.FALLBACK_RISK_FREE_RATE, "Baseline"
