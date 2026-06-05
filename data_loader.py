@@ -76,7 +76,7 @@ class DataLoader:
     @staticmethod
     @st.cache_data(ttl=86400)  # Cache index calculations for 24 hours
     def fetch_benchmark_returns(ticker: str, years: int) -> pd.DataFrame:
-        """Downloads benchmark time-series and evaluates daily percentage variance."""
+        """Downloads benchmark time-series and evaluates daily percentage variance with index fund fallback."""
         end_date = datetime.date.today()
         start_date = end_date - datetime.timedelta(days=years * 365)
         
@@ -84,23 +84,30 @@ class DataLoader:
             df = yf.download(ticker, start=start_date, end=end_date, progress=False)
         except Exception as e:
             logging.error(f"Failed to download benchmark return data for {ticker}: {e}")
-            return pd.DataFrame(columns=["Bench_Return"])
+            df = None
             
-        if df is None or df.empty:
-            logging.error(f"No benchmark return data retrieved for {ticker}")
-            return pd.DataFrame(columns=["Bench_Return"])
+        if df is not None and not df.empty:
+            if isinstance(df.columns, pd.MultiIndex):
+                df.columns = [col[0] for col in df.columns]
+            
+            if "Close" in df.columns:
+                df = df[["Close"]].copy()
+                df.columns = ["Benchmark_Close"]
+                df["Bench_Return"] = df["Benchmark_Close"].pct_change()
+                return df[["Bench_Return"]]
         
-        if isinstance(df.columns, pd.MultiIndex):
-            df.columns = [col[0] for col in df.columns]
+        # Fallback to UTI Nifty 50 Index Fund NAV returns via api.mfapi.in mirror
+        logging.warning(f"Yahoo Finance failed for {ticker}. falling back to UTI Nifty 50 Index Fund (120716) NAV returns...")
+        try:
+            fallback_df = DataLoader.fetch_fund_returns("120716")
+            if fallback_df is not None and not fallback_df.empty:
+                fallback_df = fallback_df.copy()
+                fallback_df.columns = ["nav", "Bench_Return"]
+                return fallback_df[["Bench_Return"]]
+        except Exception as fe:
+            logging.error(f"Index fund fallback failed: {fe}")
             
-        if "Close" not in df.columns:
-            logging.error(f"Close price column missing in downloaded data for {ticker}")
-            return pd.DataFrame(columns=["Bench_Return"])
-            
-        df = df[["Close"]].copy()
-        df.columns = ["Benchmark_Close"]
-        df["Bench_Return"] = df["Benchmark_Close"].pct_change()
-        return df[["Bench_Return"]]
+        return pd.DataFrame(columns=["Bench_Return"])
 
     @staticmethod
     @st.cache_data(ttl=43200)  # Cache raw scheme NAV files for 12 hours
