@@ -51,15 +51,25 @@ function formatAlpha(val) {
     return (val > 0 ? '+' : '') + val.toFixed(2);
 }
 
-function formatManagerLinks(managersStr) {
+function formatManagerLinks(managersStr, showAll = false) {
     if (isNilOrNaN(managersStr) || managersStr === 'N/A') return 'N/A';
-    const managers = managersStr.split(',');
-    return managers.map(m => {
-        const name = m.trim();
-        if (!name) return '';
+    const managers = managersStr.split(',').map(m => m.trim()).filter(Boolean);
+    if (managers.length === 0) return 'N/A';
+    
+    const limit = showAll ? managers.length : 2;
+    const displayed = managers.slice(0, limit);
+    const links = displayed.map(name => {
         const encoded = encodeURIComponent(name + ' mutual fund manager');
         return `<a href="https://www.linkedin.com/search/results/all/?keywords=${encoded}" target="_blank" class="manager-linkedin-link" title="Verify tenure and career history for ${name} on LinkedIn" onclick="event.stopPropagation();">${name}</a>`;
-    }).filter(Boolean).join(', ');
+    });
+    
+    if (!showAll && managers.length > limit) {
+        const remainingCount = managers.length - limit;
+        const remainingNames = managers.slice(limit).join(', ');
+        links.push(`<span class="manager-more-tag" title="${remainingNames}">+ ${remainingCount} more</span>`);
+    }
+    
+    return links.join(', ');
 }
 
 // Initializer
@@ -583,7 +593,7 @@ function showDrawer(fund) {
             <div class="modal-grid">
                 <div class="modal-item" style="grid-column: span 2;">
                     <span class="modal-item-label">Current Managers & Tenure Profile (Click for LinkedIn Lookup)</span>
-                    <span class="modal-item-value" style="font-size:0.9rem; font-weight:500; color:#e2e8f0; line-height: 1.4;">${formatManagerLinks(fund.Managers)}</span>
+                    <span class="modal-item-value" style="font-size:0.9rem; font-weight:500; color:#e2e8f0; line-height: 1.4;">${formatManagerLinks(fund.Managers, true)}</span>
                 </div>
             </div>
         </div>

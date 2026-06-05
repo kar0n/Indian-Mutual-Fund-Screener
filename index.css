@@ -376,6 +376,26 @@ select.form-input {
     border-bottom-color: #93c5fd;
 }
 
+.manager-more-tag {
+    color: var(--text-muted);
+    font-size: 0.7rem;
+    background: rgba(30, 41, 59, 0.5);
+    border: 1px solid var(--panel-border);
+    padding: 0.1rem 0.35rem;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: help;
+    display: inline-block;
+    margin-left: 0.2rem;
+    transition: all 0.2s;
+}
+
+.manager-more-tag:hover {
+    color: var(--text-main);
+    background: rgba(30, 41, 59, 0.8);
+    border-color: rgba(148, 163, 184, 0.3);
+}
+
 /* Data grid styling */
 .grid-section {
     padding: 1.5rem 0 0 0;
