@@ -283,6 +283,7 @@ function getSortValue(item, column) {
         case 'name': return item['Fund Name'];
         case 'aum': return item['AUM (Cr)'];
         case 'manager': return item.Managers;
+        case 'r1y_roll': return item['1Y Rolling Return (%)'];
         case 'r3y_roll': return item['3Y Rolling Return (%)'];
         case 'r5y_roll': return item['5Y Rolling Return (%)'];
         case 'alpha': return item['Alpha (3Y)'];
@@ -330,7 +331,7 @@ function renderTableData() {
     tableBody.innerHTML = '';
     
     if (processedFunds.length === 0) {
-        tableBody.innerHTML = `<tr><td colspan="10" style="text-align: center; color: var(--text-muted); padding: 2rem;">No funds matching search criteria.</td></tr>`;
+        tableBody.innerHTML = `<tr><td colspan="11" style="text-align: center; color: var(--text-muted); padding: 2rem;">No funds matching search criteria.</td></tr>`;
         return;
     }
 
@@ -339,6 +340,9 @@ function renderTableData() {
         tr.setAttribute('data-code', fund.code);
         
         // Colors & classes for percentages and decimals
+        const r1yRollVal = fund['1Y Rolling Return (%)'];
+        const r1yRollClass = isNilOrNaN(r1yRollVal) ? '' : (r1yRollVal > 0 ? 'percentage-val positive' : 'percentage-val negative');
+
         const r3yRollVal = fund['3Y Rolling Return (%)'];
         const r3yRollClass = isNilOrNaN(r3yRollVal) ? '' : (r3yRollVal > 0 ? 'percentage-val positive' : 'percentage-val negative');
 
@@ -362,6 +366,7 @@ function renderTableData() {
             <td class="scheme-name text-left">${fund['Fund Name']}</td>
             <td class="rating-stars">${fund.Rating}</td>
             <td class="aum-col">${aumText}</td>
+            <td class="${r1yRollClass}">${formatPercent(r1yRollVal)}</td>
             <td class="${r3yRollClass}">${formatPercent(r3yRollVal)}</td>
             <td class="${r5yRollClass}">${formatPercent(r5yRollVal)}</td>
             <td class="${alphaClass}">${formatAlpha(alphaVal)}</td>
@@ -552,6 +557,10 @@ function showDrawer(fund) {
                 <div class="modal-item">
                     <span class="modal-item-label">5Y Return</span>
                     <span class="modal-item-value ${fund['5Y Return (%)'] > 0 ? 'percentage-val positive' : 'percentage-val negative'}">${formatPercent(fund['5Y Return (%)'])}</span>
+                </div>
+                <div class="modal-item">
+                    <span class="modal-item-label">1Y Rolling Return</span>
+                    <span class="modal-item-value ${fund['1Y Rolling Return (%)'] > 0 ? 'percentage-val positive' : 'percentage-val negative'}">${formatPercent(fund['1Y Rolling Return (%)'])}</span>
                 </div>
                 <div class="modal-item">
                     <span class="modal-item-label">3Y Rolling Return</span>

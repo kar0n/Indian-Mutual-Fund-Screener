@@ -51,12 +51,13 @@ class StreamlitDashboard:
                     justify-content: space-between;
                 }
                 .stat-label {
-                    font-size: 0.75rem;
+                    font-size: 0.72rem;
                     text-transform: uppercase;
                     letter-spacing: 0.08em;
                     color: #64748b;
                     font-weight: 600;
                     margin-bottom: 8px;
+                    white-space: nowrap;
                 }
                 .stat-value {
                     font-size: 1.25rem;
@@ -70,6 +71,46 @@ class StreamlitDashboard:
                     color: #10b981;
                     font-weight: 600;
                     margin-top: 10px;
+                }
+                .methodology-comparison-box {
+                    background-color: #0b1329;
+                    border: 1px solid #1e293b;
+                    border-left: 4px solid #6366f1;
+                    border-radius: 6px;
+                    padding: 14px 18px;
+                    margin-bottom: 20px;
+                }
+                .methodology-comparison-box h4 {
+                    color: #e2e8f0;
+                    margin: 0 0 8px 0;
+                    font-size: 0.9rem;
+                    font-weight: 600;
+                }
+                .methodology-comparison-box p {
+                    color: #94a3b8;
+                    font-size: 0.8rem;
+                    line-height: 1.5;
+                    margin: 0 0 8px 0;
+                }
+                .methodology-comparison-box p:last-child {
+                    margin-bottom: 0;
+                }
+                .methodology-desc-block {
+                    margin-top: 6px;
+                    font-size: 0.8rem;
+                    color: #94a3b8;
+                }
+                .methodology-desc-block p {
+                    margin: 0 0 6px 0;
+                    line-height: 1.45;
+                }
+                .methodology-desc-block code {
+                    background-color: rgba(148, 163, 184, 0.15);
+                    color: #f1f5f9;
+                    padding: 2px 6px;
+                    border-radius: 3px;
+                    font-family: monospace;
+                    font-size: 0.75rem;
                 }
                 
                 .methodology-box {
@@ -172,7 +213,7 @@ class StreamlitDashboard:
             st.markdown(f"""
                 <div class="stat-card">
                     <div class="stat-label">Category Quant Leader</div>
-                    <div class="stat-value">{top_skill_fund['Fund Name']}</div>
+                    <div class="stat-value" style="font-size: 1.05rem;">{top_skill_fund['Fund Name']}</div>
                     <div class="stat-delta">Rating: {rating_str}</div>
                 </div>
             """, unsafe_allow_html=True)
@@ -200,11 +241,45 @@ class StreamlitDashboard:
         st.markdown("""
             <div class="methodology-box">
                 <div class="methodology-title">Screener Guide & Key Definitions</div>
-                <div class="methodology-text">
-                    <strong>⭐ Rating (Out of 5):</strong> Dynamic scoring combining Rolling Return Consistency (1.25★), Information Ratio (1.25★), CAPM Alpha (1.25★), and Downside Capital Protection (1.25★).<br>
-                    <strong>3Y & 5Y Rolling Return:</strong> Evaluates performance consistency by averaging all trailing 3-year or 5-year compound returns across the historical life of the scheme.<br>
-                    <strong>Downside Capture:</strong> Capital protection indicator. Measures the percentage of the benchmark's losses captured by the fund on negative days. Values below 100 indicate capital protection (i.e. fund fell less than market).<br>
-                    <strong>CAPM Alpha (3Y):</strong> Risk-adjusted excess return. Isolates manager's stock picking outperformance relative to the benchmark index.
+                <div class="methodology-text" style="color: #94a3b8; font-size: 0.85rem;">
+                    Welcome to the <strong>MF Quant Core Workstation</strong>. We rank mutual funds using strict mathematical benchmarks to separate genuine manager skill from lucky market runs. This guide explains how to use these indicators in simple terms.
+                </div>
+                
+                <div style="margin-top: 15px;"></div>
+                
+                <div class="methodology-comparison-box">
+                    <h4>📊 Why Rolling Returns beat Absolute (Point-to-Point) Returns</h4>
+                    <p>
+                        <strong>Absolute Returns</strong> only look at a single start date and end date (e.g., standard trailing 1Y/3Y returns). If the market had a massive crash or a massive rally exactly on that date, it heavily distorts the percentage (called <strong>endpoint bias</strong>).
+                    </p>
+                    <p>
+                        <strong>Rolling Returns</strong> calculate trailing returns for <em>every possible day</em> in history and average them. This simulates the experience of a real investor who could have invested on any random day in the past. It tests the fund across all market conditions (bull markets, bear markets, and stagnant markets) to measure true performance consistency.
+                    </p>
+                </div>
+                
+                <div style="margin-top: 15px;"></div>
+                
+                <div class="methodology-desc-block">
+                    <p><strong>⭐ Overall Rating (Max 5★):</strong> 
+                    <br>• <em>Meaning:</em> The overall grade of the fund. <code>&ge; 4★</code> is top-tier; <code>&lt; 3★</code> indicates high risk or poor consistency.
+                    <br>• <em>Details:</em> Combines Rolling Returns (25%), Information Ratio (25%), CAPM Alpha (25%), and Downside Capture (25%).
+                    <br>• <em>Penalties:</em> Small-cap funds >15,000 Cr and Mid-cap funds >25,000 Cr lose 0.5★ (bloated size is hard to manage). Top 10 concentration outside 20%-45% loses 0.25★.</p>
+                    
+                    <p style="margin-top: 10px;"><strong>📈 Rolling Returns (1Y, 3Y, 5Y):</strong> 
+                    <br>• <em>Meaning:</em> The average of compounded annual returns across all historical periods.
+                    <br>• <em>Baseline:</em> Double-digit returns (<code>&gt; 12% to 15%</code>) are considered strong. Compare against the benchmark index.</p>
+                    
+                    <p style="margin-top: 10px;"><strong>⚡ CAPM Alpha (3Y):</strong> 
+                    <br>• <em>Meaning:</em> The extra return the manager makes purely through smart stock-picking skill.
+                    <br>• <em>Baseline:</em> <code>&gt; 0%</code> means beat the market; <code>&ge; 3.0%</code> is outstanding; <code>&lt; 0%</code> means failed to beat the index.</p>
+                    
+                    <p style="margin-top: 10px;"><strong>🛡️ Downside Capture (3Y):</strong> 
+                    <br>• <em>Meaning:</em> Capital shield. Measures how much of the market's losses the fund suffers when the market drops.
+                    <br>• <em>Baseline:</em> <code>100%</code> means fell exactly like the market; <code>&lt; 100% (e.g. 70-80%)</code> is ideal; <code>&gt; 100%</code> is aggressive/risky.</p>
+                    
+                    <p style="margin-top: 10px;"><strong>🎯 Information Ratio (3Y):</strong> 
+                    <br>• <em>Meaning:</em> Skill-to-risk ratio. Proves if outperformance is due to consistent skill or a few risky, lucky bets.
+                    <br>• <em>Baseline:</em> <code>&ge; 0.5</code> is good; <code>&ge; 1.0</code> is exceptional; <code>&lt; 0</code> is inefficient risk taking.</p>
                 </div>
             </div>
         """, unsafe_allow_html=True)
@@ -214,6 +289,7 @@ class StreamlitDashboard:
             "Fund Name", 
             "1Y Return (%)", 
             "3Y Return (%)", 
+            "1Y Rolling Return (%)",
             "3Y Rolling Return (%)",
             "5Y Rolling Return (%)",
             "Alpha (3Y)",
@@ -238,6 +314,7 @@ class StreamlitDashboard:
                 "Fund Name": st.column_config.TextColumn("Scheme Name", width=380),
                 "1Y Return (%)": st.column_config.NumberColumn("1Y Return", format="%.2f%%", help="Trailing 1-Year Annualized Compounded Return", width=95),
                 "3Y Return (%)": st.column_config.NumberColumn("3Y Return", format="%.2f%%", help="Trailing 3-Year Annualized Compounded Return", width=95),
+                "1Y Rolling Return (%)": st.column_config.NumberColumn("1Y Rolling Return", format="%.2f%%", help="Historical Average 1-Year Rolling Compounded Return", width=125),
                 "3Y Rolling Return (%)": st.column_config.NumberColumn("3Y Rolling Return", format="%.2f%%", help="Historical Average 3-Year Rolling Compounded Return", width=125),
                 "5Y Rolling Return (%)": st.column_config.NumberColumn("5Y Rolling Return", format="%.2f%%", help="Historical Average 5-Year Rolling Compounded Return", width=125),
                 "Alpha (3Y)": st.column_config.NumberColumn("Alpha (3Y)", format="%.2f%%", help="CAPM Alpha: Risk-adjusted excess return vs benchmark index", width=90),

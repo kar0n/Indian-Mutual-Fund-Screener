@@ -12,7 +12,7 @@ class QuantEngine:
     """Computes trailing 1Y, 3Y, and 5Y horizons using vectorized matrix math."""
 
     def __init__(self, benchmark_ticker: str = config.DEFAULT_BENCHMARK_TICKER, risk_free_rate: float = config.FALLBACK_RISK_FREE_RATE):
-        self.benchmark_df = DataLoader.fetch_benchmark_returns(benchmark_ticker, years=5)
+        self.benchmark_df = DataLoader.fetch_benchmark_returns(benchmark_ticker, years=8)
         self.risk_free_rate = risk_free_rate
 
     def _slice_and_compute(self, df: pd.DataFrame, days: int) -> Tuple[Optional[float], Optional[float], Optional[float], Optional[float], Optional[float], Optional[float]]:
@@ -74,6 +74,12 @@ class QuantEngine:
             return None
 
         # Compute Rolling Returns over whole history
+        if len(merged) >= 252:
+            merged["Rolling_1Y"] = (merged["nav"] / merged["nav"].shift(252)) - 1
+            r1y_rolling = round(merged["Rolling_1Y"].mean() * 100, 2)
+        else:
+            r1y_rolling = np.nan
+
         if len(merged) >= 756:
             merged["Rolling_3Y"] = (merged["nav"] / merged["nav"].shift(756)) ** (252 / 756) - 1
             r3y_rolling = round(merged["Rolling_3Y"].mean() * 100, 2)
@@ -158,6 +164,7 @@ class QuantEngine:
             "Beta (3Y)": b3y,
             "Alpha (3Y)": a3y,
             "Downside Capture (3Y)": dc3y,
+            "1Y Rolling Return (%)": r1y_rolling,
             "3Y Rolling Return (%)": r3y_rolling,
             "5Y Rolling Return (%)": r5y_rolling,
             "AUM (Cr)": aum,

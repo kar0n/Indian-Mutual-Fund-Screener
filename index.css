@@ -151,11 +151,12 @@ select.form-input {
 }
 
 .stat-label {
-    font-size: 0.75rem;
+    font-size: 0.72rem;
     text-transform: uppercase;
     letter-spacing: 0.08em;
     color: var(--text-muted);
     font-weight: 600;
+    white-space: nowrap;
 }
 
 .stat-value {
@@ -163,8 +164,13 @@ select.form-input {
     font-size: 1.25rem;
     font-weight: 600;
     color: var(--text-main);
-    word-break: break-all;
+    word-break: normal;
+    overflow-wrap: break-word;
     line-height: 1.4;
+}
+
+#leader-name {
+    font-size: 1.05rem;
 }
 
 .stat-delta {
@@ -297,6 +303,61 @@ select.form-input {
     padding: 0.6rem 1rem;
     border-radius: 0 4px 4px 0;
     line-height: 1.4;
+}
+
+.methodology-comparison-box {
+    background: rgba(99, 102, 241, 0.06);
+    border: 1px solid rgba(99, 102, 241, 0.15);
+    border-left: 4px solid #6366f1;
+    border-radius: 6px;
+    padding: 1rem 1.25rem;
+    margin: 0.5rem 0;
+}
+
+.methodology-comparison-box h4 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.95rem;
+    color: #e2e8f0;
+    margin: 0 0 0.5rem 0;
+    font-weight: 600;
+}
+
+.methodology-comparison-box p {
+    font-size: 0.8rem;
+    color: #94a3b8;
+    line-height: 1.5;
+    margin: 0 0 0.5rem 0;
+}
+
+.methodology-comparison-box p:last-child {
+    margin-bottom: 0;
+}
+
+.methodology-desc-block {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 0.25rem;
+}
+
+.methodology-desc-block p {
+    font-size: 0.775rem;
+    color: #94a3b8;
+    line-height: 1.45;
+    margin: 0;
+}
+
+.methodology-desc-block p strong {
+    color: #f1f5f9;
+}
+
+.methodology-desc-block code {
+    background: rgba(148, 163, 184, 0.15);
+    color: #f1f5f9;
+    padding: 0.1rem 0.3rem;
+    border-radius: 3px;
+    font-family: monospace;
+    font-size: 0.75rem;
 }
 
 /* Category Selector Styling */
