@@ -311,20 +311,26 @@ class QuantEngine:
             
             is_mid_or_small = "mid cap" in cat_name_lower or "small cap" in cat_name_lower
             is_liquid_or_debt = "debt" in cat_name_lower or "liquid" in cat_name_lower or "arbitrage" in cat_name_lower
+            is_flexi_or_multi = "flexi cap" in cat_name_lower or "multi cap" in cat_name_lower
+            is_large_or_hybrid = "large cap" in cat_name_lower or "hybrid" in cat_name_lower or "balanced advantage" in cat_name_lower
             
             if pd.notna(aum_val) and not np.isnan(aum_val):
                 if is_mid_or_small:
-                    # Penalty for scale bloat in small/mid caps
+                    # Penalty for scale bloat in small/mid caps (high liquidity drag)
                     if "small cap" in cat_name_lower and aum_val > 15000:
                         aum_adj = -0.5
                     elif "mid cap" in cat_name_lower and aum_val > 25000:
                         aum_adj = -0.5
+                elif is_flexi_or_multi:
+                    # Scale drag penalty in flexi/multi caps (restricts agility across smaller caps, forcing large cap bias)
+                    if aum_val > 35000:
+                        aum_adj = -0.25
                 elif is_liquid_or_debt:
                     # Bonus for systemic safety in debt/liquid (AUM > 30,000 Cr)
                     if aum_val > 30000:
                         aum_adj = 0.25
-                else:
-                    # Bonus for scale advantage in Large/Flexi/Multi/Hybrid (AUM > 20,000 Cr)
+                elif is_large_or_hybrid:
+                    # Bonus for scale advantage in Large/Hybrid (AUM > 20,000 Cr, lower expense ratios and stable index tracking)
                     if aum_val > 20000:
                         aum_adj = 0.25
             
