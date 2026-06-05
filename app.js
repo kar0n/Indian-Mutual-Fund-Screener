@@ -148,6 +148,20 @@ function setupEventListeners() {
             handleSort(colName, th);
         });
     });
+
+    // Collapsible Methodology Guide Toggle
+    const methodologyToggle = document.getElementById('methodology-toggle');
+    const methodologyBox = document.getElementById('methodology-box');
+    const toggleText = document.querySelector('.methodology-toggle-badge .toggle-text');
+    const toggleArrow = document.querySelector('.methodology-toggle-badge .toggle-arrow');
+
+    if (methodologyToggle && methodologyBox) {
+        methodologyToggle.addEventListener('click', () => {
+            const isExpanded = methodologyBox.classList.toggle('expanded');
+            if (toggleText) toggleText.textContent = isExpanded ? 'Hide Guide' : 'Show Guide';
+            if (toggleArrow) toggleArrow.textContent = isExpanded ? '▲' : '▼';
+        });
+    }
 }
 
 function handleCategoryChange() {
