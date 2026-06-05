@@ -28,10 +28,6 @@
                     <!-- Populated dynamically via JS -->
                 </select>
             </div>
-            <div class="control-group search-group">
-                <label for="search-input">Search Schemes</label>
-                <input type="text" id="search-input" class="form-input" placeholder="Search by scheme name...">
-            </div>
         </section>
 
         <!-- Summary Cards Matrix -->
@@ -42,14 +38,14 @@
                 <div class="stat-delta" id="leader-rating">-</div>
             </div>
             <div class="stat-card glass" id="card-mean1y">
-                <div class="stat-label">Category Mean 1Y Performance</div>
+                <div class="stat-label">Category Mean 3Y Rolling Return</div>
                 <div class="stat-value" id="mean-1y">-</div>
-                <div class="stat-delta">Annualized CAGR</div>
+                <div class="stat-delta">Annualized Consistency</div>
             </div>
             <div class="stat-card glass" id="card-mean3y">
-                <div class="stat-label">Category Mean 3Y Performance</div>
+                <div class="stat-label">Category Mean CAPM Alpha (3Y)</div>
                 <div class="stat-value" id="mean-3y">-</div>
-                <div class="stat-delta">Annualized CAGR</div>
+                <div class="stat-delta">Risk-Adjusted Excess</div>
             </div>
         </section>
 
@@ -67,24 +63,25 @@
         <!-- Data Grid Section -->
         <main class="grid-section glass">
             <div class="table-header">
-                <h3>Fund Performance & Risk Ranking Profile</h3>
-                <span class="count-badge" id="results-count">0 funds</span>
+                <div class="table-title-area">
+                    <h3>Fund Performance & Risk Ranking Profile</h3>
+                    <span class="count-badge" id="results-count">0 funds</span>
+                </div>
+                <input type="text" id="search-input" class="form-input search-box-small" placeholder="Search schemes...">
             </div>
             <div class="table-wrapper">
                 <table class="quant-table" id="quant-table">
                     <thead>
                         <tr>
                             <th data-sort="rank" class="sortable sorted-asc">Rank <span class="sort-icon">▲</span></th>
-                            <th data-sort="rating" class="sortable">Rating <span class="sort-icon"></span></th>
                             <th data-sort="name" class="sortable text-left">Scheme Name <span class="sort-icon"></span></th>
-                            <th data-sort="r1y" class="sortable">1Y Return <span class="sort-icon"></span></th>
-                            <th data-sort="r3y" class="sortable">3Y Return <span class="sort-icon"></span></th>
+                            <th data-sort="rating" class="sortable">Rating <span class="sort-icon"></span></th>
+                            <th data-sort="aum" class="sortable">AUM (Cr) <span class="sort-icon"></span></th>
+                            <th data-sort="manager" class="sortable text-left">Fund Manager <span class="sort-icon"></span></th>
                             <th data-sort="r3y_roll" class="sortable">3Y Rolling Return <span class="sort-icon"></span></th>
                             <th data-sort="alpha" class="sortable">Alpha (3Y) <span class="sort-icon"></span></th>
-                            <th data-sort="beta" class="sortable">Beta (3Y) <span class="sort-icon"></span></th>
                             <th data-sort="downside" class="sortable">Downside Capture <span class="sort-icon"></span></th>
                             <th data-sort="ir" class="sortable">Info Ratio <span class="sort-icon"></span></th>
-                            <th data-sort="sharpe" class="sortable">Sharpe <span class="sort-icon"></span></th>
                         </tr>
                     </thead>
                     <tbody id="table-body">

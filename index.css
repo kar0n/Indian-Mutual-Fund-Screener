@@ -215,10 +215,23 @@ select.form-input {
     border-bottom: 1px solid var(--panel-border);
 }
 
+.table-title-area {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
 .table-header h3 {
     font-family: 'Outfit', sans-serif;
     font-size: 1rem;
     font-weight: 600;
+}
+
+.search-box-small {
+    min-width: 250px;
+    height: 36px;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.825rem;
 }
 
 .count-badge {
@@ -250,7 +263,7 @@ select.form-input {
 }
 
 .quant-table th {
-    background: rgba(15, 23, 42, 0.7);
+    background: #0f172a;
     color: var(--text-muted);
     font-weight: 600;
     font-size: 0.75rem;

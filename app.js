@@ -77,7 +77,7 @@ async function init() {
         handleCategoryChange();
     } catch (error) {
         console.error('Failed to load mutual fund quant database:', error);
-        tableBody.innerHTML = `<tr><td colspan="11" style="text-align: center; color: var(--danger); padding: 2rem;">Failed to load mutual fund database. Please make sure the data compiler has run successfully. Error: ${error.message}</td></tr>`;
+        tableBody.innerHTML = `<tr><td colspan="9" style="text-align: center; color: var(--danger); padding: 2rem;">Failed to load mutual fund database. Please make sure the data compiler has run successfully. Error: ${error.message}</td></tr>`;
     }
 }
 
@@ -176,24 +176,24 @@ function renderCategoryStats() {
     leaderRating.textContent = `${leader.Rating} (${leader.Rating_Score.toFixed(3)})`;
 
     // Averages
-    let sum1y = 0, count1y = 0;
-    let sum3y = 0, count3y = 0;
+    let sumRoll = 0, countRoll = 0;
+    let sumAlpha = 0, countAlpha = 0;
 
     categoryFunds.forEach(fund => {
-        const r1 = fund['1Y Return (%)'];
-        if (!isNilOrNaN(r1)) {
-            sum1y += r1;
-            count1y++;
+        const rRoll = fund['3Y Rolling Return (%)'];
+        if (!isNilOrNaN(rRoll)) {
+            sumRoll += rRoll;
+            countRoll++;
         }
-        const r3 = fund['3Y Return (%)'];
-        if (!isNilOrNaN(r3)) {
-            sum3y += r3;
-            count3y++;
+        const alpha = fund['Alpha (3Y)'];
+        if (!isNilOrNaN(alpha)) {
+            sumAlpha += alpha;
+            countAlpha++;
         }
     });
 
-    mean1yVal.textContent = count1y > 0 ? (sum1y / count1y).toFixed(2) + '%' : 'N/A';
-    mean3yVal.textContent = count3y > 0 ? (sum3y / count3y).toFixed(2) + '%' : 'N/A';
+    mean1yVal.textContent = countRoll > 0 ? (sumRoll / countRoll).toFixed(2) + '%' : 'N/A';
+    mean3yVal.textContent = countAlpha > 0 ? (sumAlpha / countAlpha).toFixed(2) : 'N/A';
 }
 
 function handleSort(column, thElement) {
@@ -203,7 +203,7 @@ function handleSort(column, thElement) {
     } else {
         sortBy = column;
         // Sensible default sort direction based on column type
-        if (['rank', 'name', 'beta', 'downside'].includes(column)) {
+        if (['rank', 'name', 'manager', 'downside'].includes(column)) {
             sortOrder = 'asc';
         } else {
             sortOrder = 'desc';
@@ -236,14 +236,12 @@ function getSortValue(item, column) {
         case 'rank': return item.origRank;
         case 'rating': return item.Rating_Score;
         case 'name': return item['Fund Name'];
-        case 'r1y': return item['1Y Return (%)'];
-        case 'r3y': return item['3Y Return (%)'];
+        case 'aum': return item['AUM (Cr)'];
+        case 'manager': return item.Managers;
         case 'r3y_roll': return item['3Y Rolling Return (%)'];
         case 'alpha': return item['Alpha (3Y)'];
-        case 'beta': return item['Beta (3Y)'];
         case 'downside': return item['Downside Capture (3Y)'];
         case 'ir': return item['Information Ratio (3Y)'];
-        case 'sharpe': return item['Sharpe (3Y)'];
         default: return null;
     }
 }
@@ -286,7 +284,7 @@ function renderTableData() {
     tableBody.innerHTML = '';
     
     if (processedFunds.length === 0) {
-        tableBody.innerHTML = `<tr><td colspan="11" style="text-align: center; color: var(--text-muted); padding: 2rem;">No funds matching search criteria.</td></tr>`;
+        tableBody.innerHTML = `<tr><td colspan="9" style="text-align: center; color: var(--text-muted); padding: 2rem;">No funds matching search criteria.</td></tr>`;
         return;
     }
 
@@ -295,12 +293,6 @@ function renderTableData() {
         tr.setAttribute('data-code', fund.code);
         
         // Colors & classes for percentages and decimals
-        const r1yVal = fund['1Y Return (%)'];
-        const r1yClass = isNilOrNaN(r1yVal) ? '' : (r1yVal > 0 ? 'percentage-val positive' : 'percentage-val negative');
-        
-        const r3yVal = fund['3Y Return (%)'];
-        const r3yClass = isNilOrNaN(r3yVal) ? '' : (r3yVal > 0 ? 'percentage-val positive' : 'percentage-val negative');
-        
         const r3yRollVal = fund['3Y Rolling Return (%)'];
         const r3yRollClass = isNilOrNaN(r3yRollVal) ? '' : (r3yRollVal > 0 ? 'percentage-val positive' : 'percentage-val negative');
 
@@ -310,18 +302,22 @@ function renderTableData() {
         const downsideVal = fund['Downside Capture (3Y)'];
         const downsideClass = isNilOrNaN(downsideVal) ? '' : (downsideVal < 100.0 ? 'percentage-val positive' : 'percentage-val negative');
 
+        const aumVal = fund['AUM (Cr)'];
+        const aumText = isNilOrNaN(aumVal) ? 'N/A' : aumVal.toLocaleString('en-IN') + ' Cr';
+        
+        const managerText = fund.Managers || 'N/A';
+        const managerTitleText = managerText.replace(/"/g, '&quot;');
+
         tr.innerHTML = `
             <td>${fund.origRank}</td>
-            <td class="rating-stars">${fund.Rating}</td>
             <td class="scheme-name text-left">${fund['Fund Name']}</td>
-            <td class="${r1yClass}">${formatPercent(r1yVal)}</td>
-            <td class="${r3yClass}">${formatPercent(r3yVal)}</td>
+            <td class="rating-stars">${fund.Rating}</td>
+            <td>${aumText}</td>
+            <td class="text-left" style="font-size: 0.8rem; color: var(--text-muted); max-width: 220px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" title="${managerTitleText}">${managerText}</td>
             <td class="${r3yRollClass}">${formatPercent(r3yRollVal)}</td>
             <td class="${alphaClass}">${formatAlpha(alphaVal)}</td>
-            <td>${formatNum(fund['Beta (3Y)'])}</td>
             <td class="${downsideClass}">${formatPercentNoSign(downsideVal)}</td>
             <td>${formatNum(fund['Information Ratio (3Y)'])}</td>
-            <td>${formatNum(fund['Sharpe (3Y)'])}</td>
         `;
         
         tr.addEventListener('click', () => {
