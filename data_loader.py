@@ -152,3 +152,21 @@ class DataLoader:
         except Exception as e:
             logging.error(f"Error fetching live risk free rate: {e}")
         return config.FALLBACK_RISK_FREE_RATE, "Baseline"
+
+    @staticmethod
+    @st.cache_data(ttl=86400)  # Cache qualitative data for 24 hours
+    def fetch_fund_details(scheme_code: str) -> Optional[Dict]:
+        """Pulls comprehensive holdings, AUM, expense ratio, and manager info from FinAPI Upvaly."""
+        url = f"https://finapi.upvaly.com/api/mf/scheme-code/{scheme_code}"
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
+        }
+        try:
+            res = requests.get(url, headers=headers, timeout=8)
+            if res.status_code == 200:
+                body = res.json()
+                if body.get("status") == "success" or body.get("statusCode") == 200:
+                    return body.get("data")
+        except Exception as e:
+            logging.error(f"Failed to fetch fund details from Upvaly for {scheme_code}: {e}")
+        return None

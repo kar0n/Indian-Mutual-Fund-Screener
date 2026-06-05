@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MF Quant Core - Institutional Workstation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header Section -->
+        <header class="main-header glass">
+            <div class="logo-area">
+                <h1>MF Quant Core</h1>
+                <p class="subtitle">SECURITY PROTOCOL: SELECTION CONSTRAINED TO DIRECT CONFIGURATION PLANS / GROWTH OPTIONS ONLY</p>
+            </div>
+            <div class="meta-indicators" id="header-meta">
+                <!-- Populated dynamically via JS -->
+            </div>
+        </header>
+
+        <!-- Controls Section -->
+        <section class="controls-bar glass">
+            <div class="control-group">
+                <label for="category-select">Category</label>
+                <select id="category-select" class="form-input">
+                    <!-- Populated dynamically via JS -->
+                </select>
+            </div>
+            <div class="control-group search-group">
+                <label for="search-input">Search Schemes</label>
+                <input type="text" id="search-input" class="form-input" placeholder="Search by scheme name...">
+            </div>
+        </section>
+
+        <!-- Summary Cards Matrix -->
+        <section class="summary-matrix">
+            <div class="stat-card glass" id="card-leader">
+                <div class="stat-label">Category Quant Leader</div>
+                <div class="stat-value" id="leader-name">-</div>
+                <div class="stat-delta" id="leader-rating">-</div>
+            </div>
+            <div class="stat-card glass" id="card-mean1y">
+                <div class="stat-label">Category Mean 1Y Performance</div>
+                <div class="stat-value" id="mean-1y">-</div>
+                <div class="stat-delta">Annualized CAGR</div>
+            </div>
+            <div class="stat-card glass" id="card-mean3y">
+                <div class="stat-label">Category Mean 3Y Performance</div>
+                <div class="stat-value" id="mean-3y">-</div>
+                <div class="stat-delta">Annualized CAGR</div>
+            </div>
+        </section>
+
+        <!-- Methodology Box -->
+        <section class="methodology-box glass">
+            <div class="methodology-title">Quantitative Workstation Framework Methodology</div>
+            <div class="methodology-text">
+                <strong>⭐ Rating (Out of 5):</strong> Dynamic scoring combining Rolling Return Consistency (1.25★), Information Ratio (1.25★), CAPM Alpha (1.25★), and Downside Capital Protection (1.25★). Qualitative parameters (like AUM size and portfolio concentration) trigger penalties for small/mid caps. <br>
+                <strong>3Y Rolling Return:</strong> Evaluates performance consistency by averaging all trailing 3-year compound returns across the historical life of the scheme. <br>
+                <strong>Downside Capture:</strong> Capital protection indicator. Measures the percentage of the benchmark's losses captured by the fund on negative days. Values below 100 indicate capital protection (i.e. fund fell less than market). <br>
+                <strong>CAPM Alpha (3Y):</strong> Risk-adjusted excess return. Isolates manager's stock picking outperformance relative to the benchmark index.
+            </div>
+        </section>
+
+        <!-- Data Grid Section -->
+        <main class="grid-section glass">
+            <div class="table-header">
+                <h3>Fund Performance & Risk Ranking Profile</h3>
+                <span class="count-badge" id="results-count">0 funds</span>
+            </div>
+            <div class="table-wrapper">
+                <table class="quant-table" id="quant-table">
+                    <thead>
+                        <tr>
+                            <th data-sort="rank" class="sortable sorted-asc">Rank <span class="sort-icon">▲</span></th>
+                            <th data-sort="rating" class="sortable">Rating <span class="sort-icon"></span></th>
+                            <th data-sort="name" class="sortable text-left">Scheme Name <span class="sort-icon"></span></th>
+                            <th data-sort="r1y" class="sortable">1Y Return <span class="sort-icon"></span></th>
+                            <th data-sort="r3y" class="sortable">3Y Return <span class="sort-icon"></span></th>
+                            <th data-sort="r3y_roll" class="sortable">3Y Rolling Return <span class="sort-icon"></span></th>
+                            <th data-sort="alpha" class="sortable">Alpha (3Y) <span class="sort-icon"></span></th>
+                            <th data-sort="beta" class="sortable">Beta (3Y) <span class="sort-icon"></span></th>
+                            <th data-sort="downside" class="sortable">Downside Capture <span class="sort-icon"></span></th>
+                            <th data-sort="ir" class="sortable">Info Ratio <span class="sort-icon"></span></th>
+                            <th data-sort="sharpe" class="sortable">Sharpe <span class="sort-icon"></span></th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body">
+                        <!-- Loaded dynamically via JS -->
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <!-- Slide-in Details Drawer Modal -->
+    <div class="drawer-overlay" id="drawer-overlay"></div>
+    <div class="drawer glass" id="details-drawer">
+        <button class="close-btn" id="close-drawer">&times;</button>
+        <div class="drawer-content" id="drawer-content">
+            <!-- Populated dynamically via JS -->
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

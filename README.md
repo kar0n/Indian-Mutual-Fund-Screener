@@ -1,109 +1,62 @@
-# MF-Screener
+# MF-Screener - Institutional Quant Workstation
 
-Indian Mutual Fund Quant Engine - A vectorized financial analytics engine for mutual fund screening and risk-adjusted analysis.
+Indian Mutual Fund Quant Engine - A vectorized financial analytics engine for mutual fund screening, risk-adjusted analysis, and qualitative tracking.
 
-## Project Structure
+Now migrated from Streamlit to a standalone, premium client-side dark-theme HTML/JS workstation powered by a Python command-line compiler.
+
+## Workstation Architecture
 
 ```
 MF-Screener/
 ├── config.py              # Centralized configuration, baselines, and constants
-├── data_loader.py         # Network I/O, AMFI parsing, and Yahoo Finance data streams
+├── data_loader.py         # Network I/O, AMFI parsing, and Yahoo Finance / Upvaly APIs
 ├── analytics.py           # Vectorized financial engineering and risk analytics engine
-├── ui.py                  # Streamlit web dashboard interface
-├── main.py                # Application execution entry point
-├── requirements.txt       # Declared Python environment dependencies
-├── run_isolated.sh        # Isolated environment setup and launcher
-└── README.md              # Project documentation
+├── generate_data.py       # Python compilation script (builds local database)
+├── index.html             # Institutional dark-theme workstation interface
+├── index.css              # Premium Glassmorphism styled CSS
+├── app.js                 # Workstation client controller (sorting, filtering, detail drawer)
+├── requirements-local.txt # Minimum dependencies list for compiling database
+├── start_dashboard.sh     # Single-command launcher (compiles data, starts HTTP server, launches UI)
+├── deploy.sh              # Commits and deploys latest revisions to Git
+└── README.md              # Workstation documentation
 ```
-
-## Overview
-
-MF-Screener provides a comprehensive toolkit for analyzing and screening Indian mutual funds using:
-- Real-time market data from Yahoo Finance
-- AMFI (Association of Mutual Funds in India) data parsing
-- Vectorized financial analytics for efficient computation
-- Interactive Streamlit web-based dashboard interface
-- Risk-adjusted performance screening and analysis
-
-## Components
-
-### config.py
-Centralized configuration file containing:
-- Application settings and constants
-- Baseline parameters for financial calculations
-- Configuration presets
-
-### data_loader.py
-Handles all data acquisition:
-- Network I/O operations
-- AMFI mutual fund data parsing
-- Yahoo Finance API integration
-- Data stream management
-
-### analytics.py
-Core financial analytics engine:
-- Vectorized calculations using NumPy
-- Risk metrics and performance analytics
-- Portfolio analysis tools
-- Financial engineering computations
-
-### ui.py
-Interactive Streamlit web interface:
-- Real-time risk-adjusted screener dashboard
-- Data visualization and performance metrics
-- Portfolio analysis interface
-- User-friendly results presentation
-
-### main.py
-Streamlit application entry point for the web dashboard.
-
-## Quick Start
-
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd MF-Screener
-```
-
-2. Make the script executable:
-```bash
-chmod +x run_isolated.sh
-```
-
-3. Run the project:
-```bash
-./run_isolated.sh
-```
-
-The script will automatically:
-- Create an isolated Python virtual environment (`mf_quant_env`)
-- Install all dependencies from `requirements.txt`
-- Verify Streamlit installation
-- Launch the Streamlit web dashboard at `http://localhost:8501`
-- Prompt to clean up the environment when finished
-
-That's it! The dashboard will open in your default browser.
-
-## Requirements
-
-Python 3.7+ with dependencies listed in `requirements.txt`, including:
-- **streamlit** - Web dashboard framework
-- **pandas & numpy** - Data manipulation and vectorized analytics
-- Financial analysis libraries for AMFI and Yahoo Finance integration
-
-See `requirements.txt` for complete dependency specifications.
 
 ## Features
 
-- 🎯 **Risk-Adjusted Screening** - Filter and rank mutual funds by risk-adjusted returns
-- 📊 **Real-Time Dashboard** - Interactive web-based interface with live data
-- 🇮🇳 **AMFI Data** - Direct integration with Association of Mutual Funds in India
-- 📈 **Performance Analytics** - Comprehensive financial metrics and analytics
-- 🚀 **Isolated Environment** - Easy setup with automatic dependency management
+- 💎 **Premium Glassmorphic Dark UI** - Curated slate-dark color palette with smooth hover effects, micro-animations, and fluid transitions.
+- 🎯 **5-Star Scoring Engine** - Dynamic, multi-factor scoring model combining:
+  1. Performance Consistency vs Category average (3Y Rolling Returns) - 1.25★
+  2. Portfolio Manager Skill vs Luck (Information Ratio) - 1.25★
+  3. CAPM Risk-Adjusted Alpha net of expense ratio - 1.25★
+  4. Capital Downside Protection (Downside Capture Ratio) - 1.25★
+- ⚠️ **Qualitative Constraints & Penalties** - Automatically triggers penalties on Small/Mid-cap schemes for bloated AUM (Mid > 25,000 Cr, Small > 15,000 Cr) or off-limits top-10 stock concentration (outside optimal 20%-45% range).
+- 📈 **Active Details Panel** - Slide-in interactive side panel representing a transparent scorecard breakdown, risk profiles, fund management tenure details, and top 15 underlying asset allocations.
+- 🚀 **Interactive Data Grid** - Real-time client-side sorting, column-level toggles, and regex-capable searching.
+- 💻 **100% Local Run** - Runs directly on your machine. Avoids shared cloud IP bans on API calls and fetches clean.
+
+## Quick Start
+
+1. Clone or navigate to the repository directory:
+```bash
+cd MF-Screener
+```
+
+2. Launch the workstation:
+```bash
+./start_dashboard.sh
+```
+
+The script will automatically:
+- Activate the Python virtual environment (`mf_quant_env`)
+- Fetch fresh AMFI schemes, NAV streams, benchmark indices, and qualitative data sheets
+- Compile everything into a local database `mf_universe_data.json`
+- Boot a secure local HTTP server on port 8000
+- Launch the workstation interface in your default web browser
+
+To stop the workstation, simply return to the terminal and press `Ctrl+C`.
 
 ## System Requirements
 
-- macOS, Linux, or Windows
 - Python 3.7 or higher
-- 2GB RAM minimum
-- Internet connection for data fetching
+- Modern web browser supporting CSS Grid, HSL colors, and Flexbox (Chrome, Safari, Firefox, Edge)
+- Internet connection for compiling new data snapshots (uses cached data locally when serving)

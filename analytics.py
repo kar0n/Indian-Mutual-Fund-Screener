@@ -98,7 +98,57 @@ class QuantEngine:
         r3y, s3y, i3y, b3y, a3y, dc3y = res_3y if res_3y[0] is not None else (np.nan, np.nan, np.nan, np.nan, np.nan, np.nan)
         r5y, s5y, i5y, b5y, a5y, dc5y = res_5y if res_5y[0] is not None else (np.nan, np.nan, np.nan, np.nan, np.nan, np.nan)
 
+        # Fetch qualitative details
+        details = DataLoader.fetch_fund_details(fund["code"])
+        aum = np.nan
+        expense_ratio = np.nan
+        top10_weight = np.nan
+        large_cap = np.nan
+        mid_cap = np.nan
+        small_cap = np.nan
+        managers = "N/A"
+        holdings_list = []
+        
+        if details:
+            aum_str = details.get("aum")
+            if aum_str:
+                try:
+                    aum = float(aum_str.replace(",", "").strip())
+                except:
+                    pass
+            try:
+                expense_ratio = float(details.get("expenseRatio", np.nan))
+            except:
+                pass
+            portfolio = details.get("portfolio", {})
+            concentration = portfolio.get("concentration", {})
+            try:
+                top10_weight = float(concentration.get("top10StocksWeight", np.nan))
+            except:
+                pass
+            mcap = portfolio.get("marketCapWeightage", {})
+            try:
+                large_cap = float(mcap.get("largeCap", np.nan))
+                mid_cap = float(mcap.get("midCap", np.nan))
+                small_cap = float(mcap.get("smallCap", np.nan))
+            except:
+                pass
+            mgr_val = details.get("schemeFundManagers")
+            if isinstance(mgr_val, list):
+                managers = ", ".join(mgr_val)
+            elif isinstance(mgr_val, str):
+                managers = mgr_val
+                
+            raw_holdings = details.get("holdings", [])
+            for h in raw_holdings[:15]:
+                holdings_list.append({
+                    "name": h.get("name", ""),
+                    "sector": h.get("sector", ""),
+                    "weightage": h.get("weightage", "")
+                })
+
         return {
+            "code": fund["code"],
             "Fund Name": fund["name"],
             "1Y Return (%)": r1y,
             "3Y Return (%)": r3y,
@@ -110,9 +160,17 @@ class QuantEngine:
             "Downside Capture (3Y)": dc3y,
             "3Y Rolling Return (%)": r3y_rolling,
             "5Y Rolling Return (%)": r5y_rolling,
+            "AUM (Cr)": aum,
+            "Expense Ratio (%)": expense_ratio,
+            "Top 10 Stocks Weight (%)": top10_weight,
+            "Large Cap (%)": large_cap,
+            "Mid Cap (%)": mid_cap,
+            "Small Cap (%)": small_cap,
+            "Managers": managers,
+            "Holdings": holdings_list
         }
 
-    def process_category_concurrently(self, funds_list: List[Dict[str, str]]) -> pd.DataFrame:
+    def process_category_concurrently(self, funds_list: List[Dict[str, str]], category_name: str = "") -> pd.DataFrame:
         """Dispatches calculations across parallel workers and computes dynamic ratings."""
         compiled_metrics = []
         with concurrent.futures.ThreadPoolExecutor(max_workers=config.MAX_CONCURRENT_WORKERS) as executor:
@@ -132,6 +190,9 @@ class QuantEngine:
         category_avg_rolling_3y = df["3Y Rolling Return (%)"].mean()
         if np.isnan(category_avg_rolling_3y):
             category_avg_rolling_3y = 0.0
+
+        # Calculate Net Alpha
+        df["Net Alpha (%)"] = df["Alpha (3Y)"] - df["Expense Ratio (%)"].fillna(0)
 
         ratings = []
         for idx, row in df.iterrows():
@@ -168,16 +229,16 @@ class QuantEngine:
             else:
                 ir_score = 0.625
 
-            # 3. CAPM Alpha (Risk-adjusted excess return) - max 1.25
-            alpha3y = row["Alpha (3Y)"]
-            if pd.notna(alpha3y) and not np.isnan(alpha3y):
-                if alpha3y >= 5.0:
+            # 3. Net Alpha (Risk-adjusted excess return net of expense ratio) - max 1.25
+            net_alpha = row["Net Alpha (%)"]
+            if pd.notna(net_alpha) and not np.isnan(net_alpha):
+                if net_alpha >= 5.0:
                     alpha_score = 1.25
-                elif alpha3y >= 2.5:
+                elif net_alpha >= 2.5:
                     alpha_score = 0.9375
-                elif alpha3y >= 0.0:
+                elif net_alpha >= 0.0:
                     alpha_score = 0.625
-                elif alpha3y >= -2.0:
+                elif net_alpha >= -2.0:
                     alpha_score = 0.3125
                 else:
                     alpha_score = 0.0
@@ -201,6 +262,26 @@ class QuantEngine:
                 dc_score = 0.625
 
             total_score = roll_score + ir_score + alpha_score + dc_score
+            
+            # Apply Qualitative Penalties (AUM and Concentration)
+            cat_name_lower = category_name.lower()
+            is_mid_or_small = "mid cap" in cat_name_lower or "small cap" in cat_name_lower
+            
+            if is_mid_or_small:
+                # Penalty A: Bloated AUM check
+                aum_val = row["AUM (Cr)"]
+                if pd.notna(aum_val) and not np.isnan(aum_val):
+                    if "small cap" in cat_name_lower and aum_val > 15000:
+                        total_score = max(0.0, total_score - 0.5)
+                    elif "mid cap" in cat_name_lower and aum_val > 25000:
+                        total_score = max(0.0, total_score - 0.5)
+                        
+                # Penalty B: Concentration outside optimal 20%-45% check
+                top10_val = row["Top 10 Stocks Weight (%)"]
+                if pd.notna(top10_val) and not np.isnan(top10_val):
+                    if top10_val < 20.0 or top10_val > 45.0:
+                        total_score = max(0.0, total_score - 0.25)
+                        
             ratings.append(total_score)
 
         df["Rating_Score"] = ratings
