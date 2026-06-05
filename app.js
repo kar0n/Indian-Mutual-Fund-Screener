@@ -64,9 +64,14 @@ function formatManagerLinks(managersStr, showAll = false) {
     });
     
     if (!showAll && managers.length > limit) {
-        const remainingCount = managers.length - limit;
-        const remainingNames = managers.slice(limit).join(', ');
-        links.push(`<span class="manager-more-tag" title="${remainingNames}">+ ${remainingCount} more</span>`);
+        const remaining = managers.slice(limit);
+        const remainingLinks = remaining.map(name => {
+            const encoded = encodeURIComponent(name + ' mutual fund manager');
+            return `<a href="https://www.linkedin.com/search/results/all/?keywords=${encoded}" target="_blank" class="manager-linkedin-link" title="Verify tenure and career history for ${name} on LinkedIn" onclick="event.stopPropagation();">${name}</a>`;
+        }).join(', ');
+        const remainingCount = remaining.length;
+        
+        links.push(`<span class="manager-hidden-links" style="display: none;">, ${remainingLinks}</span><span class="manager-more-tag" title="${remaining.join(', ')}" onclick="event.stopPropagation(); this.style.display='none'; this.previousElementSibling.style.display='inline';">+ ${remainingCount} more</span>`);
     }
     
     return links.join(', ');
