@@ -14,6 +14,7 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(
 # Target categories to compile (Curated list of top 12 key investment categories)
 CATEGORIES_TO_COMPILE = [
     "Equity Scheme - Flexi Cap Fund",
+    "Equity Scheme - Multi Cap Fund",
     "Equity Scheme - Large Cap Fund",
     "Equity Scheme - Mid Cap Fund",
     "Equity Scheme - Small Cap Fund",

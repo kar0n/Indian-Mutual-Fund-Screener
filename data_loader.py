@@ -3,6 +3,7 @@
 import datetime
 import logging
 import re
+import time
 from typing import Dict, List, Optional, Tuple
 import pandas as pd
 import requests
@@ -112,25 +113,30 @@ class DataLoader:
     @staticmethod
     @st.cache_data(ttl=43200)  # Cache raw scheme NAV files for 12 hours
     def fetch_fund_returns(scheme_code: str) -> Optional[pd.DataFrame]:
-        """Pulls clean historical NAV time-series arrays from open api layers."""
+        """Pulls clean historical NAV time-series arrays from open api layers with backoff retries."""
         url = f"{config.MF_API_BASE_URL}{scheme_code}"
         headers = {
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
         }
-        try:
-            res = requests.get(url, headers=headers, timeout=10)
-            data = res.json()
-            if "data" not in data or not data["data"]:
-                return None
-
-            df = pd.DataFrame(data["data"])
-            df["nav"] = pd.to_numeric(df["nav"])
-            df["date"] = pd.to_datetime(df["date"], format="%d-%m-%Y")
-            df = df.sort_values("date").set_index("date")
-            df["Fund_Return"] = df["nav"].pct_change()
-            return df[["nav", "Fund_Return"]]
-        except Exception:
-            return None
+        retries = 3
+        for attempt in range(retries):
+            try:
+                res = requests.get(url, headers=headers, timeout=15)
+                if res.status_code == 200:
+                    data = res.json()
+                    if "data" not in data or not data["data"]:
+                        return None
+                    df = pd.DataFrame(data["data"])
+                    df["nav"] = pd.to_numeric(df["nav"])
+                    df["date"] = pd.to_datetime(df["date"], format="%d-%m-%Y")
+                    df = df.sort_values("date").set_index("date")
+                    df["Fund_Return"] = df["nav"].pct_change()
+                    return df[["nav", "Fund_Return"]]
+            except Exception as e:
+                logging.warning(f"NAV fetch attempt {attempt+1} failed for scheme {scheme_code}: {e}")
+            if attempt < retries - 1:
+                time.sleep(0.5 * (attempt + 1))
+        return None
 
     @staticmethod
     @st.cache_data(ttl=86400)  # Cache sovereign interest logs for 24 hours
@@ -156,17 +162,21 @@ class DataLoader:
     @staticmethod
     @st.cache_data(ttl=86400)  # Cache qualitative data for 24 hours
     def fetch_fund_details(scheme_code: str) -> Optional[Dict]:
-        """Pulls comprehensive holdings, AUM, expense ratio, and manager info from FinAPI Upvaly."""
+        """Pulls comprehensive holdings, AUM, expense ratio, and manager info from FinAPI Upvaly with backoff retries."""
         url = f"https://finapi.upvaly.com/api/mf/scheme-code/{scheme_code}"
         headers = {
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
         }
-        try:
-            res = requests.get(url, headers=headers, timeout=8)
-            if res.status_code == 200:
-                body = res.json()
-                if body.get("status") == "success" or body.get("statusCode") == 200:
-                    return body.get("data")
-        except Exception as e:
-            logging.error(f"Failed to fetch fund details from Upvaly for {scheme_code}: {e}")
+        retries = 3
+        for attempt in range(retries):
+            try:
+                res = requests.get(url, headers=headers, timeout=12)
+                if res.status_code == 200:
+                    body = res.json()
+                    if body.get("status") == "success" or body.get("statusCode") == 200:
+                        return body.get("data")
+            except Exception as e:
+                logging.warning(f"Factsheet fetch attempt {attempt+1} failed for scheme {scheme_code}: {e}")
+            if attempt < retries - 1:
+                time.sleep(0.5 * (attempt + 1))
         return None

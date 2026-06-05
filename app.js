@@ -109,7 +109,10 @@ function populateCategories() {
     categories.forEach(cat => {
         const btn = document.createElement('button');
         btn.className = 'category-pill';
-        btn.textContent = cat.replace('Equity Scheme - ', '').replace('Hybrid Scheme - ', '').replace('Debt Scheme - ', '');
+        btn.textContent = cat.replace('Equity Scheme - ', '')
+                             .replace('Hybrid Scheme - ', '')
+                             .replace('Debt Scheme - ', '')
+                             .replace('Dynamic Asset Allocation or Balanced Advantage', 'Balanced Advantage');
         btn.addEventListener('click', () => {
             document.querySelectorAll('.category-pill').forEach(p => p.classList.remove('active'));
             btn.classList.add('active');
