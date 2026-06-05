@@ -565,10 +565,17 @@ select.form-input {
     color: #f1f5f9;
 }
 
-.quant-table td.rating-stars {
+.rating-stars {
     color: #f59e0b;
     font-weight: 500;
     letter-spacing: 1px;
+}
+
+.rating-score-subtext {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    font-weight: 500;
+    margin-top: 2px;
 }
 
 .percentage-val.positive {

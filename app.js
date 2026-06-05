@@ -364,7 +364,10 @@ function renderTableData() {
         tr.innerHTML = `
             <td>${fund.origRank}</td>
             <td class="scheme-name text-left">${fund['Fund Name']}</td>
-            <td class="rating-stars">${fund.Rating}</td>
+            <td>
+                <div class="rating-stars">${fund.Rating}</div>
+                <div class="rating-score-subtext">${fund.Rating_Score.toFixed(3)}</div>
+            </td>
             <td class="aum-col">${aumText}</td>
             <td class="${r1yRollClass}">${formatPercent(r1yRollVal)}</td>
             <td class="${r3yRollClass}">${formatPercent(r3yRollVal)}</td>
