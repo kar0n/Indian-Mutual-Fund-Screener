@@ -794,3 +794,102 @@ select.form-input {
     color: #f59e0b;
     font-weight: 600;
 }
+
+/* Rating Breakdown Tooltip */
+.rating-tooltip-trigger {
+    cursor: help;
+}
+
+.rating-tooltip {
+    position: absolute;
+    display: none;
+    z-index: 10000;
+    width: 290px;
+    padding: 12px 14px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6), 0 0 15px rgba(99, 102, 241, 0.1);
+    pointer-events: none;
+    font-size: 0.785rem;
+    color: #e2e8f0;
+    text-align: left;
+}
+
+.rating-tooltip.glass {
+    background: rgba(15, 23, 42, 0.95);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.tooltip-header {
+    margin-bottom: 8px;
+}
+
+.tooltip-fund-name {
+    font-weight: 600;
+    color: #f8fafc;
+    font-size: 0.85rem;
+    margin-bottom: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.tooltip-overall {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.8rem;
+}
+
+.tooltip-overall .stars {
+    color: #f59e0b;
+    font-weight: 600;
+}
+
+.tooltip-overall .score {
+    color: #94a3b8;
+    font-weight: 500;
+}
+
+.tooltip-divider {
+    height: 1px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 8px 0;
+}
+
+.tooltip-body {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.tooltip-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tooltip-row span:first-child {
+    color: #94a3b8;
+}
+
+.tooltip-row span:last-child {
+    font-weight: 600;
+    color: #f1f5f9;
+}
+
+/* Adjustments style in tooltip */
+.tooltip-row.overlay-row span:first-child {
+    color: #cbd5e1;
+    font-style: italic;
+    font-size: 0.75rem;
+}
+
+.tooltip-row.overlay-row span.text-danger {
+    color: #ef4444;
+}
+
+.tooltip-row.overlay-row span.text-success {
+    color: #10b981;
+}

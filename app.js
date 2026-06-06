@@ -180,6 +180,144 @@ function setupEventListeners() {
             if (toggleArrow) toggleArrow.textContent = isExpanded ? '▲' : '▼';
         });
     }
+
+    // Setup global tooltip element
+    const tooltip = document.getElementById('rating-tooltip');
+    
+    // Helper to find fund by code
+    const findFundByCode = (code) => {
+        if (!window.mfData || !window.mfData.categories) return null;
+        for (const cat in window.mfData.categories) {
+            const fund = window.mfData.categories[cat].find(f => String(f.code) === String(code));
+            if (fund) return fund;
+        }
+        return null;
+    };
+
+    let activeTooltipTrigger = null;
+
+    // Global event delegation for hovering over rating elements
+    document.addEventListener('mouseover', (e) => {
+        const trigger = e.target.closest('.rating-tooltip-trigger');
+        if (!trigger) {
+            if (activeTooltipTrigger && tooltip) {
+                tooltip.style.display = 'none';
+                tooltip.style.opacity = '0';
+                activeTooltipTrigger = null;
+            }
+            return;
+        }
+
+        if (trigger === activeTooltipTrigger) return; // Already showing for this trigger
+        activeTooltipTrigger = trigger;
+
+        const fundCode = trigger.getAttribute('data-fund-code');
+        const fund = findFundByCode(fundCode);
+        if (!fund || !tooltip) return;
+
+        // Build adjustment rows if applicable
+        let overlayHtml = '';
+        if (fund.AUM_Adj && fund.AUM_Adj !== 0) {
+            const sign = fund.AUM_Adj > 0 ? '+' : '';
+            const cls = fund.AUM_Adj > 0 ? 'text-success' : 'text-danger';
+            overlayHtml += `
+                <div class="tooltip-row overlay-row">
+                    <span>AUM Scale Adjustment</span>
+                    <span class="${cls}">${sign}${fund.AUM_Adj.toFixed(2)}★</span>
+                </div>
+            `;
+        }
+        if (fund.Manager_Tenure_Adj && fund.Manager_Tenure_Adj !== 0) {
+            const sign = fund.Manager_Tenure_Adj > 0 ? '+' : '';
+            const cls = fund.Manager_Tenure_Adj > 0 ? 'text-success' : 'text-danger';
+            overlayHtml += `
+                <div class="tooltip-row overlay-row">
+                    <span>Manager Tenure Adjustment</span>
+                    <span class="${cls}">${sign}${fund.Manager_Tenure_Adj.toFixed(2)}★</span>
+                </div>
+            `;
+        }
+
+        // Format sub-ratings safely
+        const rollVal = typeof fund.Sub_Rating_Performance === 'number' ? fund.Sub_Rating_Performance : 0;
+        const irVal = typeof fund.Sub_Rating_IR === 'number' ? fund.Sub_Rating_IR : 0;
+        const alphaVal = typeof fund.Sub_Rating_Alpha === 'number' ? fund.Sub_Rating_Alpha : 0;
+        const dcVal = typeof fund.Sub_Rating_Protection === 'number' ? fund.Sub_Rating_Protection : 0;
+
+        tooltip.innerHTML = `
+            <div class="tooltip-header">
+                <div class="tooltip-fund-name">${fund['Fund Name']}</div>
+                <div class="tooltip-overall">
+                    <span class="stars">${fund.Rating}</span>
+                    <span class="score">(${fund.Rating_Score.toFixed(3)} / 5.0)</span>
+                </div>
+            </div>
+            <div class="tooltip-divider"></div>
+            <div class="tooltip-body">
+                <div class="tooltip-row">
+                    <span>Performance Consistency (25%)</span>
+                    <span>${rollVal.toFixed(2)}★</span>
+                </div>
+                <div class="tooltip-row">
+                    <span>Information Ratio (25%)</span>
+                    <span>${irVal.toFixed(2)}★</span>
+                </div>
+                <div class="tooltip-row">
+                    <span>CAPM Alpha (25%)</span>
+                    <span>${alphaVal.toFixed(2)}★</span>
+                </div>
+                <div class="tooltip-row">
+                    <span>Downside Protection (25%)</span>
+                    <span>${dcVal.toFixed(2)}★</span>
+                </div>
+                ${overlayHtml}
+            </div>
+        `;
+
+        tooltip.style.display = 'block';
+
+        // Position tooltip centered above the trigger element
+        const triggerRect = trigger.getBoundingClientRect();
+        const tooltipRect = tooltip.getBoundingClientRect();
+        
+        let x = triggerRect.left + (triggerRect.width / 2) - (tooltipRect.width / 2);
+        let y = triggerRect.top - tooltipRect.height - 10;
+
+        // Boundary checks relative to viewport width/height
+        if (x < 10) x = 10;
+        if (x + tooltipRect.width > window.innerWidth - 10) {
+            x = window.innerWidth - tooltipRect.width - 10;
+        }
+        
+        // If tooltip would go off top of screen, show it below the trigger instead
+        if (y < 10) {
+            y = triggerRect.bottom + 10;
+        }
+
+        // Apply coordinates accounting for absolute scroll offsets
+        tooltip.style.left = `${x + window.scrollX}px`;
+        tooltip.style.top = `${y + window.scrollY}px`;
+        tooltip.style.opacity = '1';
+    });
+
+    // Hide tooltip on scroll
+    window.addEventListener('scroll', () => {
+        if (tooltip) {
+            tooltip.style.display = 'none';
+            tooltip.style.opacity = '0';
+            activeTooltipTrigger = null;
+        }
+    }, { passive: true });
+
+    // Hide tooltip on mouse leave
+    document.addEventListener('mouseout', (e) => {
+        const trigger = e.target.closest('.rating-tooltip-trigger');
+        if (trigger && tooltip && !e.relatedTarget?.closest('.rating-tooltip-trigger')) {
+            tooltip.style.display = 'none';
+            tooltip.style.opacity = '0';
+            activeTooltipTrigger = null;
+        }
+    });
 }
 
 function handleCategoryChange() {
@@ -218,7 +356,7 @@ function renderCategoryStats() {
     // Leader (first element in original array which is sorted by score)
     const leader = categoryFunds[0];
     leaderName.textContent = leader['Fund Name'];
-    leaderRating.innerHTML = `<span class="rating-stars">${leader.Rating}</span> <span class="score-val">(${leader.Rating_Score.toFixed(3)})</span>`;
+    leaderRating.innerHTML = `<span class="rating-stars rating-tooltip-trigger" data-fund-code="${leader.code}">${leader.Rating}</span> <span class="score-val">(${leader.Rating_Score.toFixed(3)})</span>`;
 
     // Averages
     let sumRoll = 0, countRoll = 0;
@@ -364,7 +502,7 @@ function renderTableData() {
         tr.innerHTML = `
             <td>${fund.origRank}</td>
             <td class="scheme-name text-left">${fund['Fund Name']}</td>
-            <td class="rating-cell">
+            <td class="rating-cell rating-tooltip-trigger" data-fund-code="${fund.code}">
                 <div class="rating-stars">${fund.Rating}</div>
                 <div class="rating-score-subtext">${fund.Rating_Score.toFixed(3)}</div>
             </td>
