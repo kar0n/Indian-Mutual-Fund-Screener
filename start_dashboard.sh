@@ -3,7 +3,7 @@
 set -e
 
 echo "===================================================="
-echo "Starting MF Quant Core - Institutional Workstation"
+echo "Starting IMF Screener - Indian Mutual Fund Screener"
 echo "===================================================="
 
 # Activate virtual environment

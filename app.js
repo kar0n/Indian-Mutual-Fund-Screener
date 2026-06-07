@@ -1,5 +1,5 @@
 /**
- * MF Quant Core - Client-Side Workstation Controller
+ * IMF Screener - Client-Side Controller
  */
 
 // Global state
