@@ -893,3 +893,69 @@ select.form-input {
 .tooltip-row.overlay-row span.text-success {
     color: #10b981;
 }
+
+/* Column Header Description Tooltip */
+.quant-table th[data-col-desc] {
+    position: relative;
+}
+
+.quant-table th[data-col-desc]::after {
+    content: 'ⓘ';
+    font-size: 0.6rem;
+    color: rgba(148, 163, 184, 0.4);
+    margin-left: 4px;
+    vertical-align: super;
+    transition: color 0.2s;
+}
+
+.quant-table th[data-col-desc]:hover::after {
+    color: rgba(148, 163, 184, 0.8);
+}
+
+.column-tooltip {
+    position: absolute;
+    display: none;
+    z-index: 10001;
+    width: 280px;
+    padding: 14px 16px;
+    border-radius: 10px;
+    border-left: 3px solid #6366f1;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.55), 0 0 12px rgba(99, 102, 241, 0.12);
+    pointer-events: none;
+    font-size: 0.785rem;
+    color: #cbd5e1;
+    line-height: 1.5;
+    text-align: left;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.column-tooltip.glass {
+    background: rgba(15, 23, 42, 0.96);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.column-tooltip .col-tooltip-title {
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: #e2e8f0;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.column-tooltip .col-tooltip-title .col-tooltip-icon {
+    color: #6366f1;
+    font-size: 0.85rem;
+}
+
+.column-tooltip .col-tooltip-desc {
+    color: #94a3b8;
+    font-size: 0.775rem;
+    line-height: 1.55;
+}

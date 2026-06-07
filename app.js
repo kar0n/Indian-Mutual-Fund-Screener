@@ -318,6 +318,96 @@ function setupEventListeners() {
             activeTooltipTrigger = null;
         }
     });
+
+    // ─── Column Header Description Tooltip (2-second hover delay) ───
+    const colTooltip = document.getElementById('column-tooltip');
+    let colTooltipTimer = null;
+    let activeColHeader = null;
+
+    const showColumnTooltip = (th) => {
+        const desc = th.getAttribute('data-col-desc');
+        if (!desc || !colTooltip) return;
+
+        // Get the visible column label text (excluding sort icon)
+        const sortIcon = th.querySelector('.sort-icon');
+        const labelText = th.textContent.replace(sortIcon ? sortIcon.textContent : '', '').trim();
+
+        colTooltip.innerHTML = `
+            <div class="col-tooltip-title">
+                <span class="col-tooltip-icon">ⓘ</span>
+                <span>${labelText}</span>
+            </div>
+            <div class="col-tooltip-desc">${desc}</div>
+        `;
+
+        colTooltip.style.display = 'block';
+
+        // Position tooltip below the header
+        const thRect = th.getBoundingClientRect();
+        const tooltipW = colTooltip.getBoundingClientRect().width;
+
+        let x = thRect.left + (thRect.width / 2) - (tooltipW / 2);
+        let y = thRect.bottom + 8;
+
+        // Boundary checks
+        if (x < 10) x = 10;
+        if (x + tooltipW > window.innerWidth - 10) {
+            x = window.innerWidth - tooltipW - 10;
+        }
+
+        colTooltip.style.left = `${x + window.scrollX}px`;
+        colTooltip.style.top = `${y + window.scrollY}px`;
+        colTooltip.style.opacity = '1';
+    };
+
+    const hideColumnTooltip = () => {
+        if (colTooltipTimer) {
+            clearTimeout(colTooltipTimer);
+            colTooltipTimer = null;
+        }
+        if (colTooltip) {
+            colTooltip.style.display = 'none';
+            colTooltip.style.opacity = '0';
+        }
+        activeColHeader = null;
+    };
+
+    // Event delegation on the thead
+    const thead = document.querySelector('.quant-table thead');
+    if (thead && colTooltip) {
+        thead.addEventListener('mouseover', (e) => {
+            const th = e.target.closest('th[data-col-desc]');
+            if (!th) {
+                hideColumnTooltip();
+                return;
+            }
+            if (th === activeColHeader) return; // Already timing/showing for this header
+
+            // Clear any previous timer
+            hideColumnTooltip();
+            activeColHeader = th;
+
+            // Start 2-second delay
+            colTooltipTimer = setTimeout(() => {
+                showColumnTooltip(th);
+            }, 2000);
+        });
+
+        thead.addEventListener('mouseout', (e) => {
+            const th = e.target.closest('th[data-col-desc]');
+            if (th && !e.relatedTarget?.closest('th[data-col-desc]')) {
+                hideColumnTooltip();
+            }
+        });
+    }
+
+    // Also hide column tooltip on table scroll
+    const tableWrapper = document.querySelector('.table-wrapper');
+    if (tableWrapper) {
+        tableWrapper.addEventListener('scroll', () => {
+            hideColumnTooltip();
+        }, { passive: true });
+    }
 }
 
 function handleCategoryChange() {

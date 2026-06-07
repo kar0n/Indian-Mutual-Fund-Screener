@@ -146,17 +146,17 @@
                 <table class="quant-table" id="quant-table">
                     <thead>
                         <tr>
-                            <th data-sort="rank" class="sortable sorted-asc">Rank <span class="sort-icon">▲</span></th>
-                            <th data-sort="name" class="sortable text-left">Scheme Name <span class="sort-icon"></span></th>
-                            <th data-sort="rating" class="sortable">Rating <span class="sort-icon"></span></th>
-                            <th data-sort="aum" class="sortable aum-col">AUM (Cr) <span class="sort-icon"></span></th>
-                            <th data-sort="r1y_roll" class="sortable">1Y Rolling Return <span class="sort-icon"></span></th>
-                            <th data-sort="r3y_roll" class="sortable">3Y Rolling Return <span class="sort-icon"></span></th>
-                            <th data-sort="r5y_roll" class="sortable">5Y Rolling Return <span class="sort-icon"></span></th>
-                            <th data-sort="alpha" class="sortable">Alpha (3Y) <span class="sort-icon"></span></th>
-                            <th data-sort="downside" class="sortable">Downside Capture <span class="sort-icon"></span></th>
-                            <th data-sort="ir" class="sortable">Info Ratio <span class="sort-icon"></span></th>
-                            <th data-sort="manager" class="sortable text-left manager-col">Fund Manager <span class="sort-icon"></span></th>
+                            <th data-sort="rank" class="sortable sorted-asc" data-col-desc="Composite quant rank based on Overall Rating score. Lower is better.">Rank <span class="sort-icon">▲</span></th>
+                            <th data-sort="name" class="sortable text-left" data-col-desc="Official AMFI-registered scheme name. Only Direct Plan / Growth option schemes are included.">Scheme Name <span class="sort-icon"></span></th>
+                            <th data-sort="rating" class="sortable" data-col-desc="Overall quant grade (max 5★). Combines Rolling Returns (25%), Information Ratio (25%), CAPM Alpha (25%), and Downside Capture (25%), with AUM and tenure adjustments.">Rating <span class="sort-icon"></span></th>
+                            <th data-sort="aum" class="sortable aum-col" data-col-desc="Assets Under Management in Crores. Very large AUM in small/mid-cap funds can hurt agility and returns due to market impact cost.">AUM (Cr) <span class="sort-icon"></span></th>
+                            <th data-sort="r1y_roll" class="sortable" data-col-desc="Average annualized return across all overlapping 1-year windows in history. Eliminates endpoint bias from single-date comparisons.">1Y Rolling Return <span class="sort-icon"></span></th>
+                            <th data-sort="r3y_roll" class="sortable" data-col-desc="Average CAGR across all overlapping 3-year windows. Captures performance consistency through complete bull and bear market cycles.">3Y Rolling Return <span class="sort-icon"></span></th>
+                            <th data-sort="r5y_roll" class="sortable" data-col-desc="Average CAGR across all overlapping 5-year windows. The gold standard for long-term wealth compounding consistency.">5Y Rolling Return <span class="sort-icon"></span></th>
+                            <th data-sort="alpha" class="sortable" data-col-desc="CAPM Alpha over 3 years — the excess return generated purely by active stock-picking after removing market (beta) returns. α > 0 means the manager beat the benchmark.">Alpha (3Y) <span class="sort-icon"></span></th>
+                            <th data-sort="downside" class="sortable" data-col-desc="Percentage of benchmark losses captured during down-market months. < 100% means the fund fell less than the index (good capital protection).">Downside Capture <span class="sort-icon"></span></th>
+                            <th data-sort="ir" class="sortable" data-col-desc="Information Ratio (3Y) — measures risk-adjusted outperformance consistency. ≥ 0.5 is good, ≥ 1.0 is exceptional. Separates skill from luck.">Info Ratio <span class="sort-icon"></span></th>
+                            <th data-sort="manager" class="sortable text-left manager-col" data-col-desc="Current fund manager(s). Click on any name to look up their career history and tenure on LinkedIn.">Fund Manager <span class="sort-icon"></span></th>
                         </tr>
                     </thead>
                     <tbody id="table-body">
@@ -178,6 +178,9 @@
 
     <!-- Rating Breakdown Tooltip -->
     <div id="rating-tooltip" class="rating-tooltip glass"></div>
+
+    <!-- Column Header Description Tooltip -->
+    <div id="column-tooltip" class="column-tooltip glass"></div>
 
     <script src="app.js"></script>
 </body>
