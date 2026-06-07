@@ -390,7 +390,7 @@ function setupEventListeners() {
             // Start 2-second delay
             colTooltipTimer = setTimeout(() => {
                 showColumnTooltip(th);
-            }, 2000);
+            }, 1000);
         });
 
         thead.addEventListener('mouseout', (e) => {
