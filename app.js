@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 async function init() {
     try {
-        const response = await fetch('./mf_universe_data.json');
+        const response = await fetch('./mf_universe_data.json?v=' + Date.now());
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
