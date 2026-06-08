@@ -107,11 +107,14 @@ else
     if git diff --cached --quiet; then
         echo "Info: No new changes detected in your workspace. Sync bypassed."
     else
-        # Only prompt for a message if there is actual work to be done!
-        read -p "Enter commit classification message [Press Enter for default]: " commit_msg
+        if [ -n "$1" ]; then
+            commit_msg="$1"
+        else
+            read -p "Enter commit classification message [Press Enter for default]: " commit_msg
 
-        if [ -z "$commit_msg" ]; then
-            commit_msg="Refine codebase configurations and processing core parameters"
+            if [ -z "$commit_msg" ]; then
+                commit_msg="Refine codebase configurations and processing core parameters"
+            fi
         fi
 
         git commit -m "$commit_msg"
