@@ -77,7 +77,7 @@ class AmfiRegistry:
                     scheme_name = parts[3].strip()
 
                     name_lower = scheme_name.lower()
-                    if "direct" in name_lower and "growth" in name_lower:
+                    if "direct" in name_lower and "growth" in name_lower and "bonus" not in name_lower:
                         category_map[current_category].append({
                             "code": scheme_code,
                             "name": scheme_name
