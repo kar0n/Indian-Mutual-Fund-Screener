@@ -110,9 +110,10 @@ async function init() {
 function renderHeaderMeta() {
     if (!window.mfData || !window.mfData.metadata) return;
     const meta = window.mfData.metadata;
+    const benchName = meta.benchmark_mapping ? (meta.benchmark_mapping[currentCategory] || 'Nifty 50 Index') : (meta.benchmark || 'Nifty 50 Index');
     headerMeta.innerHTML = `
         <div>LIVE RFR: ${meta.risk_free_rate}% (${meta.rfr_status})</div>
-        <div>BENCHMARK: ${meta.benchmark}</div>
+        <div class="benchmark-pill">BENCHMARK: ${benchName}</div>
         <div>COMPILED: ${meta.compile_date}</div>
     `;
 }
@@ -416,6 +417,9 @@ function handleCategoryChange() {
     // Reset search
     searchInput.value = '';
     searchQuery = '';
+    
+    // Update Header Meta to reflect dynamic benchmark for this category
+    renderHeaderMeta();
     
     // Get fresh list of funds and attach 1-based original rank based on compiler order
     const rawFunds = window.mfData.categories[currentCategory] || [];

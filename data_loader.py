@@ -93,6 +93,18 @@ class DataLoader:
     @st_cache(ttl=86400)  # Cache index calculations for 24 hours
     def fetch_benchmark_returns(ticker: str, years: int) -> pd.DataFrame:
         """Downloads benchmark time-series and evaluates daily percentage variance with index fund fallback."""
+        # If the ticker is a numeric scheme code, route to the Mutual Fund Proxy API instead of Yahoo Finance
+        if ticker.isdigit():
+            logging.info(f"Using Mutual Fund Proxy (Scheme {ticker}) as benchmark.")
+            proxy_df = DataLoader.fetch_fund_returns(ticker)
+            if proxy_df is not None and not proxy_df.empty:
+                proxy_df = proxy_df.copy()
+                proxy_df.columns = ["nav", "Bench_Return"]
+                return proxy_df[["Bench_Return"]]
+            else:
+                logging.error(f"Failed to fetch proxy benchmark {ticker}.")
+                return pd.DataFrame(columns=["Bench_Return"])
+                
         end_date = datetime.date.today()
         start_date = end_date - datetime.timedelta(days=years * 365)
         

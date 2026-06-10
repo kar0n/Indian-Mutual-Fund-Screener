@@ -41,14 +41,14 @@ def main():
         logging.error("Failed to load AMFI universe. Aborting.")
         return
         
-    engine = QuantEngine(risk_free_rate=rfr_value)
+    # Removed global QuantEngine initialization
     
     output_data = {
         "metadata": {
             "risk_free_rate": round(rfr_value * 100, 2),
             "rfr_status": rfr_status,
             "compile_date": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            "benchmark": config.DEFAULT_BENCHMARK_LABEL
+            "benchmark_mapping": {}
         },
         "categories": {}
     }
@@ -60,6 +60,15 @@ def main():
             
         funds = universe[cat]
         logging.info(f"Processing category: {cat} (Funds count: {len(funds)})")
+        
+        # Identify dynamic benchmark for this category
+        bench_info = config.CATEGORY_BENCHMARK_MAP.get(cat, {"id": config.DEFAULT_BENCHMARK_TICKER, "label": config.DEFAULT_BENCHMARK_LABEL})
+        
+        # Log metadata for UI transparency
+        output_data["metadata"]["benchmark_mapping"][cat] = bench_info["label"]
+        
+        # Instantiate engine specifically for this benchmark
+        engine = QuantEngine(benchmark_ticker=bench_info["id"], risk_free_rate=rfr_value)
         
         # We run the calculations concurrently
         df = engine.process_category_concurrently(funds, category_name=cat)
