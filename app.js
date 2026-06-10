@@ -48,7 +48,7 @@ function formatNum(val, decimals = 2) {
 
 function formatAlpha(val) {
     if (isNilOrNaN(val)) return 'N/A';
-    return (val > 0 ? '+' : '') + val.toFixed(2);
+    return (val > 0 ? '+' : '') + val.toFixed(2) + '%';
 }
 
 function formatManagerLinks(managersStr, showAll = false) {
