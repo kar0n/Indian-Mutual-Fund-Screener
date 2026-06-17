@@ -633,7 +633,7 @@ function showDrawer(fund) {
         const remainder = score - fullStars;
         const halfStar = remainder >= 0.25 ? '½' : '';
         if (fullStars === 0 && !halfStar) return '½';
-        return '⭐'.repeat(fullStars) + halfStar;
+        return '★'.repeat(fullStars) + halfStar;
     }
 
     // AUM warning & bonus check

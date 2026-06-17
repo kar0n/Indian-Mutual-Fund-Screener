@@ -371,7 +371,7 @@ class QuantEngine:
             half_star = "½" if (score - full_stars) >= 0.25 else ""
             if full_stars == 0 and not half_star:
                 return "½"  # minimum score representation
-            return "⭐" * full_stars + half_star
+            return "★" * full_stars + half_star
 
         df["Rating"] = df["Rating_Score"].apply(to_stars)
         return df

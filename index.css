@@ -513,8 +513,8 @@ select.form-input {
     text-align: right;
 }
 
-.quant-table th, .quant-table td {
-    padding: 0.85rem 1.25rem;
+.quant-table th, .quant-table th {
+    padding: 0.6rem 1rem;
     border-bottom: 1px solid rgba(30, 41, 59, 0.3);
 }
 
@@ -1042,6 +1042,10 @@ body:not(.dark-theme) .faq-item {
     line-height: 1.6;
 }
 
+.stars, .rating-stars, .rating-detail-stars {
+    color: #fbbf24; /* Amber-400 for dark mode */
+}
+
 /* ==========================================================================
    MOBILE RESPONSIVENESS (MAX-WIDTH: 768px)
    ========================================================================== */
@@ -1267,6 +1271,12 @@ body:not(.dark-theme) .close-btn:hover {
     color: #1e3a8a !important;
 }
 
+body:not(.dark-theme) .stars,
+body:not(.dark-theme) .rating-stars,
+body:not(.dark-theme) .rating-detail-stars {
+    color: #ea580c !important; /* Orange-600 for sharp visibility in light mode */
+}
+
 body:not(.dark-theme) .holding-weight,
 body:not(.dark-theme) .tooltip-row.overlay-row span:first-child {
     color: #334155 !important;
@@ -1328,14 +1338,18 @@ body:not(.dark-theme) .tooltip-divider {
 .theme-toggle-btn {
     background: var(--panel-bg);
     border: 1px solid var(--panel-border);
-    border-radius: 50%;
-    width: 36px;
+    border-radius: 20px;
+    width: auto;
     height: 36px;
+    padding: 0 16px;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 8px;
     cursor: pointer;
-    font-size: 1.1rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-main);
     transition: all 0.2s;
     outline: none;
     backdrop-filter: blur(4px);
