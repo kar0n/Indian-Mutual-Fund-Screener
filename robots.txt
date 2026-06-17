@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://indian-mutual-fund-screener.vercel.app/sitemap.xml
