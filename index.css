@@ -997,6 +997,129 @@ select.form-input {
     line-height: 1.6;
 }
 
+/* ==========================================================================
+   MOBILE RESPONSIVENESS (MAX-WIDTH: 768px)
+   ========================================================================== */
+@media (max-width: 768px) {
+    /* Global Layout & Header */
+    .app-container {
+        max-width: 100%;
+        width: 100%;
+        padding: 0 10px;
+        gap: 1rem;
+    }
+    
+    .header-controls {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    
+    .logo-area h1 {
+        font-size: 1.5rem;
+    }
+    
+    .main-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        padding: 1.5rem;
+    }
+    
+    /* Methodology Section */
+    .methodology-container {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    
+    /* Category Selector & Summary Matrix */
+    .category-pills {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding-bottom: 5px;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .summary-matrix {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    /* Data Table */
+    .table-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    
+    .search-box-small {
+        width: 100%;
+    }
+    
+    .table-title-area h3 {
+        font-size: 1.1rem;
+    }
+    
+    .table-wrapper {
+        max-height: calc(100vh - 200px);
+    }
+    
+    /* Sticky First Column for Mobile */
+    .quant-table th:nth-child(2),
+    .quant-table td:nth-child(2) {
+        position: sticky;
+        left: 0;
+        z-index: 2;
+    }
+    
+    .quant-table th:nth-child(2) {
+        background: #1e293b; 
+        z-index: 3;
+    }
+    body:not(.dark-theme) .quant-table th:nth-child(2) {
+        background: #e0f2fe !important; 
+    }
+    
+    .quant-table td:nth-child(2) {
+        background: #0f172a; 
+    }
+    body:not(.dark-theme) .quant-table td:nth-child(2) {
+        background: #f8fafc !important; 
+    }
+    
+    /* Shadow on the sticky column */
+    .quant-table th:nth-child(2)::after,
+    .quant-table td:nth-child(2)::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: -6px;
+        bottom: 0;
+        width: 6px;
+        background: linear-gradient(to right, rgba(0,0,0,0.15), transparent);
+        pointer-events: none;
+    }
+
+    /* Modals, Drawers & Tooltips */
+    .drawer {
+        width: 100vw;
+        max-width: 100vw;
+        right: -100vw;
+    }
+    .drawer.open {
+        right: 0;
+    }
+    
+    .column-tooltip.glass {
+        max-width: 280px;
+    }
+    
+    /* Adjust FAQ padding for mobile */
+    .faq-section {
+        padding: 1.5rem 1rem;
+    }
+}
+
 /* LIGHT THEME OVERRIDES */
 body:not(.dark-theme) {
     --bg-color: #f0f7ff;
