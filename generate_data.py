@@ -41,8 +41,26 @@ def main():
         logging.error("Failed to load AMFI universe. Aborting.")
         return
         
-    # Removed global QuantEngine initialization
-    
+    # Load existing database for diffing manager changes
+    old_db_lookup = {}
+    output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "mf_universe_data.json")
+    if os.path.exists(output_path):
+        try:
+            with open(output_path, "r") as f:
+                old_data = json.load(f)
+                for old_cat, old_funds in old_data.get("categories", {}).items():
+                    for f_rec in old_funds:
+                        sc_code = str(f_rec.get("code"))
+                        if sc_code:
+                            old_db_lookup[sc_code] = {
+                                "Managers": f_rec.get("Managers"),
+                                "Manager_Changed_Recently": f_rec.get("Manager_Changed_Recently", False),
+                                "Manager_Change_Date": f_rec.get("Manager_Change_Date")
+                            }
+            logging.info(f"Loaded {len(old_db_lookup)} existing schemes from old database for manager change tracking.")
+        except Exception as e:
+            logging.warning(f"Could not load old database for diffing: {e}")
+
     output_data = {
         "metadata": {
             "risk_free_rate": round(rfr_value * 100, 2),
@@ -76,6 +94,49 @@ def main():
         if df.empty:
             logging.warning(f"No valid metrics computed for {cat}. Skipping.")
             continue
+            
+        # Add manager change tracking fields
+        changed_flags = []
+        change_dates = []
+        today_str = datetime.date.today().strftime("%Y-%m-%d")
+
+        for idx, row in df.iterrows():
+            sc_code = str(row["code"])
+            new_mgrs = str(row.get("Managers") or "").strip()
+            
+            manager_changed_recently = False
+            manager_change_date = None
+            
+            if sc_code in old_db_lookup:
+                old_rec = old_db_lookup[sc_code]
+                old_mgrs = str(old_rec.get("Managers") or "").strip()
+                
+                has_old_mgrs = old_mgrs and old_mgrs.lower() not in ["", "n/a", "none", "null"]
+                has_new_mgrs = new_mgrs and new_mgrs.lower() not in ["", "n/a", "none", "null"]
+                
+                if has_old_mgrs and has_new_mgrs and old_mgrs != new_mgrs:
+                    manager_changed_recently = True
+                    manager_change_date = today_str
+                    logging.info(f"MANAGER CHANGE DETECTED for {row['Fund Name']} ({sc_code}): '{old_mgrs}' -> '{new_mgrs}'")
+                else:
+                    old_changed = old_rec.get("Manager_Changed_Recently", False)
+                    old_date_str = old_rec.get("Manager_Change_Date")
+                    
+                    if old_changed and old_date_str:
+                        try:
+                            old_date = datetime.datetime.strptime(old_date_str, "%Y-%m-%d").date()
+                            days_elapsed = (datetime.date.today() - old_date).days
+                            if days_elapsed < 180:  # Alert stays active for 180 days (6 months)
+                                manager_changed_recently = True
+                                manager_change_date = old_date_str
+                        except:
+                            pass
+            
+            changed_flags.append(manager_changed_recently)
+            change_dates.append(manager_change_date)
+
+        df["Manager_Changed_Recently"] = changed_flags
+        df["Manager_Change_Date"] = change_dates
             
         # Sort by Rating_Score descending
         df = df.sort_values(by="Rating_Score", ascending=False)

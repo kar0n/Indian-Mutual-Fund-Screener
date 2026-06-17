@@ -18,5 +18,7 @@ MAX_CONCURRENT_WORKERS = 10
 # Dynamic Benchmark Mappings
 CATEGORY_BENCHMARK_MAP = {
     "Equity Scheme - Small Cap Fund": {"id": "148519", "label": "Nippon Smallcap 250 Proxy"},
-    "Equity Scheme - Mid Cap Fund": {"id": "148520", "label": "Nippon Midcap 150 Proxy"}
+    "Equity Scheme - Mid Cap Fund": {"id": "148520", "label": "Nippon Midcap 150 Proxy"},
+    "Hybrid Scheme - Arbitrage Fund": {"id": "119771", "label": "Kotak Arbitrage Proxy"},
+    "Debt Scheme - Liquid Fund": {"id": "120197", "label": "ICICI Pru Liquid Proxy"}
 }

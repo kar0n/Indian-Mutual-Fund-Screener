@@ -228,22 +228,26 @@ function setupEventListeners() {
                 </div>
             `;
         }
-        if (fund.Manager_Tenure_Adj && fund.Manager_Tenure_Adj !== 0) {
-            const sign = fund.Manager_Tenure_Adj > 0 ? '+' : '';
-            const cls = fund.Manager_Tenure_Adj > 0 ? 'text-success' : 'text-danger';
-            overlayHtml += `
-                <div class="tooltip-row overlay-row">
-                    <span>Manager Tenure Adjustment</span>
-                    <span class="${cls}">${sign}${fund.Manager_Tenure_Adj.toFixed(2)}★</span>
-                </div>
-            `;
-        }
-
         // Format sub-ratings safely
         const rollVal = typeof fund.Sub_Rating_Performance === 'number' ? fund.Sub_Rating_Performance : 0;
         const irVal = typeof fund.Sub_Rating_IR === 'number' ? fund.Sub_Rating_IR : 0;
         const alphaVal = typeof fund.Sub_Rating_Alpha === 'number' ? fund.Sub_Rating_Alpha : 0;
         const dcVal = typeof fund.Sub_Rating_Protection === 'number' ? fund.Sub_Rating_Protection : 0;
+
+        // Get category-specific weights dynamically
+        const getCategoryWeights = (categoryName) => {
+            const catLower = (categoryName || '').toLowerCase();
+            if (catLower.includes('hybrid') || catLower.includes('balanced advantage') || catLower.includes('dynamic asset')) {
+                return { roll: 25, ir: 25, alpha: 15, dc: 35 };
+            } else if (catLower.includes('debt') || catLower.includes('liquid') || catLower.includes('arbitrage')) {
+                return { roll: 35, ir: 20, alpha: 5, dc: 40 };
+            } else if (catLower.includes('small cap') || catLower.includes('mid cap')) {
+                return { roll: 20, ir: 25, alpha: 35, dc: 20 };
+            } else {
+                return { roll: 25, ir: 25, alpha: 25, dc: 25 };
+            }
+        };
+        const w = getCategoryWeights(currentCategory);
 
         tooltip.innerHTML = `
             <div class="tooltip-header">
@@ -256,19 +260,19 @@ function setupEventListeners() {
             <div class="tooltip-divider"></div>
             <div class="tooltip-body">
                 <div class="tooltip-row">
-                    <span>Performance Consistency (25%)</span>
+                    <span>Performance Consistency (${w.roll}%)</span>
                     <span>${rollVal.toFixed(2)}★</span>
                 </div>
                 <div class="tooltip-row">
-                    <span>Information Ratio (25%)</span>
+                    <span>Information Ratio (${w.ir}%)</span>
                     <span>${irVal.toFixed(2)}★</span>
                 </div>
                 <div class="tooltip-row">
-                    <span>CAPM Alpha (25%)</span>
+                    <span>CAPM Alpha (${w.alpha}%)</span>
                     <span>${alphaVal.toFixed(2)}★</span>
                 </div>
                 <div class="tooltip-row">
-                    <span>Downside Protection (25%)</span>
+                    <span>Downside Protection (${w.dc}%)</span>
                     <span>${dcVal.toFixed(2)}★</span>
                 </div>
                 ${overlayHtml}
@@ -592,6 +596,11 @@ function renderTableData() {
         
         const managerText = fund.Managers || 'N/A';
         const managerTitleText = managerText.replace(/"/g, '&quot;');
+        
+        let managerHtml = formatManagerLinks(managerText);
+        if (fund.Manager_Changed_Recently) {
+            managerHtml += ` <span class="manager-change-badge" title="New Lead Manager appointed recently (on ${fund.Manager_Change_Date || 'N/A'})">⚠️ New Manager</span>`;
+        }
 
         tr.innerHTML = `
             <td>${fund.origRank}</td>
@@ -607,7 +616,7 @@ function renderTableData() {
             <td class="${alphaClass}">${formatAlpha(alphaVal)}</td>
             <td class="${downsideClass}">${formatPercentNoSign(downsideVal)}</td>
             <td>${formatNum(fund['Information Ratio (3Y)'])}</td>
-            <td class="text-left manager-col" title="${managerTitleText}">${formatManagerLinks(managerText)}</td>
+            <td class="text-left manager-col" title="${managerTitleText}">${managerHtml}</td>
         `;
         
         tr.addEventListener('click', () => {
@@ -720,14 +729,25 @@ function showDrawer(fund) {
     const tenureAdj = fund.Manager_Tenure_Adj || 0;
     if (tenureYears !== undefined && tenureYears !== null) {
         if (tenureAdj < 0) {
-            managerTenureHtml = `<div class="alert-value warning" style="margin-top: 5px; font-size: 0.8rem;">⚠️ Lead Manager Tenure: ${tenureYears} years (-0.5★ Transition Penalty Applied)</div>`;
+            managerTenureHtml = `<div class="alert-value warning" style="margin-top: 5px; font-size: 0.8rem;">⚠️ Lead Manager Tenure: ${tenureYears} years (Recent transition: -0.5★ advisory penalty)</div>`;
         } else if (tenureAdj > 0) {
-            managerTenureHtml = `<div class="alert-value success" style="margin-top: 5px; font-size: 0.8rem;">✓ Lead Manager Tenure: ${tenureYears} years (+0.25★ Veteran Stability Bonus Applied)</div>`;
+            managerTenureHtml = `<div class="alert-value success" style="margin-top: 5px; font-size: 0.8rem;">✓ Lead Manager Tenure: ${tenureYears} years (Veteran stability: +0.25★ advisory bonus)</div>`;
         } else {
             managerTenureHtml = `<div class="alert-value success" style="margin-top: 5px; font-size: 0.8rem;">✓ Lead Manager Tenure: ${tenureYears} years (Stable tenure)</div>`;
         }
     } else {
         managerTenureHtml = `<div class="text-muted" style="margin-top: 5px; font-size: 0.8rem;">Tenure details: Stable / Neutral (3.5 year baseline assumed)</div>`;
+    }
+
+    // Manager change warning block
+    let managerChangeWarningHtml = '';
+    if (fund.Manager_Changed_Recently) {
+        managerChangeWarningHtml = `
+            <div class="alert-value warning" style="margin-top: 10px; font-size: 0.8rem; line-height: 1.5; padding: 10px; border-radius: 4px;">
+                ⚠️ <strong>Lead Manager Changed Recently (${fund.Manager_Change_Date || 'N/A'})</strong><br/>
+                Please note that historical risk-adjusted metrics (Information Ratio, Net Alpha, Downside Capture) reflect the performance of the previous manager. They may not represent the investment style and future performance of the newly appointed management.
+            </div>
+        `;
     }
 
     drawerContent.innerHTML = `
@@ -828,6 +848,7 @@ function showDrawer(fund) {
                     <span class="modal-item-label">Current Managers (Click for LinkedIn Lookup)</span>
                     <span class="modal-item-value" style="font-size:0.9rem; font-weight:500; color:#e2e8f0; line-height: 1.4; margin-bottom: 5px;">${formatManagerLinks(fund.Managers, true)}</span>
                     ${managerTenureHtml}
+                    ${managerChangeWarningHtml}
                 </div>
             </div>
         </div>

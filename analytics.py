@@ -198,8 +198,9 @@ class QuantEngine:
         if np.isnan(category_avg_rolling_3y):
             category_avg_rolling_3y = 0.0
 
-        # Calculate Net Alpha
-        df["Net Alpha (%)"] = df["Alpha (3Y)"] - df["Expense Ratio (%)"].fillna(0)
+        # Calculate Net Alpha (Note: raw Alpha calculated from NAV is already net of expenses.
+        # Subtracting Expense Ratio again would be a double deduction.)
+        df["Net Alpha (%)"] = df["Alpha (3Y)"]
 
         # 1. Define Category Weightings Map (Dynamic Weighting by Mandate)
         cat_name_lower = category_name.lower()
@@ -251,44 +252,32 @@ class QuantEngine:
             r3y_roll = row["3Y Rolling Return (%)"]
             if pd.notna(r3y_roll) and not np.isnan(r3y_roll):
                 diff = r3y_roll - category_avg_rolling_3y
-                if diff >= 3.0: raw_roll = 5.0
-                elif diff >= 0.0: raw_roll = 3.75
-                elif diff >= -3.0: raw_roll = 2.5
-                elif diff >= -6.0: raw_roll = 1.25
-                else: raw_roll = 0.0
+                # Continuous interpolation: -9.0% -> 0.0, -6.0% -> 1.25, -3.0% -> 2.5, 0.0% -> 3.75, 3.0% -> 5.0
+                raw_roll = float(np.interp(diff, [-9.0, -6.0, -3.0, 0.0, 3.0], [0.0, 1.25, 2.5, 3.75, 5.0]))
             else:
                 raw_roll = 2.5
 
             # 2. Information Ratio
             ir3y = row["Information Ratio (3Y)"]
             if pd.notna(ir3y) and not np.isnan(ir3y):
-                if ir3y >= 1.0: raw_ir = 5.0
-                elif ir3y >= 0.75: raw_ir = 3.75
-                elif ir3y >= 0.5: raw_ir = 2.5
-                elif ir3y >= 0.0: raw_ir = 1.25
-                else: raw_ir = 0.0
+                # Continuous interpolation: -0.5 -> 0.0, 0.0 -> 1.25, 0.5 -> 2.5, 0.75 -> 3.75, 1.0 -> 5.0
+                raw_ir = float(np.interp(ir3y, [-0.5, 0.0, 0.5, 0.75, 1.0], [0.0, 1.25, 2.5, 3.75, 5.0]))
             else:
                 raw_ir = 2.5
 
             # 3. Net Alpha
             net_alpha = row["Net Alpha (%)"]
             if pd.notna(net_alpha) and not np.isnan(net_alpha):
-                if net_alpha >= 5.0: raw_alpha = 5.0
-                elif net_alpha >= 2.5: raw_alpha = 3.75
-                elif net_alpha >= 0.0: raw_alpha = 2.5
-                elif net_alpha >= -2.0: raw_alpha = 1.25
-                else: raw_alpha = 0.0
+                # Continuous interpolation: -4.0% -> 0.0, -2.0% -> 1.25, 0.0% -> 2.5, 2.5% -> 3.75, 5.0% -> 5.0
+                raw_alpha = float(np.interp(net_alpha, [-4.0, -2.0, 0.0, 2.5, 5.0], [0.0, 1.25, 2.5, 3.75, 5.0]))
             else:
                 raw_alpha = 2.5
 
             # 4. Downside Capture
             dc3y = row["Downside Capture (3Y)"]
             if pd.notna(dc3y) and not np.isnan(dc3y):
-                if dc3y <= 80.0: raw_dc = 5.0
-                elif dc3y <= 95.0: raw_dc = 3.75
-                elif dc3y <= 100.0: raw_dc = 3.125
-                elif dc3y <= 110.0: raw_dc = 1.875
-                else: raw_dc = 0.0
+                # Continuous interpolation (smaller is better): 80% -> 5.0, 95% -> 3.75, 100% -> 3.125, 110% -> 1.875, 120% -> 0.0
+                raw_dc = float(np.interp(dc3y, [80.0, 95.0, 100.0, 110.0, 120.0], [5.0, 3.75, 3.125, 1.875, 0.0]))
             else:
                 raw_dc = 2.5
 
@@ -305,7 +294,7 @@ class QuantEngine:
 
             total_score = roll_contrib + ir_contrib + alpha_contrib + dc_contrib
 
-            # Apply Dynamic AUM Adjustments
+            # Apply Progressive AUM Adjustments
             aum_val = row["AUM (Cr)"]
             aum_adj = 0.0
             
@@ -316,40 +305,44 @@ class QuantEngine:
             
             if pd.notna(aum_val) and not np.isnan(aum_val):
                 if is_mid_or_small:
-                    # Penalty for scale bloat in small/mid caps (high liquidity drag)
                     if "small cap" in cat_name_lower and aum_val > 15000:
-                        aum_adj = -0.5
+                        # Starts at 15k Cr, increases linearly to max -0.75 penalty at 30k Cr
+                        aum_adj = max(-0.75, -((aum_val - 15000) / 15000) * 0.75)
                     elif "mid cap" in cat_name_lower and aum_val > 25000:
-                        aum_adj = -0.5
+                        # Starts at 25k Cr, increases linearly to max -0.75 penalty at 50k Cr
+                        aum_adj = max(-0.75, -((aum_val - 25000) / 25000) * 0.75)
                 elif is_flexi_or_multi:
-                    # Scale drag penalty in flexi/multi caps (restricts agility across smaller caps, forcing large cap bias)
                     if aum_val > 35000:
-                        aum_adj = -0.25
+                        # Starts at 35k Cr, increases linearly to max -0.50 penalty at 70k Cr
+                        aum_adj = max(-0.50, -((aum_val - 35000) / 35000) * 0.50)
                 elif is_liquid_or_debt:
-                    # Bonus for systemic safety in debt/liquid (AUM > 30,000 Cr)
                     if aum_val > 30000:
-                        aum_adj = 0.25
+                        # Starts at 30k Cr, increases linearly to max +0.25 bonus at 60k Cr
+                        aum_adj = min(0.25, ((aum_val - 30000) / 30000) * 0.25)
                 elif is_large_or_hybrid:
-                    # Bonus for scale advantage in Large/Hybrid (AUM > 20,000 Cr, lower expense ratios and stable index tracking)
                     if aum_val > 20000:
-                        aum_adj = 0.25
+                        # Starts at 20k Cr, increases linearly to max +0.25 bonus at 40k Cr
+                        aum_adj = min(0.25, ((aum_val - 20000) / 20000) * 0.25)
             
             total_score += aum_adj
-            aum_adjustment_list.append(aum_adj)
+            aum_adjustment_list.append(round(aum_adj, 4))
 
-            # Apply Manager Tenure Adjustments
+            # Apply Manager Tenure Details (Isolated from the actual rating score calculation)
             scheme_code = str(row["code"])
             tenure = MANAGER_TENURE_MAP.get(scheme_code, 3.5)  # Default to neutral 3.5 years
             tenure_list.append(tenure)
             
+            # Calculate what the tenure adjustment would have been for frontend compatibility
             tenure_adj = 0.0
-            if tenure < 1.0:
-                tenure_adj = -0.5  # Transition Penalty
-            elif tenure > 5.0:
-                tenure_adj = 0.25  # Veteran Bonus
+            if tenure < 3.0:
+                # Continuous scale from -0.5 at 0.0 years to 0.0 at 3.0 years
+                tenure_adj = -0.5 * (1.0 - (tenure / 3.0))
+            elif tenure > 3.0:
+                # Continuous scale from 0.0 at 3.0 years to +0.25 at 8.0+ years
+                tenure_adj = min(0.25, 0.25 * ((tenure - 3.0) / 5.0))
                 
-            total_score += tenure_adj
-            tenure_adjustment_list.append(tenure_adj)
+            # Note: We append to the list for UI display, but we DO NOT add it to total_score
+            tenure_adjustment_list.append(round(tenure_adj, 4))
 
             # Cap the final score between 0.5 and 5.0 stars
             final_rating_score = min(5.0, max(0.5, total_score))
