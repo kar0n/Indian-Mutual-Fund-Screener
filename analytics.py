@@ -252,24 +252,27 @@ class QuantEngine:
             r3y_roll = row["3Y Rolling Return (%)"]
             if pd.notna(r3y_roll) and not np.isnan(r3y_roll):
                 diff = r3y_roll - category_avg_rolling_3y
-                # Continuous interpolation: -9.0% -> 0.0, -6.0% -> 1.25, -3.0% -> 2.5, 0.0% -> 3.75, 3.0% -> 5.0
-                raw_roll = float(np.interp(diff, [-9.0, -6.0, -3.0, 0.0, 3.0], [0.0, 1.25, 2.5, 3.75, 5.0]))
+                # Continuous interpolation: -10.0% -> 0.0, -5.0% -> 1.25, 0.0% -> 2.5, 5.0% -> 3.75, 10.0% -> 5.0
+                # Widen bounds to avoid compression at the top, allowing true outperformers to stand out.
+                raw_roll = float(np.interp(diff, [-10.0, -5.0, 0.0, 5.0, 10.0], [0.0, 1.25, 2.5, 3.75, 5.0]))
             else:
                 raw_roll = 2.5
 
             # 2. Information Ratio
             ir3y = row["Information Ratio (3Y)"]
             if pd.notna(ir3y) and not np.isnan(ir3y):
-                # Continuous interpolation: -0.5 -> 0.0, 0.0 -> 1.25, 0.5 -> 2.5, 0.75 -> 3.75, 1.0 -> 5.0
-                raw_ir = float(np.interp(ir3y, [-0.5, 0.0, 0.5, 0.75, 1.0], [0.0, 1.25, 2.5, 3.75, 5.0]))
+                # Continuous interpolation: -0.5 -> 0.0, 0.0 -> 1.25, 0.5 -> 2.5, 1.0 -> 3.75, 2.0 -> 5.0
+                # Widen bounds to 2.0 to reward exceptional risk-adjusted active managers.
+                raw_ir = float(np.interp(ir3y, [-0.5, 0.0, 0.5, 1.0, 2.0], [0.0, 1.25, 2.5, 3.75, 5.0]))
             else:
                 raw_ir = 2.5
 
             # 3. Net Alpha
             net_alpha = row["Net Alpha (%)"]
             if pd.notna(net_alpha) and not np.isnan(net_alpha):
-                # Continuous interpolation: -4.0% -> 0.0, -2.0% -> 1.25, 0.0% -> 2.5, 2.5% -> 3.75, 5.0% -> 5.0
-                raw_alpha = float(np.interp(net_alpha, [-4.0, -2.0, 0.0, 2.5, 5.0], [0.0, 1.25, 2.5, 3.75, 5.0]))
+                # Continuous interpolation: -5.0% -> 0.0, 0.0% -> 1.25, 4.0% -> 2.5, 8.0% -> 3.75, 15.0% -> 5.0
+                # Widen bounds to 15% to accommodate high active alpha segments in Small/Mid cap spaces.
+                raw_alpha = float(np.interp(net_alpha, [-5.0, 0.0, 4.0, 8.0, 15.0], [0.0, 1.25, 2.5, 3.75, 5.0]))
             else:
                 raw_alpha = 2.5
 
