@@ -5,6 +5,8 @@
     { "src": "app.js", "use": "@vercel/static" },
     { "src": "index.css", "use": "@vercel/static" },
     { "src": "mf_universe_data.json", "use": "@vercel/static" },
-    { "src": "favicon.svg", "use": "@vercel/static" }
+    { "src": "favicon.svg", "use": "@vercel/static" },
+    { "src": "robots.txt", "use": "@vercel/static" },
+    { "src": "sitemap.xml", "use": "@vercel/static" }
   ]
 }
