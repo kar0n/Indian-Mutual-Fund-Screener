@@ -848,3 +848,27 @@ function closeDrawer() {
     detailsDrawer.classList.remove('active');
     drawerOverlay.classList.remove('active');
 }
+
+// Theme Toggle Logic
+const themeToggleBtn = document.getElementById('theme-toggle');
+const docBody = document.body;
+
+// Check local storage for theme preference, default to light
+const savedTheme = localStorage.getItem('theme');
+if (savedTheme === 'dark') {
+    docBody.classList.add('dark-theme');
+} else {
+    docBody.classList.remove('dark-theme');
+}
+
+if (themeToggleBtn) {
+    themeToggleBtn.addEventListener('click', () => {
+        docBody.classList.toggle('dark-theme');
+        
+        if (docBody.classList.contains('dark-theme')) {
+            localStorage.setItem('theme', 'dark');
+        } else {
+            localStorage.setItem('theme', 'light');
+        }
+    });
+}
