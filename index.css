@@ -962,12 +962,12 @@ select.form-input {
 
 /* LIGHT THEME OVERRIDES */
 body:not(.dark-theme) {
-    --bg-color: #f1f5f9;
-    --panel-bg: rgba(255, 255, 255, 0.7);
-    --panel-border: rgba(203, 213, 225, 0.8);
-    --card-glow: rgba(59, 130, 246, 0.1);
-    --text-main: #0f172a;
-    --text-muted: #475569;
+    --bg-color: #f0f7ff;
+    --panel-bg: rgba(255, 255, 255, 0.75);
+    --panel-border: rgba(186, 230, 253, 0.8);
+    --card-glow: rgba(59, 130, 246, 0.15);
+    --text-main: #1e3a8a;
+    --text-muted: #3b82f6;
     --text-dark: #f8fafc;
     
     --primary: #2563eb;
@@ -990,7 +990,7 @@ body:not(.dark-theme) .tooltip-fund-name,
 body:not(.dark-theme) .tooltip-row span:last-child,
 body:not(.dark-theme) .holding-name,
 body:not(.dark-theme) .column-tooltip .col-tooltip-title {
-    color: #0f172a !important;
+    color: #1e3a8a !important;
 }
 
 body:not(.dark-theme) .methodology-main-title,
@@ -1010,21 +1010,23 @@ body:not(.dark-theme) .manager-col {
 body:not(.dark-theme) .form-input,
 body:not(.dark-theme) .methodology-item,
 body:not(.dark-theme) .methodology-comparison-box {
-    background: rgba(255, 255, 255, 0.8) !important;
-    border-color: rgba(203, 213, 225, 0.6) !important;
+    background: rgba(255, 255, 255, 0.85) !important;
+    border-color: rgba(186, 230, 253, 0.7) !important;
 }
 
 body:not(.dark-theme) .methodology-comparison-box h4 {
-    color: #1e293b !important;
+    color: #1d4ed8 !important;
 }
 
 body:not(.dark-theme) .category-pill {
-    background: rgba(255, 255, 255, 0.6) !important;
-    border-color: rgba(203, 213, 225, 0.8) !important;
+    background: rgba(255, 255, 255, 0.7) !important;
+    border-color: rgba(186, 230, 253, 0.9) !important;
+    color: #1e3a8a !important;
 }
 
 body:not(.dark-theme) .category-pill:hover {
-    background: rgba(255, 255, 255, 0.95) !important;
+    background: rgba(224, 242, 254, 0.95) !important;
+    border-color: #7dd3fc !important;
 }
 
 body:not(.dark-theme) .category-pill.active {
@@ -1033,30 +1035,31 @@ body:not(.dark-theme) .category-pill.active {
 }
 
 body:not(.dark-theme) .quant-table th {
-    background: #e2e8f0 !important;
-    color: #475569 !important;
+    background: #e0f2fe !important;
+    color: #1e3a8a !important;
 }
 
 body:not(.dark-theme) .methodology-note {
-    background: rgba(59, 130, 246, 0.1) !important;
+    background: rgba(219, 234, 254, 0.6) !important;
+    color: #1e3a8a !important;
 }
 
 body:not(.dark-theme) .drawer-overlay {
-    background: rgba(241, 245, 249, 0.6) !important;
+    background: rgba(224, 242, 254, 0.6) !important;
 }
 
 body:not(.dark-theme) .drawer,
 body:not(.dark-theme) .rating-tooltip.glass,
 body:not(.dark-theme) .column-tooltip.glass {
     background: rgba(255, 255, 255, 0.95) !important;
-    border-color: rgba(203, 213, 225, 0.6) !important;
+    border-color: rgba(186, 230, 253, 0.9) !important;
 }
 
 body:not(.dark-theme) .close-btn {
-    color: #475569 !important;
+    color: #3b82f6 !important;
 }
 body:not(.dark-theme) .close-btn:hover {
-    color: #0f172a !important;
+    color: #1e3a8a !important;
 }
 
 body:not(.dark-theme) .holding-weight,
@@ -1065,55 +1068,55 @@ body:not(.dark-theme) .tooltip-row.overlay-row span:first-child {
 }
 
 body:not(.dark-theme) .quant-table tbody tr:hover {
-    background-color: rgba(226, 232, 240, 0.6) !important;
+    background-color: rgba(224, 242, 254, 0.6) !important;
 }
 
 body:not(.dark-theme) .quant-table td {
-    border-bottom: 1px solid rgba(203, 213, 225, 0.6) !important;
+    border-bottom: 1px solid rgba(186, 230, 253, 0.7) !important;
 }
 
 body:not(.dark-theme) .holding-row {
-    border-bottom: 1px solid rgba(203, 213, 225, 0.4) !important;
+    border-bottom: 1px solid rgba(186, 230, 253, 0.5) !important;
 }
 
 body:not(.dark-theme) .rating-detail-item {
-    border-bottom: 1px solid rgba(203, 213, 225, 0.4) !important;
+    border-bottom: 1px solid rgba(186, 230, 253, 0.5) !important;
 }
 
 body:not(.dark-theme) .manager-more-tag {
-    background: rgba(241, 245, 249, 0.8) !important;
-    border-color: rgba(203, 213, 225, 0.8) !important;
-    color: #475569 !important;
+    background: rgba(224, 242, 254, 0.9) !important;
+    border-color: rgba(186, 230, 253, 0.9) !important;
+    color: #1d4ed8 !important;
 }
 body:not(.dark-theme) .manager-more-tag:hover {
     background: #ffffff !important;
-    color: #0f172a !important;
+    color: #1e3a8a !important;
 }
 
 body:not(.dark-theme) .count-badge,
 body:not(.dark-theme) .mcap-badge,
 body:not(.dark-theme) .methodology-toggle-badge {
-    background: rgba(241, 245, 249, 0.8) !important;
-    border-color: rgba(203, 213, 225, 0.8) !important;
-    color: #475569 !important;
+    background: rgba(224, 242, 254, 0.9) !important;
+    border-color: rgba(186, 230, 253, 0.9) !important;
+    color: #1e3a8a !important;
 }
 
 body:not(.dark-theme) .methodology-toggle-badge {
-    color: #475569 !important;
+    color: #1e3a8a !important;
 }
 
 body:not(.dark-theme) .methodology-header:hover .methodology-toggle-badge {
-    background: rgba(226, 232, 240, 0.9) !important;
-    color: #0f172a !important;
+    background: rgba(186, 230, 253, 0.95) !important;
+    color: #1e3a8a !important;
 }
 
 body:not(.dark-theme) .methodology-desc-block code {
-    background: rgba(203, 213, 225, 0.4) !important;
-    color: #0f172a !important;
+    background: rgba(219, 234, 254, 0.8) !important;
+    color: #1d4ed8 !important;
 }
 
 body:not(.dark-theme) .tooltip-divider {
-    background: rgba(203, 213, 225, 0.6) !important;
+    background: rgba(186, 230, 253, 0.7) !important;
 }
 
 /* Theme Toggle Button Style */
