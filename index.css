@@ -960,6 +960,43 @@ select.form-input {
     line-height: 1.55;
 }
 
+/* SEO FAQ Section */
+.faq-section {
+    padding: 1.5rem 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.faq-title {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-main);
+    border-bottom: 1px solid var(--panel-border);
+    padding-bottom: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.faq-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.faq-question {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.faq-answer {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+}
+
 /* LIGHT THEME OVERRIDES */
 body:not(.dark-theme) {
     --bg-color: #f0f7ff;
