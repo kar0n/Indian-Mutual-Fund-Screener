@@ -113,8 +113,9 @@
                         <div class="methodology-desc-block">
                             <p><strong>Simple Meaning:</strong> The overall grade of the fund based on mathematical consistency and size checks.</p>
                             <p><strong>Baseline / Benchmark:</strong> <code>&ge; 4★</code> represents top-tier consistency and risk control. <code>&lt; 3★</code> indicates high risk or below-average consistency.</p>
-                            <p><strong>Scoring Details:</strong> Combines 1Y/3Y/5Y Rolling Returns (25%), Information Ratio (25%), CAPM Alpha (25%), and Downside Capture (25%).
-                            <br>• <em>AUM Penalty:</em> Small-cap funds >15,000 Cr and Mid-cap funds >25,000 Cr are penalized by <strong>-0.5★</strong> because large fund size makes it difficult to buy and sell smaller stocks without moving market prices.
+                            <p><strong>Scoring Details:</strong> Combines 3Y Rolling Returns (25%), Information Ratio (25%), CAPM Alpha (25%), and Downside Capture (25%).
+                            <br>• <em>Minimum Track Record:</em> Funds must have a minimum 3-year (756 business days) historical NAV series to receive a rating. Newer funds are marked as <strong>UR</strong> (Unrated) and sorted at the bottom.
+                            <br>• <em>AUM Adjustment:</em> Mid-cap and Small-cap funds are penalized by up to <strong>-0.75★</strong> progressively as AUM bloats (since size hurts liquidity/agility), whereas Large-cap and Debt funds are rewarded up to <strong>+0.25★</strong> for institutional stability.
                             <br>• <em>Concentration Penalty:</em> Top-10 stock weight outside the healthy range of 20% to 45% is penalized by <strong>-0.25★</strong> (too concentrated is risky; too diluted acts like a boring index fund).</p>
                         </div>
                     </div>
@@ -208,7 +209,7 @@
                         <tr>
                             <th data-sort="rank" class="sortable sorted-asc" data-col-desc="Composite quant rank based on Overall Rating score. Lower is better.">Rank <span class="sort-icon">▲</span></th>
                             <th data-sort="name" class="sortable text-left" data-col-desc="Official AMFI-registered scheme name. Only Direct Plan / Growth option schemes are included.">Scheme Name <span class="sort-icon"></span></th>
-                            <th data-sort="rating" class="sortable" data-col-desc="Overall quant grade (max 5★). Combines Rolling Returns (25%), Information Ratio (25%), CAPM Alpha (25%), and Downside Capture (25%), with AUM and tenure adjustments.">Rating <span class="sort-icon"></span></th>
+                            <th data-sort="rating" class="sortable" data-col-desc="Overall quant grade (max 5★). Requires a minimum 3-year history; combines 3Y Rolling Returns (25%), Information Ratio (25%), CAPM Alpha (25%), and Downside Capture (25%), with AUM adjustments.">Rating <span class="sort-icon"></span></th>
                             <th data-sort="aum" class="sortable aum-col" data-col-desc="Assets Under Management in Crores. Very large AUM in small/mid-cap funds can hurt agility and returns due to market impact cost.">AUM (Cr) <span class="sort-icon"></span></th>
                             <th data-sort="r1y_roll" class="sortable" data-col-desc="Average annualized return across all overlapping 1-year windows in history. Eliminates endpoint bias from single-date comparisons.">1Y Rolling Return <span class="sort-icon"></span></th>
                             <th data-sort="r3y_roll" class="sortable" data-col-desc="Average CAGR across all overlapping 3-year windows. Captures performance consistency through complete bull and bear market cycles.">3Y Rolling Return <span class="sort-icon"></span></th>
@@ -242,12 +243,19 @@
                 <div class="faq-answer-content">
                     <p class="faq-answer" style="margin-bottom: 0.5rem;">Our proprietary 5-Star rating system calculates a comprehensive <strong>composite score</strong> rather than relying on just one metric. It grades mutual funds based on 4 main factors:</p>
                     <ul class="faq-answer" style="padding-left: 1.5rem; list-style-type: disc; margin-bottom: 0.5rem;">
-                        <li><strong>3Y Rolling Returns:</strong> Measures long-term consistency and eliminates market timing luck.</li>
-                        <li><strong>3Y CAPM Alpha:</strong> Measures the manager's pure stock-picking skill above the benchmark.</li>
-                        <li><strong>3Y Information Ratio:</strong> Measures risk-adjusted return (excess return per unit of risk).</li>
-                        <li><strong>Downside Capture:</strong> Measures the fund's defensive ability during market crashes.</li>
+                        <li><strong>3Y Rolling Returns (25%):</strong> Measures long-term performance consistency and eliminates endpoint market timing luck.</li>
+                        <li><strong>3Y CAPM Alpha (25%):</strong> Measures the manager's pure stock-picking skill above the benchmark.</li>
+                        <li><strong>3Y Information Ratio (25%):</strong> Measures risk-adjusted return (excess return per unit of active risk).</li>
+                        <li><strong>Downside Capture (25%):</strong> Measures the fund's defensive ability to limit losses during market crashes.</li>
                     </ul>
-                    <p class="faq-answer">Finally, it applies strict penalties for extreme AUM bloat (which hinders agility) and rewards long-term manager tenure, distilling all this complex quantitative data into a simple 1 to 5 Star rating.</p>
+                    <p class="faq-answer">Finally, it applies progressive adjustments for AUM size (penalizing small-cap/mid-cap funds with excessive size that hinders portfolio agility, while rewarding large-cap/debt funds for scale and stability) to arrive at the final rating. Manager tenure is tracked strictly as a qualitative overlay to prevent data coverage bias.</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary class="faq-question">Why are some mutual funds marked as "UR" (Unrated)?</summary>
+                <div class="faq-answer-content">
+                    <p class="faq-answer">Funds must have a minimum 3-year (756 business days) historical track record to be eligible for a star rating. Since short-term performance can be heavily influenced by temporary market trends or luck, we mark funds under 3 years old as <strong>UR</strong> (Unrated) and place them at the bottom of the rankings. This ensures a fair, risk-adjusted comparison against veteran funds and prevents newer, unproven funds from outranking seasoned performers purely due to a short-term hot streak.</p>
                 </div>
             </details>
 
