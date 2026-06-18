@@ -27,7 +27,7 @@ const headerMeta = document.getElementById('header-meta');
 
 // Helper to check if a value is nil (null, undefined, NaN, or empty string)
 function isNilOrNaN(val) {
-    return val === null || val === undefined || (typeof val === 'number' && isNaN(val)) || val === '';
+    return val === null || val === undefined || (typeof val === 'number' && isNaN(val)) || val === '' || val === '-';
 }
 
 // Helper formatting utilities
@@ -254,7 +254,7 @@ function setupEventListeners() {
                 <div class="tooltip-fund-name">${fund['Fund Name']}</div>
                 <div class="tooltip-overall">
                     <span class="stars">${fund.Rating}</span>
-                    <span class="score">(${fund.Rating_Score.toFixed(3)} / 5.0)</span>
+                    <span class="score">(${fund.Rating_Score !== null && fund.Rating_Score !== undefined ? fund.Rating_Score.toFixed(3) : 'UR'} / 5.0)</span>
                 </div>
             </div>
             <div class="tooltip-divider"></div>
@@ -429,7 +429,7 @@ function handleCategoryChange() {
     const rawFunds = window.mfData.categories[currentCategory] || [];
     categoryFunds = rawFunds.map((fund, idx) => ({
         ...fund,
-        origRank: idx + 1
+        origRank: fund.Rating_Score === null || fund.Rating_Score === undefined ? '-' : idx + 1
     }));
 
     // Reset sort to 'rank' asc by default
@@ -454,7 +454,7 @@ function renderCategoryStats() {
     // Leader (first element in original array which is sorted by score)
     const leader = categoryFunds[0];
     leaderName.textContent = leader['Fund Name'];
-    leaderRating.innerHTML = `<span class="rating-stars rating-tooltip-trigger" data-fund-code="${leader.code}">${leader.Rating}</span> <span class="score-val">(${leader.Rating_Score.toFixed(3)})</span>`;
+    leaderRating.innerHTML = `<span class="rating-stars rating-tooltip-trigger" data-fund-code="${leader.code}">${leader.Rating}</span> <span class="score-val">(${leader.Rating_Score !== null && leader.Rating_Score !== undefined ? leader.Rating_Score.toFixed(3) : 'UR'})</span>`;
 
     // Averages
     let sumRoll = 0, countRoll = 0;
@@ -610,7 +610,7 @@ function renderTableData() {
             <td class="scheme-name text-left">${fund['Fund Name']}</td>
             <td class="rating-cell rating-tooltip-trigger" data-fund-code="${fund.code}">
                 <div class="rating-stars">${fund.Rating}</div>
-                <div class="rating-score-subtext">${fund.Rating_Score.toFixed(3)}</div>
+                <div class="rating-score-subtext">${fund.Rating_Score !== null && fund.Rating_Score !== undefined ? fund.Rating_Score.toFixed(3) : 'N/A'}</div>
             </td>
             <td class="aum-col">${aumText}</td>
             <td class="${r1yRollClass}">${formatPercent(r1yRollVal)}</td>
@@ -760,7 +760,7 @@ function showDrawer(fund) {
             <div class="drawer-section-title">Quantitative Scorecard Breakdown</div>
             <div class="rating-detail-item">
                 <span class="rating-detail-label">Overall Quant Rating</span>
-                <span class="rating-detail-stars">${fund.Rating} (${fund.Rating_Score.toFixed(3)}★ / 5★)</span>
+                <span class="rating-detail-stars">${fund.Rating} (${fund.Rating_Score !== null && fund.Rating_Score !== undefined ? fund.Rating_Score.toFixed(3) + '★' : 'UR'} / 5★)</span>
             </div>
             <div class="rating-detail-item">
                 <span class="rating-detail-label">Performance Consistency (Rolling Returns)</span>

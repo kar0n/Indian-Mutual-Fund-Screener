@@ -253,26 +253,14 @@ class QuantEngine:
         aum_adjustment_list = []
 
         for idx, row in df.iterrows():
-            # 1. Performance Consistency (Multi-Horizon Rolling Returns: 3Y & 5Y)
+            # 1. Performance Consistency (3Y Rolling Returns Only)
             r3y_roll = row["3Y Rolling Return (%)"]
-            r5y_roll = row["5Y Rolling Return (%)"]
             
             diff = 0.0
             has_data = False
             
             if pd.notna(r3y_roll) and not np.isnan(r3y_roll):
-                diff_3y = r3y_roll - category_avg_rolling_3y
-                has_data = True
-                if pd.notna(r5y_roll) and not np.isnan(r5y_roll):
-                    diff_5y = r5y_roll - category_avg_rolling_5y
-                    # Weighted blend: 40% 3Y and 60% 5Y (rewards long-term performance stability)
-                    diff = (diff_3y * 0.4) + (diff_5y * 0.6)
-                else:
-                    # Fallback to pure 3Y diff if 5Y is missing (newer fund)
-                    diff = diff_3y
-            elif pd.notna(r5y_roll) and not np.isnan(r5y_roll):
-                # Fallback to pure 5Y diff if 3Y is missing
-                diff = r5y_roll - category_avg_rolling_5y
+                diff = r3y_roll - category_avg_rolling_3y
                 has_data = True
                 
             if has_data:
@@ -371,8 +359,11 @@ class QuantEngine:
             # Note: We append to the list for UI display, but we DO NOT add it to total_score
             tenure_adjustment_list.append(round(tenure_adj, 4))
 
-            # Cap the final score between 0.5 and 5.0 stars
-            final_rating_score = min(5.0, max(0.5, total_score))
+            # If the fund lacks 3 years of history (missing 3Y rolling returns), it is ineligible for ranking.
+            if pd.isna(r3y_roll) or np.isnan(r3y_roll):
+                final_rating_score = np.nan
+            else:
+                final_rating_score = min(5.0, max(0.5, total_score))
             ratings.append(final_rating_score)
 
         df["Rating_Score"] = ratings
@@ -386,7 +377,7 @@ class QuantEngine:
 
         def to_stars(score):
             if np.isnan(score):
-                return "N/A"
+                return "UR"
             full_stars = int(score)
             half_star = "½" if (score - full_stars) >= 0.25 else ""
             if full_stars == 0 and not half_star:
