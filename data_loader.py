@@ -4,6 +4,7 @@ import datetime
 import logging
 import re
 import time
+import threading
 from typing import Dict, List, Optional, Tuple
 import pandas as pd
 import requests
@@ -186,6 +187,8 @@ class DataLoader:
             logging.error(f"Error fetching live risk free rate: {e}")
         return config.FALLBACK_RISK_FREE_RATE, "Baseline"
 
+    _upvaly_lock = threading.Lock()
+
     @staticmethod
     @st_cache(ttl=86400)  # Cache qualitative data for 24 hours
     def fetch_fund_details(scheme_code: str) -> Optional[Dict]:
@@ -195,15 +198,28 @@ class DataLoader:
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
         }
         retries = 3
-        for attempt in range(retries):
-            try:
-                res = requests.get(url, headers=headers, timeout=12)
-                if res.status_code == 200:
-                    body = res.json()
-                    if body.get("status") == "success" or body.get("statusCode") == 200:
-                        return body.get("data")
-            except Exception as e:
-                logging.warning(f"Factsheet fetch attempt {attempt+1} failed for scheme {scheme_code}: {e}")
-            if attempt < retries - 1:
-                time.sleep(0.5 * (attempt + 1))
+        
+        # Serialize Upvaly factsheet API queries using a thread Lock to prevent rate-limiting/timeouts
+        with DataLoader._upvaly_lock:
+            time.sleep(0.5) # Pacing delay to stay under rate limits
+            for attempt in range(retries):
+                try:
+                    res = requests.get(url, headers=headers, timeout=12)
+                    if res.status_code == 200:
+                        body = res.json()
+                        if body.get("status") == "success" or body.get("statusCode") == 200:
+                            return body.get("data")
+                        else:
+                            logging.warning(f"Factsheet API returned non-success for scheme {scheme_code}: {body.get('status') or body.get('statusCode')}")
+                    elif res.status_code == 429:
+                        logging.warning(f"Factsheet API Rate Limited (429) for scheme {scheme_code} on attempt {attempt+1}. Retrying with extra sleep...")
+                        if attempt < retries - 1:
+                            time.sleep(4.0) # Larger reset sleep
+                            continue
+                    else:
+                        logging.warning(f"Factsheet API HTTP error {res.status_code} for scheme {scheme_code} on attempt {attempt+1}")
+                except Exception as e:
+                    logging.warning(f"Factsheet fetch attempt {attempt+1} failed for scheme {scheme_code}: {e}")
+                if attempt < retries - 1:
+                    time.sleep(1.5 * (attempt + 1))
         return None

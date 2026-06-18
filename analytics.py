@@ -198,6 +198,10 @@ class QuantEngine:
         if np.isnan(category_avg_rolling_3y):
             category_avg_rolling_3y = 0.0
 
+        category_avg_rolling_5y = df["5Y Rolling Return (%)"].mean()
+        if np.isnan(category_avg_rolling_5y):
+            category_avg_rolling_5y = 0.0
+
         # Calculate Net Alpha (Note: raw Alpha calculated from NAV is already net of expenses.
         # Subtracting Expense Ratio again would be a double deduction.)
         df["Net Alpha (%)"] = df["Alpha (3Y)"]
@@ -248,10 +252,29 @@ class QuantEngine:
         aum_adjustment_list = []
 
         for idx, row in df.iterrows():
-            # 1. Performance Consistency
+            # 1. Performance Consistency (Multi-Horizon Rolling Returns: 3Y & 5Y)
             r3y_roll = row["3Y Rolling Return (%)"]
+            r5y_roll = row["5Y Rolling Return (%)"]
+            
+            diff = 0.0
+            has_data = False
+            
             if pd.notna(r3y_roll) and not np.isnan(r3y_roll):
-                diff = r3y_roll - category_avg_rolling_3y
+                diff_3y = r3y_roll - category_avg_rolling_3y
+                has_data = True
+                if pd.notna(r5y_roll) and not np.isnan(r5y_roll):
+                    diff_5y = r5y_roll - category_avg_rolling_5y
+                    # Weighted blend: 40% 3Y and 60% 5Y (rewards long-term performance stability)
+                    diff = (diff_3y * 0.4) + (diff_5y * 0.6)
+                else:
+                    # Fallback to pure 3Y diff if 5Y is missing (newer fund)
+                    diff = diff_3y
+            elif pd.notna(r5y_roll) and not np.isnan(r5y_roll):
+                # Fallback to pure 5Y diff if 3Y is missing
+                diff = r5y_roll - category_avg_rolling_5y
+                has_data = True
+                
+            if has_data:
                 # Continuous interpolation: -10.0% -> 0.0, -5.0% -> 1.25, 0.0% -> 2.5, 5.0% -> 3.75, 10.0% -> 5.0
                 # Widen bounds to avoid compression at the top, allowing true outperformers to stand out.
                 raw_roll = float(np.interp(diff, [-10.0, -5.0, 0.0, 5.0, 10.0], [0.0, 1.25, 2.5, 3.75, 5.0]))
