@@ -239,7 +239,8 @@ class QuantEngine:
             "120251": 14.0,  # ICICI Prudential Equity & Debt
             "120166": 14.0,  # Kotak Flexicap Fund
             "119835": 8.0,   # SBI Contra Fund
-            "119779": 0.8,   # SBI Small Cap Fund (Transition Penalty)
+            "119779": 0.8,   # SBI Small Cap Fund (Regular Plan - Transition Penalty)
+            "125497": 0.8,   # SBI Small Cap Fund (Direct Plan - Transition Penalty)
         }
 
         ratings = []

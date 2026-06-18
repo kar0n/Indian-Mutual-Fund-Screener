@@ -103,11 +103,18 @@ def main():
         for idx, row in df.iterrows():
             sc_code = str(row["code"])
             new_mgrs = str(row.get("Managers") or "").strip()
+            tenure = row.get("Manager_Tenure_Years")
             
             manager_changed_recently = False
             manager_change_date = None
             
-            if sc_code in old_db_lookup:
+            # 1. Trigger warning if manager tenure is under 1.0 year (indicates change in the last year)
+            if tenure is not None and isinstance(tenure, (int, float)) and tenure < 1.0:
+                manager_changed_recently = True
+                manager_change_date = f"~ {int(tenure * 12)} months ago"
+            
+            # 2. Check diffing lookup for live/recent manager switches
+            if not manager_changed_recently and sc_code in old_db_lookup:
                 old_rec = old_db_lookup[sc_code]
                 old_mgrs = str(old_rec.get("Managers") or "").strip()
                 
@@ -123,14 +130,19 @@ def main():
                     old_date_str = old_rec.get("Manager_Change_Date")
                     
                     if old_changed and old_date_str:
-                        try:
-                            old_date = datetime.datetime.strptime(old_date_str, "%Y-%m-%d").date()
-                            days_elapsed = (datetime.date.today() - old_date).days
-                            if days_elapsed < 180:  # Alert stays active for 180 days (6 months)
-                                manager_changed_recently = True
-                                manager_change_date = old_date_str
-                        except:
-                            pass
+                        # Keep it if it starts with "~" (handled by tenure check above, but check is safe)
+                        if old_date_str.startswith("~"):
+                            manager_changed_recently = True
+                            manager_change_date = old_date_str
+                        else:
+                            try:
+                                old_date = datetime.datetime.strptime(old_date_str, "%Y-%m-%d").date()
+                                days_elapsed = (datetime.date.today() - old_date).days
+                                if days_elapsed < 365:  # Alert stays active for 365 days (1 year)
+                                    manager_changed_recently = True
+                                    manager_change_date = old_date_str
+                            except:
+                                pass
             
             changed_flags.append(manager_changed_recently)
             change_dates.append(manager_change_date)

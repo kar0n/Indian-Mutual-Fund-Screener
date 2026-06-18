@@ -599,7 +599,10 @@ function renderTableData() {
         
         let managerHtml = formatManagerLinks(managerText);
         if (fund.Manager_Changed_Recently) {
-            managerHtml += ` <span class="manager-change-badge" title="New Lead Manager appointed recently (on ${fund.Manager_Change_Date || 'N/A'})">⚠️ New Manager</span>`;
+            const changeTooltip = fund.Manager_Change_Date && fund.Manager_Change_Date.startsWith('~')
+                ? `New Lead Manager appointed recently (${fund.Manager_Change_Date})`
+                : `New Lead Manager appointed recently (on ${fund.Manager_Change_Date || 'N/A'})`;
+            managerHtml += ` <span class="manager-change-badge" title="${changeTooltip}">⚠️ New Manager</span>`;
         }
 
         tr.innerHTML = `
