@@ -1134,6 +1134,17 @@ body:not(.dark-theme) .faq-item {
     .table-wrapper {
         max-height: calc(100vh - 200px);
     }
+
+    .quant-table {
+        border-collapse: separate;
+        border-spacing: 0;
+    }
+
+    .quant-table th {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
     
     /* Sticky First Column for Mobile */
     .quant-table th:nth-child(2),
