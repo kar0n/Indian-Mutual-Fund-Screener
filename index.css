@@ -518,6 +518,12 @@ select.form-input {
     border-bottom: 1px solid rgba(30, 41, 59, 0.3);
 }
 
+.quant-table thead {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
 .quant-table th {
     background: #0f172a;
     color: var(--text-muted);
@@ -1151,12 +1157,11 @@ body:not(.dark-theme) .faq-item {
     .quant-table td:nth-child(2) {
         position: sticky;
         left: 0;
-        z-index: 2;
     }
     
     .quant-table th:nth-child(2) {
         background: #1e293b; 
-        z-index: 3;
+        z-index: 12;
     }
     body:not(.dark-theme) .quant-table th:nth-child(2) {
         background: #e0f2fe !important; 
@@ -1164,6 +1169,7 @@ body:not(.dark-theme) .faq-item {
     
     .quant-table td:nth-child(2) {
         background: #0f172a; 
+        z-index: 2;
     }
     body:not(.dark-theme) .quant-table td:nth-child(2) {
         background: #f8fafc !important; 
