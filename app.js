@@ -702,7 +702,7 @@ function showDrawer(fund) {
                     <div class="holding-name">${h.name || 'N/A'}</div>
                     <div class="holding-sector">${h.sector || 'N/A'}</div>
                 </div>
-                <div class="holding-weight">${!isNilOrNaN(h.weightage) ? h.weightage.toFixed(2) + '%' : 'N/A'}</div>
+                <div class="holding-weight">${!isNilOrNaN(h.weightage) ? (typeof h.weightage === 'string' ? parseFloat(h.weightage) : h.weightage).toFixed(2) + '%' : 'N/A'}</div>
             </div>
         `).join('');
     } else {
