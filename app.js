@@ -784,27 +784,27 @@ function showDrawer(fund) {
             <div class="drawer-section-title">Performance & Risk Summary</div>
             <div class="modal-grid">
                 <div class="modal-item">
-                    <span class="modal-item-label">1Y Return</span>
+                    <span class="modal-item-label">1 Yr Return (CAGR)</span>
                     <span class="modal-item-value ${fund['1Y Return (%)'] > 0 ? 'percentage-val positive' : 'percentage-val negative'}">${formatPercent(fund['1Y Return (%)'])}</span>
                 </div>
                 <div class="modal-item">
-                    <span class="modal-item-label">3Y Return</span>
-                    <span class="modal-item-value ${fund['3Y Return (%)'] > 0 ? 'percentage-val positive' : 'percentage-val negative'}">${formatPercent(fund['3Y Return (%)'])}</span>
-                </div>
-                <div class="modal-item">
-                    <span class="modal-item-label">5Y Return</span>
-                    <span class="modal-item-value ${fund['5Y Return (%)'] > 0 ? 'percentage-val positive' : 'percentage-val negative'}">${formatPercent(fund['5Y Return (%)'])}</span>
-                </div>
-                <div class="modal-item">
-                    <span class="modal-item-label">1Y Rolling Return</span>
+                    <span class="modal-item-label">1 Yr Rolling Return</span>
                     <span class="modal-item-value ${fund['1Y Rolling Return (%)'] > 0 ? 'percentage-val positive' : 'percentage-val negative'}">${formatPercent(fund['1Y Rolling Return (%)'])}</span>
                 </div>
                 <div class="modal-item">
-                    <span class="modal-item-label">3Y Rolling Return</span>
+                    <span class="modal-item-label">3 Yr Return (CAGR)</span>
+                    <span class="modal-item-value ${fund['3Y Return (%)'] > 0 ? 'percentage-val positive' : 'percentage-val negative'}">${formatPercent(fund['3Y Return (%)'])}</span>
+                </div>
+                <div class="modal-item">
+                    <span class="modal-item-label">3 Yr Rolling Return</span>
                     <span class="modal-item-value ${fund['3Y Rolling Return (%)'] > 0 ? 'percentage-val positive' : 'percentage-val negative'}">${formatPercent(fund['3Y Rolling Return (%)'])}</span>
                 </div>
                 <div class="modal-item">
-                    <span class="modal-item-label">5Y Rolling Return</span>
+                    <span class="modal-item-label">5 Yr Return (CAGR)</span>
+                    <span class="modal-item-value ${fund['5Y Return (%)'] > 0 ? 'percentage-val positive' : 'percentage-val negative'}">${formatPercent(fund['5Y Return (%)'])}</span>
+                </div>
+                <div class="modal-item">
+                    <span class="modal-item-label">5 Yr Rolling Return</span>
                     <span class="modal-item-value ${fund['5Y Rolling Return (%)'] > 0 ? 'percentage-val positive' : 'percentage-val negative'}">${formatPercent(fund['5Y Rolling Return (%)'])}</span>
                 </div>
                 <div class="modal-item">
@@ -812,20 +812,40 @@ function showDrawer(fund) {
                     <span class="modal-item-value ${fund['Alpha (3Y)'] > 0 ? 'percentage-val positive' : 'percentage-val negative'}">${formatAlpha(fund['Alpha (3Y)'])}</span>
                 </div>
                 <div class="modal-item">
+                    <span class="modal-item-label">CAPM Alpha (5Y)</span>
+                    <span class="modal-item-value ${fund['Alpha (5Y)'] > 0 ? 'percentage-val positive' : 'percentage-val negative'}">${formatAlpha(fund['Alpha (5Y)'])}</span>
+                </div>
+                <div class="modal-item">
                     <span class="modal-item-label">Beta (3Y)</span>
                     <span class="modal-item-value">${formatNum(fund['Beta (3Y)'])}</span>
                 </div>
                 <div class="modal-item">
-                    <span class="modal-item-label">Downside Capture (3Y)</span>
-                    <span class="modal-item-value ${fund['Downside Capture (3Y)'] < 100.0 ? 'percentage-val positive' : 'percentage-val negative'}">${formatPercentNoSign(fund['Downside Capture (3Y)'])}</span>
+                    <span class="modal-item-label">Beta (5Y)</span>
+                    <span class="modal-item-value">${formatNum(fund['Beta (5Y)'])}</span>
                 </div>
                 <div class="modal-item">
                     <span class="modal-item-label">Sharpe Ratio (3Y)</span>
                     <span class="modal-item-value">${formatNum(fund['Sharpe (3Y)'])}</span>
                 </div>
                 <div class="modal-item">
+                    <span class="modal-item-label">Sharpe Ratio (5Y)</span>
+                    <span class="modal-item-value">${formatNum(fund['Sharpe (5Y)'])}</span>
+                </div>
+                <div class="modal-item">
                     <span class="modal-item-label">Information Ratio (3Y)</span>
                     <span class="modal-item-value">${formatNum(fund['Information Ratio (3Y)'])}</span>
+                </div>
+                <div class="modal-item">
+                    <span class="modal-item-label">Information Ratio (5Y)</span>
+                    <span class="modal-item-value">${formatNum(fund['Information Ratio (5Y)'])}</span>
+                </div>
+                <div class="modal-item">
+                    <span class="modal-item-label">Downside Capture (3Y)</span>
+                    <span class="modal-item-value ${fund['Downside Capture (3Y)'] < 100.0 ? 'percentage-val positive' : 'percentage-val negative'}">${formatPercentNoSign(fund['Downside Capture (3Y)'])}</span>
+                </div>
+                <div class="modal-item">
+                    <span class="modal-item-label">Downside Capture (5Y)</span>
+                    <span class="modal-item-value ${fund['Downside Capture (5Y)'] < 100.0 ? 'percentage-val positive' : 'percentage-val negative'}">${formatPercentNoSign(fund['Downside Capture (5Y)'])}</span>
                 </div>
             </div>
         </div>
