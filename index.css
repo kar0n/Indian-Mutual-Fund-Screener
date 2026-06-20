@@ -1177,7 +1177,7 @@ body:not(.dark-theme) .faq-item {
         max-width: 100vw;
         right: -100vw;
     }
-    .drawer.open {
+    .drawer.active, .drawer.open {
         right: 0;
     }
     
