@@ -819,6 +819,14 @@ function showDrawer(fund) {
                     <span class="modal-item-label">Downside Capture (3Y)</span>
                     <span class="modal-item-value ${fund['Downside Capture (3Y)'] < 100.0 ? 'percentage-val positive' : 'percentage-val negative'}">${formatPercentNoSign(fund['Downside Capture (3Y)'])}</span>
                 </div>
+                <div class="modal-item">
+                    <span class="modal-item-label">Sharpe Ratio (3Y)</span>
+                    <span class="modal-item-value">${formatNum(fund['Sharpe (3Y)'])}</span>
+                </div>
+                <div class="modal-item">
+                    <span class="modal-item-label">Information Ratio (3Y)</span>
+                    <span class="modal-item-value">${formatNum(fund['Information Ratio (3Y)'])}</span>
+                </div>
             </div>
         </div>
 
