@@ -2,7 +2,7 @@
   "metadata": {
     "risk_free_rate": 6.47,
     "rfr_status": "Live",
-    "compile_date": "2026-06-21 02:01:33",
+    "compile_date": "2026-06-21 06:43:26",
     "benchmark_mapping": {
       "Equity Scheme - Flexi Cap Fund": "Nifty 50 Index",
       "Equity Scheme - Multi Cap Fund": "Nifty 50 Index",
@@ -2561,7 +2561,7 @@
           }
         ],
         "Net Alpha (%)": 6.28,
-        "Rating_Score": 3.1823529411764704,
+        "Rating_Score": 3.182352941176471,
         "Sub_Rating_Performance": 0.5667,
         "Sub_Rating_IR": 0.9375,
         "Sub_Rating_Alpha": 0.8031,
@@ -6857,7 +6857,7 @@
         "Net Alpha (%)": 6.06,
         "Rating_Score": 2.7170625,
         "Sub_Rating_Performance": 0.2339,
-        "Sub_Rating_IR": 0.8312,
+        "Sub_Rating_IR": 0.8313,
         "Sub_Rating_Alpha": 0.7859,
         "Sub_Rating_Protection": 0.8659,
         "Manager_Tenure_Years": 3.5,
@@ -7216,122 +7216,6 @@
         "Manager_Change_Date": null
       },
       {
-        "code": "152094",
-        "Fund Name": "Edelweiss Multi Cap Fund - Direct Plan - Growth",
-        "1Y Return (%)": 4.84,
-        "3Y Return (%)": 19.94,
-        "5Y Return (%)": null,
-        "Sharpe (3Y)": 0.86,
-        "Sharpe (5Y)": null,
-        "Information Ratio (3Y)": 1.54,
-        "Information Ratio (5Y)": null,
-        "Beta (3Y)": 1.03,
-        "Beta (5Y)": null,
-        "Alpha (3Y)": 10.73,
-        "Alpha (5Y)": null,
-        "Downside Capture (3Y)": 97.85,
-        "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": 10.61,
-        "3Y Rolling Return (%)": null,
-        "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 3253.3,
-        "Expense Ratio (%)": 0.52,
-        "Top 10 Stocks Weight (%)": 25.57,
-        "Large Cap (%)": 43.75,
-        "Mid Cap (%)": 28.23,
-        "Small Cap (%)": 25.19,
-        "Managers": "Sumanta Khan, Amit Vora, Trideep Bhattacharya, Raj Koradia",
-        "Holdings": [
-          {
-            "name": "HDFC Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "3.80"
-          },
-          {
-            "name": "Larsen & Toubro Ltd",
-            "sector": "Industrials",
-            "weightage": "3.29"
-          },
-          {
-            "name": "Multi Commodity Exchange of India Ltd",
-            "sector": "Financial Services",
-            "weightage": "3.01"
-          },
-          {
-            "name": "NTPC Ltd",
-            "sector": "Utilities",
-            "weightage": "2.71"
-          },
-          {
-            "name": "Radico Khaitan Ltd",
-            "sector": "Consumer Defensive",
-            "weightage": "2.34"
-          },
-          {
-            "name": "Tata Steel Ltd",
-            "sector": "Basic Materials",
-            "weightage": "2.28"
-          },
-          {
-            "name": "ICICI Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.26"
-          },
-          {
-            "name": "Karur Vysya Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.03"
-          },
-          {
-            "name": "Clearing Corporation Of India Ltd.",
-            "sector": "",
-            "weightage": "1.99"
-          },
-          {
-            "name": "Navin Fluorine International Ltd",
-            "sector": "Basic Materials",
-            "weightage": "1.93"
-          },
-          {
-            "name": "Reliance Industries Ltd",
-            "sector": "Energy",
-            "weightage": "1.91"
-          },
-          {
-            "name": "State Bank of India",
-            "sector": "Financial Services",
-            "weightage": "1.84"
-          },
-          {
-            "name": "Bikaji Foods International Ltd",
-            "sector": "Consumer Defensive",
-            "weightage": "1.76"
-          },
-          {
-            "name": "City Union Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "1.63"
-          },
-          {
-            "name": "Shriram Finance Ltd",
-            "sector": "Financial Services",
-            "weightage": "1.51"
-          }
-        ],
-        "Net Alpha (%)": 10.73,
-        "Rating_Score": null,
-        "Sub_Rating_Performance": 0.625,
-        "Sub_Rating_IR": 1.1062,
-        "Sub_Rating_Alpha": 1.0594,
-        "Sub_Rating_Protection": 0.8484,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "UR",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
         "code": "152310",
         "Fund Name": "DSP Multicap Fund - Direct - Growth",
         "1Y Return (%)": 1.55,
@@ -7440,6 +7324,122 @@
         "Sub_Rating_IR": 0.625,
         "Sub_Rating_Alpha": 0.625,
         "Sub_Rating_Protection": 0.625,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "UR",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
+        "code": "152094",
+        "Fund Name": "Edelweiss Multi Cap Fund - Direct Plan - Growth",
+        "1Y Return (%)": 4.84,
+        "3Y Return (%)": 19.94,
+        "5Y Return (%)": null,
+        "Sharpe (3Y)": 0.86,
+        "Sharpe (5Y)": null,
+        "Information Ratio (3Y)": 1.54,
+        "Information Ratio (5Y)": null,
+        "Beta (3Y)": 1.03,
+        "Beta (5Y)": null,
+        "Alpha (3Y)": 10.73,
+        "Alpha (5Y)": null,
+        "Downside Capture (3Y)": 97.85,
+        "Downside Capture (5Y)": null,
+        "1Y Rolling Return (%)": 10.61,
+        "3Y Rolling Return (%)": null,
+        "5Y Rolling Return (%)": null,
+        "AUM (Cr)": 3253.3,
+        "Expense Ratio (%)": 0.52,
+        "Top 10 Stocks Weight (%)": 25.57,
+        "Large Cap (%)": 43.75,
+        "Mid Cap (%)": 28.23,
+        "Small Cap (%)": 25.19,
+        "Managers": "Sumanta Khan, Amit Vora, Trideep Bhattacharya, Raj Koradia",
+        "Holdings": [
+          {
+            "name": "HDFC Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "3.80"
+          },
+          {
+            "name": "Larsen & Toubro Ltd",
+            "sector": "Industrials",
+            "weightage": "3.29"
+          },
+          {
+            "name": "Multi Commodity Exchange of India Ltd",
+            "sector": "Financial Services",
+            "weightage": "3.01"
+          },
+          {
+            "name": "NTPC Ltd",
+            "sector": "Utilities",
+            "weightage": "2.71"
+          },
+          {
+            "name": "Radico Khaitan Ltd",
+            "sector": "Consumer Defensive",
+            "weightage": "2.34"
+          },
+          {
+            "name": "Tata Steel Ltd",
+            "sector": "Basic Materials",
+            "weightage": "2.28"
+          },
+          {
+            "name": "ICICI Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.26"
+          },
+          {
+            "name": "Karur Vysya Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.03"
+          },
+          {
+            "name": "Clearing Corporation Of India Ltd.",
+            "sector": "",
+            "weightage": "1.99"
+          },
+          {
+            "name": "Navin Fluorine International Ltd",
+            "sector": "Basic Materials",
+            "weightage": "1.93"
+          },
+          {
+            "name": "Reliance Industries Ltd",
+            "sector": "Energy",
+            "weightage": "1.91"
+          },
+          {
+            "name": "State Bank of India",
+            "sector": "Financial Services",
+            "weightage": "1.84"
+          },
+          {
+            "name": "Bikaji Foods International Ltd",
+            "sector": "Consumer Defensive",
+            "weightage": "1.76"
+          },
+          {
+            "name": "City Union Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "1.63"
+          },
+          {
+            "name": "Shriram Finance Ltd",
+            "sector": "Financial Services",
+            "weightage": "1.51"
+          }
+        ],
+        "Net Alpha (%)": 10.73,
+        "Rating_Score": null,
+        "Sub_Rating_Performance": 0.625,
+        "Sub_Rating_IR": 1.1062,
+        "Sub_Rating_Alpha": 1.0594,
+        "Sub_Rating_Protection": 0.8484,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
         "AUM_Adj": 0.0,
@@ -7796,122 +7796,6 @@
         "Manager_Change_Date": null
       },
       {
-        "code": "152651",
-        "Fund Name": "Motilal Oswal Multi Cap Fund-Direct Plan Growth",
-        "1Y Return (%)": -0.24,
-        "3Y Return (%)": null,
-        "5Y Return (%)": null,
-        "Sharpe (3Y)": null,
-        "Sharpe (5Y)": null,
-        "Information Ratio (3Y)": null,
-        "Information Ratio (5Y)": null,
-        "Beta (3Y)": null,
-        "Beta (5Y)": null,
-        "Alpha (3Y)": null,
-        "Alpha (5Y)": null,
-        "Downside Capture (3Y)": null,
-        "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": 8.1,
-        "3Y Rolling Return (%)": null,
-        "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 4095.53,
-        "Expense Ratio (%)": 0.75,
-        "Top 10 Stocks Weight (%)": 41.07,
-        "Large Cap (%)": 35.04,
-        "Mid Cap (%)": 29.84,
-        "Small Cap (%)": 22.85,
-        "Managers": "Swapnil Mayekar, Sandeep Jain, Rakesh Shetty, Atul Mehra, Bhalchandra Shinde",
-        "Holdings": [
-          {
-            "name": "Shaily Engineering Plastics Ltd",
-            "sector": "Basic Materials",
-            "weightage": "5.49"
-          },
-          {
-            "name": "Kalyan Jewellers India Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "5.06"
-          },
-          {
-            "name": "Eternal Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "4.64"
-          },
-          {
-            "name": "ICICI Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "4.43"
-          },
-          {
-            "name": "CG Power & Industrial Solutions Ltd",
-            "sector": "Industrials",
-            "weightage": "4.19"
-          },
-          {
-            "name": "RBL Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "3.81"
-          },
-          {
-            "name": "Net Receivables / (Payables)",
-            "sector": "",
-            "weightage": "3.68"
-          },
-          {
-            "name": "Radico Khaitan Ltd",
-            "sector": "Consumer Defensive",
-            "weightage": "3.68"
-          },
-          {
-            "name": "Ellenbarrie Industrial Gases Ltd",
-            "sector": "Basic Materials",
-            "weightage": "3.44"
-          },
-          {
-            "name": "IndusInd Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "3.33"
-          },
-          {
-            "name": "Coforge Ltd",
-            "sector": "Technology",
-            "weightage": "2.99"
-          },
-          {
-            "name": "BSE Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.93"
-          },
-          {
-            "name": "Bharti Airtel Ltd",
-            "sector": "Communication Services",
-            "weightage": "2.84"
-          },
-          {
-            "name": "Persistent Systems Ltd",
-            "sector": "Technology",
-            "weightage": "2.77"
-          },
-          {
-            "name": "HealthCare Global Enterprises Ltd",
-            "sector": "Healthcare",
-            "weightage": "2.72"
-          }
-        ],
-        "Net Alpha (%)": null,
-        "Rating_Score": null,
-        "Sub_Rating_Performance": 0.625,
-        "Sub_Rating_IR": 0.625,
-        "Sub_Rating_Alpha": 0.625,
-        "Sub_Rating_Protection": 0.625,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "UR",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
         "code": "151810",
         "Fund Name": "Mirae Asset Multicap Fund - Direct Plan - Growth",
         "1Y Return (%)": 2.88,
@@ -8128,6 +8012,122 @@
             "name": "National Aluminium Co Ltd",
             "sector": "Basic Materials",
             "weightage": "1.69"
+          }
+        ],
+        "Net Alpha (%)": null,
+        "Rating_Score": null,
+        "Sub_Rating_Performance": 0.625,
+        "Sub_Rating_IR": 0.625,
+        "Sub_Rating_Alpha": 0.625,
+        "Sub_Rating_Protection": 0.625,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "UR",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
+        "code": "152651",
+        "Fund Name": "Motilal Oswal Multi Cap Fund-Direct Plan Growth",
+        "1Y Return (%)": -0.24,
+        "3Y Return (%)": null,
+        "5Y Return (%)": null,
+        "Sharpe (3Y)": null,
+        "Sharpe (5Y)": null,
+        "Information Ratio (3Y)": null,
+        "Information Ratio (5Y)": null,
+        "Beta (3Y)": null,
+        "Beta (5Y)": null,
+        "Alpha (3Y)": null,
+        "Alpha (5Y)": null,
+        "Downside Capture (3Y)": null,
+        "Downside Capture (5Y)": null,
+        "1Y Rolling Return (%)": 8.1,
+        "3Y Rolling Return (%)": null,
+        "5Y Rolling Return (%)": null,
+        "AUM (Cr)": 4095.53,
+        "Expense Ratio (%)": 0.75,
+        "Top 10 Stocks Weight (%)": 41.07,
+        "Large Cap (%)": 35.04,
+        "Mid Cap (%)": 29.84,
+        "Small Cap (%)": 22.85,
+        "Managers": "Swapnil Mayekar, Sandeep Jain, Rakesh Shetty, Atul Mehra, Bhalchandra Shinde",
+        "Holdings": [
+          {
+            "name": "Shaily Engineering Plastics Ltd",
+            "sector": "Basic Materials",
+            "weightage": "5.49"
+          },
+          {
+            "name": "Kalyan Jewellers India Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "5.06"
+          },
+          {
+            "name": "Eternal Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "4.64"
+          },
+          {
+            "name": "ICICI Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "4.43"
+          },
+          {
+            "name": "CG Power & Industrial Solutions Ltd",
+            "sector": "Industrials",
+            "weightage": "4.19"
+          },
+          {
+            "name": "RBL Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "3.81"
+          },
+          {
+            "name": "Net Receivables / (Payables)",
+            "sector": "",
+            "weightage": "3.68"
+          },
+          {
+            "name": "Radico Khaitan Ltd",
+            "sector": "Consumer Defensive",
+            "weightage": "3.68"
+          },
+          {
+            "name": "Ellenbarrie Industrial Gases Ltd",
+            "sector": "Basic Materials",
+            "weightage": "3.44"
+          },
+          {
+            "name": "IndusInd Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "3.33"
+          },
+          {
+            "name": "Coforge Ltd",
+            "sector": "Technology",
+            "weightage": "2.99"
+          },
+          {
+            "name": "BSE Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.93"
+          },
+          {
+            "name": "Bharti Airtel Ltd",
+            "sector": "Communication Services",
+            "weightage": "2.84"
+          },
+          {
+            "name": "Persistent Systems Ltd",
+            "sector": "Technology",
+            "weightage": "2.77"
+          },
+          {
+            "name": "HealthCare Global Enterprises Ltd",
+            "sector": "Healthcare",
+            "weightage": "2.72"
           }
         ],
         "Net Alpha (%)": null,
@@ -10687,7 +10687,7 @@
         "Net Alpha (%)": 2.55,
         "Rating_Score": 3.024582208333334,
         "Sub_Rating_Performance": 0.5811,
-        "Sub_Rating_IR": 0.8812,
+        "Sub_Rating_IR": 0.8813,
         "Sub_Rating_Alpha": 0.5117,
         "Sub_Rating_Protection": 0.8294,
         "Manager_Tenure_Years": 3.5,
@@ -12427,7 +12427,7 @@
           }
         ],
         "Net Alpha (%)": 11.41,
-        "Rating_Score": 3.8585603448275867,
+        "Rating_Score": 3.858560344827586,
         "Sub_Rating_Performance": 0.6183,
         "Sub_Rating_IR": 0.9969,
         "Sub_Rating_Alpha": 1.5256,
@@ -12543,7 +12543,7 @@
           }
         ],
         "Net Alpha (%)": 10.7,
-        "Rating_Score": 3.8525603448275865,
+        "Rating_Score": 3.852560344827586,
         "Sub_Rating_Performance": 0.6608,
         "Sub_Rating_IR": 0.925,
         "Sub_Rating_Alpha": 1.4812,
@@ -12659,7 +12659,7 @@
           }
         ],
         "Net Alpha (%)": 10.85,
-        "Rating_Score": 3.84351867816092,
+        "Rating_Score": 3.8435186781609194,
         "Sub_Rating_Performance": 0.6618,
         "Sub_Rating_IR": 0.9313,
         "Sub_Rating_Alpha": 1.4906,
@@ -12775,7 +12775,7 @@
           }
         ],
         "Net Alpha (%)": 8.68,
-        "Rating_Score": 3.671310344827587,
+        "Rating_Score": 3.671310344827586,
         "Sub_Rating_Performance": 0.6838,
         "Sub_Rating_IR": 0.8875,
         "Sub_Rating_Alpha": 1.355,
@@ -12891,7 +12891,7 @@
           }
         ],
         "Net Alpha (%)": 9.44,
-        "Rating_Score": 3.5745603448275864,
+        "Rating_Score": 3.574560344827586,
         "Sub_Rating_Performance": 0.5218,
         "Sub_Rating_IR": 0.9125,
         "Sub_Rating_Alpha": 1.4025,
@@ -13007,7 +13007,7 @@
           }
         ],
         "Net Alpha (%)": 8.51,
-        "Rating_Score": 3.5681853448275866,
+        "Rating_Score": 3.568185344827586,
         "Sub_Rating_Performance": 0.6878,
         "Sub_Rating_IR": 0.775,
         "Sub_Rating_Alpha": 1.3444,
@@ -13471,7 +13471,7 @@
           }
         ],
         "Net Alpha (%)": 8.53,
-        "Rating_Score": 2.94030637816092,
+        "Rating_Score": 2.940306378160919,
         "Sub_Rating_Performance": 0.6978,
         "Sub_Rating_IR": 0.8125,
         "Sub_Rating_Alpha": 1.3456,
@@ -13587,7 +13587,7 @@
           }
         ],
         "Net Alpha (%)": 6.75,
-        "Rating_Score": 2.9273415948275865,
+        "Rating_Score": 2.927341594827586,
         "Sub_Rating_Performance": 0.4123,
         "Sub_Rating_IR": 0.5437,
         "Sub_Rating_Alpha": 1.1758,
@@ -13819,7 +13819,7 @@
           }
         ],
         "Net Alpha (%)": 4.63,
-        "Rating_Score": 2.6593036281609206,
+        "Rating_Score": 2.65930362816092,
         "Sub_Rating_Performance": 0.9168,
         "Sub_Rating_IR": 0.35,
         "Sub_Rating_Alpha": 0.9439,
@@ -13935,7 +13935,7 @@
           }
         ],
         "Net Alpha (%)": 4.88,
-        "Rating_Score": 2.632727011494253,
+        "Rating_Score": 2.6327270114942527,
         "Sub_Rating_Performance": 0.4373,
         "Sub_Rating_IR": 0.4625,
         "Sub_Rating_Alpha": 0.9712,
@@ -14051,7 +14051,7 @@
           }
         ],
         "Net Alpha (%)": 7.43,
-        "Rating_Score": 2.6226332614942534,
+        "Rating_Score": 2.622633261494253,
         "Sub_Rating_Performance": 0.7253,
         "Sub_Rating_IR": 0.5875,
         "Sub_Rating_Alpha": 1.2502,
@@ -14167,7 +14167,7 @@
           }
         ],
         "Net Alpha (%)": 4.54,
-        "Rating_Score": 2.60220617816092,
+        "Rating_Score": 2.6022061781609196,
         "Sub_Rating_Performance": 0.4918,
         "Sub_Rating_IR": 0.3875,
         "Sub_Rating_Alpha": 0.9341,
@@ -14399,7 +14399,7 @@
           }
         ],
         "Net Alpha (%)": 4.87,
-        "Rating_Score": 2.54729992816092,
+        "Rating_Score": 2.5472999281609194,
         "Sub_Rating_Performance": 0.3693,
         "Sub_Rating_IR": 0.4375,
         "Sub_Rating_Alpha": 0.9702,
@@ -14631,7 +14631,7 @@
           }
         ],
         "Net Alpha (%)": 4.08,
-        "Rating_Score": 2.40714367816092,
+        "Rating_Score": 2.4071436781609195,
         "Sub_Rating_Performance": 0.3908,
         "Sub_Rating_IR": 0.3563,
         "Sub_Rating_Alpha": 0.8837,
@@ -14747,7 +14747,7 @@
           }
         ],
         "Net Alpha (%)": 2.18,
-        "Rating_Score": 2.3066645114942532,
+        "Rating_Score": 2.306664511494253,
         "Sub_Rating_Performance": 0.6248,
         "Sub_Rating_IR": 0.2438,
         "Sub_Rating_Alpha": 0.6759,
@@ -14863,7 +14863,7 @@
           }
         ],
         "Net Alpha (%)": 6.32,
-        "Rating_Score": 2.226810344827587,
+        "Rating_Score": 2.226810344827586,
         "Sub_Rating_Performance": 0.5138,
         "Sub_Rating_IR": 0.5563,
         "Sub_Rating_Alpha": 1.1287,
@@ -14979,7 +14979,7 @@
           }
         ],
         "Net Alpha (%)": 3.82,
-        "Rating_Score": 2.2250395114942534,
+        "Rating_Score": 2.225039511494253,
         "Sub_Rating_Performance": 0.2608,
         "Sub_Rating_IR": 0.3312,
         "Sub_Rating_Alpha": 0.8553,
@@ -15095,7 +15095,7 @@
           }
         ],
         "Net Alpha (%)": 4.38,
-        "Rating_Score": 2.11539227816092,
+        "Rating_Score": 2.1153922781609196,
         "Sub_Rating_Performance": 0.3103,
         "Sub_Rating_IR": 0.3063,
         "Sub_Rating_Alpha": 0.9166,
@@ -15211,7 +15211,7 @@
           }
         ],
         "Net Alpha (%)": 0.8,
-        "Rating_Score": 1.7631436781609198,
+        "Rating_Score": 1.7631436781609193,
         "Sub_Rating_Performance": 0.3763,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.525,
@@ -15327,7 +15327,7 @@
           }
         ],
         "Net Alpha (%)": 0.6,
-        "Rating_Score": 1.6098520114942532,
+        "Rating_Score": 1.609852011494253,
         "Sub_Rating_Performance": 0.2888,
         "Sub_Rating_IR": 0.0438,
         "Sub_Rating_Alpha": 0.5031,
@@ -15443,7 +15443,7 @@
           }
         ],
         "Net Alpha (%)": -1.46,
-        "Rating_Score": 1.29389367816092,
+        "Rating_Score": 1.2938936781609196,
         "Sub_Rating_Performance": 0.1893,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.3097,
@@ -15559,7 +15559,7 @@
           }
         ],
         "Net Alpha (%)": -4.31,
-        "Rating_Score": 1.0224353448275865,
+        "Rating_Score": 1.022435344827586,
         "Sub_Rating_Performance": 0.2818,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.0604,
@@ -15675,7 +15675,7 @@
           }
         ],
         "Net Alpha (%)": -0.11,
-        "Rating_Score": 0.9689730448275866,
+        "Rating_Score": 0.9689730448275864,
         "Sub_Rating_Performance": 0.3418,
         "Sub_Rating_IR": 0.1313,
         "Sub_Rating_Alpha": 0.4279,
@@ -17069,7 +17069,7 @@
           }
         ],
         "Net Alpha (%)": 3.82,
-        "Rating_Score": 2.150073369565218,
+        "Rating_Score": 2.1500733695652174,
         "Sub_Rating_Performance": 0.8038,
         "Sub_Rating_IR": 0.5375,
         "Sub_Rating_Alpha": 0.8553,
@@ -20087,7 +20087,7 @@
           }
         ],
         "Net Alpha (%)": 10.81,
-        "Rating_Score": 3.98509911025641,
+        "Rating_Score": 3.985099110256411,
         "Sub_Rating_Performance": 0.6399,
         "Sub_Rating_IR": 1.2406,
         "Sub_Rating_Alpha": 1.4881,
@@ -20899,10 +20899,10 @@
           }
         ],
         "Net Alpha (%)": 9.42,
-        "Rating_Score": 3.657923076923077,
+        "Rating_Score": 3.6579230769230766,
         "Sub_Rating_Performance": 0.5134,
         "Sub_Rating_IR": 1.075,
-        "Sub_Rating_Alpha": 1.4013,
+        "Sub_Rating_Alpha": 1.4012,
         "Sub_Rating_Protection": 0.6683,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
@@ -22061,7 +22061,7 @@
         "Net Alpha (%)": 5.83,
         "Rating_Score": 3.041579326923077,
         "Sub_Rating_Performance": 0.3449,
-        "Sub_Rating_IR": 0.8812,
+        "Sub_Rating_IR": 0.8813,
         "Sub_Rating_Alpha": 1.0752,
         "Sub_Rating_Protection": 0.7403,
         "Manager_Tenure_Years": 3.5,
@@ -22768,122 +22768,6 @@
         "Manager_Change_Date": null
       },
       {
-        "code": "153629",
-        "Fund Name": "JM Large & Mid Cap Fund (Direct) - Growth Option",
-        "1Y Return (%)": 4.98,
-        "3Y Return (%)": null,
-        "5Y Return (%)": null,
-        "Sharpe (3Y)": null,
-        "Sharpe (5Y)": null,
-        "Information Ratio (3Y)": null,
-        "Information Ratio (5Y)": null,
-        "Beta (3Y)": null,
-        "Beta (5Y)": null,
-        "Alpha (3Y)": null,
-        "Alpha (5Y)": null,
-        "Downside Capture (3Y)": null,
-        "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": null,
-        "3Y Rolling Return (%)": null,
-        "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 406.43,
-        "Expense Ratio (%)": 0.66,
-        "Top 10 Stocks Weight (%)": 27.28,
-        "Large Cap (%)": 45.64,
-        "Mid Cap (%)": 46.72,
-        "Small Cap (%)": 12.69,
-        "Managers": "Asit Bhandarkar, Ruchi Fozdar, Deepak Gupta",
-        "Holdings": [
-          {
-            "name": "Reliance Industries Ltd",
-            "sector": "Energy",
-            "weightage": "3.55"
-          },
-          {
-            "name": "ICICI Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "3.35"
-          },
-          {
-            "name": "HDFC Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "3.09"
-          },
-          {
-            "name": "Bharti Airtel Ltd",
-            "sector": "Communication Services",
-            "weightage": "2.75"
-          },
-          {
-            "name": "Fortis Healthcare Ltd",
-            "sector": "Healthcare",
-            "weightage": "2.64"
-          },
-          {
-            "name": "Bajaj Finance Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.62"
-          },
-          {
-            "name": "LG Electronics India Ltd",
-            "sector": "Technology",
-            "weightage": "2.60"
-          },
-          {
-            "name": "Shriram Finance Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.30"
-          },
-          {
-            "name": "Max Financial Services Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.23"
-          },
-          {
-            "name": "BSE Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.16"
-          },
-          {
-            "name": "State Bank of India",
-            "sector": "Financial Services",
-            "weightage": "2.09"
-          },
-          {
-            "name": "JSW Energy Ltd",
-            "sector": "Utilities",
-            "weightage": "2.06"
-          },
-          {
-            "name": "Torrent Pharmaceuticals Ltd",
-            "sector": "Healthcare",
-            "weightage": "2.06"
-          },
-          {
-            "name": "Persistent Systems Ltd",
-            "sector": "Technology",
-            "weightage": "2.04"
-          },
-          {
-            "name": "Jindal Steel Ltd",
-            "sector": "Basic Materials",
-            "weightage": "2.04"
-          }
-        ],
-        "Net Alpha (%)": null,
-        "Rating_Score": null,
-        "Sub_Rating_Performance": 0.5,
-        "Sub_Rating_IR": 0.625,
-        "Sub_Rating_Alpha": 0.875,
-        "Sub_Rating_Protection": 0.5,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "UR",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
         "code": "152821",
         "Fund Name": "ITI Large & Midcap Fund - Direct Plan - Growth",
         "1Y Return (%)": -0.76,
@@ -22984,6 +22868,122 @@
             "name": "One97 Communications Ltd",
             "sector": "Technology",
             "weightage": "1.52"
+          }
+        ],
+        "Net Alpha (%)": null,
+        "Rating_Score": null,
+        "Sub_Rating_Performance": 0.5,
+        "Sub_Rating_IR": 0.625,
+        "Sub_Rating_Alpha": 0.875,
+        "Sub_Rating_Protection": 0.5,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "UR",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
+        "code": "153629",
+        "Fund Name": "JM Large & Mid Cap Fund (Direct) - Growth Option",
+        "1Y Return (%)": 4.98,
+        "3Y Return (%)": null,
+        "5Y Return (%)": null,
+        "Sharpe (3Y)": null,
+        "Sharpe (5Y)": null,
+        "Information Ratio (3Y)": null,
+        "Information Ratio (5Y)": null,
+        "Beta (3Y)": null,
+        "Beta (5Y)": null,
+        "Alpha (3Y)": null,
+        "Alpha (5Y)": null,
+        "Downside Capture (3Y)": null,
+        "Downside Capture (5Y)": null,
+        "1Y Rolling Return (%)": null,
+        "3Y Rolling Return (%)": null,
+        "5Y Rolling Return (%)": null,
+        "AUM (Cr)": 406.43,
+        "Expense Ratio (%)": 0.66,
+        "Top 10 Stocks Weight (%)": 27.28,
+        "Large Cap (%)": 45.64,
+        "Mid Cap (%)": 46.72,
+        "Small Cap (%)": 12.69,
+        "Managers": "Asit Bhandarkar, Ruchi Fozdar, Deepak Gupta",
+        "Holdings": [
+          {
+            "name": "Reliance Industries Ltd",
+            "sector": "Energy",
+            "weightage": "3.55"
+          },
+          {
+            "name": "ICICI Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "3.35"
+          },
+          {
+            "name": "HDFC Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "3.09"
+          },
+          {
+            "name": "Bharti Airtel Ltd",
+            "sector": "Communication Services",
+            "weightage": "2.75"
+          },
+          {
+            "name": "Fortis Healthcare Ltd",
+            "sector": "Healthcare",
+            "weightage": "2.64"
+          },
+          {
+            "name": "Bajaj Finance Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.62"
+          },
+          {
+            "name": "LG Electronics India Ltd",
+            "sector": "Technology",
+            "weightage": "2.60"
+          },
+          {
+            "name": "Shriram Finance Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.30"
+          },
+          {
+            "name": "Max Financial Services Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.23"
+          },
+          {
+            "name": "BSE Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.16"
+          },
+          {
+            "name": "State Bank of India",
+            "sector": "Financial Services",
+            "weightage": "2.09"
+          },
+          {
+            "name": "JSW Energy Ltd",
+            "sector": "Utilities",
+            "weightage": "2.06"
+          },
+          {
+            "name": "Torrent Pharmaceuticals Ltd",
+            "sector": "Healthcare",
+            "weightage": "2.06"
+          },
+          {
+            "name": "Persistent Systems Ltd",
+            "sector": "Technology",
+            "weightage": "2.04"
+          },
+          {
+            "name": "Jindal Steel Ltd",
+            "sector": "Basic Materials",
+            "weightage": "2.04"
           }
         ],
         "Net Alpha (%)": null,
@@ -24500,7 +24500,7 @@
         "Rating_Score": 3.585032051282051,
         "Sub_Rating_Performance": 0.7507,
         "Sub_Rating_IR": 1.1031,
-        "Sub_Rating_Alpha": 0.8812,
+        "Sub_Rating_Alpha": 0.8813,
         "Sub_Rating_Protection": 0.85,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
@@ -28483,7 +28483,7 @@
           }
         ],
         "Net Alpha (%)": 17.64,
-        "Rating_Score": 3.995756578947368,
+        "Rating_Score": 3.9957565789473684,
         "Sub_Rating_Performance": 0.7964,
         "Sub_Rating_IR": 1.1031,
         "Sub_Rating_Alpha": 1.25,
@@ -28599,7 +28599,7 @@
           }
         ],
         "Net Alpha (%)": 12.9,
-        "Rating_Score": 3.8610690789473683,
+        "Rating_Score": 3.8610690789473687,
         "Sub_Rating_Performance": 0.7289,
         "Sub_Rating_IR": 1.1469,
         "Sub_Rating_Alpha": 1.1562,
@@ -28947,7 +28947,7 @@
           }
         ],
         "Net Alpha (%)": 6.49,
-        "Rating_Score": 3.6065378289473684,
+        "Rating_Score": 3.606537828947369,
         "Sub_Rating_Performance": 0.8483,
         "Sub_Rating_IR": 1.0156,
         "Sub_Rating_Alpha": 0.8195,
@@ -29063,7 +29063,7 @@
           }
         ],
         "Net Alpha (%)": 9.25,
-        "Rating_Score": 3.5490601503759396,
+        "Rating_Score": 3.54906015037594,
         "Sub_Rating_Performance": 0.5933,
         "Sub_Rating_IR": 1.1,
         "Sub_Rating_Alpha": 0.9933,
@@ -29179,7 +29179,7 @@
           }
         ],
         "Net Alpha (%)": 9.35,
-        "Rating_Score": 3.5360244360902255,
+        "Rating_Score": 3.536024436090226,
         "Sub_Rating_Performance": 0.7964,
         "Sub_Rating_IR": 0.9437,
         "Sub_Rating_Alpha": 0.9978,
@@ -29759,7 +29759,7 @@
           }
         ],
         "Net Alpha (%)": 8.91,
-        "Rating_Score": 3.2910690789473684,
+        "Rating_Score": 3.291069078947369,
         "Sub_Rating_Performance": 0.5839,
         "Sub_Rating_IR": 0.9563,
         "Sub_Rating_Alpha": 0.9781,
@@ -30107,7 +30107,7 @@
           }
         ],
         "Net Alpha (%)": 5.26,
-        "Rating_Score": 3.016902412280701,
+        "Rating_Score": 3.016902412280702,
         "Sub_Rating_Performance": 0.3758,
         "Sub_Rating_IR": 0.9625,
         "Sub_Rating_Alpha": 0.7234,
@@ -30352,122 +30352,6 @@
         "Manager_Change_Date": null
       },
       {
-        "code": "152018",
-        "Fund Name": "LIC MF Value Fund-Direct Plan-Growth",
-        "1Y Return (%)": 14.81,
-        "3Y Return (%)": 17.99,
-        "5Y Return (%)": null,
-        "Sharpe (3Y)": 0.66,
-        "Sharpe (5Y)": null,
-        "Information Ratio (3Y)": 1.04,
-        "Information Ratio (5Y)": null,
-        "Beta (3Y)": 1.06,
-        "Beta (5Y)": null,
-        "Alpha (3Y)": 10.44,
-        "Alpha (5Y)": null,
-        "Downside Capture (3Y)": 99.54,
-        "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": 12.42,
-        "3Y Rolling Return (%)": null,
-        "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 217.99,
-        "Expense Ratio (%)": 0.84,
-        "Top 10 Stocks Weight (%)": 39.41,
-        "Large Cap (%)": 46.47,
-        "Mid Cap (%)": 12.03,
-        "Small Cap (%)": 43.95,
-        "Managers": "Mahesh Bendre",
-        "Holdings": [
-          {
-            "name": "Infosys Ltd",
-            "sector": "Technology",
-            "weightage": "5.34"
-          },
-          {
-            "name": "Tata Motors Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "4.94"
-          },
-          {
-            "name": "Maruti Suzuki India Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "4.40"
-          },
-          {
-            "name": "Tata Motors Passenger Vehicles Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "3.92"
-          },
-          {
-            "name": "Carraro India Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "3.78"
-          },
-          {
-            "name": "Garware Hi-Tech Films Ltd",
-            "sector": "Basic Materials",
-            "weightage": "3.59"
-          },
-          {
-            "name": "KSH International Ltd",
-            "sector": "Industrials",
-            "weightage": "3.56"
-          },
-          {
-            "name": "Larsen & Toubro Ltd",
-            "sector": "Industrials",
-            "weightage": "3.55"
-          },
-          {
-            "name": "Schaeffler India Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "3.39"
-          },
-          {
-            "name": "Shriram Finance Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.93"
-          },
-          {
-            "name": "Treps",
-            "sector": "",
-            "weightage": "2.70"
-          },
-          {
-            "name": "State Bank of India",
-            "sector": "Financial Services",
-            "weightage": "2.67"
-          },
-          {
-            "name": "Tenneco Clean Air India Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "2.43"
-          },
-          {
-            "name": "Mahindra & Mahindra Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "2.41"
-          },
-          {
-            "name": "HDFC Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.36"
-          }
-        ],
-        "Net Alpha (%)": 10.44,
-        "Rating_Score": null,
-        "Sub_Rating_Performance": 0.625,
-        "Sub_Rating_IR": 0.95,
-        "Sub_Rating_Alpha": 1.0464,
-        "Sub_Rating_Protection": 0.7956,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "UR",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
         "code": "153303",
         "Fund Name": "Mahindra Manulife Value Fund - Direct Plan - Growth",
         "1Y Return (%)": 10.83,
@@ -30582,6 +30466,122 @@
         "Rating": "UR",
         "Manager_Changed_Recently": false,
         "Manager_Change_Date": null
+      },
+      {
+        "code": "152018",
+        "Fund Name": "LIC MF Value Fund-Direct Plan-Growth",
+        "1Y Return (%)": 14.81,
+        "3Y Return (%)": 17.99,
+        "5Y Return (%)": null,
+        "Sharpe (3Y)": 0.66,
+        "Sharpe (5Y)": null,
+        "Information Ratio (3Y)": 1.04,
+        "Information Ratio (5Y)": null,
+        "Beta (3Y)": 1.06,
+        "Beta (5Y)": null,
+        "Alpha (3Y)": 10.44,
+        "Alpha (5Y)": null,
+        "Downside Capture (3Y)": 99.54,
+        "Downside Capture (5Y)": null,
+        "1Y Rolling Return (%)": 12.42,
+        "3Y Rolling Return (%)": null,
+        "5Y Rolling Return (%)": null,
+        "AUM (Cr)": 217.99,
+        "Expense Ratio (%)": 0.84,
+        "Top 10 Stocks Weight (%)": 39.41,
+        "Large Cap (%)": 46.47,
+        "Mid Cap (%)": 12.03,
+        "Small Cap (%)": 43.95,
+        "Managers": "Mahesh Bendre",
+        "Holdings": [
+          {
+            "name": "Infosys Ltd",
+            "sector": "Technology",
+            "weightage": "5.34"
+          },
+          {
+            "name": "Tata Motors Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "4.94"
+          },
+          {
+            "name": "Maruti Suzuki India Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "4.40"
+          },
+          {
+            "name": "Tata Motors Passenger Vehicles Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "3.92"
+          },
+          {
+            "name": "Carraro India Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "3.78"
+          },
+          {
+            "name": "Garware Hi-Tech Films Ltd",
+            "sector": "Basic Materials",
+            "weightage": "3.59"
+          },
+          {
+            "name": "KSH International Ltd",
+            "sector": "Industrials",
+            "weightage": "3.56"
+          },
+          {
+            "name": "Larsen & Toubro Ltd",
+            "sector": "Industrials",
+            "weightage": "3.55"
+          },
+          {
+            "name": "Schaeffler India Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "3.39"
+          },
+          {
+            "name": "Shriram Finance Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.93"
+          },
+          {
+            "name": "Treps",
+            "sector": "",
+            "weightage": "2.70"
+          },
+          {
+            "name": "State Bank of India",
+            "sector": "Financial Services",
+            "weightage": "2.67"
+          },
+          {
+            "name": "Tenneco Clean Air India Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "2.43"
+          },
+          {
+            "name": "Mahindra & Mahindra Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "2.41"
+          },
+          {
+            "name": "HDFC Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.36"
+          }
+        ],
+        "Net Alpha (%)": 10.44,
+        "Rating_Score": null,
+        "Sub_Rating_Performance": 0.625,
+        "Sub_Rating_IR": 0.95,
+        "Sub_Rating_Alpha": 1.0464,
+        "Sub_Rating_Protection": 0.7956,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "UR",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
       }
     ],
     "Equity Scheme - Contra Fund": [
@@ -30689,7 +30689,7 @@
           }
         ],
         "Net Alpha (%)": 7.09,
-        "Rating_Score": 3.7416145833333334,
+        "Rating_Score": 3.741614583333333,
         "Sub_Rating_Performance": 0.8885,
         "Sub_Rating_IR": 1.0063,
         "Sub_Rating_Alpha": 0.8664,
@@ -30921,7 +30921,7 @@
           }
         ],
         "Net Alpha (%)": 9.53,
-        "Rating_Score": 3.440907738095238,
+        "Rating_Score": 3.4409077380952375,
         "Sub_Rating_Performance": 0.4548,
         "Sub_Rating_IR": 1.1531,
         "Sub_Rating_Alpha": 1.0058,
@@ -31039,7 +31039,7 @@
           }
         ],
         "Net Alpha (%)": 9.11,
-        "Rating_Score": 4.649252976190477,
+        "Rating_Score": 4.649252976190476,
         "Sub_Rating_Performance": 1.0215,
         "Sub_Rating_IR": 1.1562,
         "Sub_Rating_Alpha": 0.5922,
@@ -31503,7 +31503,7 @@
           }
         ],
         "Net Alpha (%)": 8.95,
-        "Rating_Score": 4.023717261904762,
+        "Rating_Score": 4.023717261904761,
         "Sub_Rating_Performance": 0.9565,
         "Sub_Rating_IR": 1.0031,
         "Sub_Rating_Alpha": 0.5879,
@@ -31619,7 +31619,7 @@
           }
         ],
         "Net Alpha (%)": 7.11,
-        "Rating_Score": 3.9742187500000004,
+        "Rating_Score": 3.97421875,
         "Sub_Rating_Performance": 0.8759,
         "Sub_Rating_IR": 1.0688,
         "Sub_Rating_Alpha": 0.5208,
@@ -31851,7 +31851,7 @@
           }
         ],
         "Net Alpha (%)": 7.31,
-        "Rating_Score": 3.815510416666667,
+        "Rating_Score": 3.8155104166666662,
         "Sub_Rating_Performance": 0.7984,
         "Sub_Rating_IR": 0.9875,
         "Sub_Rating_Alpha": 0.5302,
@@ -32083,7 +32083,7 @@
           }
         ],
         "Net Alpha (%)": 5.98,
-        "Rating_Score": 3.753666666666667,
+        "Rating_Score": 3.7536666666666667,
         "Sub_Rating_Performance": 0.7465,
         "Sub_Rating_IR": 0.9375,
         "Sub_Rating_Alpha": 0.4678,
@@ -32547,7 +32547,7 @@
           }
         ],
         "Net Alpha (%)": 5.4,
-        "Rating_Score": 3.5227708333333334,
+        "Rating_Score": 3.522770833333333,
         "Sub_Rating_Performance": 0.624,
         "Sub_Rating_IR": 0.9531,
         "Sub_Rating_Alpha": 0.4406,
@@ -33127,7 +33127,7 @@
           }
         ],
         "Net Alpha (%)": 5.25,
-        "Rating_Score": 3.35578125,
+        "Rating_Score": 3.3557812499999997,
         "Sub_Rating_Performance": 0.5965,
         "Sub_Rating_IR": 0.7688,
         "Sub_Rating_Alpha": 0.4336,
@@ -33243,7 +33243,7 @@
           }
         ],
         "Net Alpha (%)": 4.76,
-        "Rating_Score": 3.2644375,
+        "Rating_Score": 3.2644374999999997,
         "Sub_Rating_Performance": 0.5003,
         "Sub_Rating_IR": 0.8063,
         "Sub_Rating_Alpha": 0.4106,
@@ -34095,7 +34095,7 @@
           }
         ],
         "Net Alpha (%)": 2.85,
-        "Rating_Score": 2.844114583333334,
+        "Rating_Score": 2.844114583333333,
         "Sub_Rating_Performance": 0.4565,
         "Sub_Rating_IR": 0.5563,
         "Sub_Rating_Alpha": 0.3211,
@@ -34327,7 +34327,7 @@
           }
         ],
         "Net Alpha (%)": 0.35,
-        "Rating_Score": 2.6715127916666668,
+        "Rating_Score": 2.6715127916666663,
         "Sub_Rating_Performance": 0.6215,
         "Sub_Rating_IR": 0.2125,
         "Sub_Rating_Alpha": 0.2039,
@@ -34677,7 +34677,7 @@
           }
         ],
         "Net Alpha (%)": 6.47,
-        "Rating_Score": 3.8265014880952384,
+        "Rating_Score": 3.826501488095238,
         "Sub_Rating_Performance": 0.7889,
         "Sub_Rating_IR": 0.9313,
         "Sub_Rating_Alpha": 0.4908,
@@ -36187,7 +36187,7 @@
         "Net Alpha (%)": 3.4,
         "Rating_Score": 3.1945535714285715,
         "Sub_Rating_Performance": 0.6039,
-        "Sub_Rating_IR": 0.4937,
+        "Sub_Rating_IR": 0.4938,
         "Sub_Rating_Alpha": 0.3469,
         "Sub_Rating_Protection": 1.75,
         "Manager_Tenure_Years": 3.5,
@@ -36419,7 +36419,7 @@
         "Net Alpha (%)": 3.37,
         "Rating_Score": 3.1375223214285715,
         "Sub_Rating_Performance": 0.5483,
-        "Sub_Rating_IR": 0.4937,
+        "Sub_Rating_IR": 0.4938,
         "Sub_Rating_Alpha": 0.3455,
         "Sub_Rating_Protection": 1.75,
         "Manager_Tenure_Years": 3.5,
@@ -38054,122 +38054,6 @@
         "Manager_Change_Date": null
       },
       {
-        "code": "152188",
-        "Fund Name": "Samco Dynamic Asset Allocation Fund - Direct Plan - Growth Option",
-        "1Y Return (%)": -0.09,
-        "3Y Return (%)": null,
-        "5Y Return (%)": null,
-        "Sharpe (3Y)": null,
-        "Sharpe (5Y)": null,
-        "Information Ratio (3Y)": null,
-        "Information Ratio (5Y)": null,
-        "Beta (3Y)": null,
-        "Beta (5Y)": null,
-        "Alpha (3Y)": null,
-        "Alpha (5Y)": null,
-        "Downside Capture (3Y)": null,
-        "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": -0.86,
-        "3Y Rolling Return (%)": null,
-        "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 198.56,
-        "Expense Ratio (%)": 0.94,
-        "Top 10 Stocks Weight (%)": 54.91,
-        "Large Cap (%)": 33.16,
-        "Mid Cap (%)": 20.31,
-        "Small Cap (%)": 12.79,
-        "Managers": "Nirali Bhansali, Dhawal Dhanani, Umeshkumar Mehta",
-        "Holdings": [
-          {
-            "name": "7.38% Govt Stock 2027",
-            "sector": "",
-            "weightage": "12.76"
-          },
-          {
-            "name": "Clearing Corporation Of India Ltd",
-            "sector": "",
-            "weightage": "11.48"
-          },
-          {
-            "name": "Net Receivables / (Payables)",
-            "sector": "",
-            "weightage": "10.64"
-          },
-          {
-            "name": "Religare Enterprises Ltd",
-            "sector": "Financial Services",
-            "weightage": "8.31"
-          },
-          {
-            "name": "Adani Power Ltd",
-            "sector": "Utilities",
-            "weightage": "2.58"
-          },
-          {
-            "name": "Hindalco Industries Ltd",
-            "sector": "Basic Materials",
-            "weightage": "2.04"
-          },
-          {
-            "name": "Tata Steel Ltd",
-            "sector": "Basic Materials",
-            "weightage": "1.99"
-          },
-          {
-            "name": "Shriram Finance Ltd",
-            "sector": "Financial Services",
-            "weightage": "1.74"
-          },
-          {
-            "name": "Jindal Steel Ltd",
-            "sector": "Basic Materials",
-            "weightage": "1.70"
-          },
-          {
-            "name": "Cummins India Ltd",
-            "sector": "Industrials",
-            "weightage": "1.66"
-          },
-          {
-            "name": "Canara Bank",
-            "sector": "Financial Services",
-            "weightage": "1.62"
-          },
-          {
-            "name": "SBI Life Insurance Co Ltd",
-            "sector": "Financial Services",
-            "weightage": "1.53"
-          },
-          {
-            "name": "Hitachi Energy India Ltd Ordinary Shares",
-            "sector": "Industrials",
-            "weightage": "1.52"
-          },
-          {
-            "name": "Hindustan Zinc Ltd",
-            "sector": "Basic Materials",
-            "weightage": "1.51"
-          },
-          {
-            "name": "Vedanta Ltd",
-            "sector": "Basic Materials",
-            "weightage": "1.51"
-          }
-        ],
-        "Net Alpha (%)": null,
-        "Rating_Score": null,
-        "Sub_Rating_Performance": 0.625,
-        "Sub_Rating_IR": 0.625,
-        "Sub_Rating_Alpha": 0.375,
-        "Sub_Rating_Protection": 0.875,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "UR",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
         "code": "153376",
         "Fund Name": "Unifi Dynamic Asset Allocation Fund - Direct Growth",
         "1Y Return (%)": 7.99,
@@ -38394,6 +38278,122 @@
         "Sub_Rating_IR": 0.45,
         "Sub_Rating_Alpha": 0.293,
         "Sub_Rating_Protection": 1.75,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "UR",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
+        "code": "152188",
+        "Fund Name": "Samco Dynamic Asset Allocation Fund - Direct Plan - Growth Option",
+        "1Y Return (%)": -0.09,
+        "3Y Return (%)": null,
+        "5Y Return (%)": null,
+        "Sharpe (3Y)": null,
+        "Sharpe (5Y)": null,
+        "Information Ratio (3Y)": null,
+        "Information Ratio (5Y)": null,
+        "Beta (3Y)": null,
+        "Beta (5Y)": null,
+        "Alpha (3Y)": null,
+        "Alpha (5Y)": null,
+        "Downside Capture (3Y)": null,
+        "Downside Capture (5Y)": null,
+        "1Y Rolling Return (%)": -0.86,
+        "3Y Rolling Return (%)": null,
+        "5Y Rolling Return (%)": null,
+        "AUM (Cr)": 198.56,
+        "Expense Ratio (%)": 0.94,
+        "Top 10 Stocks Weight (%)": 54.91,
+        "Large Cap (%)": 33.16,
+        "Mid Cap (%)": 20.31,
+        "Small Cap (%)": 12.79,
+        "Managers": "Nirali Bhansali, Dhawal Dhanani, Umeshkumar Mehta",
+        "Holdings": [
+          {
+            "name": "7.38% Govt Stock 2027",
+            "sector": "",
+            "weightage": "12.76"
+          },
+          {
+            "name": "Clearing Corporation Of India Ltd",
+            "sector": "",
+            "weightage": "11.48"
+          },
+          {
+            "name": "Net Receivables / (Payables)",
+            "sector": "",
+            "weightage": "10.64"
+          },
+          {
+            "name": "Religare Enterprises Ltd",
+            "sector": "Financial Services",
+            "weightage": "8.31"
+          },
+          {
+            "name": "Adani Power Ltd",
+            "sector": "Utilities",
+            "weightage": "2.58"
+          },
+          {
+            "name": "Hindalco Industries Ltd",
+            "sector": "Basic Materials",
+            "weightage": "2.04"
+          },
+          {
+            "name": "Tata Steel Ltd",
+            "sector": "Basic Materials",
+            "weightage": "1.99"
+          },
+          {
+            "name": "Shriram Finance Ltd",
+            "sector": "Financial Services",
+            "weightage": "1.74"
+          },
+          {
+            "name": "Jindal Steel Ltd",
+            "sector": "Basic Materials",
+            "weightage": "1.70"
+          },
+          {
+            "name": "Cummins India Ltd",
+            "sector": "Industrials",
+            "weightage": "1.66"
+          },
+          {
+            "name": "Canara Bank",
+            "sector": "Financial Services",
+            "weightage": "1.62"
+          },
+          {
+            "name": "SBI Life Insurance Co Ltd",
+            "sector": "Financial Services",
+            "weightage": "1.53"
+          },
+          {
+            "name": "Hitachi Energy India Ltd Ordinary Shares",
+            "sector": "Industrials",
+            "weightage": "1.52"
+          },
+          {
+            "name": "Hindustan Zinc Ltd",
+            "sector": "Basic Materials",
+            "weightage": "1.51"
+          },
+          {
+            "name": "Vedanta Ltd",
+            "sector": "Basic Materials",
+            "weightage": "1.51"
+          }
+        ],
+        "Net Alpha (%)": null,
+        "Rating_Score": null,
+        "Sub_Rating_Performance": 0.625,
+        "Sub_Rating_IR": 0.625,
+        "Sub_Rating_Alpha": 0.375,
+        "Sub_Rating_Protection": 0.875,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
         "AUM_Adj": 0.0,
@@ -41536,6 +41536,122 @@
         "Manager_Change_Date": null
       },
       {
+        "code": "152109",
+        "Fund Name": "Parag Parikh Arbitrage Fund - Direct Plan Growth",
+        "1Y Return (%)": 6.44,
+        "3Y Return (%)": 7.21,
+        "5Y Return (%)": null,
+        "Sharpe (3Y)": 0.8,
+        "Sharpe (5Y)": null,
+        "Information Ratio (3Y)": -1.77,
+        "Information Ratio (5Y)": null,
+        "Beta (3Y)": 0.93,
+        "Beta (5Y)": null,
+        "Alpha (3Y)": -0.43,
+        "Alpha (5Y)": null,
+        "Downside Capture (3Y)": 94.87,
+        "Downside Capture (5Y)": null,
+        "1Y Rolling Return (%)": 7.16,
+        "3Y Rolling Return (%)": null,
+        "5Y Rolling Return (%)": null,
+        "AUM (Cr)": 2510.12,
+        "Expense Ratio (%)": 0.19,
+        "Top 10 Stocks Weight (%)": 54.26,
+        "Large Cap (%)": 24.59,
+        "Mid Cap (%)": 3.29,
+        "Small Cap (%)": 1.46,
+        "Managers": "Raj Mehta, Rajeev Thakkar, Raunak Onkar, Rukun Tarachandani, Tejas Soman, Aishwarya Dhar",
+        "Holdings": [
+          {
+            "name": "Parag Parikh Liquid Dir Gr",
+            "sector": "",
+            "weightage": "16.08"
+          },
+          {
+            "name": "HDFC Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "6.11"
+          },
+          {
+            "name": "Axis Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "5.14"
+          },
+          {
+            "name": "ICICI Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "4.99"
+          },
+          {
+            "name": "Bharti Airtel Ltd",
+            "sector": "Communication Services",
+            "weightage": "4.83"
+          },
+          {
+            "name": "Reliance Industries Ltd",
+            "sector": "Energy",
+            "weightage": "4.66"
+          },
+          {
+            "name": "Kotak Mahindra Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "3.97"
+          },
+          {
+            "name": "Mahindra & Mahindra Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "3.00"
+          },
+          {
+            "name": "Bharat Heavy Electricals Ltd",
+            "sector": "Industrials",
+            "weightage": "2.94"
+          },
+          {
+            "name": "Tata Steel Ltd",
+            "sector": "Basic Materials",
+            "weightage": "2.54"
+          },
+          {
+            "name": "State Bank of India",
+            "sector": "Financial Services",
+            "weightage": "2.14"
+          },
+          {
+            "name": "NMDC Ltd",
+            "sector": "Basic Materials",
+            "weightage": "2.11"
+          },
+          {
+            "name": "Kotak Securities Limited",
+            "sector": "",
+            "weightage": "2.10"
+          },
+          {
+            "name": "Small Industries Development Bank Of India",
+            "sector": "",
+            "weightage": "2.08"
+          },
+          {
+            "name": "Axis Bank Limited",
+            "sector": "",
+            "weightage": "2.07"
+          }
+        ],
+        "Net Alpha (%)": -0.43,
+        "Rating_Score": null,
+        "Sub_Rating_Performance": 0.625,
+        "Sub_Rating_IR": 0.0,
+        "Sub_Rating_Alpha": 0.1714,
+        "Sub_Rating_Protection": 1.3163,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "UR",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
         "code": "153426",
         "Fund Name": "quant Arbitrage Fund - Growth Option - Direct Plan",
         "1Y Return (%)": 7.6,
@@ -41768,122 +41884,6 @@
         "Manager_Change_Date": null
       },
       {
-        "code": "152109",
-        "Fund Name": "Parag Parikh Arbitrage Fund - Direct Plan Growth",
-        "1Y Return (%)": 6.44,
-        "3Y Return (%)": 7.21,
-        "5Y Return (%)": null,
-        "Sharpe (3Y)": 0.8,
-        "Sharpe (5Y)": null,
-        "Information Ratio (3Y)": -1.77,
-        "Information Ratio (5Y)": null,
-        "Beta (3Y)": 0.93,
-        "Beta (5Y)": null,
-        "Alpha (3Y)": -0.43,
-        "Alpha (5Y)": null,
-        "Downside Capture (3Y)": 94.87,
-        "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": 7.16,
-        "3Y Rolling Return (%)": null,
-        "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 2510.12,
-        "Expense Ratio (%)": 0.19,
-        "Top 10 Stocks Weight (%)": 54.26,
-        "Large Cap (%)": 24.59,
-        "Mid Cap (%)": 3.29,
-        "Small Cap (%)": 1.46,
-        "Managers": "Raj Mehta, Rajeev Thakkar, Raunak Onkar, Rukun Tarachandani, Tejas Soman, Aishwarya Dhar",
-        "Holdings": [
-          {
-            "name": "Parag Parikh Liquid Dir Gr",
-            "sector": "",
-            "weightage": "16.08"
-          },
-          {
-            "name": "HDFC Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "6.11"
-          },
-          {
-            "name": "Axis Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "5.14"
-          },
-          {
-            "name": "ICICI Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "4.99"
-          },
-          {
-            "name": "Bharti Airtel Ltd",
-            "sector": "Communication Services",
-            "weightage": "4.83"
-          },
-          {
-            "name": "Reliance Industries Ltd",
-            "sector": "Energy",
-            "weightage": "4.66"
-          },
-          {
-            "name": "Kotak Mahindra Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "3.97"
-          },
-          {
-            "name": "Mahindra & Mahindra Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "3.00"
-          },
-          {
-            "name": "Bharat Heavy Electricals Ltd",
-            "sector": "Industrials",
-            "weightage": "2.94"
-          },
-          {
-            "name": "Tata Steel Ltd",
-            "sector": "Basic Materials",
-            "weightage": "2.54"
-          },
-          {
-            "name": "State Bank of India",
-            "sector": "Financial Services",
-            "weightage": "2.14"
-          },
-          {
-            "name": "NMDC Ltd",
-            "sector": "Basic Materials",
-            "weightage": "2.11"
-          },
-          {
-            "name": "Kotak Securities Limited",
-            "sector": "",
-            "weightage": "2.10"
-          },
-          {
-            "name": "Small Industries Development Bank Of India",
-            "sector": "",
-            "weightage": "2.08"
-          },
-          {
-            "name": "Axis Bank Limited",
-            "sector": "",
-            "weightage": "2.07"
-          }
-        ],
-        "Net Alpha (%)": -0.43,
-        "Rating_Score": null,
-        "Sub_Rating_Performance": 0.625,
-        "Sub_Rating_IR": 0.0,
-        "Sub_Rating_Alpha": 0.1714,
-        "Sub_Rating_Protection": 1.3163,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "UR",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
         "code": "152849",
         "Fund Name": "WhiteOak Capital Arbitrage Fund Direct Plan Growth",
         "1Y Return (%)": 7.07,
@@ -42004,12 +42004,12 @@
       {
         "code": "119861",
         "Fund Name": "Tata Liquid Fund- Direct Plan-Growth Option",
-        "1Y Return (%)": 5.14,
-        "3Y Return (%)": 5.59,
-        "5Y Return (%)": 5.49,
-        "Sharpe (3Y)": -5.28,
-        "Sharpe (5Y)": -6.1,
-        "Information Ratio (3Y)": 2.07,
+        "1Y Return (%)": 5.16,
+        "3Y Return (%)": 5.6,
+        "5Y Return (%)": 5.5,
+        "Sharpe (3Y)": -5.25,
+        "Sharpe (5Y)": -6.07,
+        "Information Ratio (3Y)": 2.08,
         "Information Ratio (5Y)": 1.87,
         "Beta (3Y)": 0.93,
         "Beta (5Y)": 0.94,
@@ -42017,9 +42017,9 @@
         "Alpha (5Y)": 0.05,
         "Downside Capture (3Y)": -132.99,
         "Downside Capture (5Y)": 61.51,
-        "1Y Rolling Return (%)": 694.15,
-        "3Y Rolling Return (%)": 43.16,
-        "5Y Rolling Return (%)": 23.47,
+        "1Y Rolling Return (%)": 693.97,
+        "3Y Rolling Return (%)": 43.15,
+        "5Y Rolling Return (%)": 23.46,
         "AUM (Cr)": 30448.68,
         "Expense Ratio (%)": 0.2,
         "Top 10 Stocks Weight (%)": 40.15,
@@ -42120,11 +42120,11 @@
       {
         "code": "119091",
         "Fund Name": "HDFC Liquid Fund - Growth Option - Direct Plan",
-        "1Y Return (%)": 5.02,
-        "3Y Return (%)": 5.34,
+        "1Y Return (%)": 5.04,
+        "3Y Return (%)": 5.35,
         "5Y Return (%)": 5.35,
-        "Sharpe (3Y)": -6.55,
-        "Sharpe (5Y)": -6.84,
+        "Sharpe (3Y)": -6.51,
+        "Sharpe (5Y)": -6.81,
         "Information Ratio (3Y)": -1.17,
         "Information Ratio (5Y)": -0.35,
         "Beta (3Y)": 0.92,
@@ -42133,9 +42133,9 @@
         "Alpha (5Y)": -0.09,
         "Downside Capture (3Y)": 69.58,
         "Downside Capture (5Y)": 88.75,
-        "1Y Rolling Return (%)": 697.55,
-        "3Y Rolling Return (%)": 93.23,
-        "5Y Rolling Return (%)": 50.64,
+        "1Y Rolling Return (%)": 697.38,
+        "3Y Rolling Return (%)": 93.21,
+        "5Y Rolling Return (%)": 50.63,
         "AUM (Cr)": 67998.37,
         "Expense Ratio (%)": 0.2,
         "Top 10 Stocks Weight (%)": 39.15,
@@ -42236,11 +42236,11 @@
       {
         "code": "120389",
         "Fund Name": "Axis Liquid Fund - Direct Plan - Growth Option",
-        "1Y Return (%)": 5.16,
+        "1Y Return (%)": 5.18,
         "3Y Return (%)": 5.63,
-        "5Y Return (%)": 5.52,
-        "Sharpe (3Y)": -4.71,
-        "Sharpe (5Y)": -5.66,
+        "5Y Return (%)": 5.53,
+        "Sharpe (3Y)": -4.68,
+        "Sharpe (5Y)": -5.63,
         "Information Ratio (3Y)": 2.57,
         "Information Ratio (5Y)": 2.59,
         "Beta (3Y)": 0.99,
@@ -42337,8 +42337,8 @@
           }
         ],
         "Net Alpha (%)": 0.18,
-        "Rating_Score": 3.808616053030303,
-        "Sub_Rating_Performance": 0.5252,
+        "Rating_Score": 3.8087154848484848,
+        "Sub_Rating_Performance": 0.5253,
         "Sub_Rating_IR": 1.0,
         "Sub_Rating_Alpha": 0.0653,
         "Sub_Rating_Protection": 2.0,
@@ -42357,17 +42357,17 @@
         "5Y Return (%)": -58.09,
         "Sharpe (3Y)": -7.46,
         "Sharpe (5Y)": -1.46,
-        "Information Ratio (3Y)": -1.3,
+        "Information Ratio (3Y)": -1.35,
         "Information Ratio (5Y)": -1.43,
-        "Beta (3Y)": 0.71,
-        "Beta (5Y)": -10.21,
+        "Beta (3Y)": 0.7,
+        "Beta (5Y)": -10.19,
         "Alpha (3Y)": -0.44,
-        "Alpha (5Y)": -76.47,
+        "Alpha (5Y)": -76.41,
         "Downside Capture (3Y)": -371.81,
         "Downside Capture (5Y)": -3.44,
-        "1Y Rolling Return (%)": 704.83,
-        "3Y Rolling Return (%)": 48.21,
-        "5Y Rolling Return (%)": 11.14,
+        "1Y Rolling Return (%)": 704.64,
+        "3Y Rolling Return (%)": 48.2,
+        "5Y Rolling Return (%)": 11.11,
         "AUM (Cr)": 78.4,
         "Expense Ratio (%)": 0.15,
         "Top 10 Stocks Weight (%)": 126.86,
@@ -42470,20 +42470,20 @@
         "Fund Name": "Edelweiss Liquid Fund - Direct Plan - Growth Option",
         "1Y Return (%)": 4.64,
         "3Y Return (%)": 5.19,
-        "5Y Return (%)": 5.27,
+        "5Y Return (%)": 5.28,
         "Sharpe (3Y)": -8.2,
-        "Sharpe (5Y)": -7.78,
-        "Information Ratio (3Y)": -2.84,
-        "Information Ratio (5Y)": -1.01,
+        "Sharpe (5Y)": -7.77,
+        "Information Ratio (3Y)": -2.89,
+        "Information Ratio (5Y)": -1.04,
         "Beta (3Y)": 0.81,
         "Beta (5Y)": 0.83,
-        "Alpha (3Y)": -0.44,
+        "Alpha (3Y)": -0.45,
         "Alpha (5Y)": -0.28,
         "Downside Capture (3Y)": -140.88,
         "Downside Capture (5Y)": 40.26,
-        "1Y Rolling Return (%)": 712.56,
-        "3Y Rolling Return (%)": 37.19,
-        "5Y Rolling Return (%)": 22.03,
+        "1Y Rolling Return (%)": 712.29,
+        "3Y Rolling Return (%)": 37.18,
+        "5Y Rolling Return (%)": 22.02,
         "AUM (Cr)": 15222.29,
         "Expense Ratio (%)": 0.1,
         "Top 10 Stocks Weight (%)": 35.46,
@@ -42568,11 +42568,11 @@
             "weightage": "2.31"
           }
         ],
-        "Net Alpha (%)": -0.44,
-        "Rating_Score": 3.807,
+        "Net Alpha (%)": -0.45,
+        "Rating_Score": 3.806875,
         "Sub_Rating_Performance": 1.75,
         "Sub_Rating_IR": 0.0,
-        "Sub_Rating_Alpha": 0.057,
+        "Sub_Rating_Alpha": 0.0569,
         "Sub_Rating_Protection": 2.0,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
@@ -42584,20 +42584,20 @@
       {
         "code": "119766",
         "Fund Name": "Kotak Liquid Fund - Direct Plan - Growth",
-        "1Y Return (%)": 5.13,
+        "1Y Return (%)": 5.15,
         "3Y Return (%)": 5.58,
         "5Y Return (%)": 5.49,
-        "Sharpe (3Y)": -5.04,
-        "Sharpe (5Y)": -5.77,
+        "Sharpe (3Y)": -5.01,
+        "Sharpe (5Y)": -5.74,
         "Information Ratio (3Y)": 1.78,
         "Information Ratio (5Y)": 1.86,
         "Beta (3Y)": 0.98,
         "Beta (5Y)": 0.99,
-        "Alpha (3Y)": 0.11,
+        "Alpha (3Y)": 0.12,
         "Alpha (5Y)": 0.12,
         "Downside Capture (3Y)": -86.7,
         "Downside Capture (5Y)": 108.67,
-        "1Y Rolling Return (%)": 47.29,
+        "1Y Rolling Return (%)": 47.28,
         "3Y Rolling Return (%)": 7.19,
         "5Y Rolling Return (%)": 6.1,
         "AUM (Cr)": 42746.41,
@@ -42684,11 +42684,11 @@
             "weightage": "3.24"
           }
         ],
-        "Net Alpha (%)": 0.11,
-        "Rating_Score": 3.79817746969697,
-        "Sub_Rating_Performance": 0.6827,
+        "Net Alpha (%)": 0.12,
+        "Rating_Score": 3.7984331515151517,
+        "Sub_Rating_Performance": 0.6828,
         "Sub_Rating_IR": 0.945,
-        "Sub_Rating_Alpha": 0.0642,
+        "Sub_Rating_Alpha": 0.0644,
         "Sub_Rating_Protection": 2.0,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
@@ -42700,13 +42700,13 @@
       {
         "code": "120837",
         "Fund Name": "quant Liquid Fund - Growth Option - Direct Plan",
-        "1Y Return (%)": 5.11,
+        "1Y Return (%)": 5.13,
         "3Y Return (%)": 6.1,
         "5Y Return (%)": 5.71,
-        "Sharpe (3Y)": -1.8,
-        "Sharpe (5Y)": -3.82,
+        "Sharpe (3Y)": -1.77,
+        "Sharpe (5Y)": -3.83,
         "Information Ratio (3Y)": 3.96,
-        "Information Ratio (5Y)": 4.0,
+        "Information Ratio (5Y)": 3.97,
         "Beta (3Y)": 0.9,
         "Beta (5Y)": 0.94,
         "Alpha (3Y)": 0.48,
@@ -42801,8 +42801,8 @@
           }
         ],
         "Net Alpha (%)": 0.48,
-        "Rating_Score": 3.6424886363636366,
-        "Sub_Rating_Performance": 0.5725,
+        "Rating_Score": 3.6425880681818184,
+        "Sub_Rating_Performance": 0.5726,
         "Sub_Rating_IR": 1.0,
         "Sub_Rating_Alpha": 0.07,
         "Sub_Rating_Protection": 2.0,
@@ -42816,16 +42816,16 @@
       {
         "code": "119415",
         "Fund Name": "Baroda BNP Paribas LIQUID FUND - DIRECT PLAN - GROWTH OPTION",
-        "1Y Return (%)": 5.39,
-        "3Y Return (%)": 5.87,
-        "5Y Return (%)": 5.4,
-        "Sharpe (3Y)": -3.03,
-        "Sharpe (5Y)": -5.34,
-        "Information Ratio (3Y)": 2.64,
+        "1Y Return (%)": 5.41,
+        "3Y Return (%)": 5.86,
+        "5Y Return (%)": 5.41,
+        "Sharpe (3Y)": -3.08,
+        "Sharpe (5Y)": -5.32,
+        "Information Ratio (3Y)": 2.59,
         "Information Ratio (5Y)": 1.75,
         "Beta (3Y)": 0.95,
         "Beta (5Y)": 0.94,
-        "Alpha (3Y)": 0.27,
+        "Alpha (3Y)": 0.26,
         "Alpha (5Y)": 0.15,
         "Downside Capture (3Y)": -87.02,
         "Downside Capture (5Y)": 64.0,
@@ -42916,11 +42916,11 @@
             "weightage": "4.15"
           }
         ],
-        "Net Alpha (%)": 0.27,
-        "Rating_Score": 3.633957386363636,
-        "Sub_Rating_Performance": 0.5672,
+        "Net Alpha (%)": 0.26,
+        "Rating_Score": 3.633900568181818,
+        "Sub_Rating_Performance": 0.5673,
         "Sub_Rating_IR": 1.0,
-        "Sub_Rating_Alpha": 0.0667,
+        "Sub_Rating_Alpha": 0.0666,
         "Sub_Rating_Protection": 2.0,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
@@ -42935,7 +42935,7 @@
         "1Y Return (%)": 5.23,
         "3Y Return (%)": 5.81,
         "5Y Return (%)": null,
-        "Sharpe (3Y)": -3.63,
+        "Sharpe (3Y)": -3.64,
         "Sharpe (5Y)": null,
         "Information Ratio (3Y)": 3.56,
         "Information Ratio (5Y)": null,
@@ -43033,8 +43033,8 @@
           }
         ],
         "Net Alpha (%)": 0.26,
-        "Rating_Score": 3.6320511363636365,
-        "Sub_Rating_Performance": 0.5655,
+        "Rating_Score": 3.6321505681818183,
+        "Sub_Rating_Performance": 0.5656,
         "Sub_Rating_IR": 1.0,
         "Sub_Rating_Alpha": 0.0666,
         "Sub_Rating_Protection": 2.0,
@@ -43048,17 +43048,17 @@
       {
         "code": "118305",
         "Fund Name": "CANARA ROBECO LIQUID FUND - DIRECT PLAN - GROWTH OPTION",
-        "1Y Return (%)": 5.66,
-        "3Y Return (%)": 6.53,
-        "5Y Return (%)": 6.0,
-        "Sharpe (3Y)": 0.26,
-        "Sharpe (5Y)": -1.91,
-        "Information Ratio (3Y)": 5.99,
-        "Information Ratio (5Y)": 6.51,
+        "1Y Return (%)": 5.7,
+        "3Y Return (%)": 6.54,
+        "5Y Return (%)": 6.01,
+        "Sharpe (3Y)": 0.3,
+        "Sharpe (5Y)": -1.88,
+        "Information Ratio (3Y)": 6.02,
+        "Information Ratio (5Y)": 6.53,
         "Beta (3Y)": 1.15,
         "Beta (5Y)": 1.2,
-        "Alpha (3Y)": 1.02,
-        "Alpha (5Y)": 1.2,
+        "Alpha (3Y)": 1.03,
+        "Alpha (5Y)": 1.21,
         "Downside Capture (3Y)": -251.11,
         "Downside Capture (5Y)": 2.97,
         "1Y Rolling Return (%)": 5.87,
@@ -43148,11 +43148,11 @@
             "weightage": "5.73"
           }
         ],
-        "Net Alpha (%)": 1.02,
-        "Rating_Score": 3.627301136363636,
-        "Sub_Rating_Performance": 0.5489,
+        "Net Alpha (%)": 1.03,
+        "Rating_Score": 3.627556818181818,
+        "Sub_Rating_Performance": 0.549,
         "Sub_Rating_IR": 1.0,
-        "Sub_Rating_Alpha": 0.0784,
+        "Sub_Rating_Alpha": 0.0786,
         "Sub_Rating_Protection": 2.0,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
@@ -43164,13 +43164,13 @@
       {
         "code": "119369",
         "Fund Name": "BANK OF INDIA Liquid Fund- Direct Plan- Growth",
-        "1Y Return (%)": 5.64,
+        "1Y Return (%)": 5.68,
         "3Y Return (%)": 6.41,
-        "5Y Return (%)": 5.94,
-        "Sharpe (3Y)": -0.25,
-        "Sharpe (5Y)": -2.22,
+        "5Y Return (%)": 5.95,
+        "Sharpe (3Y)": -0.26,
+        "Sharpe (5Y)": -2.2,
         "Information Ratio (3Y)": 5.61,
-        "Information Ratio (5Y)": 6.05,
+        "Information Ratio (5Y)": 6.06,
         "Beta (3Y)": 1.16,
         "Beta (5Y)": 1.23,
         "Alpha (3Y)": 0.96,
@@ -43265,8 +43265,8 @@
           }
         ],
         "Net Alpha (%)": 0.96,
-        "Rating_Score": 3.627238636363636,
-        "Sub_Rating_Performance": 0.5497,
+        "Rating_Score": 3.6273380681818184,
+        "Sub_Rating_Performance": 0.5498,
         "Sub_Rating_IR": 1.0,
         "Sub_Rating_Alpha": 0.0775,
         "Sub_Rating_Protection": 2.0,
@@ -43280,16 +43280,16 @@
       {
         "code": "139538",
         "Fund Name": "Mahindra Manulife Liquid Fund - Direct Plan -Growth",
-        "1Y Return (%)": 6.15,
-        "3Y Return (%)": 6.65,
-        "5Y Return (%)": 5.68,
-        "Sharpe (3Y)": 0.71,
-        "Sharpe (5Y)": -3.33,
-        "Information Ratio (3Y)": 5.66,
-        "Information Ratio (5Y)": 3.99,
+        "1Y Return (%)": 6.19,
+        "3Y Return (%)": 6.66,
+        "5Y Return (%)": 5.69,
+        "Sharpe (3Y)": 0.75,
+        "Sharpe (5Y)": -3.31,
+        "Information Ratio (3Y)": 5.7,
+        "Information Ratio (5Y)": 4.01,
         "Beta (3Y)": 1.16,
         "Beta (5Y)": 1.09,
-        "Alpha (3Y)": 1.17,
+        "Alpha (3Y)": 1.19,
         "Alpha (5Y)": 0.8,
         "Downside Capture (3Y)": -102.05,
         "Downside Capture (5Y)": 41.03,
@@ -43380,11 +43380,11 @@
             "weightage": "4.70"
           }
         ],
-        "Net Alpha (%)": 1.17,
-        "Rating_Score": 3.6156448863636363,
-        "Sub_Rating_Performance": 0.5349,
+        "Net Alpha (%)": 1.19,
+        "Rating_Score": 3.616056818181818,
+        "Sub_Rating_Performance": 0.535,
         "Sub_Rating_IR": 1.0,
-        "Sub_Rating_Alpha": 0.0808,
+        "Sub_Rating_Alpha": 0.0811,
         "Sub_Rating_Protection": 2.0,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
@@ -43396,12 +43396,12 @@
       {
         "code": "118701",
         "Fund Name": "Nippon India Liquid Fund - Direct Plan Growth Plan - Growth Option",
-        "1Y Return (%)": 5.19,
+        "1Y Return (%)": 5.21,
         "3Y Return (%)": 5.63,
-        "5Y Return (%)": 5.52,
-        "Sharpe (3Y)": -4.76,
-        "Sharpe (5Y)": -5.61,
-        "Information Ratio (3Y)": 2.7,
+        "5Y Return (%)": 5.53,
+        "Sharpe (3Y)": -4.74,
+        "Sharpe (5Y)": -5.59,
+        "Information Ratio (3Y)": 2.69,
         "Information Ratio (5Y)": 2.55,
         "Beta (3Y)": 1.0,
         "Beta (5Y)": 1.0,
@@ -43497,8 +43497,8 @@
           }
         ],
         "Net Alpha (%)": 0.18,
-        "Rating_Score": 3.600778803030303,
-        "Sub_Rating_Performance": 0.5209,
+        "Rating_Score": 3.600878234848485,
+        "Sub_Rating_Performance": 0.521,
         "Sub_Rating_IR": 1.0,
         "Sub_Rating_Alpha": 0.0653,
         "Sub_Rating_Protection": 2.0,
@@ -43512,17 +43512,17 @@
       {
         "code": "119303",
         "Fund Name": "Union Liquid Fund - Direct Plan - Growth Option",
-        "1Y Return (%)": 4.9,
-        "3Y Return (%)": 6.27,
-        "5Y Return (%)": 5.76,
-        "Sharpe (3Y)": -0.84,
-        "Sharpe (5Y)": -3.11,
-        "Information Ratio (3Y)": 4.74,
-        "Information Ratio (5Y)": 4.7,
+        "1Y Return (%)": 4.94,
+        "3Y Return (%)": 6.28,
+        "5Y Return (%)": 5.77,
+        "Sharpe (3Y)": -0.79,
+        "Sharpe (5Y)": -3.07,
+        "Information Ratio (3Y)": 4.78,
+        "Information Ratio (5Y)": 4.72,
         "Beta (3Y)": 1.11,
-        "Beta (5Y)": 1.11,
-        "Alpha (3Y)": 0.78,
-        "Alpha (5Y)": 0.81,
+        "Beta (5Y)": 1.12,
+        "Alpha (3Y)": 0.79,
+        "Alpha (5Y)": 0.82,
         "Downside Capture (3Y)": -134.32,
         "Downside Capture (5Y)": 41.8,
         "1Y Rolling Return (%)": 5.63,
@@ -43612,11 +43612,11 @@
             "weightage": "3.79"
           }
         ],
-        "Net Alpha (%)": 0.78,
-        "Rating_Score": 3.5999261363636363,
-        "Sub_Rating_Performance": 0.5252,
+        "Net Alpha (%)": 0.79,
+        "Rating_Score": 3.6001818181818184,
+        "Sub_Rating_Performance": 0.5253,
         "Sub_Rating_IR": 1.0,
-        "Sub_Rating_Alpha": 0.0747,
+        "Sub_Rating_Alpha": 0.0748,
         "Sub_Rating_Protection": 2.0,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
@@ -43628,16 +43628,16 @@
       {
         "code": "139235",
         "Fund Name": "Canara Robeco Liquid Fund -Unclaimed Redemption and Dividend Plan -Direct Growth Option",
-        "1Y Return (%)": 5.69,
-        "3Y Return (%)": 6.58,
-        "5Y Return (%)": 6.06,
-        "Sharpe (3Y)": 0.47,
-        "Sharpe (5Y)": -1.67,
-        "Information Ratio (3Y)": 6.27,
-        "Information Ratio (5Y)": 6.82,
+        "1Y Return (%)": 5.73,
+        "3Y Return (%)": 6.59,
+        "5Y Return (%)": 6.07,
+        "Sharpe (3Y)": 0.51,
+        "Sharpe (5Y)": -1.63,
+        "Information Ratio (3Y)": 6.3,
+        "Information Ratio (5Y)": 6.84,
         "Beta (3Y)": 1.15,
-        "Beta (5Y)": 1.2,
-        "Alpha (3Y)": 1.08,
+        "Beta (5Y)": 1.21,
+        "Alpha (3Y)": 1.09,
         "Alpha (5Y)": 1.27,
         "Downside Capture (3Y)": -258.21,
         "Downside Capture (5Y)": 1.29,
@@ -43728,127 +43728,11 @@
             "weightage": "5.73"
           }
         ],
-        "Net Alpha (%)": 1.08,
-        "Rating_Score": 3.595863636363636,
-        "Sub_Rating_Performance": 0.5165,
+        "Net Alpha (%)": 1.09,
+        "Rating_Score": 3.596119318181818,
+        "Sub_Rating_Performance": 0.5166,
         "Sub_Rating_IR": 1.0,
-        "Sub_Rating_Alpha": 0.0794,
-        "Sub_Rating_Protection": 2.0,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "\u2605\u2605\u2605\u00bd",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
-        "code": "119135",
-        "Fund Name": "Groww Liquid Fund ( formerly known as Indiabulls Liquid )Fund - Direct Plan - Growth Option",
-        "1Y Return (%)": 5.1,
-        "3Y Return (%)": 5.71,
-        "5Y Return (%)": 5.5,
-        "Sharpe (3Y)": -4.08,
-        "Sharpe (5Y)": -5.53,
-        "Information Ratio (3Y)": 2.86,
-        "Information Ratio (5Y)": 2.04,
-        "Beta (3Y)": 0.99,
-        "Beta (5Y)": 0.94,
-        "Alpha (3Y)": 0.25,
-        "Alpha (5Y)": 0.12,
-        "Downside Capture (3Y)": -299.02,
-        "Downside Capture (5Y)": 24.99,
-        "1Y Rolling Return (%)": 5.56,
-        "3Y Rolling Return (%)": 5.4,
-        "5Y Rolling Return (%)": 5.19,
-        "AUM (Cr)": 262.1,
-        "Expense Ratio (%)": 0.1,
-        "Top 10 Stocks Weight (%)": 93.93,
-        "Large Cap (%)": null,
-        "Mid Cap (%)": null,
-        "Small Cap (%)": null,
-        "Managers": "Kaustubh Sule, Wilfred Gonsalves",
-        "Holdings": [
-          {
-            "name": "Reverse Repo 04-May-26",
-            "sector": "",
-            "weightage": "18.57"
-          },
-          {
-            "name": "Canara Bank",
-            "sector": "",
-            "weightage": "17.41"
-          },
-          {
-            "name": "Reliance Retail Ventures Limited",
-            "sector": "",
-            "weightage": "17.37"
-          },
-          {
-            "name": "HDFC Bank Limited",
-            "sector": "",
-            "weightage": "12.30"
-          },
-          {
-            "name": "ICICI Securities Limited",
-            "sector": "",
-            "weightage": "12.22"
-          },
-          {
-            "name": "Union Bank Of India",
-            "sector": "",
-            "weightage": "12.22"
-          },
-          {
-            "name": "Bank Of Baroda",
-            "sector": "",
-            "weightage": "11.84"
-          },
-          {
-            "name": "National Bank for Agriculture and Rural Development",
-            "sector": "",
-            "weightage": "10.43"
-          },
-          {
-            "name": "Net Receivable/Payable",
-            "sector": "",
-            "weightage": "9.58"
-          },
-          {
-            "name": "L&T Finance Limited",
-            "sector": "",
-            "weightage": "8.61"
-          },
-          {
-            "name": "Axis Bank Limited",
-            "sector": "",
-            "weightage": "7.31"
-          },
-          {
-            "name": "Sundaram Finance Limited",
-            "sector": "",
-            "weightage": "7.02"
-          },
-          {
-            "name": "Power Finance Corporation Limited",
-            "sector": "",
-            "weightage": "7.01"
-          },
-          {
-            "name": "Small Industries Dev Bank Of India",
-            "sector": "",
-            "weightage": "6.96"
-          },
-          {
-            "name": "Rec Limited",
-            "sector": "",
-            "weightage": "6.95"
-          }
-        ],
-        "Net Alpha (%)": 0.25,
-        "Rating_Score": 3.592519886363636,
-        "Sub_Rating_Performance": 0.5261,
-        "Sub_Rating_IR": 1.0,
-        "Sub_Rating_Alpha": 0.0664,
+        "Sub_Rating_Alpha": 0.0795,
         "Sub_Rating_Protection": 2.0,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
@@ -43860,12 +43744,12 @@
       {
         "code": "118577",
         "Fund Name": "Franklin India Liquid Fund - Super Institutional - Direct - Growth",
-        "1Y Return (%)": 5.15,
+        "1Y Return (%)": 5.18,
         "3Y Return (%)": 5.6,
         "5Y Return (%)": 5.45,
-        "Sharpe (3Y)": -5.17,
-        "Sharpe (5Y)": -6.47,
-        "Information Ratio (3Y)": 1.98,
+        "Sharpe (3Y)": -5.13,
+        "Sharpe (5Y)": -6.44,
+        "Information Ratio (3Y)": 1.99,
         "Information Ratio (5Y)": 1.24,
         "Beta (3Y)": 0.94,
         "Beta (5Y)": 0.9,
@@ -43961,10 +43845,126 @@
           }
         ],
         "Net Alpha (%)": 0.08,
-        "Rating_Score": 3.5918636363636365,
-        "Sub_Rating_Performance": 0.5331,
-        "Sub_Rating_IR": 0.995,
+        "Rating_Score": 3.594463068181818,
+        "Sub_Rating_Performance": 0.5332,
+        "Sub_Rating_IR": 0.9975,
         "Sub_Rating_Alpha": 0.0638,
+        "Sub_Rating_Protection": 2.0,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "\u2605\u2605\u2605\u00bd",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
+        "code": "119135",
+        "Fund Name": "Groww Liquid Fund ( formerly known as Indiabulls Liquid )Fund - Direct Plan - Growth Option",
+        "1Y Return (%)": 5.12,
+        "3Y Return (%)": 5.71,
+        "5Y Return (%)": 5.51,
+        "Sharpe (3Y)": -4.08,
+        "Sharpe (5Y)": -5.51,
+        "Information Ratio (3Y)": 2.88,
+        "Information Ratio (5Y)": 2.02,
+        "Beta (3Y)": 0.99,
+        "Beta (5Y)": 0.95,
+        "Alpha (3Y)": 0.25,
+        "Alpha (5Y)": 0.12,
+        "Downside Capture (3Y)": -299.02,
+        "Downside Capture (5Y)": 24.99,
+        "1Y Rolling Return (%)": 5.56,
+        "3Y Rolling Return (%)": 5.4,
+        "5Y Rolling Return (%)": 5.19,
+        "AUM (Cr)": 262.1,
+        "Expense Ratio (%)": 0.1,
+        "Top 10 Stocks Weight (%)": 93.93,
+        "Large Cap (%)": null,
+        "Mid Cap (%)": null,
+        "Small Cap (%)": null,
+        "Managers": "Kaustubh Sule, Wilfred Gonsalves",
+        "Holdings": [
+          {
+            "name": "Reverse Repo 04-May-26",
+            "sector": "",
+            "weightage": "18.57"
+          },
+          {
+            "name": "Canara Bank",
+            "sector": "",
+            "weightage": "17.41"
+          },
+          {
+            "name": "Reliance Retail Ventures Limited",
+            "sector": "",
+            "weightage": "17.37"
+          },
+          {
+            "name": "HDFC Bank Limited",
+            "sector": "",
+            "weightage": "12.30"
+          },
+          {
+            "name": "ICICI Securities Limited",
+            "sector": "",
+            "weightage": "12.22"
+          },
+          {
+            "name": "Union Bank Of India",
+            "sector": "",
+            "weightage": "12.22"
+          },
+          {
+            "name": "Bank Of Baroda",
+            "sector": "",
+            "weightage": "11.84"
+          },
+          {
+            "name": "National Bank for Agriculture and Rural Development",
+            "sector": "",
+            "weightage": "10.43"
+          },
+          {
+            "name": "Net Receivable/Payable",
+            "sector": "",
+            "weightage": "9.58"
+          },
+          {
+            "name": "L&T Finance Limited",
+            "sector": "",
+            "weightage": "8.61"
+          },
+          {
+            "name": "Axis Bank Limited",
+            "sector": "",
+            "weightage": "7.31"
+          },
+          {
+            "name": "Sundaram Finance Limited",
+            "sector": "",
+            "weightage": "7.02"
+          },
+          {
+            "name": "Power Finance Corporation Limited",
+            "sector": "",
+            "weightage": "7.01"
+          },
+          {
+            "name": "Small Industries Dev Bank Of India",
+            "sector": "",
+            "weightage": "6.96"
+          },
+          {
+            "name": "Rec Limited",
+            "sector": "",
+            "weightage": "6.95"
+          }
+        ],
+        "Net Alpha (%)": 0.25,
+        "Rating_Score": 3.5926193181818182,
+        "Sub_Rating_Performance": 0.5262,
+        "Sub_Rating_IR": 1.0,
+        "Sub_Rating_Alpha": 0.0664,
         "Sub_Rating_Protection": 2.0,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
@@ -43976,16 +43976,16 @@
       {
         "code": "125345",
         "Fund Name": "360 ONE LIQUID FUND DIRECT PLAN  GROWTH",
-        "1Y Return (%)": 5.15,
-        "3Y Return (%)": 6.15,
+        "1Y Return (%)": 5.17,
+        "3Y Return (%)": 6.13,
         "5Y Return (%)": 5.83,
-        "Sharpe (3Y)": -1.41,
-        "Sharpe (5Y)": -2.76,
-        "Information Ratio (3Y)": 4.67,
-        "Information Ratio (5Y)": 5.54,
-        "Beta (3Y)": 1.1,
+        "Sharpe (3Y)": -1.5,
+        "Sharpe (5Y)": -2.78,
+        "Information Ratio (3Y)": 4.63,
+        "Information Ratio (5Y)": 5.52,
+        "Beta (3Y)": 1.09,
         "Beta (5Y)": 1.17,
-        "Alpha (3Y)": 0.7,
+        "Alpha (3Y)": 0.69,
         "Alpha (5Y)": 0.95,
         "Downside Capture (3Y)": -179.03,
         "Downside Capture (5Y)": 27.37,
@@ -44076,11 +44076,11 @@
             "weightage": "4.73"
           }
         ],
-        "Net Alpha (%)": 0.7,
-        "Rating_Score": 3.5890511363636364,
-        "Sub_Rating_Performance": 0.5156,
+        "Net Alpha (%)": 0.69,
+        "Rating_Score": 3.5889943181818182,
+        "Sub_Rating_Performance": 0.5157,
         "Sub_Rating_IR": 1.0,
-        "Sub_Rating_Alpha": 0.0734,
+        "Sub_Rating_Alpha": 0.0733,
         "Sub_Rating_Protection": 2.0,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
@@ -44092,13 +44092,13 @@
       {
         "code": "145971",
         "Fund Name": "WhiteOak Capital Liquid Fund- Direct plan-Growth Option",
-        "1Y Return (%)": 5.66,
-        "3Y Return (%)": 6.2,
+        "1Y Return (%)": 5.68,
+        "3Y Return (%)": 6.21,
         "5Y Return (%)": 5.78,
-        "Sharpe (3Y)": -1.21,
-        "Sharpe (5Y)": -3.0,
+        "Sharpe (3Y)": -1.18,
+        "Sharpe (5Y)": -2.99,
         "Information Ratio (3Y)": 5.06,
-        "Information Ratio (5Y)": 4.94,
+        "Information Ratio (5Y)": 4.93,
         "Beta (3Y)": 1.09,
         "Beta (5Y)": 1.17,
         "Alpha (3Y)": 0.74,
@@ -44193,8 +44193,8 @@
           }
         ],
         "Net Alpha (%)": 0.74,
-        "Rating_Score": 3.548551136363636,
-        "Sub_Rating_Performance": 0.4745,
+        "Rating_Score": 3.5486505681818183,
+        "Sub_Rating_Performance": 0.4746,
         "Sub_Rating_IR": 1.0,
         "Sub_Rating_Alpha": 0.0741,
         "Sub_Rating_Protection": 2.0,
@@ -44206,134 +44206,18 @@
         "Manager_Change_Date": null
       },
       {
-        "code": "120038",
-        "Fund Name": "HSBC Liquid Fund -  Growth Direct",
-        "1Y Return (%)": 5.01,
-        "3Y Return (%)": 5.57,
-        "5Y Return (%)": 5.54,
-        "Sharpe (3Y)": -5.11,
-        "Sharpe (5Y)": -5.39,
-        "Information Ratio (3Y)": 1.68,
-        "Information Ratio (5Y)": 2.62,
-        "Beta (3Y)": 0.99,
-        "Beta (5Y)": 0.97,
-        "Alpha (3Y)": 0.11,
-        "Alpha (5Y)": 0.16,
-        "Downside Capture (3Y)": -94.73,
-        "Downside Capture (5Y)": 51.45,
-        "1Y Rolling Return (%)": 5.82,
-        "3Y Rolling Return (%)": 5.69,
-        "5Y Rolling Return (%)": 5.54,
-        "AUM (Cr)": 17734.66,
-        "Expense Ratio (%)": 0.11,
-        "Top 10 Stocks Weight (%)": 41.58,
-        "Large Cap (%)": null,
-        "Mid Cap (%)": null,
-        "Small Cap (%)": null,
-        "Managers": "Rahul Totla, Abhishek Iyer",
-        "Holdings": [
-          {
-            "name": "Canara Bank",
-            "sector": "",
-            "weightage": "15.22"
-          },
-          {
-            "name": "Tbill",
-            "sector": "",
-            "weightage": "12.11"
-          },
-          {
-            "name": "Net Current Assets (Including Cash & Bank Balances)",
-            "sector": "",
-            "weightage": "11.50"
-          },
-          {
-            "name": "HDFC Bank Limited",
-            "sector": "",
-            "weightage": "11.07"
-          },
-          {
-            "name": "India (Republic of)",
-            "sector": "",
-            "weightage": "9.52"
-          },
-          {
-            "name": "Bank Of Baroda",
-            "sector": "",
-            "weightage": "9.26"
-          },
-          {
-            "name": "Reliance Retail Ventures Limited",
-            "sector": "",
-            "weightage": "8.36"
-          },
-          {
-            "name": "Export Import Bank Of India",
-            "sector": "",
-            "weightage": "7.72"
-          },
-          {
-            "name": "National Bank for Agriculture and Rural Development",
-            "sector": "",
-            "weightage": "7.55"
-          },
-          {
-            "name": "Small Industries Development Bank Of India",
-            "sector": "",
-            "weightage": "6.56"
-          },
-          {
-            "name": "Punjab National Bank",
-            "sector": "",
-            "weightage": "6.04"
-          },
-          {
-            "name": "National Bank For Agriculture And Rural Development",
-            "sector": "",
-            "weightage": "5.26"
-          },
-          {
-            "name": "14/05/2026 Maturing 364 DTB",
-            "sector": "",
-            "weightage": "5.06"
-          },
-          {
-            "name": "14/05/2026 Maturing 182 DTB",
-            "sector": "",
-            "weightage": "5.06"
-          },
-          {
-            "name": "21/05/2026 Maturing 182 DTB",
-            "sector": "",
-            "weightage": "5.00"
-          }
-        ],
-        "Net Alpha (%)": 0.11,
-        "Rating_Score": 3.535707386363636,
-        "Sub_Rating_Performance": 0.5515,
-        "Sub_Rating_IR": 0.92,
-        "Sub_Rating_Alpha": 0.0642,
-        "Sub_Rating_Protection": 2.0,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "\u2605\u2605\u2605\u00bd",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
         "code": "145834",
         "Fund Name": "Motilal Oswal Liquid Fund - Direct Growth",
-        "1Y Return (%)": 5.78,
-        "3Y Return (%)": 6.26,
-        "5Y Return (%)": 5.58,
-        "Sharpe (3Y)": -0.95,
-        "Sharpe (5Y)": -4.09,
-        "Information Ratio (3Y)": 4.39,
+        "1Y Return (%)": 5.81,
+        "3Y Return (%)": 6.27,
+        "5Y Return (%)": 5.59,
+        "Sharpe (3Y)": -0.89,
+        "Sharpe (5Y)": -4.07,
+        "Information Ratio (3Y)": 4.43,
         "Information Ratio (5Y)": 3.47,
-        "Beta (3Y)": 0.96,
+        "Beta (3Y)": 0.97,
         "Beta (5Y)": 1.02,
-        "Alpha (3Y)": 0.63,
+        "Alpha (3Y)": 0.64,
         "Alpha (5Y)": 0.51,
         "Downside Capture (3Y)": -265.1,
         "Downside Capture (5Y)": 60.68,
@@ -44424,11 +44308,127 @@
             "weightage": "5.07"
           }
         ],
-        "Net Alpha (%)": 0.63,
-        "Rating_Score": 3.522332386363636,
-        "Sub_Rating_Performance": 0.45,
+        "Net Alpha (%)": 0.64,
+        "Rating_Score": 3.5225880681818182,
+        "Sub_Rating_Performance": 0.4501,
         "Sub_Rating_IR": 1.0,
-        "Sub_Rating_Alpha": 0.0723,
+        "Sub_Rating_Alpha": 0.0725,
+        "Sub_Rating_Protection": 2.0,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "\u2605\u2605\u2605\u00bd",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
+        "code": "120038",
+        "Fund Name": "HSBC Liquid Fund -  Growth Direct",
+        "1Y Return (%)": 5.02,
+        "3Y Return (%)": 5.56,
+        "5Y Return (%)": 5.54,
+        "Sharpe (3Y)": -5.12,
+        "Sharpe (5Y)": -5.38,
+        "Information Ratio (3Y)": 1.58,
+        "Information Ratio (5Y)": 2.56,
+        "Beta (3Y)": 0.98,
+        "Beta (5Y)": 0.97,
+        "Alpha (3Y)": 0.1,
+        "Alpha (5Y)": 0.16,
+        "Downside Capture (3Y)": -94.73,
+        "Downside Capture (5Y)": 51.45,
+        "1Y Rolling Return (%)": 5.82,
+        "3Y Rolling Return (%)": 5.69,
+        "5Y Rolling Return (%)": 5.54,
+        "AUM (Cr)": 17734.66,
+        "Expense Ratio (%)": 0.11,
+        "Top 10 Stocks Weight (%)": 41.58,
+        "Large Cap (%)": null,
+        "Mid Cap (%)": null,
+        "Small Cap (%)": null,
+        "Managers": "Rahul Totla, Abhishek Iyer",
+        "Holdings": [
+          {
+            "name": "Canara Bank",
+            "sector": "",
+            "weightage": "15.22"
+          },
+          {
+            "name": "Tbill",
+            "sector": "",
+            "weightage": "12.11"
+          },
+          {
+            "name": "Net Current Assets (Including Cash & Bank Balances)",
+            "sector": "",
+            "weightage": "11.50"
+          },
+          {
+            "name": "HDFC Bank Limited",
+            "sector": "",
+            "weightage": "11.07"
+          },
+          {
+            "name": "India (Republic of)",
+            "sector": "",
+            "weightage": "9.52"
+          },
+          {
+            "name": "Bank Of Baroda",
+            "sector": "",
+            "weightage": "9.26"
+          },
+          {
+            "name": "Reliance Retail Ventures Limited",
+            "sector": "",
+            "weightage": "8.36"
+          },
+          {
+            "name": "Export Import Bank Of India",
+            "sector": "",
+            "weightage": "7.72"
+          },
+          {
+            "name": "National Bank for Agriculture and Rural Development",
+            "sector": "",
+            "weightage": "7.55"
+          },
+          {
+            "name": "Small Industries Development Bank Of India",
+            "sector": "",
+            "weightage": "6.56"
+          },
+          {
+            "name": "Punjab National Bank",
+            "sector": "",
+            "weightage": "6.04"
+          },
+          {
+            "name": "National Bank For Agriculture And Rural Development",
+            "sector": "",
+            "weightage": "5.26"
+          },
+          {
+            "name": "14/05/2026 Maturing 364 DTB",
+            "sector": "",
+            "weightage": "5.06"
+          },
+          {
+            "name": "14/05/2026 Maturing 182 DTB",
+            "sector": "",
+            "weightage": "5.06"
+          },
+          {
+            "name": "21/05/2026 Maturing 182 DTB",
+            "sector": "",
+            "weightage": "5.00"
+          }
+        ],
+        "Net Alpha (%)": 0.1,
+        "Rating_Score": 3.510650568181818,
+        "Sub_Rating_Performance": 0.5516,
+        "Sub_Rating_IR": 0.895,
+        "Sub_Rating_Alpha": 0.0641,
         "Sub_Rating_Protection": 2.0,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
@@ -44440,17 +44440,17 @@
       {
         "code": "103734",
         "Fund Name": "Quantum Liquid Fund - Direct Plan Growth Option",
-        "1Y Return (%)": 5.41,
+        "1Y Return (%)": 5.44,
         "3Y Return (%)": 5.89,
-        "5Y Return (%)": 5.43,
-        "Sharpe (3Y)": -2.85,
-        "Sharpe (5Y)": -5.04,
-        "Information Ratio (3Y)": 1.71,
-        "Information Ratio (5Y)": 2.4,
+        "5Y Return (%)": 5.44,
+        "Sharpe (3Y)": -2.86,
+        "Sharpe (5Y)": -5.0,
+        "Information Ratio (3Y)": 1.7,
+        "Information Ratio (5Y)": 2.42,
         "Beta (3Y)": 0.81,
         "Beta (5Y)": 0.91,
         "Alpha (3Y)": 0.1,
-        "Alpha (5Y)": 0.21,
+        "Alpha (5Y)": 0.22,
         "Downside Capture (3Y)": -350.22,
         "Downside Capture (5Y)": 37.69,
         "1Y Rolling Return (%)": 5.51,
@@ -44541,9 +44541,9 @@
           }
         ],
         "Net Alpha (%)": 0.1,
-        "Rating_Score": 3.5098011363636363,
-        "Sub_Rating_Performance": 0.5182,
-        "Sub_Rating_IR": 0.9275,
+        "Rating_Score": 3.507400568181818,
+        "Sub_Rating_Performance": 0.5183,
+        "Sub_Rating_IR": 0.925,
         "Sub_Rating_Alpha": 0.0641,
         "Sub_Rating_Protection": 2.0,
         "Manager_Tenure_Years": 3.5,
@@ -44556,11 +44556,11 @@
       {
         "code": "147157",
         "Fund Name": "ITI Liquid Fund - Direct Plan - Growth Option",
-        "1Y Return (%)": 5.29,
+        "1Y Return (%)": 5.31,
         "3Y Return (%)": 5.73,
         "5Y Return (%)": 5.42,
-        "Sharpe (3Y)": -4.03,
-        "Sharpe (5Y)": -6.33,
+        "Sharpe (3Y)": -4.0,
+        "Sharpe (5Y)": -6.3,
         "Information Ratio (3Y)": 1.56,
         "Information Ratio (5Y)": 0.92,
         "Beta (3Y)": 0.87,
@@ -44647,8 +44647,8 @@
           }
         ],
         "Net Alpha (%)": 0.06,
-        "Rating_Score": 3.3946761363636364,
-        "Sub_Rating_Performance": 0.4412,
+        "Rating_Score": 3.394775568181818,
+        "Sub_Rating_Performance": 0.4413,
         "Sub_Rating_IR": 0.89,
         "Sub_Rating_Alpha": 0.0634,
         "Sub_Rating_Protection": 2.0,
@@ -44662,11 +44662,11 @@
       {
         "code": "118364",
         "Fund Name": "BANDHAN LIQUID Fund -Direct Plan-Growth",
-        "1Y Return (%)": 5.02,
-        "3Y Return (%)": 5.53,
+        "1Y Return (%)": 5.04,
+        "3Y Return (%)": 5.54,
         "5Y Return (%)": 5.47,
-        "Sharpe (3Y)": -5.44,
-        "Sharpe (5Y)": -6.12,
+        "Sharpe (3Y)": -5.42,
+        "Sharpe (5Y)": -6.11,
         "Information Ratio (3Y)": 1.13,
         "Information Ratio (5Y)": 1.45,
         "Beta (3Y)": 0.95,
@@ -44763,8 +44763,8 @@
           }
         ],
         "Net Alpha (%)": 0.03,
-        "Rating_Score": 3.3610823863636363,
-        "Sub_Rating_Performance": 0.5156,
+        "Rating_Score": 3.361181818181818,
+        "Sub_Rating_Performance": 0.5157,
         "Sub_Rating_IR": 0.7825,
         "Sub_Rating_Alpha": 0.063,
         "Sub_Rating_Protection": 2.0,
@@ -44779,16 +44779,16 @@
         "code": "120537",
         "Fund Name": "Invesco India Liquid Fund - Direct Plan - Growth",
         "1Y Return (%)": 4.97,
-        "3Y Return (%)": 5.58,
-        "5Y Return (%)": 5.5,
-        "Sharpe (3Y)": -5.15,
+        "3Y Return (%)": 5.57,
+        "5Y Return (%)": 5.51,
+        "Sharpe (3Y)": -5.28,
         "Sharpe (5Y)": -5.6,
-        "Information Ratio (3Y)": 1.0,
-        "Information Ratio (5Y)": 2.1,
-        "Beta (3Y)": 0.92,
+        "Information Ratio (3Y)": 0.92,
+        "Information Ratio (5Y)": 2.05,
+        "Beta (3Y)": 0.91,
         "Beta (5Y)": 0.92,
-        "Alpha (3Y)": 0.0,
-        "Alpha (5Y)": 0.1,
+        "Alpha (3Y)": -0.01,
+        "Alpha (5Y)": 0.09,
         "Downside Capture (3Y)": -126.17,
         "Downside Capture (5Y)": 48.21,
         "1Y Rolling Return (%)": 5.61,
@@ -44878,11 +44878,11 @@
             "weightage": "3.61"
           }
         ],
-        "Net Alpha (%)": 0.0,
-        "Rating_Score": 3.342988636363636,
-        "Sub_Rating_Performance": 0.5305,
-        "Sub_Rating_IR": 0.75,
-        "Sub_Rating_Alpha": 0.0625,
+        "Net Alpha (%)": -0.01,
+        "Rating_Score": 3.3029630681818185,
+        "Sub_Rating_Performance": 0.5306,
+        "Sub_Rating_IR": 0.71,
+        "Sub_Rating_Alpha": 0.0624,
         "Sub_Rating_Protection": 2.0,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
@@ -44898,12 +44898,12 @@
         "3Y Return (%)": 5.49,
         "5Y Return (%)": 5.39,
         "Sharpe (3Y)": -5.7,
-        "Sharpe (5Y)": -6.62,
-        "Information Ratio (3Y)": 0.59,
-        "Information Ratio (5Y)": 0.19,
+        "Sharpe (5Y)": -6.61,
+        "Information Ratio (3Y)": 0.5,
+        "Information Ratio (5Y)": 0.14,
         "Beta (3Y)": 0.95,
-        "Beta (5Y)": 0.93,
-        "Alpha (3Y)": -0.0,
+        "Beta (5Y)": 0.92,
+        "Alpha (3Y)": -0.01,
         "Alpha (5Y)": -0.07,
         "Downside Capture (3Y)": -130.36,
         "Downside Capture (5Y)": 103.76,
@@ -44994,33 +44994,33 @@
             "weightage": "3.29"
           }
         ],
-        "Net Alpha (%)": -0.0,
-        "Rating_Score": 3.273484636363636,
-        "Sub_Rating_Performance": 0.52,
-        "Sub_Rating_IR": 0.545,
-        "Sub_Rating_Alpha": 0.0625,
+        "Net Alpha (%)": -0.01,
+        "Rating_Score": 3.228459068181818,
+        "Sub_Rating_Performance": 0.5201,
+        "Sub_Rating_IR": 0.5,
+        "Sub_Rating_Alpha": 0.0624,
         "Sub_Rating_Protection": 2.0,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
         "AUM_Adj": 0.146,
-        "Rating": "\u2605\u2605\u2605\u00bd",
+        "Rating": "\u2605\u2605\u2605",
         "Manager_Changed_Recently": false,
         "Manager_Change_Date": null
       },
       {
         "code": "119125",
         "Fund Name": "DSP Liquidity Fund - Direct Plan - Growth",
-        "1Y Return (%)": 4.93,
+        "1Y Return (%)": 4.94,
         "3Y Return (%)": 5.5,
         "5Y Return (%)": 5.45,
         "Sharpe (3Y)": -5.84,
-        "Sharpe (5Y)": -6.45,
-        "Information Ratio (3Y)": 0.88,
-        "Information Ratio (5Y)": 1.22,
+        "Sharpe (5Y)": -6.46,
+        "Information Ratio (3Y)": 0.79,
+        "Information Ratio (5Y)": 1.15,
         "Beta (3Y)": 0.93,
         "Beta (5Y)": 0.93,
-        "Alpha (3Y)": -0.01,
-        "Alpha (5Y)": -0.0,
+        "Alpha (3Y)": -0.02,
+        "Alpha (5Y)": -0.01,
         "Downside Capture (3Y)": -127.58,
         "Downside Capture (5Y)": 18.05,
         "1Y Rolling Return (%)": 5.46,
@@ -45110,33 +45110,33 @@
             "weightage": "1.73"
           }
         ],
-        "Net Alpha (%)": -0.01,
-        "Rating_Score": 3.2697386363636367,
-        "Sub_Rating_Performance": 0.5174,
-        "Sub_Rating_IR": 0.69,
-        "Sub_Rating_Alpha": 0.0624,
+        "Net Alpha (%)": -0.02,
+        "Rating_Score": 3.224713068181818,
+        "Sub_Rating_Performance": 0.5175,
+        "Sub_Rating_IR": 0.645,
+        "Sub_Rating_Alpha": 0.0623,
         "Sub_Rating_Protection": 2.0,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
         "AUM_Adj": 0.0,
-        "Rating": "\u2605\u2605\u2605\u00bd",
+        "Rating": "\u2605\u2605\u2605",
         "Manager_Changed_Recently": false,
         "Manager_Change_Date": null
       },
       {
         "code": "149664",
         "Fund Name": "Sundaram Liquid Fund (Formerly Known as Principal Cash Management Fund) - Direct Plan - Growth Option",
-        "1Y Return (%)": 4.89,
-        "3Y Return (%)": 5.5,
-        "5Y Return (%)": 5.39,
-        "Sharpe (3Y)": -5.75,
-        "Sharpe (5Y)": -6.82,
-        "Information Ratio (3Y)": 0.69,
+        "1Y Return (%)": 4.91,
+        "3Y Return (%)": 5.49,
+        "5Y Return (%)": 5.4,
+        "Sharpe (3Y)": -5.77,
+        "Sharpe (5Y)": -6.78,
+        "Information Ratio (3Y)": 0.61,
         "Information Ratio (5Y)": 0.28,
         "Beta (3Y)": 0.92,
         "Beta (5Y)": 0.88,
-        "Alpha (3Y)": -0.03,
-        "Alpha (5Y)": -0.11,
+        "Alpha (3Y)": -0.04,
+        "Alpha (5Y)": -0.1,
         "Downside Capture (3Y)": -211.2,
         "Downside Capture (5Y)": 11.86,
         "1Y Rolling Return (%)": 5.54,
@@ -45226,11 +45226,11 @@
             "weightage": "3.80"
           }
         ],
-        "Net Alpha (%)": -0.03,
-        "Rating_Score": 3.2094886363636363,
-        "Sub_Rating_Performance": 0.5524,
-        "Sub_Rating_IR": 0.595,
-        "Sub_Rating_Alpha": 0.0621,
+        "Net Alpha (%)": -0.04,
+        "Rating_Score": 3.169463068181818,
+        "Sub_Rating_Performance": 0.5525,
+        "Sub_Rating_IR": 0.555,
+        "Sub_Rating_Alpha": 0.062,
         "Sub_Rating_Protection": 2.0,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
@@ -45245,16 +45245,16 @@
         "1Y Return (%)": 5.19,
         "3Y Return (%)": 5.49,
         "5Y Return (%)": 5.47,
-        "Sharpe (3Y)": -2.18,
-        "Sharpe (5Y)": -2.76,
-        "Information Ratio (3Y)": 0.04,
-        "Information Ratio (5Y)": 0.44,
-        "Beta (3Y)": 0.86,
+        "Sharpe (3Y)": -2.19,
+        "Sharpe (5Y)": -2.75,
+        "Information Ratio (3Y)": 0.02,
+        "Information Ratio (5Y)": 0.43,
+        "Beta (3Y)": 0.85,
         "Beta (5Y)": 0.86,
-        "Alpha (3Y)": -0.13,
+        "Alpha (3Y)": -0.14,
         "Alpha (5Y)": -0.02,
         "Downside Capture (3Y)": -214.13,
-        "Downside Capture (5Y)": -13.05,
+        "Downside Capture (5Y)": -16.7,
         "1Y Rolling Return (%)": 5.28,
         "3Y Rolling Return (%)": 5.58,
         "5Y Rolling Return (%)": 5.31,
@@ -45342,11 +45342,11 @@
             "weightage": "5.03"
           }
         ],
-        "Net Alpha (%)": -0.13,
-        "Rating_Score": 2.8727386363636365,
-        "Sub_Rating_Performance": 0.5419,
-        "Sub_Rating_IR": 0.27,
-        "Sub_Rating_Alpha": 0.0609,
+        "Net Alpha (%)": -0.14,
+        "Rating_Score": 2.862713068181818,
+        "Sub_Rating_Performance": 0.542,
+        "Sub_Rating_IR": 0.26,
+        "Sub_Rating_Alpha": 0.0608,
         "Sub_Rating_Protection": 2.0,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
@@ -45358,16 +45358,16 @@
       {
         "code": "119800",
         "Fund Name": "SBI Liquid Fund - DIRECT PLAN -Growth",
-        "1Y Return (%)": 4.72,
+        "1Y Return (%)": 4.73,
         "3Y Return (%)": 5.22,
         "5Y Return (%)": 5.22,
         "Sharpe (3Y)": -7.94,
-        "Sharpe (5Y)": -8.35,
-        "Information Ratio (3Y)": -2.77,
-        "Information Ratio (5Y)": -2.05,
+        "Sharpe (5Y)": -8.34,
+        "Information Ratio (3Y)": -2.82,
+        "Information Ratio (5Y)": -2.09,
         "Beta (3Y)": 0.84,
         "Beta (5Y)": 0.83,
-        "Alpha (3Y)": -0.38,
+        "Alpha (3Y)": -0.39,
         "Alpha (5Y)": -0.34,
         "Downside Capture (3Y)": -275.95,
         "Downside Capture (5Y)": 77.44,
@@ -45458,11 +45458,11 @@
             "weightage": "3.41"
           }
         ],
-        "Net Alpha (%)": -0.38,
-        "Rating_Score": 2.821613636363636,
-        "Sub_Rating_Performance": 0.5139,
+        "Net Alpha (%)": -0.39,
+        "Rating_Score": 2.821588068181818,
+        "Sub_Rating_Performance": 0.514,
         "Sub_Rating_IR": 0.0,
-        "Sub_Rating_Alpha": 0.0578,
+        "Sub_Rating_Alpha": 0.0576,
         "Sub_Rating_Protection": 2.0,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
@@ -45474,12 +45474,12 @@
       {
         "code": "118859",
         "Fund Name": "Mirae Asset Liquid Fund - Direct Plan - Growth",
-        "1Y Return (%)": 4.79,
+        "1Y Return (%)": 4.81,
         "3Y Return (%)": 5.44,
         "5Y Return (%)": 5.5,
-        "Sharpe (3Y)": -6.31,
-        "Sharpe (5Y)": -5.5,
-        "Information Ratio (3Y)": -0.09,
+        "Sharpe (3Y)": -6.28,
+        "Sharpe (5Y)": -5.47,
+        "Information Ratio (3Y)": -0.08,
         "Information Ratio (5Y)": 2.05,
         "Beta (3Y)": 0.87,
         "Beta (5Y)": 0.93,
@@ -45575,9 +45575,9 @@
           }
         ],
         "Net Alpha (%)": -0.14,
-        "Rating_Score": 2.8014886363636364,
-        "Sub_Rating_Performance": 0.5357,
-        "Sub_Rating_IR": 0.205,
+        "Rating_Score": 2.806588068181818,
+        "Sub_Rating_Performance": 0.5358,
+        "Sub_Rating_IR": 0.21,
         "Sub_Rating_Alpha": 0.0608,
         "Sub_Rating_Protection": 2.0,
         "Manager_Tenure_Years": 3.5,
@@ -45590,11 +45590,11 @@
       {
         "code": "120249",
         "Fund Name": "LIC MF Liquid Fund-Direct Plan-Growth",
-        "1Y Return (%)": 4.83,
-        "3Y Return (%)": 5.28,
+        "1Y Return (%)": 4.86,
+        "3Y Return (%)": 5.29,
         "5Y Return (%)": 5.33,
-        "Sharpe (3Y)": -7.24,
-        "Sharpe (5Y)": -7.24,
+        "Sharpe (3Y)": -7.2,
+        "Sharpe (5Y)": -7.2,
         "Information Ratio (3Y)": -1.87,
         "Information Ratio (5Y)": -0.65,
         "Beta (3Y)": 0.86,
@@ -45603,7 +45603,7 @@
         "Alpha (5Y)": -0.18,
         "Downside Capture (3Y)": -79.37,
         "Downside Capture (5Y)": 57.69,
-        "1Y Rolling Return (%)": 49.38,
+        "1Y Rolling Return (%)": 49.36,
         "3Y Rolling Return (%)": 7.24,
         "5Y Rolling Return (%)": 6.09,
         "AUM (Cr)": 16014.85,
@@ -45691,126 +45691,10 @@
           }
         ],
         "Net Alpha (%)": -0.31,
-        "Rating_Score": 2.7457386363636362,
-        "Sub_Rating_Performance": 0.6871,
+        "Rating_Score": 2.7458380681818184,
+        "Sub_Rating_Performance": 0.6872,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.0586,
-        "Sub_Rating_Protection": 2.0,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "\u2605\u2605\u00bd",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
-        "code": "139258",
-        "Fund Name": "JM Liquid Fund Unclaimed Dividend (Direct) Growth Plan",
-        "1Y Return (%)": 2.87,
-        "3Y Return (%)": 3.37,
-        "5Y Return (%)": 4.49,
-        "Sharpe (3Y)": -19.91,
-        "Sharpe (5Y)": -11.07,
-        "Information Ratio (3Y)": -0.15,
-        "Information Ratio (5Y)": 2.39,
-        "Beta (3Y)": 0.66,
-        "Beta (5Y)": 0.78,
-        "Alpha (3Y)": -1.07,
-        "Alpha (5Y)": -0.24,
-        "Downside Capture (3Y)": 46.97,
-        "Downside Capture (5Y)": 46.97,
-        "1Y Rolling Return (%)": 4.95,
-        "3Y Rolling Return (%)": 5.22,
-        "5Y Rolling Return (%)": 5.07,
-        "AUM (Cr)": 2146.56,
-        "Expense Ratio (%)": 0.26,
-        "Top 10 Stocks Weight (%)": 38.73,
-        "Large Cap (%)": null,
-        "Mid Cap (%)": null,
-        "Small Cap (%)": null,
-        "Managers": "N/A",
-        "Holdings": [
-          {
-            "name": "Tbill",
-            "sector": "",
-            "weightage": "9.23"
-          },
-          {
-            "name": "National Bank for Agriculture and Rural Development",
-            "sector": "",
-            "weightage": "7.85"
-          },
-          {
-            "name": "India (Republic of)",
-            "sector": "",
-            "weightage": "5.87"
-          },
-          {
-            "name": "Indian Bank",
-            "sector": "",
-            "weightage": "5.86"
-          },
-          {
-            "name": "HDFC Bank Ltd.",
-            "sector": "",
-            "weightage": "3.92"
-          },
-          {
-            "name": "Axis Bank Ltd.",
-            "sector": "",
-            "weightage": "3.91"
-          },
-          {
-            "name": "Reliance Retail Ventures Limited",
-            "sector": "",
-            "weightage": "3.90"
-          },
-          {
-            "name": "Export Import Bank Of India",
-            "sector": "",
-            "weightage": "3.90"
-          },
-          {
-            "name": "Bank of Baroda",
-            "sector": "",
-            "weightage": "3.90"
-          },
-          {
-            "name": "Ccil",
-            "sector": "",
-            "weightage": "3.90"
-          },
-          {
-            "name": "Union Bank Of India",
-            "sector": "",
-            "weightage": "2.95"
-          },
-          {
-            "name": "360 One Prime Limited",
-            "sector": "",
-            "weightage": "2.92"
-          },
-          {
-            "name": "PNB Housing Finance Ltd.",
-            "sector": "",
-            "weightage": "2.92"
-          },
-          {
-            "name": "Birla Group Holdings Private Limited",
-            "sector": "",
-            "weightage": "2.92"
-          },
-          {
-            "name": "Axis Bank Limited",
-            "sector": "",
-            "weightage": "1.98"
-          }
-        ],
-        "Net Alpha (%)": -1.07,
-        "Rating_Score": 2.7344886363636363,
-        "Sub_Rating_Performance": 0.5104,
-        "Sub_Rating_IR": 0.175,
-        "Sub_Rating_Alpha": 0.0491,
         "Sub_Rating_Protection": 2.0,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
@@ -45923,8 +45807,124 @@
           }
         ],
         "Net Alpha (%)": -1.07,
-        "Rating_Score": 2.7344886363636363,
-        "Sub_Rating_Performance": 0.5104,
+        "Rating_Score": 2.734588068181818,
+        "Sub_Rating_Performance": 0.5105,
+        "Sub_Rating_IR": 0.175,
+        "Sub_Rating_Alpha": 0.0491,
+        "Sub_Rating_Protection": 2.0,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "\u2605\u2605\u00bd",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
+        "code": "139258",
+        "Fund Name": "JM Liquid Fund Unclaimed Dividend (Direct) Growth Plan",
+        "1Y Return (%)": 2.87,
+        "3Y Return (%)": 3.37,
+        "5Y Return (%)": 4.49,
+        "Sharpe (3Y)": -19.91,
+        "Sharpe (5Y)": -11.07,
+        "Information Ratio (3Y)": -0.15,
+        "Information Ratio (5Y)": 2.39,
+        "Beta (3Y)": 0.66,
+        "Beta (5Y)": 0.78,
+        "Alpha (3Y)": -1.07,
+        "Alpha (5Y)": -0.24,
+        "Downside Capture (3Y)": 46.97,
+        "Downside Capture (5Y)": 46.97,
+        "1Y Rolling Return (%)": 4.95,
+        "3Y Rolling Return (%)": 5.22,
+        "5Y Rolling Return (%)": 5.07,
+        "AUM (Cr)": 2146.56,
+        "Expense Ratio (%)": 0.26,
+        "Top 10 Stocks Weight (%)": 38.73,
+        "Large Cap (%)": null,
+        "Mid Cap (%)": null,
+        "Small Cap (%)": null,
+        "Managers": "N/A",
+        "Holdings": [
+          {
+            "name": "Tbill",
+            "sector": "",
+            "weightage": "9.23"
+          },
+          {
+            "name": "National Bank for Agriculture and Rural Development",
+            "sector": "",
+            "weightage": "7.85"
+          },
+          {
+            "name": "India (Republic of)",
+            "sector": "",
+            "weightage": "5.87"
+          },
+          {
+            "name": "Indian Bank",
+            "sector": "",
+            "weightage": "5.86"
+          },
+          {
+            "name": "HDFC Bank Ltd.",
+            "sector": "",
+            "weightage": "3.92"
+          },
+          {
+            "name": "Axis Bank Ltd.",
+            "sector": "",
+            "weightage": "3.91"
+          },
+          {
+            "name": "Reliance Retail Ventures Limited",
+            "sector": "",
+            "weightage": "3.90"
+          },
+          {
+            "name": "Export Import Bank Of India",
+            "sector": "",
+            "weightage": "3.90"
+          },
+          {
+            "name": "Bank of Baroda",
+            "sector": "",
+            "weightage": "3.90"
+          },
+          {
+            "name": "Ccil",
+            "sector": "",
+            "weightage": "3.90"
+          },
+          {
+            "name": "Union Bank Of India",
+            "sector": "",
+            "weightage": "2.95"
+          },
+          {
+            "name": "360 One Prime Limited",
+            "sector": "",
+            "weightage": "2.92"
+          },
+          {
+            "name": "PNB Housing Finance Ltd.",
+            "sector": "",
+            "weightage": "2.92"
+          },
+          {
+            "name": "Birla Group Holdings Private Limited",
+            "sector": "",
+            "weightage": "2.92"
+          },
+          {
+            "name": "Axis Bank Limited",
+            "sector": "",
+            "weightage": "1.98"
+          }
+        ],
+        "Net Alpha (%)": -1.07,
+        "Rating_Score": 2.734588068181818,
+        "Sub_Rating_Performance": 0.5105,
         "Sub_Rating_IR": 0.175,
         "Sub_Rating_Alpha": 0.0491,
         "Sub_Rating_Protection": 2.0,
@@ -45938,12 +45938,12 @@
       {
         "code": "120406",
         "Fund Name": "JM Liquid Fund (Direct) - Growth Option",
-        "1Y Return (%)": 4.6,
-        "3Y Return (%)": 5.42,
+        "1Y Return (%)": 4.62,
+        "3Y Return (%)": 5.43,
         "5Y Return (%)": 5.42,
-        "Sharpe (3Y)": -6.38,
-        "Sharpe (5Y)": -6.53,
-        "Information Ratio (3Y)": -0.28,
+        "Sharpe (3Y)": -6.35,
+        "Sharpe (5Y)": -6.51,
+        "Information Ratio (3Y)": -0.29,
         "Information Ratio (5Y)": 0.95,
         "Beta (3Y)": 0.85,
         "Beta (5Y)": 0.86,
@@ -46039,9 +46039,9 @@
           }
         ],
         "Net Alpha (%)": -0.18,
-        "Rating_Score": 2.704238636363636,
-        "Sub_Rating_Performance": 0.534,
-        "Sub_Rating_IR": 0.11,
+        "Rating_Score": 2.699338068181818,
+        "Sub_Rating_Performance": 0.5341,
+        "Sub_Rating_IR": 0.105,
         "Sub_Rating_Alpha": 0.0603,
         "Sub_Rating_Protection": 2.0,
         "Manager_Tenure_Years": 3.5,
@@ -46155,8 +46155,8 @@
           }
         ],
         "Net Alpha (%)": -0.35,
-        "Rating_Score": 2.597363636363636,
-        "Sub_Rating_Performance": 0.5392,
+        "Rating_Score": 2.597463068181818,
+        "Sub_Rating_Performance": 0.5393,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.0581,
         "Sub_Rating_Protection": 2.0,
@@ -46170,16 +46170,16 @@
       {
         "code": "143269",
         "Fund Name": "Parag Parikh Liquid Fund- Direct Plan- Growth",
-        "1Y Return (%)": 4.63,
+        "1Y Return (%)": 4.62,
         "3Y Return (%)": 5.19,
-        "5Y Return (%)": 5.1,
+        "5Y Return (%)": 5.11,
         "Sharpe (3Y)": -8.13,
-        "Sharpe (5Y)": -7.42,
-        "Information Ratio (3Y)": -3.08,
-        "Information Ratio (5Y)": 0.24,
-        "Beta (3Y)": 0.6,
-        "Beta (5Y)": 0.79,
-        "Alpha (3Y)": -0.77,
+        "Sharpe (5Y)": -7.41,
+        "Information Ratio (3Y)": -3.12,
+        "Information Ratio (5Y)": 0.22,
+        "Beta (3Y)": 0.59,
+        "Beta (5Y)": 0.78,
+        "Alpha (3Y)": -0.78,
         "Alpha (5Y)": -0.27,
         "Downside Capture (3Y)": -381.2,
         "Downside Capture (5Y)": 28.95,
@@ -46270,11 +46270,11 @@
             "weightage": "4.71"
           }
         ],
-        "Net Alpha (%)": -0.77,
-        "Rating_Score": 2.541363636363636,
-        "Sub_Rating_Performance": 0.4885,
+        "Net Alpha (%)": -0.78,
+        "Rating_Score": 2.541338068181818,
+        "Sub_Rating_Performance": 0.4886,
         "Sub_Rating_IR": 0.0,
-        "Sub_Rating_Alpha": 0.0529,
+        "Sub_Rating_Alpha": 0.0527,
         "Sub_Rating_Protection": 2.0,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
@@ -46288,13 +46288,13 @@
         "Fund Name": "PGIM India Liquid Fund - Direct Plan - Growth",
         "1Y Return (%)": 4.7,
         "3Y Return (%)": 5.07,
-        "5Y Return (%)": 5.17,
+        "5Y Return (%)": 5.18,
         "Sharpe (3Y)": -8.88,
-        "Sharpe (5Y)": -8.52,
-        "Information Ratio (3Y)": -3.7,
-        "Information Ratio (5Y)": -2.36,
+        "Sharpe (5Y)": -8.51,
+        "Information Ratio (3Y)": -3.74,
+        "Information Ratio (5Y)": -2.39,
         "Beta (3Y)": 0.78,
-        "Beta (5Y)": 0.82,
+        "Beta (5Y)": 0.81,
         "Alpha (3Y)": -0.59,
         "Alpha (5Y)": -0.41,
         "Downside Capture (3Y)": -73.94,
@@ -46387,8 +46387,8 @@
           }
         ],
         "Net Alpha (%)": -0.59,
-        "Rating_Score": 2.537488636363636,
-        "Sub_Rating_Performance": 0.4824,
+        "Rating_Score": 2.537588068181818,
+        "Sub_Rating_Performance": 0.4825,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.0551,
         "Sub_Rating_Protection": 2.0,
@@ -46402,11 +46402,11 @@
       {
         "code": "120197",
         "Fund Name": "ICICI Prudential Liquid Fund - Direct Plan - Growth",
-        "1Y Return (%)": 5.04,
+        "1Y Return (%)": 5.06,
         "3Y Return (%)": 5.43,
         "5Y Return (%)": 5.41,
-        "Sharpe (3Y)": -6.41,
-        "Sharpe (5Y)": -6.77,
+        "Sharpe (3Y)": -6.37,
+        "Sharpe (5Y)": -6.74,
         "Information Ratio (3Y)": 0.0,
         "Information Ratio (5Y)": 0.0,
         "Beta (3Y)": 1.0,
@@ -46503,8 +46503,8 @@
           }
         ],
         "Net Alpha (%)": 0.0,
-        "Rating_Score": 2.308743803030303,
-        "Sub_Rating_Performance": 0.5121,
+        "Rating_Score": 2.3088432348484846,
+        "Sub_Rating_Performance": 0.5122,
         "Sub_Rating_IR": 0.25,
         "Sub_Rating_Alpha": 0.0625,
         "Sub_Rating_Protection": 1.25,
@@ -46516,15 +46516,131 @@
         "Manager_Change_Date": null
       },
       {
-        "code": "148413",
-        "Fund Name": "JM Liquid Fund - Unclaimed Brokerage I.E.F. (Direct) - Growth Plan",
+        "code": "139260",
+        "Fund Name": "JM Liquid Fund Unclaimed Dividend IEF (Direct) Growth Plan",
+        "1Y Return (%)": 0.0,
+        "3Y Return (%)": 0.0,
+        "5Y Return (%)": 0.0,
+        "Sharpe (3Y)": 0.0,
+        "Sharpe (5Y)": -18947.35,
+        "Information Ratio (3Y)": -15.88,
+        "Information Ratio (5Y)": -21.99,
+        "Beta (3Y)": 0.0,
+        "Beta (5Y)": 0.0,
+        "Alpha (3Y)": -6.47,
+        "Alpha (5Y)": -6.47,
+        "Downside Capture (3Y)": -0.0,
+        "Downside Capture (5Y)": -0.0,
+        "1Y Rolling Return (%)": 0.0,
+        "3Y Rolling Return (%)": 0.0,
+        "5Y Rolling Return (%)": 0.0,
+        "AUM (Cr)": null,
+        "Expense Ratio (%)": 0.26,
+        "Top 10 Stocks Weight (%)": 38.73,
+        "Large Cap (%)": null,
+        "Mid Cap (%)": null,
+        "Small Cap (%)": null,
+        "Managers": "N/A",
+        "Holdings": [
+          {
+            "name": "Tbill",
+            "sector": "",
+            "weightage": "9.23"
+          },
+          {
+            "name": "National Bank for Agriculture and Rural Development",
+            "sector": "",
+            "weightage": "7.85"
+          },
+          {
+            "name": "India (Republic of)",
+            "sector": "",
+            "weightage": "5.87"
+          },
+          {
+            "name": "Indian Bank",
+            "sector": "",
+            "weightage": "5.86"
+          },
+          {
+            "name": "HDFC Bank Ltd.",
+            "sector": "",
+            "weightage": "3.92"
+          },
+          {
+            "name": "Axis Bank Ltd.",
+            "sector": "",
+            "weightage": "3.91"
+          },
+          {
+            "name": "Reliance Retail Ventures Limited",
+            "sector": "",
+            "weightage": "3.90"
+          },
+          {
+            "name": "Export Import Bank Of India",
+            "sector": "",
+            "weightage": "3.90"
+          },
+          {
+            "name": "Bank of Baroda",
+            "sector": "",
+            "weightage": "3.90"
+          },
+          {
+            "name": "Ccil",
+            "sector": "",
+            "weightage": "3.90"
+          },
+          {
+            "name": "Union Bank Of India",
+            "sector": "",
+            "weightage": "2.95"
+          },
+          {
+            "name": "360 One Prime Limited",
+            "sector": "",
+            "weightage": "2.92"
+          },
+          {
+            "name": "PNB Housing Finance Ltd.",
+            "sector": "",
+            "weightage": "2.92"
+          },
+          {
+            "name": "Birla Group Holdings Private Limited",
+            "sector": "",
+            "weightage": "2.92"
+          },
+          {
+            "name": "Axis Bank Limited",
+            "sector": "",
+            "weightage": "1.98"
+          }
+        ],
+        "Net Alpha (%)": -6.47,
+        "Rating_Score": 2.053713068181818,
+        "Sub_Rating_Performance": 0.0537,
+        "Sub_Rating_IR": 0.0,
+        "Sub_Rating_Alpha": 0.0,
+        "Sub_Rating_Protection": 2.0,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "\u2605\u2605",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
+        "code": "148414",
+        "Fund Name": "JM Liquid Fund - Unclaimed Application Refund Amount I.E.F. (Direct) - Growth Plan",
         "1Y Return (%)": 0.0,
         "3Y Return (%)": 0.0,
         "5Y Return (%)": 0.0,
         "Sharpe (3Y)": 0.0,
         "Sharpe (5Y)": 0.0,
         "Information Ratio (3Y)": -33.3,
-        "Information Ratio (5Y)": -33.34,
+        "Information Ratio (5Y)": -33.33,
         "Beta (3Y)": 0.0,
         "Beta (5Y)": 0.0,
         "Alpha (3Y)": -6.47,
@@ -46543,8 +46659,88 @@
         "Managers": "N/A",
         "Holdings": [],
         "Net Alpha (%)": -6.47,
-        "Rating_Score": 2.0536136363636364,
-        "Sub_Rating_Performance": 0.0536,
+        "Rating_Score": 2.053713068181818,
+        "Sub_Rating_Performance": 0.0537,
+        "Sub_Rating_IR": 0.0,
+        "Sub_Rating_Alpha": 0.0,
+        "Sub_Rating_Protection": 2.0,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "\u2605\u2605",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
+        "code": "148413",
+        "Fund Name": "JM Liquid Fund - Unclaimed Brokerage I.E.F. (Direct) - Growth Plan",
+        "1Y Return (%)": 0.0,
+        "3Y Return (%)": 0.0,
+        "5Y Return (%)": 0.0,
+        "Sharpe (3Y)": 0.0,
+        "Sharpe (5Y)": 0.0,
+        "Information Ratio (3Y)": -33.3,
+        "Information Ratio (5Y)": -33.33,
+        "Beta (3Y)": 0.0,
+        "Beta (5Y)": 0.0,
+        "Alpha (3Y)": -6.47,
+        "Alpha (5Y)": -6.47,
+        "Downside Capture (3Y)": -0.0,
+        "Downside Capture (5Y)": -0.0,
+        "1Y Rolling Return (%)": 0.0,
+        "3Y Rolling Return (%)": 0.0,
+        "5Y Rolling Return (%)": 0.0,
+        "AUM (Cr)": null,
+        "Expense Ratio (%)": null,
+        "Top 10 Stocks Weight (%)": null,
+        "Large Cap (%)": null,
+        "Mid Cap (%)": null,
+        "Small Cap (%)": null,
+        "Managers": "N/A",
+        "Holdings": [],
+        "Net Alpha (%)": -6.47,
+        "Rating_Score": 2.053713068181818,
+        "Sub_Rating_Performance": 0.0537,
+        "Sub_Rating_IR": 0.0,
+        "Sub_Rating_Alpha": 0.0,
+        "Sub_Rating_Protection": 2.0,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "\u2605\u2605",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
+        "code": "148415",
+        "Fund Name": "JM Liquid Fund - Withheld Brokerage I.E.F. (Direct) - Growth Plan",
+        "1Y Return (%)": 0.0,
+        "3Y Return (%)": 0.0,
+        "5Y Return (%)": 0.0,
+        "Sharpe (3Y)": 0.0,
+        "Sharpe (5Y)": 0.0,
+        "Information Ratio (3Y)": -39.37,
+        "Information Ratio (5Y)": -30.99,
+        "Beta (3Y)": 0.0,
+        "Beta (5Y)": 0.0,
+        "Alpha (3Y)": -6.47,
+        "Alpha (5Y)": -6.47,
+        "Downside Capture (3Y)": -0.0,
+        "Downside Capture (5Y)": -0.0,
+        "1Y Rolling Return (%)": 0.0,
+        "3Y Rolling Return (%)": 0.0,
+        "5Y Rolling Return (%)": 0.0,
+        "AUM (Cr)": null,
+        "Expense Ratio (%)": null,
+        "Top 10 Stocks Weight (%)": null,
+        "Large Cap (%)": null,
+        "Mid Cap (%)": null,
+        "Small Cap (%)": null,
+        "Managers": "N/A",
+        "Holdings": [],
+        "Net Alpha (%)": -6.47,
+        "Rating_Score": 2.053713068181818,
+        "Sub_Rating_Performance": 0.0537,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.0,
         "Sub_Rating_Protection": 2.0,
@@ -46659,204 +46855,8 @@
           }
         ],
         "Net Alpha (%)": -6.47,
-        "Rating_Score": 2.0536136363636364,
-        "Sub_Rating_Performance": 0.0536,
-        "Sub_Rating_IR": 0.0,
-        "Sub_Rating_Alpha": 0.0,
-        "Sub_Rating_Protection": 2.0,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "\u2605\u2605",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
-        "code": "139260",
-        "Fund Name": "JM Liquid Fund Unclaimed Dividend IEF (Direct) Growth Plan",
-        "1Y Return (%)": 0.0,
-        "3Y Return (%)": 0.0,
-        "5Y Return (%)": 0.0,
-        "Sharpe (3Y)": 0.0,
-        "Sharpe (5Y)": -18947.35,
-        "Information Ratio (3Y)": -15.88,
-        "Information Ratio (5Y)": -21.99,
-        "Beta (3Y)": 0.0,
-        "Beta (5Y)": 0.0,
-        "Alpha (3Y)": -6.47,
-        "Alpha (5Y)": -6.47,
-        "Downside Capture (3Y)": -0.0,
-        "Downside Capture (5Y)": -0.0,
-        "1Y Rolling Return (%)": 0.0,
-        "3Y Rolling Return (%)": 0.0,
-        "5Y Rolling Return (%)": 0.0,
-        "AUM (Cr)": null,
-        "Expense Ratio (%)": 0.26,
-        "Top 10 Stocks Weight (%)": 38.73,
-        "Large Cap (%)": null,
-        "Mid Cap (%)": null,
-        "Small Cap (%)": null,
-        "Managers": "N/A",
-        "Holdings": [
-          {
-            "name": "Tbill",
-            "sector": "",
-            "weightage": "9.23"
-          },
-          {
-            "name": "National Bank for Agriculture and Rural Development",
-            "sector": "",
-            "weightage": "7.85"
-          },
-          {
-            "name": "India (Republic of)",
-            "sector": "",
-            "weightage": "5.87"
-          },
-          {
-            "name": "Indian Bank",
-            "sector": "",
-            "weightage": "5.86"
-          },
-          {
-            "name": "HDFC Bank Ltd.",
-            "sector": "",
-            "weightage": "3.92"
-          },
-          {
-            "name": "Axis Bank Ltd.",
-            "sector": "",
-            "weightage": "3.91"
-          },
-          {
-            "name": "Reliance Retail Ventures Limited",
-            "sector": "",
-            "weightage": "3.90"
-          },
-          {
-            "name": "Export Import Bank Of India",
-            "sector": "",
-            "weightage": "3.90"
-          },
-          {
-            "name": "Bank of Baroda",
-            "sector": "",
-            "weightage": "3.90"
-          },
-          {
-            "name": "Ccil",
-            "sector": "",
-            "weightage": "3.90"
-          },
-          {
-            "name": "Union Bank Of India",
-            "sector": "",
-            "weightage": "2.95"
-          },
-          {
-            "name": "360 One Prime Limited",
-            "sector": "",
-            "weightage": "2.92"
-          },
-          {
-            "name": "PNB Housing Finance Ltd.",
-            "sector": "",
-            "weightage": "2.92"
-          },
-          {
-            "name": "Birla Group Holdings Private Limited",
-            "sector": "",
-            "weightage": "2.92"
-          },
-          {
-            "name": "Axis Bank Limited",
-            "sector": "",
-            "weightage": "1.98"
-          }
-        ],
-        "Net Alpha (%)": -6.47,
-        "Rating_Score": 2.0536136363636364,
-        "Sub_Rating_Performance": 0.0536,
-        "Sub_Rating_IR": 0.0,
-        "Sub_Rating_Alpha": 0.0,
-        "Sub_Rating_Protection": 2.0,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "\u2605\u2605",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
-        "code": "148415",
-        "Fund Name": "JM Liquid Fund - Withheld Brokerage I.E.F. (Direct) - Growth Plan",
-        "1Y Return (%)": 0.0,
-        "3Y Return (%)": 0.0,
-        "5Y Return (%)": 0.0,
-        "Sharpe (3Y)": 0.0,
-        "Sharpe (5Y)": 0.0,
-        "Information Ratio (3Y)": -39.37,
-        "Information Ratio (5Y)": -30.99,
-        "Beta (3Y)": 0.0,
-        "Beta (5Y)": 0.0,
-        "Alpha (3Y)": -6.47,
-        "Alpha (5Y)": -6.47,
-        "Downside Capture (3Y)": -0.0,
-        "Downside Capture (5Y)": -0.0,
-        "1Y Rolling Return (%)": 0.0,
-        "3Y Rolling Return (%)": 0.0,
-        "5Y Rolling Return (%)": 0.0,
-        "AUM (Cr)": null,
-        "Expense Ratio (%)": null,
-        "Top 10 Stocks Weight (%)": null,
-        "Large Cap (%)": null,
-        "Mid Cap (%)": null,
-        "Small Cap (%)": null,
-        "Managers": "N/A",
-        "Holdings": [],
-        "Net Alpha (%)": -6.47,
-        "Rating_Score": 2.0536136363636364,
-        "Sub_Rating_Performance": 0.0536,
-        "Sub_Rating_IR": 0.0,
-        "Sub_Rating_Alpha": 0.0,
-        "Sub_Rating_Protection": 2.0,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "\u2605\u2605",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
-        "code": "148414",
-        "Fund Name": "JM Liquid Fund - Unclaimed Application Refund Amount I.E.F. (Direct) - Growth Plan",
-        "1Y Return (%)": 0.0,
-        "3Y Return (%)": 0.0,
-        "5Y Return (%)": 0.0,
-        "Sharpe (3Y)": 0.0,
-        "Sharpe (5Y)": 0.0,
-        "Information Ratio (3Y)": -33.3,
-        "Information Ratio (5Y)": -33.34,
-        "Beta (3Y)": 0.0,
-        "Beta (5Y)": 0.0,
-        "Alpha (3Y)": -6.47,
-        "Alpha (5Y)": -6.47,
-        "Downside Capture (3Y)": -0.0,
-        "Downside Capture (5Y)": -0.0,
-        "1Y Rolling Return (%)": 0.0,
-        "3Y Rolling Return (%)": 0.0,
-        "5Y Rolling Return (%)": 0.0,
-        "AUM (Cr)": null,
-        "Expense Ratio (%)": null,
-        "Top 10 Stocks Weight (%)": null,
-        "Large Cap (%)": null,
-        "Mid Cap (%)": null,
-        "Small Cap (%)": null,
-        "Managers": "N/A",
-        "Holdings": [],
-        "Net Alpha (%)": -6.47,
-        "Rating_Score": 2.0536136363636364,
-        "Sub_Rating_Performance": 0.0536,
+        "Rating_Score": 2.053713068181818,
+        "Sub_Rating_Performance": 0.0537,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.0,
         "Sub_Rating_Protection": 2.0,
@@ -46986,7 +46986,7 @@
       {
         "code": "153035",
         "Fund Name": "Shriram Liquid Fund - Direct Plan Growth Option",
-        "1Y Return (%)": 4.81,
+        "1Y Return (%)": 4.8,
         "3Y Return (%)": null,
         "5Y Return (%)": null,
         "Sharpe (3Y)": null,
