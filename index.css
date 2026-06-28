@@ -1413,3 +1413,54 @@ body:not(.dark-theme) .theme-toggle-btn .sun-icon {
 body:not(.dark-theme) .theme-toggle-btn .moon-icon {
     display: none !important;
 }
+
+/* Footer Styles */
+.main-footer {
+    padding: 1.5rem 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: var(--text-dim);
+    font-size: 0.9rem;
+}
+
+.footer-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-dim);
+    text-decoration: none;
+    transition: color 0.2s, transform 0.2s;
+    font-weight: 500;
+}
+
+.footer-link:hover {
+    color: var(--primary);
+    transform: translateY(-1px);
+}
+
+@media (max-width: 768px) {
+    .main-footer {
+        padding: 1.25rem;
+    }
+    .footer-content {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+    .footer-links {
+        justify-content: center;
+    }
+}
