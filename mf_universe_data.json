@@ -2,7 +2,7 @@
   "metadata": {
     "risk_free_rate": 6.47,
     "rfr_status": "Live",
-    "compile_date": "2026-06-28 06:08:21",
+    "compile_date": "2026-06-29 06:28:31",
     "benchmark_mapping": {
       "Equity Scheme - Flexi Cap Fund": "Nifty 50 Index",
       "Equity Scheme - Multi Cap Fund": "Nifty 50 Index",
@@ -4883,7 +4883,7 @@
           }
         ],
         "Net Alpha (%)": 14.41,
-        "Rating_Score": 4.042816964285714,
+        "Rating_Score": 4.042816964285715,
         "Sub_Rating_Performance": 0.7951,
         "Sub_Rating_IR": 1.1656,
         "Sub_Rating_Alpha": 1.2237,
@@ -5695,7 +5695,7 @@
           }
         ],
         "Net Alpha (%)": 12.95,
-        "Rating_Score": 3.6351383928571424,
+        "Rating_Score": 3.635138392857143,
         "Sub_Rating_Performance": 0.5295,
         "Sub_Rating_IR": 1.1219,
         "Sub_Rating_Alpha": 1.1585,
@@ -5811,7 +5811,7 @@
           }
         ],
         "Net Alpha (%)": 9.22,
-        "Rating_Score": 3.6054955357142853,
+        "Rating_Score": 3.6054955357142857,
         "Sub_Rating_Performance": 0.7213,
         "Sub_Rating_IR": 0.9844,
         "Sub_Rating_Alpha": 0.992,
@@ -6043,7 +6043,7 @@
           }
         ],
         "Net Alpha (%)": 10.17,
-        "Rating_Score": 3.5347812499999995,
+        "Rating_Score": 3.53478125,
         "Sub_Rating_Performance": 0.5338,
         "Sub_Rating_IR": 1.0562,
         "Sub_Rating_Alpha": 1.0344,
@@ -6159,7 +6159,7 @@
           }
         ],
         "Net Alpha (%)": 8.63,
-        "Rating_Score": 3.4800937499999995,
+        "Rating_Score": 3.48009375,
         "Sub_Rating_Performance": 0.5226,
         "Sub_Rating_IR": 1.0562,
         "Sub_Rating_Alpha": 0.9656,
@@ -6391,7 +6391,7 @@
           }
         ],
         "Net Alpha (%)": 7.89,
-        "Rating_Score": 3.365666666666666,
+        "Rating_Score": 3.365666666666667,
         "Sub_Rating_Performance": 0.4501,
         "Sub_Rating_IR": 0.9375,
         "Sub_Rating_Alpha": 0.9289,
@@ -6623,7 +6623,7 @@
           }
         ],
         "Net Alpha (%)": 8.16,
-        "Rating_Score": 3.304111607142857,
+        "Rating_Score": 3.3041116071428576,
         "Sub_Rating_Performance": 0.427,
         "Sub_Rating_IR": 1.0312,
         "Sub_Rating_Alpha": 0.9446,
@@ -6984,6 +6984,122 @@
         "Manager_Change_Date": null
       },
       {
+        "code": "151824",
+        "Fund Name": "Canara Robeco Multi Cap Fund - Direct Plan - Growth Option",
+        "1Y Return (%)": 3.54,
+        "3Y Return (%)": 16.18,
+        "5Y Return (%)": null,
+        "Sharpe (3Y)": 0.69,
+        "Sharpe (5Y)": null,
+        "Information Ratio (3Y)": 1.21,
+        "Information Ratio (5Y)": null,
+        "Beta (3Y)": 0.93,
+        "Beta (5Y)": null,
+        "Alpha (3Y)": 8.3,
+        "Alpha (5Y)": null,
+        "Downside Capture (3Y)": 94.85,
+        "Downside Capture (5Y)": null,
+        "1Y Rolling Return (%)": 14.76,
+        "3Y Rolling Return (%)": null,
+        "5Y Rolling Return (%)": null,
+        "AUM (Cr)": 5250.1,
+        "Expense Ratio (%)": 0.44,
+        "Top 10 Stocks Weight (%)": 24.17,
+        "Large Cap (%)": 43.67,
+        "Mid Cap (%)": 27.31,
+        "Small Cap (%)": 25.63,
+        "Managers": "Vishal Mishra, Shridatta Bhandwaldar",
+        "Holdings": [
+          {
+            "name": "Treps",
+            "sector": "",
+            "weightage": "4.65"
+          },
+          {
+            "name": "HDFC Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "4.57"
+          },
+          {
+            "name": "ICICI Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "3.42"
+          },
+          {
+            "name": "Bharti Airtel Ltd",
+            "sector": "Communication Services",
+            "weightage": "2.52"
+          },
+          {
+            "name": "State Bank of India",
+            "sector": "Financial Services",
+            "weightage": "2.39"
+          },
+          {
+            "name": "Infosys Ltd",
+            "sector": "Technology",
+            "weightage": "2.11"
+          },
+          {
+            "name": "Larsen & Toubro Ltd",
+            "sector": "Industrials",
+            "weightage": "2.07"
+          },
+          {
+            "name": "Reliance Industries Ltd",
+            "sector": "Energy",
+            "weightage": "2.01"
+          },
+          {
+            "name": "Ajanta Pharma Ltd",
+            "sector": "Healthcare",
+            "weightage": "1.76"
+          },
+          {
+            "name": "Eternal Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "1.74"
+          },
+          {
+            "name": "TBO Tek Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "1.57"
+          },
+          {
+            "name": "JK Cement Ltd",
+            "sector": "Basic Materials",
+            "weightage": "1.48"
+          },
+          {
+            "name": "J.B. Chemicals & Pharmaceuticals Ltd",
+            "sector": "Healthcare",
+            "weightage": "1.44"
+          },
+          {
+            "name": "Mahindra & Mahindra Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "1.42"
+          },
+          {
+            "name": "Axis Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "1.36"
+          }
+        ],
+        "Net Alpha (%)": 8.3,
+        "Rating_Score": null,
+        "Sub_Rating_Performance": 0.625,
+        "Sub_Rating_IR": 1.0031,
+        "Sub_Rating_Alpha": 0.9509,
+        "Sub_Rating_Protection": 0.9406,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "UR",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
         "code": "153309",
         "Fund Name": "BAJAJ FINSERV MULTI CAP FUND - DIRECT - GROWTH",
         "1Y Return (%)": 8.48,
@@ -7208,122 +7324,6 @@
         "Sub_Rating_IR": 0.625,
         "Sub_Rating_Alpha": 0.625,
         "Sub_Rating_Protection": 0.625,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "UR",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
-        "code": "151824",
-        "Fund Name": "Canara Robeco Multi Cap Fund - Direct Plan - Growth Option",
-        "1Y Return (%)": 3.54,
-        "3Y Return (%)": 16.18,
-        "5Y Return (%)": null,
-        "Sharpe (3Y)": 0.69,
-        "Sharpe (5Y)": null,
-        "Information Ratio (3Y)": 1.21,
-        "Information Ratio (5Y)": null,
-        "Beta (3Y)": 0.93,
-        "Beta (5Y)": null,
-        "Alpha (3Y)": 8.3,
-        "Alpha (5Y)": null,
-        "Downside Capture (3Y)": 94.85,
-        "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": 14.76,
-        "3Y Rolling Return (%)": null,
-        "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 5250.1,
-        "Expense Ratio (%)": 0.44,
-        "Top 10 Stocks Weight (%)": 24.17,
-        "Large Cap (%)": 43.67,
-        "Mid Cap (%)": 27.31,
-        "Small Cap (%)": 25.63,
-        "Managers": "Vishal Mishra, Shridatta Bhandwaldar",
-        "Holdings": [
-          {
-            "name": "Treps",
-            "sector": "",
-            "weightage": "4.65"
-          },
-          {
-            "name": "HDFC Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "4.57"
-          },
-          {
-            "name": "ICICI Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "3.42"
-          },
-          {
-            "name": "Bharti Airtel Ltd",
-            "sector": "Communication Services",
-            "weightage": "2.52"
-          },
-          {
-            "name": "State Bank of India",
-            "sector": "Financial Services",
-            "weightage": "2.39"
-          },
-          {
-            "name": "Infosys Ltd",
-            "sector": "Technology",
-            "weightage": "2.11"
-          },
-          {
-            "name": "Larsen & Toubro Ltd",
-            "sector": "Industrials",
-            "weightage": "2.07"
-          },
-          {
-            "name": "Reliance Industries Ltd",
-            "sector": "Energy",
-            "weightage": "2.01"
-          },
-          {
-            "name": "Ajanta Pharma Ltd",
-            "sector": "Healthcare",
-            "weightage": "1.76"
-          },
-          {
-            "name": "Eternal Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "1.74"
-          },
-          {
-            "name": "TBO Tek Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "1.57"
-          },
-          {
-            "name": "JK Cement Ltd",
-            "sector": "Basic Materials",
-            "weightage": "1.48"
-          },
-          {
-            "name": "J.B. Chemicals & Pharmaceuticals Ltd",
-            "sector": "Healthcare",
-            "weightage": "1.44"
-          },
-          {
-            "name": "Mahindra & Mahindra Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "1.42"
-          },
-          {
-            "name": "Axis Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "1.36"
-          }
-        ],
-        "Net Alpha (%)": 8.3,
-        "Rating_Score": null,
-        "Sub_Rating_Performance": 0.625,
-        "Sub_Rating_IR": 1.0031,
-        "Sub_Rating_Alpha": 0.9509,
-        "Sub_Rating_Protection": 0.9406,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
         "AUM_Adj": 0.0,
@@ -7680,122 +7680,6 @@
         "Manager_Change_Date": null
       },
       {
-        "code": "151810",
-        "Fund Name": "Mirae Asset Multicap Fund - Direct Plan - Growth",
-        "1Y Return (%)": 4.17,
-        "3Y Return (%)": 15.87,
-        "5Y Return (%)": null,
-        "Sharpe (3Y)": 0.64,
-        "Sharpe (5Y)": null,
-        "Information Ratio (3Y)": 1.09,
-        "Information Ratio (5Y)": null,
-        "Beta (3Y)": 0.97,
-        "Beta (5Y)": null,
-        "Alpha (3Y)": 7.52,
-        "Alpha (5Y)": null,
-        "Downside Capture (3Y)": 97.02,
-        "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": 13.23,
-        "3Y Rolling Return (%)": null,
-        "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 5071.34,
-        "Expense Ratio (%)": 0.38,
-        "Top 10 Stocks Weight (%)": 30.0,
-        "Large Cap (%)": 33.94,
-        "Mid Cap (%)": 32.49,
-        "Small Cap (%)": 26.33,
-        "Managers": "Ankit Jain",
-        "Holdings": [
-          {
-            "name": "HDFC Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "5.48"
-          },
-          {
-            "name": "ICICI Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "3.91"
-          },
-          {
-            "name": "Delhivery Ltd",
-            "sector": "Industrials",
-            "weightage": "3.25"
-          },
-          {
-            "name": "Axis Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "3.24"
-          },
-          {
-            "name": "Lupin Ltd",
-            "sector": "Healthcare",
-            "weightage": "2.62"
-          },
-          {
-            "name": "Reliance Industries Ltd",
-            "sector": "Energy",
-            "weightage": "2.54"
-          },
-          {
-            "name": "IndusInd Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.46"
-          },
-          {
-            "name": "Swiggy Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "2.28"
-          },
-          {
-            "name": "Tata Consultancy Services Ltd",
-            "sector": "Technology",
-            "weightage": "2.18"
-          },
-          {
-            "name": "Ceat Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "2.04"
-          },
-          {
-            "name": "Tata Steel Ltd",
-            "sector": "Basic Materials",
-            "weightage": "2.01"
-          },
-          {
-            "name": "Gland Pharma Ltd",
-            "sector": "Healthcare",
-            "weightage": "1.99"
-          },
-          {
-            "name": "Hero MotoCorp Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "1.89"
-          },
-          {
-            "name": "Dalmia Bharat Ltd",
-            "sector": "Basic Materials",
-            "weightage": "1.83"
-          },
-          {
-            "name": "Bharti Airtel Ltd",
-            "sector": "Communication Services",
-            "weightage": "1.79"
-          }
-        ],
-        "Net Alpha (%)": 7.52,
-        "Rating_Score": null,
-        "Sub_Rating_Performance": 0.625,
-        "Sub_Rating_IR": 0.9656,
-        "Sub_Rating_Alpha": 0.9,
-        "Sub_Rating_Protection": 0.8744,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "UR",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
         "code": "152651",
         "Fund Name": "Motilal Oswal Multi Cap Fund-Direct Plan Growth",
         "1Y Return (%)": 0.57,
@@ -7904,6 +7788,122 @@
         "Sub_Rating_IR": 0.625,
         "Sub_Rating_Alpha": 0.625,
         "Sub_Rating_Protection": 0.625,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "UR",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
+        "code": "151810",
+        "Fund Name": "Mirae Asset Multicap Fund - Direct Plan - Growth",
+        "1Y Return (%)": 4.17,
+        "3Y Return (%)": 15.87,
+        "5Y Return (%)": null,
+        "Sharpe (3Y)": 0.64,
+        "Sharpe (5Y)": null,
+        "Information Ratio (3Y)": 1.09,
+        "Information Ratio (5Y)": null,
+        "Beta (3Y)": 0.97,
+        "Beta (5Y)": null,
+        "Alpha (3Y)": 7.52,
+        "Alpha (5Y)": null,
+        "Downside Capture (3Y)": 97.02,
+        "Downside Capture (5Y)": null,
+        "1Y Rolling Return (%)": 13.23,
+        "3Y Rolling Return (%)": null,
+        "5Y Rolling Return (%)": null,
+        "AUM (Cr)": 5071.34,
+        "Expense Ratio (%)": 0.38,
+        "Top 10 Stocks Weight (%)": 30.0,
+        "Large Cap (%)": 33.94,
+        "Mid Cap (%)": 32.49,
+        "Small Cap (%)": 26.33,
+        "Managers": "Ankit Jain",
+        "Holdings": [
+          {
+            "name": "HDFC Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "5.48"
+          },
+          {
+            "name": "ICICI Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "3.91"
+          },
+          {
+            "name": "Delhivery Ltd",
+            "sector": "Industrials",
+            "weightage": "3.25"
+          },
+          {
+            "name": "Axis Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "3.24"
+          },
+          {
+            "name": "Lupin Ltd",
+            "sector": "Healthcare",
+            "weightage": "2.62"
+          },
+          {
+            "name": "Reliance Industries Ltd",
+            "sector": "Energy",
+            "weightage": "2.54"
+          },
+          {
+            "name": "IndusInd Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.46"
+          },
+          {
+            "name": "Swiggy Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "2.28"
+          },
+          {
+            "name": "Tata Consultancy Services Ltd",
+            "sector": "Technology",
+            "weightage": "2.18"
+          },
+          {
+            "name": "Ceat Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "2.04"
+          },
+          {
+            "name": "Tata Steel Ltd",
+            "sector": "Basic Materials",
+            "weightage": "2.01"
+          },
+          {
+            "name": "Gland Pharma Ltd",
+            "sector": "Healthcare",
+            "weightage": "1.99"
+          },
+          {
+            "name": "Hero MotoCorp Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "1.89"
+          },
+          {
+            "name": "Dalmia Bharat Ltd",
+            "sector": "Basic Materials",
+            "weightage": "1.83"
+          },
+          {
+            "name": "Bharti Airtel Ltd",
+            "sector": "Communication Services",
+            "weightage": "1.79"
+          }
+        ],
+        "Net Alpha (%)": 7.52,
+        "Rating_Score": null,
+        "Sub_Rating_Performance": 0.625,
+        "Sub_Rating_IR": 0.9656,
+        "Sub_Rating_Alpha": 0.9,
+        "Sub_Rating_Protection": 0.8744,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
         "AUM_Adj": 0.0,
@@ -16025,7 +16025,7 @@
           }
         ],
         "Net Alpha (%)": 8.3,
-        "Rating_Score": 3.7855163043478264,
+        "Rating_Score": 3.785516304347827,
         "Sub_Rating_Performance": 0.6279,
         "Sub_Rating_IR": 1.1719,
         "Sub_Rating_Alpha": 1.3313,
@@ -16257,7 +16257,7 @@
           }
         ],
         "Net Alpha (%)": 7.91,
-        "Rating_Score": 3.680047554347826,
+        "Rating_Score": 3.680047554347827,
         "Sub_Rating_Performance": 0.7094,
         "Sub_Rating_IR": 0.975,
         "Sub_Rating_Alpha": 1.3027,
@@ -16489,7 +16489,7 @@
           }
         ],
         "Net Alpha (%)": 5.18,
-        "Rating_Score": 3.0307038043478256,
+        "Rating_Score": 3.0307038043478265,
         "Sub_Rating_Performance": 0.5789,
         "Sub_Rating_IR": 0.775,
         "Sub_Rating_Alpha": 1.0041,
@@ -16605,7 +16605,7 @@
           }
         ],
         "Net Alpha (%)": 3.66,
-        "Rating_Score": 2.498703804347826,
+        "Rating_Score": 2.4987038043478265,
         "Sub_Rating_Performance": 0.5014,
         "Sub_Rating_IR": 0.4188,
         "Sub_Rating_Alpha": 0.8378,
@@ -16721,7 +16721,7 @@
           }
         ],
         "Net Alpha (%)": 3.04,
-        "Rating_Score": 2.3773913043478263,
+        "Rating_Score": 2.3773913043478268,
         "Sub_Rating_Performance": 0.4189,
         "Sub_Rating_IR": 0.5125,
         "Sub_Rating_Alpha": 0.77,
@@ -16953,7 +16953,7 @@
           }
         ],
         "Net Alpha (%)": 3.42,
-        "Rating_Score": 2.277794804347826,
+        "Rating_Score": 2.2777948043478267,
         "Sub_Rating_Performance": 0.4809,
         "Sub_Rating_IR": 0.4313,
         "Sub_Rating_Alpha": 0.8116,
@@ -17069,7 +17069,7 @@
           }
         ],
         "Net Alpha (%)": 4.18,
-        "Rating_Score": 2.231828804347826,
+        "Rating_Score": 2.2318288043478267,
         "Sub_Rating_Performance": 0.8024,
         "Sub_Rating_IR": 0.5813,
         "Sub_Rating_Alpha": 0.8947,
@@ -17185,7 +17185,7 @@
           }
         ],
         "Net Alpha (%)": 0.92,
-        "Rating_Score": 2.002516304347826,
+        "Rating_Score": 2.002516304347827,
         "Sub_Rating_Performance": 0.6309,
         "Sub_Rating_IR": 0.1125,
         "Sub_Rating_Alpha": 0.5381,
@@ -17301,7 +17301,7 @@
           }
         ],
         "Net Alpha (%)": 3.01,
-        "Rating_Score": 1.889610054347826,
+        "Rating_Score": 1.8896100543478265,
         "Sub_Rating_Performance": 0.7434,
         "Sub_Rating_IR": 0.4125,
         "Sub_Rating_Alpha": 0.7667,
@@ -17417,7 +17417,7 @@
           }
         ],
         "Net Alpha (%)": 0.96,
-        "Rating_Score": 1.7153913043478262,
+        "Rating_Score": 1.7153913043478264,
         "Sub_Rating_Performance": 0.2974,
         "Sub_Rating_IR": 0.175,
         "Sub_Rating_Alpha": 0.5425,
@@ -17533,7 +17533,7 @@
           }
         ],
         "Net Alpha (%)": 0.5,
-        "Rating_Score": 1.672328804347826,
+        "Rating_Score": 1.6723288043478264,
         "Sub_Rating_Performance": 0.3754,
         "Sub_Rating_IR": 0.0938,
         "Sub_Rating_Alpha": 0.4922,
@@ -17649,7 +17649,7 @@
           }
         ],
         "Net Alpha (%)": 0.06,
-        "Rating_Score": 1.6721204710144928,
+        "Rating_Score": 1.6721204710144932,
         "Sub_Rating_Performance": 0.4344,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.4441,
@@ -17765,7 +17765,7 @@
           }
         ],
         "Net Alpha (%)": 1.63,
-        "Rating_Score": 1.4828233876811594,
+        "Rating_Score": 1.4828233876811598,
         "Sub_Rating_Performance": 0.4409,
         "Sub_Rating_IR": 0.1062,
         "Sub_Rating_Alpha": 0.6158,
@@ -17881,7 +17881,7 @@
           }
         ],
         "Net Alpha (%)": -1.49,
-        "Rating_Score": 1.4827663043478263,
+        "Rating_Score": 1.4827663043478265,
         "Sub_Rating_Performance": 0.4514,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.3071,
@@ -17997,7 +17997,7 @@
           }
         ],
         "Net Alpha (%)": 1.18,
-        "Rating_Score": 1.4802038043478265,
+        "Rating_Score": 1.4802038043478267,
         "Sub_Rating_Performance": 0.0494,
         "Sub_Rating_IR": 0.0938,
         "Sub_Rating_Alpha": 0.5666,
@@ -18113,7 +18113,7 @@
           }
         ],
         "Net Alpha (%)": -1.07,
-        "Rating_Score": 1.438558471014493,
+        "Rating_Score": 1.4385584710144932,
         "Sub_Rating_Performance": 0.3364,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.3439,
@@ -18229,7 +18229,7 @@
           }
         ],
         "Net Alpha (%)": -3.67,
-        "Rating_Score": 1.4072663043478262,
+        "Rating_Score": 1.4072663043478264,
         "Sub_Rating_Performance": 0.5784,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.1164,
@@ -18345,7 +18345,7 @@
           }
         ],
         "Net Alpha (%)": -0.2,
-        "Rating_Score": 1.3893953043478264,
+        "Rating_Score": 1.3893953043478267,
         "Sub_Rating_Performance": 0.1809,
         "Sub_Rating_IR": 0.1437,
         "Sub_Rating_Alpha": 0.42,
@@ -18461,7 +18461,7 @@
           }
         ],
         "Net Alpha (%)": -1.45,
-        "Rating_Score": 0.8840163043478262,
+        "Rating_Score": 0.8840163043478266,
         "Sub_Rating_Performance": 0.5864,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.3106,
@@ -18577,7 +18577,7 @@
           }
         ],
         "Net Alpha (%)": -1.23,
-        "Rating_Score": 0.6927663043478263,
+        "Rating_Score": 0.6927663043478267,
         "Sub_Rating_Performance": 0.3039,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.3299,
@@ -19054,122 +19054,6 @@
         "Manager_Change_Date": null
       },
       {
-        "code": "152237",
-        "Fund Name": "Motilal Oswal Small Cap Fund - Direct - Growth",
-        "1Y Return (%)": 16.67,
-        "3Y Return (%)": null,
-        "5Y Return (%)": null,
-        "Sharpe (3Y)": null,
-        "Sharpe (5Y)": null,
-        "Information Ratio (3Y)": null,
-        "Information Ratio (5Y)": null,
-        "Beta (3Y)": null,
-        "Beta (5Y)": null,
-        "Alpha (3Y)": null,
-        "Alpha (5Y)": null,
-        "Downside Capture (3Y)": null,
-        "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": 12.07,
-        "3Y Rolling Return (%)": null,
-        "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 6515.37,
-        "Expense Ratio (%)": 0.67,
-        "Top 10 Stocks Weight (%)": 32.24,
-        "Large Cap (%)": 2.87,
-        "Mid Cap (%)": 10.51,
-        "Small Cap (%)": 73.73,
-        "Managers": "Swapnil Mayekar, Ajay Khandelwal, Rakesh Shetty, Bhalchandra Shinde",
-        "Holdings": [
-          {
-            "name": "Collateralized Borrowing & Lending Obligation",
-            "sector": "",
-            "weightage": "6.98"
-          },
-          {
-            "name": "CCL Products (India) Ltd",
-            "sector": "Consumer Defensive",
-            "weightage": "4.10"
-          },
-          {
-            "name": "Rubicon Research Ltd",
-            "sector": "Healthcare",
-            "weightage": "3.83"
-          },
-          {
-            "name": "VA Tech Wabag Ltd",
-            "sector": "Industrials",
-            "weightage": "3.78"
-          },
-          {
-            "name": "Karur Vysya Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "3.64"
-          },
-          {
-            "name": "Aditya Infotech Ltd",
-            "sector": "Industrials",
-            "weightage": "3.23"
-          },
-          {
-            "name": "Dr Agarwal\u2019s Health Care Ltd",
-            "sector": "Healthcare",
-            "weightage": "3.06"
-          },
-          {
-            "name": "Vijaya Diagnostic Centre Ltd",
-            "sector": "Healthcare",
-            "weightage": "2.83"
-          },
-          {
-            "name": "Campus Activewear Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "2.72"
-          },
-          {
-            "name": "Shaily Engineering Plastics Ltd",
-            "sector": "Basic Materials",
-            "weightage": "2.65"
-          },
-          {
-            "name": "Pricol Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "2.41"
-          },
-          {
-            "name": "Aditya Vision Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "2.35"
-          },
-          {
-            "name": "V2 Retail Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "2.23"
-          },
-          {
-            "name": "Rainbow Childrens Medicare Ltd",
-            "sector": "Healthcare",
-            "weightage": "2.17"
-          },
-          {
-            "name": "Sky Gold and Diamonds Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "2.13"
-          }
-        ],
-        "Net Alpha (%)": null,
-        "Rating_Score": null,
-        "Sub_Rating_Performance": 0.5,
-        "Sub_Rating_IR": 0.625,
-        "Sub_Rating_Alpha": 0.875,
-        "Sub_Rating_Protection": 0.5,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "UR",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
         "code": "153196",
         "Fund Name": "Mirae Asset Small Cap Fund - Direct Plan - Growth",
         "1Y Return (%)": 10.09,
@@ -19270,6 +19154,122 @@
             "name": "Timken India Ltd",
             "sector": "Industrials",
             "weightage": "1.83"
+          }
+        ],
+        "Net Alpha (%)": null,
+        "Rating_Score": null,
+        "Sub_Rating_Performance": 0.5,
+        "Sub_Rating_IR": 0.625,
+        "Sub_Rating_Alpha": 0.875,
+        "Sub_Rating_Protection": 0.5,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "UR",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
+        "code": "152237",
+        "Fund Name": "Motilal Oswal Small Cap Fund - Direct - Growth",
+        "1Y Return (%)": 16.67,
+        "3Y Return (%)": null,
+        "5Y Return (%)": null,
+        "Sharpe (3Y)": null,
+        "Sharpe (5Y)": null,
+        "Information Ratio (3Y)": null,
+        "Information Ratio (5Y)": null,
+        "Beta (3Y)": null,
+        "Beta (5Y)": null,
+        "Alpha (3Y)": null,
+        "Alpha (5Y)": null,
+        "Downside Capture (3Y)": null,
+        "Downside Capture (5Y)": null,
+        "1Y Rolling Return (%)": 12.07,
+        "3Y Rolling Return (%)": null,
+        "5Y Rolling Return (%)": null,
+        "AUM (Cr)": 6515.37,
+        "Expense Ratio (%)": 0.67,
+        "Top 10 Stocks Weight (%)": 32.24,
+        "Large Cap (%)": 2.87,
+        "Mid Cap (%)": 10.51,
+        "Small Cap (%)": 73.73,
+        "Managers": "Swapnil Mayekar, Ajay Khandelwal, Rakesh Shetty, Bhalchandra Shinde",
+        "Holdings": [
+          {
+            "name": "Collateralized Borrowing & Lending Obligation",
+            "sector": "",
+            "weightage": "6.98"
+          },
+          {
+            "name": "CCL Products (India) Ltd",
+            "sector": "Consumer Defensive",
+            "weightage": "4.10"
+          },
+          {
+            "name": "Rubicon Research Ltd",
+            "sector": "Healthcare",
+            "weightage": "3.83"
+          },
+          {
+            "name": "VA Tech Wabag Ltd",
+            "sector": "Industrials",
+            "weightage": "3.78"
+          },
+          {
+            "name": "Karur Vysya Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "3.64"
+          },
+          {
+            "name": "Aditya Infotech Ltd",
+            "sector": "Industrials",
+            "weightage": "3.23"
+          },
+          {
+            "name": "Dr Agarwal\u2019s Health Care Ltd",
+            "sector": "Healthcare",
+            "weightage": "3.06"
+          },
+          {
+            "name": "Vijaya Diagnostic Centre Ltd",
+            "sector": "Healthcare",
+            "weightage": "2.83"
+          },
+          {
+            "name": "Campus Activewear Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "2.72"
+          },
+          {
+            "name": "Shaily Engineering Plastics Ltd",
+            "sector": "Basic Materials",
+            "weightage": "2.65"
+          },
+          {
+            "name": "Pricol Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "2.41"
+          },
+          {
+            "name": "Aditya Vision Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "2.35"
+          },
+          {
+            "name": "V2 Retail Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "2.23"
+          },
+          {
+            "name": "Rainbow Childrens Medicare Ltd",
+            "sector": "Healthcare",
+            "weightage": "2.17"
+          },
+          {
+            "name": "Sky Gold and Diamonds Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "2.13"
           }
         ],
         "Net Alpha (%)": null,
@@ -22652,9 +22652,9 @@
         "Manager_Change_Date": null
       },
       {
-        "code": "152821",
-        "Fund Name": "ITI Large & Midcap Fund - Direct Plan - Growth",
-        "1Y Return (%)": 1.02,
+        "code": "152941",
+        "Fund Name": "Helios Large & Mid Cap Fund - Direct Plan - Growth Option",
+        "1Y Return (%)": 10.74,
         "3Y Return (%)": null,
         "5Y Return (%)": null,
         "Sharpe (3Y)": null,
@@ -22667,91 +22667,91 @@
         "Alpha (5Y)": null,
         "Downside Capture (3Y)": null,
         "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": 2.0,
+        "1Y Rolling Return (%)": 12.84,
         "3Y Rolling Return (%)": null,
         "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 731.3,
+        "AUM (Cr)": 877.84,
         "Expense Ratio (%)": 0.74,
-        "Top 10 Stocks Weight (%)": 20.11,
-        "Large Cap (%)": 39.06,
-        "Mid Cap (%)": 37.23,
-        "Small Cap (%)": 25.34,
-        "Managers": "Alok Ranjan, Nilay Dalal",
+        "Top 10 Stocks Weight (%)": 31.21,
+        "Large Cap (%)": 59.75,
+        "Mid Cap (%)": 38.18,
+        "Small Cap (%)": 1.01,
+        "Managers": "Alok Bahl, Pratik Singh",
         "Holdings": [
           {
-            "name": "Cash Offset For Derivatives",
-            "sector": "",
-            "weightage": "2.76"
-          },
-          {
-            "name": "Reliance Industries Ltd",
-            "sector": "Energy",
-            "weightage": "2.68"
-          },
-          {
-            "name": "Bharti Hexacom Ltd",
-            "sector": "Communication Services",
-            "weightage": "2.57"
-          },
-          {
-            "name": "IndusInd Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.52"
+            "name": "Adani Ports & Special Economic Zone Ltd",
+            "sector": "Industrials",
+            "weightage": "4.66"
           },
           {
             "name": "ICICI Bank Ltd",
             "sector": "Financial Services",
-            "weightage": "2.04"
+            "weightage": "3.45"
+          },
+          {
+            "name": "Eternal Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "3.40"
           },
           {
             "name": "Larsen & Toubro Ltd",
             "sector": "Industrials",
-            "weightage": "1.99"
+            "weightage": "2.94"
           },
           {
-            "name": "Net Receivables / (Payables)",
-            "sector": "",
-            "weightage": "1.87"
-          },
-          {
-            "name": "Treps 01-Jun-2026",
-            "sector": "",
-            "weightage": "1.78"
-          },
-          {
-            "name": "State Bank of India",
-            "sector": "Financial Services",
-            "weightage": "1.72"
-          },
-          {
-            "name": "Supriya Lifescience Ltd",
-            "sector": "Healthcare",
-            "weightage": "1.70"
-          },
-          {
-            "name": "LG Electronics India Ltd",
-            "sector": "Technology",
-            "weightage": "1.65"
-          },
-          {
-            "name": "Sun Pharmaceuticals Industries Ltd",
-            "sector": "Healthcare",
-            "weightage": "1.63"
-          },
-          {
-            "name": "Axis Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "1.60"
-          },
-          {
-            "name": "Kotak Mahindra Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "1.53"
+            "name": "Reliance Industries Ltd",
+            "sector": "Energy",
+            "weightage": "2.93"
           },
           {
             "name": "One97 Communications Ltd",
             "sector": "Technology",
-            "weightage": "1.52"
+            "weightage": "2.90"
+          },
+          {
+            "name": "Multi Commodity Exchange of India Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.80"
+          },
+          {
+            "name": "Bharti Airtel Ltd",
+            "sector": "Communication Services",
+            "weightage": "2.79"
+          },
+          {
+            "name": "HDFC Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.70"
+          },
+          {
+            "name": "Cummins India Ltd",
+            "sector": "Industrials",
+            "weightage": "2.63"
+          },
+          {
+            "name": "Adani Enterprises Ltd",
+            "sector": "Energy",
+            "weightage": "2.62"
+          },
+          {
+            "name": "State Bank of India",
+            "sector": "Financial Services",
+            "weightage": "2.31"
+          },
+          {
+            "name": "Fortis Healthcare Ltd",
+            "sector": "Healthcare",
+            "weightage": "2.27"
+          },
+          {
+            "name": "Bajaj Finance Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.19"
+          },
+          {
+            "name": "BSE Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.18"
           }
         ],
         "Net Alpha (%)": null,
@@ -22884,9 +22884,9 @@
         "Manager_Change_Date": null
       },
       {
-        "code": "152941",
-        "Fund Name": "Helios Large & Mid Cap Fund - Direct Plan - Growth Option",
-        "1Y Return (%)": 10.74,
+        "code": "152821",
+        "Fund Name": "ITI Large & Midcap Fund - Direct Plan - Growth",
+        "1Y Return (%)": 1.02,
         "3Y Return (%)": null,
         "5Y Return (%)": null,
         "Sharpe (3Y)": null,
@@ -22899,91 +22899,91 @@
         "Alpha (5Y)": null,
         "Downside Capture (3Y)": null,
         "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": 12.84,
+        "1Y Rolling Return (%)": 2.0,
         "3Y Rolling Return (%)": null,
         "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 877.84,
+        "AUM (Cr)": 731.3,
         "Expense Ratio (%)": 0.74,
-        "Top 10 Stocks Weight (%)": 31.21,
-        "Large Cap (%)": 59.75,
-        "Mid Cap (%)": 38.18,
-        "Small Cap (%)": 1.01,
-        "Managers": "Alok Bahl, Pratik Singh",
+        "Top 10 Stocks Weight (%)": 20.11,
+        "Large Cap (%)": 39.06,
+        "Mid Cap (%)": 37.23,
+        "Small Cap (%)": 25.34,
+        "Managers": "Alok Ranjan, Nilay Dalal",
         "Holdings": [
           {
-            "name": "Adani Ports & Special Economic Zone Ltd",
-            "sector": "Industrials",
-            "weightage": "4.66"
-          },
-          {
-            "name": "ICICI Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "3.45"
-          },
-          {
-            "name": "Eternal Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "3.40"
-          },
-          {
-            "name": "Larsen & Toubro Ltd",
-            "sector": "Industrials",
-            "weightage": "2.94"
+            "name": "Cash Offset For Derivatives",
+            "sector": "",
+            "weightage": "2.76"
           },
           {
             "name": "Reliance Industries Ltd",
             "sector": "Energy",
-            "weightage": "2.93"
+            "weightage": "2.68"
           },
           {
-            "name": "One97 Communications Ltd",
-            "sector": "Technology",
-            "weightage": "2.90"
-          },
-          {
-            "name": "Multi Commodity Exchange of India Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.80"
-          },
-          {
-            "name": "Bharti Airtel Ltd",
+            "name": "Bharti Hexacom Ltd",
             "sector": "Communication Services",
-            "weightage": "2.79"
+            "weightage": "2.57"
           },
           {
-            "name": "HDFC Bank Ltd",
+            "name": "IndusInd Bank Ltd",
             "sector": "Financial Services",
-            "weightage": "2.70"
+            "weightage": "2.52"
           },
           {
-            "name": "Cummins India Ltd",
+            "name": "ICICI Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.04"
+          },
+          {
+            "name": "Larsen & Toubro Ltd",
             "sector": "Industrials",
-            "weightage": "2.63"
+            "weightage": "1.99"
           },
           {
-            "name": "Adani Enterprises Ltd",
-            "sector": "Energy",
-            "weightage": "2.62"
+            "name": "Net Receivables / (Payables)",
+            "sector": "",
+            "weightage": "1.87"
+          },
+          {
+            "name": "Treps 01-Jun-2026",
+            "sector": "",
+            "weightage": "1.78"
           },
           {
             "name": "State Bank of India",
             "sector": "Financial Services",
-            "weightage": "2.31"
+            "weightage": "1.72"
           },
           {
-            "name": "Fortis Healthcare Ltd",
+            "name": "Supriya Lifescience Ltd",
             "sector": "Healthcare",
-            "weightage": "2.27"
+            "weightage": "1.70"
           },
           {
-            "name": "Bajaj Finance Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.19"
+            "name": "LG Electronics India Ltd",
+            "sector": "Technology",
+            "weightage": "1.65"
           },
           {
-            "name": "BSE Ltd",
+            "name": "Sun Pharmaceuticals Industries Ltd",
+            "sector": "Healthcare",
+            "weightage": "1.63"
+          },
+          {
+            "name": "Axis Bank Ltd",
             "sector": "Financial Services",
-            "weightage": "2.18"
+            "weightage": "1.60"
+          },
+          {
+            "name": "Kotak Mahindra Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "1.53"
+          },
+          {
+            "name": "One97 Communications Ltd",
+            "sector": "Technology",
+            "weightage": "1.52"
           }
         ],
         "Net Alpha (%)": null,
@@ -28251,7 +28251,7 @@
           }
         ],
         "Net Alpha (%)": 12.94,
-        "Rating_Score": 4.07892387218045,
+        "Rating_Score": 4.078923872180452,
         "Sub_Rating_Performance": 0.7584,
         "Sub_Rating_IR": 1.25,
         "Sub_Rating_Alpha": 1.158,
@@ -28715,7 +28715,7 @@
           }
         ],
         "Net Alpha (%)": 10.84,
-        "Rating_Score": 3.8029863721804507,
+        "Rating_Score": 3.802986372180451,
         "Sub_Rating_Performance": 0.7628,
         "Sub_Rating_IR": 1.1594,
         "Sub_Rating_Alpha": 1.0643,
@@ -28947,7 +28947,7 @@
           }
         ],
         "Net Alpha (%)": 6.39,
-        "Rating_Score": 3.5894819078947364,
+        "Rating_Score": 3.589481907894737,
         "Sub_Rating_Performance": 0.8484,
         "Sub_Rating_IR": 1.0094,
         "Sub_Rating_Alpha": 0.8117,
@@ -29063,7 +29063,7 @@
           }
         ],
         "Net Alpha (%)": 9.35,
-        "Rating_Score": 3.555218515037594,
+        "Rating_Score": 3.5552185150375943,
         "Sub_Rating_Performance": 0.5921,
         "Sub_Rating_IR": 1.1031,
         "Sub_Rating_Alpha": 0.9978,
@@ -29179,7 +29179,7 @@
           }
         ],
         "Net Alpha (%)": 9.57,
-        "Rating_Score": 3.5519149436090225,
+        "Rating_Score": 3.551914943609023,
         "Sub_Rating_Performance": 0.7965,
         "Sub_Rating_IR": 0.95,
         "Sub_Rating_Alpha": 1.0076,
@@ -29295,7 +29295,7 @@
           }
         ],
         "Net Alpha (%)": 7.69,
-        "Rating_Score": 3.5201069078947365,
+        "Rating_Score": 3.520106907894737,
         "Sub_Rating_Performance": 0.5415,
         "Sub_Rating_IR": 1.1844,
         "Sub_Rating_Alpha": 0.9133,
@@ -29527,7 +29527,7 @@
           }
         ],
         "Net Alpha (%)": 10.7,
-        "Rating_Score": 3.440486372180451,
+        "Rating_Score": 3.4404863721804513,
         "Sub_Rating_Performance": 0.5771,
         "Sub_Rating_IR": 1.0312,
         "Sub_Rating_Alpha": 1.058,
@@ -29643,7 +29643,7 @@
           }
         ],
         "Net Alpha (%)": 8.12,
-        "Rating_Score": 3.3868703007518794,
+        "Rating_Score": 3.38687030075188,
         "Sub_Rating_Performance": 0.4134,
         "Sub_Rating_IR": 1.1156,
         "Sub_Rating_Alpha": 0.9429,
@@ -29875,7 +29875,7 @@
           }
         ],
         "Net Alpha (%)": 6.34,
-        "Rating_Score": 3.252138157894737,
+        "Rating_Score": 3.2521381578947373,
         "Sub_Rating_Performance": 0.5415,
         "Sub_Rating_IR": 1.0156,
         "Sub_Rating_Alpha": 0.8078,
@@ -29991,7 +29991,7 @@
           }
         ],
         "Net Alpha (%)": 7.54,
-        "Rating_Score": 3.252138157894737,
+        "Rating_Score": 3.2521381578947373,
         "Sub_Rating_Performance": 0.5746,
         "Sub_Rating_IR": 0.95,
         "Sub_Rating_Alpha": 0.9016,
@@ -30107,7 +30107,7 @@
           }
         ],
         "Net Alpha (%)": 5.19,
-        "Rating_Score": 3.0076069078947367,
+        "Rating_Score": 3.0076069078947376,
         "Sub_Rating_Performance": 0.3759,
         "Sub_Rating_IR": 0.9594,
         "Sub_Rating_Alpha": 0.718,
@@ -30223,7 +30223,7 @@
           }
         ],
         "Net Alpha (%)": 1.72,
-        "Rating_Score": 2.1858881578947367,
+        "Rating_Score": 2.185888157894737,
         "Sub_Rating_Performance": 0.3084,
         "Sub_Rating_IR": 0.5625,
         "Sub_Rating_Alpha": 0.4469,
@@ -35257,7 +35257,7 @@
           }
         ],
         "Net Alpha (%)": 5.35,
-        "Rating_Score": 3.55234375,
+        "Rating_Score": 3.5523437500000004,
         "Sub_Rating_Performance": 0.6453,
         "Sub_Rating_IR": 0.7188,
         "Sub_Rating_Alpha": 0.4383,
@@ -35837,7 +35837,7 @@
           }
         ],
         "Net Alpha (%)": 4.71,
-        "Rating_Score": 3.40984375,
+        "Rating_Score": 3.4098437500000003,
         "Sub_Rating_Performance": 0.6391,
         "Sub_Rating_IR": 0.6125,
         "Sub_Rating_Alpha": 0.4083,
@@ -35953,7 +35953,7 @@
           }
         ],
         "Net Alpha (%)": 3.39,
-        "Rating_Score": 3.2454687499999997,
+        "Rating_Score": 3.24546875,
         "Sub_Rating_Performance": 0.6616,
         "Sub_Rating_IR": 0.4875,
         "Sub_Rating_Alpha": 0.3464,
@@ -36185,7 +36185,7 @@
           }
         ],
         "Net Alpha (%)": 3.46,
-        "Rating_Score": 3.2156249999999997,
+        "Rating_Score": 3.215625,
         "Sub_Rating_Performance": 0.6034,
         "Sub_Rating_IR": 0.5125,
         "Sub_Rating_Alpha": 0.3497,
@@ -36301,7 +36301,7 @@
           }
         ],
         "Net Alpha (%)": 3.42,
-        "Rating_Score": 3.191875,
+        "Rating_Score": 3.1918750000000005,
         "Sub_Rating_Performance": 0.5753,
         "Sub_Rating_IR": 0.5188,
         "Sub_Rating_Alpha": 0.3478,
@@ -36417,7 +36417,7 @@
           }
         ],
         "Net Alpha (%)": 3.87,
-        "Rating_Score": 3.13734375,
+        "Rating_Score": 3.1373437500000003,
         "Sub_Rating_Performance": 0.5372,
         "Sub_Rating_IR": 0.4813,
         "Sub_Rating_Alpha": 0.3689,
@@ -36649,7 +36649,7 @@
           }
         ],
         "Net Alpha (%)": 3.22,
-        "Rating_Score": 3.1243749999999997,
+        "Rating_Score": 3.124375,
         "Sub_Rating_Performance": 0.5484,
         "Sub_Rating_IR": 0.4875,
         "Sub_Rating_Alpha": 0.3384,
@@ -36765,7 +36765,7 @@
           }
         ],
         "Net Alpha (%)": 3.13,
-        "Rating_Score": 3.0795312499999996,
+        "Rating_Score": 3.07953125,
         "Sub_Rating_Performance": 0.5578,
         "Sub_Rating_IR": 0.4375,
         "Sub_Rating_Alpha": 0.3342,
@@ -36997,7 +36997,7 @@
           }
         ],
         "Net Alpha (%)": 3.04,
-        "Rating_Score": 2.9511875,
+        "Rating_Score": 2.9511875000000005,
         "Sub_Rating_Performance": 0.4909,
         "Sub_Rating_IR": 0.5938,
         "Sub_Rating_Alpha": 0.33,
@@ -37113,7 +37113,7 @@
           }
         ],
         "Net Alpha (%)": 1.77,
-        "Rating_Score": 2.9251562499999997,
+        "Rating_Score": 2.92515625,
         "Sub_Rating_Performance": 0.5484,
         "Sub_Rating_IR": 0.3563,
         "Sub_Rating_Alpha": 0.2705,
@@ -37345,7 +37345,7 @@
           }
         ],
         "Net Alpha (%)": 1.12,
-        "Rating_Score": 2.681354166666666,
+        "Rating_Score": 2.6813541666666665,
         "Sub_Rating_Performance": 0.5091,
         "Sub_Rating_IR": 0.3063,
         "Sub_Rating_Alpha": 0.24,
@@ -41188,122 +41188,6 @@
         "Manager_Change_Date": "2026-06-18"
       },
       {
-        "code": "153043",
-        "Fund Name": "Franklin India Arbitrage Fund - Direct - Growth",
-        "1Y Return (%)": 7.12,
-        "3Y Return (%)": null,
-        "5Y Return (%)": null,
-        "Sharpe (3Y)": null,
-        "Sharpe (5Y)": null,
-        "Information Ratio (3Y)": null,
-        "Information Ratio (5Y)": null,
-        "Beta (3Y)": null,
-        "Beta (5Y)": null,
-        "Alpha (3Y)": null,
-        "Alpha (5Y)": null,
-        "Downside Capture (3Y)": null,
-        "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": 7.26,
-        "3Y Rolling Return (%)": null,
-        "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 1380.36,
-        "Expense Ratio (%)": 0.23,
-        "Top 10 Stocks Weight (%)": 45.82,
-        "Large Cap (%)": 48.25,
-        "Mid Cap (%)": 14.22,
-        "Small Cap (%)": 8.3,
-        "Managers": "Pallab Roy, Rohan Maru, Rajasa Kakulavarapu, Mukesh Jain",
-        "Holdings": [
-          {
-            "name": "Franklin India Money Mkt Dir Gr",
-            "sector": "",
-            "weightage": "11.34"
-          },
-          {
-            "name": "ICICI Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "5.74"
-          },
-          {
-            "name": "HDFC Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "4.58"
-          },
-          {
-            "name": "Union Bank Of India",
-            "sector": "",
-            "weightage": "4.54"
-          },
-          {
-            "name": "Reliance Industries Ltd",
-            "sector": "Energy",
-            "weightage": "3.87"
-          },
-          {
-            "name": "Kotak Mahindra Bank Limited (Formerly Kotak Mahindra Finance Limited)",
-            "sector": "",
-            "weightage": "3.79"
-          },
-          {
-            "name": "National Bank for Agriculture and Rural Development",
-            "sector": "",
-            "weightage": "3.78"
-          },
-          {
-            "name": "Vodafone Idea Ltd",
-            "sector": "Communication Services",
-            "weightage": "3.23"
-          },
-          {
-            "name": "Credila Financial Services Ltd.",
-            "sector": "",
-            "weightage": "3.01"
-          },
-          {
-            "name": "IDFC First Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.70"
-          },
-          {
-            "name": "Axis Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.54"
-          },
-          {
-            "name": "Bharti Airtel Ltd",
-            "sector": "Communication Services",
-            "weightage": "2.46"
-          },
-          {
-            "name": "Larsen & Toubro Ltd",
-            "sector": "Industrials",
-            "weightage": "2.41"
-          },
-          {
-            "name": "Call, Cash & Other Assets",
-            "sector": "",
-            "weightage": "2.07"
-          },
-          {
-            "name": "Adani Enterprises Ltd",
-            "sector": "Energy",
-            "weightage": "2.02"
-          }
-        ],
-        "Net Alpha (%)": null,
-        "Rating_Score": null,
-        "Sub_Rating_Performance": 0.625,
-        "Sub_Rating_IR": 0.625,
-        "Sub_Rating_Alpha": 0.375,
-        "Sub_Rating_Protection": 0.875,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "UR",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
         "code": "152077",
         "Fund Name": "Bajaj Finserv Arbitrage Fund-Direct Plan-Growth",
         "1Y Return (%)": 6.72,
@@ -41412,6 +41296,122 @@
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.1729,
         "Sub_Rating_Protection": 1.5782,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "UR",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
+        "code": "153043",
+        "Fund Name": "Franklin India Arbitrage Fund - Direct - Growth",
+        "1Y Return (%)": 7.12,
+        "3Y Return (%)": null,
+        "5Y Return (%)": null,
+        "Sharpe (3Y)": null,
+        "Sharpe (5Y)": null,
+        "Information Ratio (3Y)": null,
+        "Information Ratio (5Y)": null,
+        "Beta (3Y)": null,
+        "Beta (5Y)": null,
+        "Alpha (3Y)": null,
+        "Alpha (5Y)": null,
+        "Downside Capture (3Y)": null,
+        "Downside Capture (5Y)": null,
+        "1Y Rolling Return (%)": 7.26,
+        "3Y Rolling Return (%)": null,
+        "5Y Rolling Return (%)": null,
+        "AUM (Cr)": 1380.36,
+        "Expense Ratio (%)": 0.23,
+        "Top 10 Stocks Weight (%)": 45.82,
+        "Large Cap (%)": 48.25,
+        "Mid Cap (%)": 14.22,
+        "Small Cap (%)": 8.3,
+        "Managers": "Pallab Roy, Rohan Maru, Rajasa Kakulavarapu, Mukesh Jain",
+        "Holdings": [
+          {
+            "name": "Franklin India Money Mkt Dir Gr",
+            "sector": "",
+            "weightage": "11.34"
+          },
+          {
+            "name": "ICICI Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "5.74"
+          },
+          {
+            "name": "HDFC Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "4.58"
+          },
+          {
+            "name": "Union Bank Of India",
+            "sector": "",
+            "weightage": "4.54"
+          },
+          {
+            "name": "Reliance Industries Ltd",
+            "sector": "Energy",
+            "weightage": "3.87"
+          },
+          {
+            "name": "Kotak Mahindra Bank Limited (Formerly Kotak Mahindra Finance Limited)",
+            "sector": "",
+            "weightage": "3.79"
+          },
+          {
+            "name": "National Bank for Agriculture and Rural Development",
+            "sector": "",
+            "weightage": "3.78"
+          },
+          {
+            "name": "Vodafone Idea Ltd",
+            "sector": "Communication Services",
+            "weightage": "3.23"
+          },
+          {
+            "name": "Credila Financial Services Ltd.",
+            "sector": "",
+            "weightage": "3.01"
+          },
+          {
+            "name": "IDFC First Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.70"
+          },
+          {
+            "name": "Axis Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.54"
+          },
+          {
+            "name": "Bharti Airtel Ltd",
+            "sector": "Communication Services",
+            "weightage": "2.46"
+          },
+          {
+            "name": "Larsen & Toubro Ltd",
+            "sector": "Industrials",
+            "weightage": "2.41"
+          },
+          {
+            "name": "Call, Cash & Other Assets",
+            "sector": "",
+            "weightage": "2.07"
+          },
+          {
+            "name": "Adani Enterprises Ltd",
+            "sector": "Energy",
+            "weightage": "2.02"
+          }
+        ],
+        "Net Alpha (%)": null,
+        "Rating_Score": null,
+        "Sub_Rating_Performance": 0.625,
+        "Sub_Rating_IR": 0.625,
+        "Sub_Rating_Alpha": 0.375,
+        "Sub_Rating_Protection": 0.875,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
         "AUM_Adj": 0.0,
@@ -42569,8 +42569,8 @@
           }
         ],
         "Net Alpha (%)": 0.09,
-        "Rating_Score": 3.7312399696969702,
-        "Sub_Rating_Performance": 0.6836,
+        "Rating_Score": 3.7135846666666668,
+        "Sub_Rating_Performance": 0.666,
         "Sub_Rating_IR": 0.8775,
         "Sub_Rating_Alpha": 0.0639,
         "Sub_Rating_Protection": 2.0,
@@ -42685,8 +42685,8 @@
           }
         ],
         "Net Alpha (%)": 0.46,
-        "Rating_Score": 3.643051136363636,
-        "Sub_Rating_Performance": 0.5734,
+        "Rating_Score": 3.625395833333333,
+        "Sub_Rating_Performance": 0.5557,
         "Sub_Rating_IR": 1.0,
         "Sub_Rating_Alpha": 0.0697,
         "Sub_Rating_Protection": 2.0,
@@ -42801,8 +42801,8 @@
           }
         ],
         "Net Alpha (%)": 0.25,
-        "Rating_Score": 3.6345198863636363,
-        "Sub_Rating_Performance": 0.5681,
+        "Rating_Score": 3.6168645833333333,
+        "Sub_Rating_Performance": 0.5505,
         "Sub_Rating_IR": 1.0,
         "Sub_Rating_Alpha": 0.0664,
         "Sub_Rating_Protection": 2.0,
@@ -42917,8 +42917,8 @@
           }
         ],
         "Net Alpha (%)": 0.27,
-        "Rating_Score": 3.633082386363636,
-        "Sub_Rating_Performance": 0.5664,
+        "Rating_Score": 3.6154270833333335,
+        "Sub_Rating_Performance": 0.5487,
         "Sub_Rating_IR": 1.0,
         "Sub_Rating_Alpha": 0.0667,
         "Sub_Rating_Protection": 2.0,
@@ -43033,8 +43033,8 @@
           }
         ],
         "Net Alpha (%)": 1.01,
-        "Rating_Score": 3.628019886363637,
-        "Sub_Rating_Performance": 0.5497,
+        "Rating_Score": 3.6103645833333333,
+        "Sub_Rating_Performance": 0.5321,
         "Sub_Rating_IR": 1.0,
         "Sub_Rating_Alpha": 0.0783,
         "Sub_Rating_Protection": 2.0,
@@ -43149,8 +43149,8 @@
           }
         ],
         "Net Alpha (%)": 0.93,
-        "Rating_Score": 3.6276448863636364,
-        "Sub_Rating_Performance": 0.5506,
+        "Rating_Score": 3.6099895833333333,
+        "Sub_Rating_Performance": 0.533,
         "Sub_Rating_IR": 1.0,
         "Sub_Rating_Alpha": 0.077,
         "Sub_Rating_Protection": 2.0,
@@ -43265,8 +43265,8 @@
           }
         ],
         "Net Alpha (%)": 1.15,
-        "Rating_Score": 3.6162073863636364,
-        "Sub_Rating_Performance": 0.5357,
+        "Rating_Score": 3.5985520833333333,
+        "Sub_Rating_Performance": 0.5181,
         "Sub_Rating_IR": 1.0,
         "Sub_Rating_Alpha": 0.0805,
         "Sub_Rating_Protection": 2.0,
@@ -43381,8 +43381,8 @@
           }
         ],
         "Net Alpha (%)": 0.17,
-        "Rating_Score": 3.6014975530303035,
-        "Sub_Rating_Performance": 0.5217,
+        "Rating_Score": 3.58384225,
+        "Sub_Rating_Performance": 0.5041,
         "Sub_Rating_IR": 1.0,
         "Sub_Rating_Alpha": 0.0652,
         "Sub_Rating_Protection": 2.0,
@@ -43497,8 +43497,8 @@
           }
         ],
         "Net Alpha (%)": 0.77,
-        "Rating_Score": 3.600644886363636,
-        "Sub_Rating_Performance": 0.5261,
+        "Rating_Score": 3.582989583333333,
+        "Sub_Rating_Performance": 0.5085,
         "Sub_Rating_IR": 1.0,
         "Sub_Rating_Alpha": 0.0745,
         "Sub_Rating_Protection": 2.0,
@@ -43613,8 +43613,8 @@
           }
         ],
         "Net Alpha (%)": 1.06,
-        "Rating_Score": 3.5964261363636365,
-        "Sub_Rating_Performance": 0.5174,
+        "Rating_Score": 3.5787708333333335,
+        "Sub_Rating_Performance": 0.4997,
         "Sub_Rating_IR": 1.0,
         "Sub_Rating_Alpha": 0.0791,
         "Sub_Rating_Protection": 2.0,
@@ -43729,8 +43729,8 @@
           }
         ],
         "Net Alpha (%)": 0.25,
-        "Rating_Score": 3.5933948863636362,
-        "Sub_Rating_Performance": 0.527,
+        "Rating_Score": 3.575739583333333,
+        "Sub_Rating_Performance": 0.5093,
         "Sub_Rating_IR": 1.0,
         "Sub_Rating_Alpha": 0.0664,
         "Sub_Rating_Protection": 2.0,
@@ -43845,8 +43845,8 @@
           }
         ],
         "Net Alpha (%)": 0.18,
-        "Rating_Score": 3.5929888030303028,
-        "Sub_Rating_Performance": 0.5261,
+        "Rating_Score": 3.5753334999999997,
+        "Sub_Rating_Performance": 0.5085,
         "Sub_Rating_IR": 1.0,
         "Sub_Rating_Alpha": 0.0653,
         "Sub_Rating_Protection": 2.0,
@@ -43961,8 +43961,8 @@
           }
         ],
         "Net Alpha (%)": 0.68,
-        "Rating_Score": 3.5896136363636364,
-        "Sub_Rating_Performance": 0.5165,
+        "Rating_Score": 3.5719583333333333,
+        "Sub_Rating_Performance": 0.4988,
         "Sub_Rating_IR": 1.0,
         "Sub_Rating_Alpha": 0.0731,
         "Sub_Rating_Protection": 2.0,
@@ -44077,126 +44077,10 @@
           }
         ],
         "Net Alpha (%)": 0.07,
-        "Rating_Score": 3.5725823863636363,
-        "Sub_Rating_Performance": 0.534,
+        "Rating_Score": 3.5549270833333333,
+        "Sub_Rating_Performance": 0.5163,
         "Sub_Rating_IR": 0.975,
         "Sub_Rating_Alpha": 0.0636,
-        "Sub_Rating_Protection": 2.0,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "\u2605\u2605\u2605\u00bd",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
-        "code": "145971",
-        "Fund Name": "WhiteOak Capital Liquid Fund- Direct plan-Growth Option",
-        "1Y Return (%)": 5.71,
-        "3Y Return (%)": 6.21,
-        "5Y Return (%)": 5.79,
-        "Sharpe (3Y)": -1.17,
-        "Sharpe (5Y)": -2.95,
-        "Information Ratio (3Y)": 5.04,
-        "Information Ratio (5Y)": 4.92,
-        "Beta (3Y)": 1.09,
-        "Beta (5Y)": 1.17,
-        "Alpha (3Y)": 0.73,
-        "Alpha (5Y)": 0.86,
-        "Downside Capture (3Y)": -260.86,
-        "Downside Capture (5Y)": 57.65,
-        "1Y Rolling Return (%)": 4.88,
-        "3Y Rolling Return (%)": 4.82,
-        "5Y Rolling Return (%)": 4.81,
-        "AUM (Cr)": 607.99,
-        "Expense Ratio (%)": 0.2,
-        "Top 10 Stocks Weight (%)": 63.79,
-        "Large Cap (%)": null,
-        "Mid Cap (%)": null,
-        "Small Cap (%)": null,
-        "Managers": "Piyush Baranwal",
-        "Holdings": [
-          {
-            "name": "Punjab National Bank",
-            "sector": "",
-            "weightage": "8.74"
-          },
-          {
-            "name": "Power Finance Corporation Limited",
-            "sector": "",
-            "weightage": "8.73"
-          },
-          {
-            "name": "Canara Bank",
-            "sector": "",
-            "weightage": "8.64"
-          },
-          {
-            "name": "HDFC Bank Limited",
-            "sector": "",
-            "weightage": "8.21"
-          },
-          {
-            "name": "Bank of Baroda",
-            "sector": "",
-            "weightage": "6.77"
-          },
-          {
-            "name": "Tbill",
-            "sector": "",
-            "weightage": "6.14"
-          },
-          {
-            "name": "India (Republic of)",
-            "sector": "",
-            "weightage": "6.10"
-          },
-          {
-            "name": "Day Tbill",
-            "sector": "",
-            "weightage": "5.23"
-          },
-          {
-            "name": "Clearing Corporation Of India Ltd",
-            "sector": "",
-            "weightage": "5.05"
-          },
-          {
-            "name": "Aditya Birla Capital Limited",
-            "sector": "",
-            "weightage": "4.36"
-          },
-          {
-            "name": "National Bank for Agriculture and Rural Development",
-            "sector": "",
-            "weightage": "4.33"
-          },
-          {
-            "name": "Axis Bank Limited",
-            "sector": "",
-            "weightage": "4.33"
-          },
-          {
-            "name": "HDFC Securities Limited",
-            "sector": "",
-            "weightage": "4.32"
-          },
-          {
-            "name": "Kotak Securities Ltd",
-            "sector": "",
-            "weightage": "4.32"
-          },
-          {
-            "name": "Bajaj Housing Finance Limited",
-            "sector": "",
-            "weightage": "4.05"
-          }
-        ],
-        "Net Alpha (%)": 0.73,
-        "Rating_Score": 3.5501448863636362,
-        "Sub_Rating_Performance": 0.4762,
-        "Sub_Rating_IR": 1.0,
-        "Sub_Rating_Alpha": 0.0739,
         "Sub_Rating_Protection": 2.0,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
@@ -44309,8 +44193,8 @@
           }
         ],
         "Net Alpha (%)": 0.63,
-        "Rating_Score": 3.524082386363636,
-        "Sub_Rating_Performance": 0.4517,
+        "Rating_Score": 3.506427083333333,
+        "Sub_Rating_Performance": 0.4341,
         "Sub_Rating_IR": 1.0,
         "Sub_Rating_Alpha": 0.0723,
         "Sub_Rating_Protection": 2.0,
@@ -44425,8 +44309,8 @@
           }
         ],
         "Net Alpha (%)": 0.08,
-        "Rating_Score": 3.480363636363636,
-        "Sub_Rating_Performance": 0.5191,
+        "Rating_Score": 3.4627083333333335,
+        "Sub_Rating_Performance": 0.5015,
         "Sub_Rating_IR": 0.8975,
         "Sub_Rating_Alpha": 0.0638,
         "Sub_Rating_Protection": 2.0,
@@ -44541,8 +44425,8 @@
           }
         ],
         "Net Alpha (%)": 0.07,
-        "Rating_Score": 3.4409573863636362,
-        "Sub_Rating_Performance": 0.5524,
+        "Rating_Score": 3.423302083333333,
+        "Sub_Rating_Performance": 0.5347,
         "Sub_Rating_IR": 0.825,
         "Sub_Rating_Alpha": 0.0636,
         "Sub_Rating_Protection": 2.0,
@@ -44647,8 +44531,8 @@
           }
         ],
         "Net Alpha (%)": 0.05,
-        "Rating_Score": 3.382894886363636,
-        "Sub_Rating_Performance": 0.4421,
+        "Rating_Score": 3.3652395833333335,
+        "Sub_Rating_Performance": 0.4245,
         "Sub_Rating_IR": 0.8775,
         "Sub_Rating_Alpha": 0.0633,
         "Sub_Rating_Protection": 2.0,
@@ -44763,8 +44647,8 @@
           }
         ],
         "Net Alpha (%)": 0.03,
-        "Rating_Score": 3.3444573863636364,
-        "Sub_Rating_Performance": 0.5165,
+        "Rating_Score": 3.3268020833333334,
+        "Sub_Rating_Performance": 0.4988,
         "Sub_Rating_IR": 0.765,
         "Sub_Rating_Alpha": 0.063,
         "Sub_Rating_Protection": 2.0,
@@ -44879,8 +44763,8 @@
           }
         ],
         "Net Alpha (%)": 0.0,
-        "Rating_Score": 3.294359636363636,
-        "Sub_Rating_Performance": 0.5209,
+        "Rating_Score": 3.276704333333333,
+        "Sub_Rating_Performance": 0.5032,
         "Sub_Rating_IR": 0.565,
         "Sub_Rating_Alpha": 0.0625,
         "Sub_Rating_Protection": 2.0,
@@ -44995,8 +44879,8 @@
           }
         ],
         "Net Alpha (%)": -0.02,
-        "Rating_Score": 3.2354886363636366,
-        "Sub_Rating_Performance": 0.5182,
+        "Rating_Score": 3.217833333333333,
+        "Sub_Rating_Performance": 0.5006,
         "Sub_Rating_IR": 0.655,
         "Sub_Rating_Alpha": 0.0623,
         "Sub_Rating_Protection": 2.0,
@@ -45111,8 +44995,8 @@
           }
         ],
         "Net Alpha (%)": -0.03,
-        "Rating_Score": 3.2184886363636362,
-        "Sub_Rating_Performance": 0.5314,
+        "Rating_Score": 3.200833333333333,
+        "Sub_Rating_Performance": 0.5137,
         "Sub_Rating_IR": 0.625,
         "Sub_Rating_Alpha": 0.0621,
         "Sub_Rating_Protection": 2.0,
@@ -45227,8 +45111,8 @@
           }
         ],
         "Net Alpha (%)": -0.04,
-        "Rating_Score": 3.1402386363636365,
-        "Sub_Rating_Performance": 0.5532,
+        "Rating_Score": 3.122583333333333,
+        "Sub_Rating_Performance": 0.5356,
         "Sub_Rating_IR": 0.525,
         "Sub_Rating_Alpha": 0.062,
         "Sub_Rating_Protection": 2.0,
@@ -45343,8 +45227,8 @@
           }
         ],
         "Net Alpha (%)": -0.13,
-        "Rating_Score": 2.8636136363636364,
-        "Sub_Rating_Performance": 0.5427,
+        "Rating_Score": 2.8459583333333334,
+        "Sub_Rating_Performance": 0.5251,
         "Sub_Rating_IR": 0.26,
         "Sub_Rating_Alpha": 0.0609,
         "Sub_Rating_Protection": 2.0,
@@ -45459,8 +45343,8 @@
           }
         ],
         "Net Alpha (%)": -0.4,
-        "Rating_Score": 2.8222386363636365,
-        "Sub_Rating_Performance": 0.5147,
+        "Rating_Score": 2.8045833333333334,
+        "Sub_Rating_Performance": 0.4971,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.0575,
         "Sub_Rating_Protection": 2.0,
@@ -45575,126 +45459,10 @@
           }
         ],
         "Net Alpha (%)": -0.31,
-        "Rating_Score": 2.7466136363636364,
-        "Sub_Rating_Performance": 0.688,
+        "Rating_Score": 2.7289583333333334,
+        "Sub_Rating_Performance": 0.6703,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.0586,
-        "Sub_Rating_Protection": 2.0,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "\u2605\u2605\u00bd",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
-        "code": "139257",
-        "Fund Name": "JM Liquid Fund Unclaimed Redemption (Direct) Growth Plan",
-        "1Y Return (%)": 2.87,
-        "3Y Return (%)": 3.37,
-        "5Y Return (%)": 4.49,
-        "Sharpe (3Y)": -19.91,
-        "Sharpe (5Y)": -11.07,
-        "Information Ratio (3Y)": -0.15,
-        "Information Ratio (5Y)": 2.39,
-        "Beta (3Y)": 0.66,
-        "Beta (5Y)": 0.78,
-        "Alpha (3Y)": -1.07,
-        "Alpha (5Y)": -0.24,
-        "Downside Capture (3Y)": 47.15,
-        "Downside Capture (5Y)": 47.15,
-        "1Y Rolling Return (%)": 4.95,
-        "3Y Rolling Return (%)": 5.22,
-        "5Y Rolling Return (%)": 5.07,
-        "AUM (Cr)": null,
-        "Expense Ratio (%)": 0.26,
-        "Top 10 Stocks Weight (%)": 38.73,
-        "Large Cap (%)": null,
-        "Mid Cap (%)": null,
-        "Small Cap (%)": null,
-        "Managers": "N/A",
-        "Holdings": [
-          {
-            "name": "Tbill",
-            "sector": "",
-            "weightage": "9.23"
-          },
-          {
-            "name": "National Bank for Agriculture and Rural Development",
-            "sector": "",
-            "weightage": "7.85"
-          },
-          {
-            "name": "India (Republic of)",
-            "sector": "",
-            "weightage": "5.87"
-          },
-          {
-            "name": "Indian Bank",
-            "sector": "",
-            "weightage": "5.86"
-          },
-          {
-            "name": "HDFC Bank Ltd.",
-            "sector": "",
-            "weightage": "3.92"
-          },
-          {
-            "name": "Axis Bank Ltd.",
-            "sector": "",
-            "weightage": "3.91"
-          },
-          {
-            "name": "Reliance Retail Ventures Limited",
-            "sector": "",
-            "weightage": "3.90"
-          },
-          {
-            "name": "Export Import Bank Of India",
-            "sector": "",
-            "weightage": "3.90"
-          },
-          {
-            "name": "Bank of Baroda",
-            "sector": "",
-            "weightage": "3.90"
-          },
-          {
-            "name": "Ccil",
-            "sector": "",
-            "weightage": "3.90"
-          },
-          {
-            "name": "Union Bank Of India",
-            "sector": "",
-            "weightage": "2.95"
-          },
-          {
-            "name": "360 One Prime Limited",
-            "sector": "",
-            "weightage": "2.92"
-          },
-          {
-            "name": "PNB Housing Finance Ltd.",
-            "sector": "",
-            "weightage": "2.92"
-          },
-          {
-            "name": "Birla Group Holdings Private Limited",
-            "sector": "",
-            "weightage": "2.92"
-          },
-          {
-            "name": "Axis Bank Limited",
-            "sector": "",
-            "weightage": "1.98"
-          }
-        ],
-        "Net Alpha (%)": -1.07,
-        "Rating_Score": 2.7353636363636364,
-        "Sub_Rating_Performance": 0.5112,
-        "Sub_Rating_IR": 0.175,
-        "Sub_Rating_Alpha": 0.0491,
         "Sub_Rating_Protection": 2.0,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
@@ -45807,8 +45575,124 @@
           }
         ],
         "Net Alpha (%)": -1.07,
-        "Rating_Score": 2.7353636363636364,
-        "Sub_Rating_Performance": 0.5112,
+        "Rating_Score": 2.7177083333333334,
+        "Sub_Rating_Performance": 0.4936,
+        "Sub_Rating_IR": 0.175,
+        "Sub_Rating_Alpha": 0.0491,
+        "Sub_Rating_Protection": 2.0,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "\u2605\u2605\u00bd",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
+        "code": "139257",
+        "Fund Name": "JM Liquid Fund Unclaimed Redemption (Direct) Growth Plan",
+        "1Y Return (%)": 2.87,
+        "3Y Return (%)": 3.37,
+        "5Y Return (%)": 4.49,
+        "Sharpe (3Y)": -19.91,
+        "Sharpe (5Y)": -11.07,
+        "Information Ratio (3Y)": -0.15,
+        "Information Ratio (5Y)": 2.39,
+        "Beta (3Y)": 0.66,
+        "Beta (5Y)": 0.78,
+        "Alpha (3Y)": -1.07,
+        "Alpha (5Y)": -0.24,
+        "Downside Capture (3Y)": 47.15,
+        "Downside Capture (5Y)": 47.15,
+        "1Y Rolling Return (%)": 4.95,
+        "3Y Rolling Return (%)": 5.22,
+        "5Y Rolling Return (%)": 5.07,
+        "AUM (Cr)": null,
+        "Expense Ratio (%)": 0.26,
+        "Top 10 Stocks Weight (%)": 38.73,
+        "Large Cap (%)": null,
+        "Mid Cap (%)": null,
+        "Small Cap (%)": null,
+        "Managers": "N/A",
+        "Holdings": [
+          {
+            "name": "Tbill",
+            "sector": "",
+            "weightage": "9.23"
+          },
+          {
+            "name": "National Bank for Agriculture and Rural Development",
+            "sector": "",
+            "weightage": "7.85"
+          },
+          {
+            "name": "India (Republic of)",
+            "sector": "",
+            "weightage": "5.87"
+          },
+          {
+            "name": "Indian Bank",
+            "sector": "",
+            "weightage": "5.86"
+          },
+          {
+            "name": "HDFC Bank Ltd.",
+            "sector": "",
+            "weightage": "3.92"
+          },
+          {
+            "name": "Axis Bank Ltd.",
+            "sector": "",
+            "weightage": "3.91"
+          },
+          {
+            "name": "Reliance Retail Ventures Limited",
+            "sector": "",
+            "weightage": "3.90"
+          },
+          {
+            "name": "Export Import Bank Of India",
+            "sector": "",
+            "weightage": "3.90"
+          },
+          {
+            "name": "Bank of Baroda",
+            "sector": "",
+            "weightage": "3.90"
+          },
+          {
+            "name": "Ccil",
+            "sector": "",
+            "weightage": "3.90"
+          },
+          {
+            "name": "Union Bank Of India",
+            "sector": "",
+            "weightage": "2.95"
+          },
+          {
+            "name": "360 One Prime Limited",
+            "sector": "",
+            "weightage": "2.92"
+          },
+          {
+            "name": "PNB Housing Finance Ltd.",
+            "sector": "",
+            "weightage": "2.92"
+          },
+          {
+            "name": "Birla Group Holdings Private Limited",
+            "sector": "",
+            "weightage": "2.92"
+          },
+          {
+            "name": "Axis Bank Limited",
+            "sector": "",
+            "weightage": "1.98"
+          }
+        ],
+        "Net Alpha (%)": -1.07,
+        "Rating_Score": 2.7177083333333334,
+        "Sub_Rating_Performance": 0.4936,
         "Sub_Rating_IR": 0.175,
         "Sub_Rating_Alpha": 0.0491,
         "Sub_Rating_Protection": 2.0,
@@ -45923,8 +45807,8 @@
           }
         ],
         "Net Alpha (%)": -0.17,
-        "Rating_Score": 2.6928636363636365,
-        "Sub_Rating_Performance": 0.5375,
+        "Rating_Score": 2.675208333333333,
+        "Sub_Rating_Performance": 0.5198,
         "Sub_Rating_IR": 0.095,
         "Sub_Rating_Alpha": 0.0604,
         "Sub_Rating_Protection": 2.0,
@@ -46039,54 +45923,14 @@
           }
         ],
         "Net Alpha (%)": -0.19,
-        "Rating_Score": 2.6749886363636364,
-        "Sub_Rating_Performance": 0.5349,
+        "Rating_Score": 2.6573333333333333,
+        "Sub_Rating_Performance": 0.5172,
         "Sub_Rating_IR": 0.08,
         "Sub_Rating_Alpha": 0.0601,
         "Sub_Rating_Protection": 2.0,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
         "AUM_Adj": 0.0,
-        "Rating": "\u2605\u2605\u00bd",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
-        "code": "120304",
-        "Fund Name": "UTI-  Liquid Cash Plan - Direct Plan - Growth Option",
-        "1Y Return (%)": 4.92,
-        "3Y Return (%)": 5.31,
-        "5Y Return (%)": 5.15,
-        "Sharpe (3Y)": -7.15,
-        "Sharpe (5Y)": -8.41,
-        "Information Ratio (3Y)": -1.73,
-        "Information Ratio (5Y)": -1.89,
-        "Beta (3Y)": 0.82,
-        "Beta (5Y)": 0.78,
-        "Alpha (3Y)": -0.35,
-        "Alpha (5Y)": -0.44,
-        "Downside Capture (3Y)": -190.34,
-        "Downside Capture (5Y)": 74.45,
-        "1Y Rolling Return (%)": 5.56,
-        "3Y Rolling Return (%)": 5.46,
-        "5Y Rolling Return (%)": 5.29,
-        "AUM (Cr)": 33248.42,
-        "Expense Ratio (%)": 0.17,
-        "Top 10 Stocks Weight (%)": null,
-        "Large Cap (%)": null,
-        "Mid Cap (%)": null,
-        "Small Cap (%)": null,
-        "Managers": "Amit Sharma",
-        "Holdings": [],
-        "Net Alpha (%)": -0.35,
-        "Rating_Score": 2.6174338030303033,
-        "Sub_Rating_Performance": 0.5322,
-        "Sub_Rating_IR": 0.0,
-        "Sub_Rating_Alpha": 0.0581,
-        "Sub_Rating_Protection": 2.0,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0271,
         "Rating": "\u2605\u2605\u00bd",
         "Manager_Changed_Recently": false,
         "Manager_Change_Date": null
@@ -46195,8 +46039,8 @@
           }
         ],
         "Net Alpha (%)": -0.79,
-        "Rating_Score": 2.5419886363636364,
-        "Sub_Rating_Performance": 0.4894,
+        "Rating_Score": 2.5243333333333333,
+        "Sub_Rating_Performance": 0.4717,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.0526,
         "Sub_Rating_Protection": 2.0,
@@ -46311,8 +46155,8 @@
           }
         ],
         "Net Alpha (%)": -0.62,
-        "Rating_Score": 2.5379886363636364,
-        "Sub_Rating_Performance": 0.4832,
+        "Rating_Score": 2.5203333333333333,
+        "Sub_Rating_Performance": 0.4656,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.0548,
         "Sub_Rating_Protection": 2.0,
@@ -46427,8 +46271,8 @@
           }
         ],
         "Net Alpha (%)": 0.0,
-        "Rating_Score": 2.309618803030303,
-        "Sub_Rating_Performance": 0.513,
+        "Rating_Score": 2.2919635,
+        "Sub_Rating_Performance": 0.4953,
         "Sub_Rating_IR": 0.25,
         "Sub_Rating_Alpha": 0.0625,
         "Sub_Rating_Protection": 1.25,
@@ -46436,46 +46280,6 @@
         "Manager_Tenure_Adj": 0.025,
         "AUM_Adj": 0.2341,
         "Rating": "\u2605\u2605\u00bd",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
-        "code": "148414",
-        "Fund Name": "JM Liquid Fund - Unclaimed Application Refund Amount I.E.F. (Direct) - Growth Plan",
-        "1Y Return (%)": 0.0,
-        "3Y Return (%)": 0.0,
-        "5Y Return (%)": 0.0,
-        "Sharpe (3Y)": 0.0,
-        "Sharpe (5Y)": 0.0,
-        "Information Ratio (3Y)": -33.15,
-        "Information Ratio (5Y)": -33.9,
-        "Beta (3Y)": 0.0,
-        "Beta (5Y)": 0.0,
-        "Alpha (3Y)": -6.47,
-        "Alpha (5Y)": -6.47,
-        "Downside Capture (3Y)": -0.0,
-        "Downside Capture (5Y)": -0.0,
-        "1Y Rolling Return (%)": 0.0,
-        "3Y Rolling Return (%)": 0.0,
-        "5Y Rolling Return (%)": 0.0,
-        "AUM (Cr)": null,
-        "Expense Ratio (%)": null,
-        "Top 10 Stocks Weight (%)": null,
-        "Large Cap (%)": null,
-        "Mid Cap (%)": null,
-        "Small Cap (%)": null,
-        "Managers": "N/A",
-        "Holdings": [],
-        "Net Alpha (%)": -6.47,
-        "Rating_Score": 2.0544886363636365,
-        "Sub_Rating_Performance": 0.0545,
-        "Sub_Rating_IR": 0.0,
-        "Sub_Rating_Alpha": 0.0,
-        "Sub_Rating_Protection": 2.0,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "\u2605\u2605",
         "Manager_Changed_Recently": false,
         "Manager_Change_Date": null
       },
@@ -46583,48 +46387,8 @@
           }
         ],
         "Net Alpha (%)": -6.47,
-        "Rating_Score": 2.0544886363636365,
-        "Sub_Rating_Performance": 0.0545,
-        "Sub_Rating_IR": 0.0,
-        "Sub_Rating_Alpha": 0.0,
-        "Sub_Rating_Protection": 2.0,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "\u2605\u2605",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
-        "code": "148413",
-        "Fund Name": "JM Liquid Fund - Unclaimed Brokerage I.E.F. (Direct) - Growth Plan",
-        "1Y Return (%)": 0.0,
-        "3Y Return (%)": 0.0,
-        "5Y Return (%)": 0.0,
-        "Sharpe (3Y)": 0.0,
-        "Sharpe (5Y)": 0.0,
-        "Information Ratio (3Y)": -33.15,
-        "Information Ratio (5Y)": -33.9,
-        "Beta (3Y)": 0.0,
-        "Beta (5Y)": 0.0,
-        "Alpha (3Y)": -6.47,
-        "Alpha (5Y)": -6.47,
-        "Downside Capture (3Y)": -0.0,
-        "Downside Capture (5Y)": -0.0,
-        "1Y Rolling Return (%)": 0.0,
-        "3Y Rolling Return (%)": 0.0,
-        "5Y Rolling Return (%)": 0.0,
-        "AUM (Cr)": null,
-        "Expense Ratio (%)": null,
-        "Top 10 Stocks Weight (%)": null,
-        "Large Cap (%)": null,
-        "Mid Cap (%)": null,
-        "Small Cap (%)": null,
-        "Managers": "N/A",
-        "Holdings": [],
-        "Net Alpha (%)": -6.47,
-        "Rating_Score": 2.0544886363636365,
-        "Sub_Rating_Performance": 0.0545,
+        "Rating_Score": 2.0368333333333335,
+        "Sub_Rating_Performance": 0.0368,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.0,
         "Sub_Rating_Protection": 2.0,
@@ -46663,8 +46427,8 @@
         "Managers": "N/A",
         "Holdings": [],
         "Net Alpha (%)": -6.47,
-        "Rating_Score": 2.0544886363636365,
-        "Sub_Rating_Performance": 0.0545,
+        "Rating_Score": 2.0368333333333335,
+        "Sub_Rating_Performance": 0.0368,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.0,
         "Sub_Rating_Protection": 2.0,
@@ -46779,8 +46543,88 @@
           }
         ],
         "Net Alpha (%)": -6.47,
-        "Rating_Score": 2.0544886363636365,
-        "Sub_Rating_Performance": 0.0545,
+        "Rating_Score": 2.0368333333333335,
+        "Sub_Rating_Performance": 0.0368,
+        "Sub_Rating_IR": 0.0,
+        "Sub_Rating_Alpha": 0.0,
+        "Sub_Rating_Protection": 2.0,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "\u2605\u2605",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
+        "code": "148413",
+        "Fund Name": "JM Liquid Fund - Unclaimed Brokerage I.E.F. (Direct) - Growth Plan",
+        "1Y Return (%)": 0.0,
+        "3Y Return (%)": 0.0,
+        "5Y Return (%)": 0.0,
+        "Sharpe (3Y)": 0.0,
+        "Sharpe (5Y)": 0.0,
+        "Information Ratio (3Y)": -33.15,
+        "Information Ratio (5Y)": -33.9,
+        "Beta (3Y)": 0.0,
+        "Beta (5Y)": 0.0,
+        "Alpha (3Y)": -6.47,
+        "Alpha (5Y)": -6.47,
+        "Downside Capture (3Y)": -0.0,
+        "Downside Capture (5Y)": -0.0,
+        "1Y Rolling Return (%)": 0.0,
+        "3Y Rolling Return (%)": 0.0,
+        "5Y Rolling Return (%)": 0.0,
+        "AUM (Cr)": null,
+        "Expense Ratio (%)": null,
+        "Top 10 Stocks Weight (%)": null,
+        "Large Cap (%)": null,
+        "Mid Cap (%)": null,
+        "Small Cap (%)": null,
+        "Managers": "N/A",
+        "Holdings": [],
+        "Net Alpha (%)": -6.47,
+        "Rating_Score": 2.0368333333333335,
+        "Sub_Rating_Performance": 0.0368,
+        "Sub_Rating_IR": 0.0,
+        "Sub_Rating_Alpha": 0.0,
+        "Sub_Rating_Protection": 2.0,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "\u2605\u2605",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
+        "code": "148414",
+        "Fund Name": "JM Liquid Fund - Unclaimed Application Refund Amount I.E.F. (Direct) - Growth Plan",
+        "1Y Return (%)": 0.0,
+        "3Y Return (%)": 0.0,
+        "5Y Return (%)": 0.0,
+        "Sharpe (3Y)": 0.0,
+        "Sharpe (5Y)": 0.0,
+        "Information Ratio (3Y)": -33.15,
+        "Information Ratio (5Y)": -33.9,
+        "Beta (3Y)": 0.0,
+        "Beta (5Y)": 0.0,
+        "Alpha (3Y)": -6.47,
+        "Alpha (5Y)": -6.47,
+        "Downside Capture (3Y)": -0.0,
+        "Downside Capture (5Y)": -0.0,
+        "1Y Rolling Return (%)": 0.0,
+        "3Y Rolling Return (%)": 0.0,
+        "5Y Rolling Return (%)": 0.0,
+        "AUM (Cr)": null,
+        "Expense Ratio (%)": null,
+        "Top 10 Stocks Weight (%)": null,
+        "Large Cap (%)": null,
+        "Mid Cap (%)": null,
+        "Small Cap (%)": null,
+        "Managers": "N/A",
+        "Holdings": [],
+        "Net Alpha (%)": -6.47,
+        "Rating_Score": 2.0368333333333335,
+        "Sub_Rating_Performance": 0.0368,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.0,
         "Sub_Rating_Protection": 2.0,
@@ -47024,82 +46868,6 @@
         "Manager_Change_Date": null
       },
       {
-        "code": "153570",
-        "Fund Name": "Unifi Liquid Fund- Direct Growth",
-        "1Y Return (%)": 4.82,
-        "3Y Return (%)": null,
-        "5Y Return (%)": null,
-        "Sharpe (3Y)": null,
-        "Sharpe (5Y)": null,
-        "Information Ratio (3Y)": null,
-        "Information Ratio (5Y)": null,
-        "Beta (3Y)": null,
-        "Beta (5Y)": null,
-        "Alpha (3Y)": null,
-        "Alpha (5Y)": null,
-        "Downside Capture (3Y)": null,
-        "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": 4.9,
-        "3Y Rolling Return (%)": null,
-        "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 87.98,
-        "Expense Ratio (%)": 0.08,
-        "Top 10 Stocks Weight (%)": 100.0,
-        "Large Cap (%)": null,
-        "Mid Cap (%)": null,
-        "Small Cap (%)": null,
-        "Managers": "Saravanan V N, Karthik Srinivas",
-        "Holdings": [
-          {
-            "name": "Treps",
-            "sector": "",
-            "weightage": "84.97"
-          },
-          {
-            "name": "DSP Finance Pvt Ltd.",
-            "sector": "",
-            "weightage": "6.89"
-          },
-          {
-            "name": "Bajaj Housing Finance Limited",
-            "sector": "",
-            "weightage": "3.47"
-          },
-          {
-            "name": "Navi Finserv Limited",
-            "sector": "",
-            "weightage": "3.45"
-          },
-          {
-            "name": "Corporate Debt Market Development Fund - Class A2",
-            "sector": "",
-            "weightage": "0.48"
-          },
-          {
-            "name": "Margin Money For Derivative/Treps",
-            "sector": "",
-            "weightage": "0.45"
-          },
-          {
-            "name": "Net Current Assets",
-            "sector": "",
-            "weightage": "0.30"
-          }
-        ],
-        "Net Alpha (%)": null,
-        "Rating_Score": null,
-        "Sub_Rating_Performance": 0.875,
-        "Sub_Rating_IR": 0.5,
-        "Sub_Rating_Alpha": 0.125,
-        "Sub_Rating_Protection": 1.0,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "UR",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
         "code": "153883",
         "Fund Name": "THE WEALTH COMPANY LIQUID FUND DIRECT GROWTH",
         "1Y Return (%)": 5.29,
@@ -47200,6 +46968,82 @@
             "name": "8.33% Govt Stock 2026",
             "sector": "",
             "weightage": "4.63"
+          }
+        ],
+        "Net Alpha (%)": null,
+        "Rating_Score": null,
+        "Sub_Rating_Performance": 0.875,
+        "Sub_Rating_IR": 0.5,
+        "Sub_Rating_Alpha": 0.125,
+        "Sub_Rating_Protection": 1.0,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "UR",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
+        "code": "153570",
+        "Fund Name": "Unifi Liquid Fund- Direct Growth",
+        "1Y Return (%)": 4.82,
+        "3Y Return (%)": null,
+        "5Y Return (%)": null,
+        "Sharpe (3Y)": null,
+        "Sharpe (5Y)": null,
+        "Information Ratio (3Y)": null,
+        "Information Ratio (5Y)": null,
+        "Beta (3Y)": null,
+        "Beta (5Y)": null,
+        "Alpha (3Y)": null,
+        "Alpha (5Y)": null,
+        "Downside Capture (3Y)": null,
+        "Downside Capture (5Y)": null,
+        "1Y Rolling Return (%)": 4.9,
+        "3Y Rolling Return (%)": null,
+        "5Y Rolling Return (%)": null,
+        "AUM (Cr)": 87.98,
+        "Expense Ratio (%)": 0.08,
+        "Top 10 Stocks Weight (%)": 100.0,
+        "Large Cap (%)": null,
+        "Mid Cap (%)": null,
+        "Small Cap (%)": null,
+        "Managers": "Saravanan V N, Karthik Srinivas",
+        "Holdings": [
+          {
+            "name": "Treps",
+            "sector": "",
+            "weightage": "84.97"
+          },
+          {
+            "name": "DSP Finance Pvt Ltd.",
+            "sector": "",
+            "weightage": "6.89"
+          },
+          {
+            "name": "Bajaj Housing Finance Limited",
+            "sector": "",
+            "weightage": "3.47"
+          },
+          {
+            "name": "Navi Finserv Limited",
+            "sector": "",
+            "weightage": "3.45"
+          },
+          {
+            "name": "Corporate Debt Market Development Fund - Class A2",
+            "sector": "",
+            "weightage": "0.48"
+          },
+          {
+            "name": "Margin Money For Derivative/Treps",
+            "sector": "",
+            "weightage": "0.45"
+          },
+          {
+            "name": "Net Current Assets",
+            "sector": "",
+            "weightage": "0.30"
           }
         ],
         "Net Alpha (%)": null,
