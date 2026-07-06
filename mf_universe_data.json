@@ -2,7 +2,7 @@
   "metadata": {
     "risk_free_rate": 6.47,
     "rfr_status": "Live",
-    "compile_date": "2026-07-05 05:55:36",
+    "compile_date": "2026-07-06 06:18:43",
     "benchmark_mapping": {
       "Equity Scheme - Flexi Cap Fund": "Nifty 50 Index",
       "Equity Scheme - Multi Cap Fund": "Nifty 50 Index",
@@ -41,7 +41,7 @@
         "3Y Rolling Return (%)": 29.59,
         "5Y Rolling Return (%)": 29.92,
         "AUM (Cr)": 6993.58,
-        "Expense Ratio (%)": 0.67,
+        "Expense Ratio (%)": 1.06,
         "Top 10 Stocks Weight (%)": 59.14,
         "Large Cap (%)": 74.02,
         "Mid Cap (%)": 16.85,
@@ -589,7 +589,7 @@
           }
         ],
         "Net Alpha (%)": 10.5,
-        "Rating_Score": 3.895099789915966,
+        "Rating_Score": 3.8950997899159665,
         "Sub_Rating_Performance": 0.9588,
         "Sub_Rating_IR": 1.0437,
         "Sub_Rating_Alpha": 1.0491,
@@ -705,7 +705,7 @@
           }
         ],
         "Net Alpha (%)": 9.94,
-        "Rating_Score": 3.849787289915966,
+        "Rating_Score": 3.8497872899159664,
         "Sub_Rating_Performance": 0.7126,
         "Sub_Rating_IR": 1.1687,
         "Sub_Rating_Alpha": 1.0241,
@@ -821,7 +821,7 @@
           }
         ],
         "Net Alpha (%)": 10.97,
-        "Rating_Score": 3.772019432773109,
+        "Rating_Score": 3.77201943277311,
         "Sub_Rating_Performance": 0.9401,
         "Sub_Rating_IR": 1.25,
         "Sub_Rating_Alpha": 1.0701,
@@ -937,7 +937,7 @@
           }
         ],
         "Net Alpha (%)": 7.21,
-        "Rating_Score": 3.729898897058823,
+        "Rating_Score": 3.7298988970588236,
         "Sub_Rating_Performance": 0.8007,
         "Sub_Rating_IR": 1.1719,
         "Sub_Rating_Alpha": 0.8758,
@@ -1084,7 +1084,7 @@
         "1Y Rolling Return (%)": 17.86,
         "3Y Rolling Return (%)": 18.57,
         "5Y Rolling Return (%)": 18.9,
-        "AUM (Cr)": 23018.34,
+        "AUM (Cr)": 26032.2,
         "Expense Ratio (%)": 0.72,
         "Top 10 Stocks Weight (%)": 30.19,
         "Large Cap (%)": 55.38,
@@ -1633,7 +1633,7 @@
           }
         ],
         "Net Alpha (%)": 10.83,
-        "Rating_Score": 3.3485819327731092,
+        "Rating_Score": 3.3485819327731097,
         "Sub_Rating_Performance": 0.4901,
         "Sub_Rating_IR": 0.95,
         "Sub_Rating_Alpha": 1.0638,
@@ -2097,7 +2097,7 @@
           }
         ],
         "Net Alpha (%)": 6.79,
-        "Rating_Score": 3.2480238970588236,
+        "Rating_Score": 3.248023897058824,
         "Sub_Rating_Performance": 0.5182,
         "Sub_Rating_IR": 1.0375,
         "Sub_Rating_Alpha": 0.843,
@@ -2213,7 +2213,7 @@
           }
         ],
         "Net Alpha (%)": 5.23,
-        "Rating_Score": 3.228648897058824,
+        "Rating_Score": 3.2286488970588243,
         "Sub_Rating_Performance": 0.6201,
         "Sub_Rating_IR": 1.0312,
         "Sub_Rating_Alpha": 0.7211,
@@ -2592,7 +2592,7 @@
         "1Y Rolling Return (%)": 16.57,
         "3Y Rolling Return (%)": 18.07,
         "5Y Rolling Return (%)": 18.15,
-        "AUM (Cr)": 232.1,
+        "AUM (Cr)": 265.88,
         "Expense Ratio (%)": 0.51,
         "Top 10 Stocks Weight (%)": 30.5,
         "Large Cap (%)": 41.04,
@@ -3025,7 +3025,7 @@
           }
         ],
         "Net Alpha (%)": 6.23,
-        "Rating_Score": 2.997587111344538,
+        "Rating_Score": 2.9975871113445383,
         "Sub_Rating_Performance": 0.5619,
         "Sub_Rating_IR": 1.0219,
         "Sub_Rating_Alpha": 0.7992,
@@ -3141,7 +3141,7 @@
           }
         ],
         "Net Alpha (%)": 3.25,
-        "Rating_Score": 2.8267738970588234,
+        "Rating_Score": 2.826773897058824,
         "Sub_Rating_Performance": 0.7332,
         "Sub_Rating_IR": 0.6687,
         "Sub_Rating_Alpha": 0.5664,
@@ -3257,7 +3257,7 @@
           }
         ],
         "Net Alpha (%)": 3.83,
-        "Rating_Score": 2.8030238970588233,
+        "Rating_Score": 2.8030238970588237,
         "Sub_Rating_Performance": 0.4094,
         "Sub_Rating_IR": 0.9125,
         "Sub_Rating_Alpha": 0.6117,
@@ -3489,7 +3489,7 @@
           }
         ],
         "Net Alpha (%)": 4.71,
-        "Rating_Score": 2.6598988970588233,
+        "Rating_Score": 2.6598988970588238,
         "Sub_Rating_Performance": 0.3576,
         "Sub_Rating_IR": 0.8063,
         "Sub_Rating_Alpha": 0.6805,
@@ -3605,7 +3605,7 @@
           }
         ],
         "Net Alpha (%)": 1.75,
-        "Rating_Score": 2.390107230392157,
+        "Rating_Score": 2.3901072303921573,
         "Sub_Rating_Performance": 0.5032,
         "Sub_Rating_IR": 0.4875,
         "Sub_Rating_Alpha": 0.4492,
@@ -3721,7 +3721,7 @@
           }
         ],
         "Net Alpha (%)": 1.98,
-        "Rating_Score": 2.1691176470588234,
+        "Rating_Score": 2.169117647058824,
         "Sub_Rating_Performance": 0.4251,
         "Sub_Rating_IR": 0.4688,
         "Sub_Rating_Alpha": 0.4672,
@@ -3837,7 +3837,7 @@
           }
         ],
         "Net Alpha (%)": 0.83,
-        "Rating_Score": 2.06844056372549,
+        "Rating_Score": 2.0684405637254906,
         "Sub_Rating_Performance": 0.3976,
         "Sub_Rating_IR": 0.35,
         "Sub_Rating_Alpha": 0.3773,
@@ -3966,114 +3966,114 @@
         "Manager_Change_Date": null
       },
       {
-        "code": "151796",
-        "Fund Name": "360 ONE FLEXICAP FUND-DIRECT PLAN- GROWTH",
-        "1Y Return (%)": 7.69,
-        "3Y Return (%)": 18.63,
+        "code": "153738",
+        "Fund Name": "CAPITALMIND FLEXI CAP FUND DIRECT GROWTH",
+        "1Y Return (%)": 4.5,
+        "3Y Return (%)": null,
         "5Y Return (%)": null,
-        "Sharpe (3Y)": 0.8,
+        "Sharpe (3Y)": null,
         "Sharpe (5Y)": null,
-        "Information Ratio (3Y)": 1.42,
+        "Information Ratio (3Y)": null,
         "Information Ratio (5Y)": null,
-        "Beta (3Y)": 1.0,
+        "Beta (3Y)": null,
         "Beta (5Y)": null,
-        "Alpha (3Y)": 10.54,
+        "Alpha (3Y)": null,
         "Alpha (5Y)": null,
-        "Downside Capture (3Y)": 96.3,
+        "Downside Capture (3Y)": null,
         "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": 16.48,
+        "1Y Rolling Return (%)": null,
         "3Y Rolling Return (%)": null,
         "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 2042.06,
-        "Expense Ratio (%)": 0.51,
-        "Top 10 Stocks Weight (%)": 36.52,
-        "Large Cap (%)": 49.19,
-        "Mid Cap (%)": 23.64,
-        "Small Cap (%)": 13.74,
-        "Managers": "Mayur Patel, Ashish Ongari",
+        "AUM (Cr)": 431.45,
+        "Expense Ratio (%)": 0.94,
+        "Top 10 Stocks Weight (%)": 27.64,
+        "Large Cap (%)": 36.42,
+        "Mid Cap (%)": 31.13,
+        "Small Cap (%)": 22.84,
+        "Managers": "Prateek Jain, Anoop Vijaykumar, Divyansh Agnani",
         "Holdings": [
           {
-            "name": "ICICI Bank Ltd",
+            "name": "Clearing Corporation Of India Ltd",
+            "sector": "",
+            "weightage": "7.68"
+          },
+          {
+            "name": "Hsbc Investdirect Financial Services India Limited",
+            "sector": "",
+            "weightage": "4.75"
+          },
+          {
+            "name": "Capitalmind Liquid Dir Gr",
+            "sector": "",
+            "weightage": "4.07"
+          },
+          {
+            "name": "Rec Limited",
+            "sector": "",
+            "weightage": "3.75"
+          },
+          {
+            "name": "Indian Bank",
+            "sector": "",
+            "weightage": "3.17"
+          },
+          {
+            "name": "The Federal Bank Ltd",
             "sector": "Financial Services",
-            "weightage": "4.68"
+            "weightage": "3.14"
           },
           {
-            "name": "GE Vernova T&D India Ltd",
-            "sector": "Industrials",
-            "weightage": "4.67"
+            "name": "Torrent Pharmaceuticals Ltd",
+            "sector": "Healthcare",
+            "weightage": "3.13"
           },
           {
-            "name": "Larsen & Toubro Ltd",
-            "sector": "Industrials",
-            "weightage": "3.80"
+            "name": "National Aluminium Co Ltd",
+            "sector": "Basic Materials",
+            "weightage": "3.02"
           },
           {
-            "name": "Kotak Mahindra Bank Ltd",
+            "name": "Coal India Ltd",
+            "sector": "Energy",
+            "weightage": "2.97"
+          },
+          {
+            "name": "Vedanta Ltd",
+            "sector": "Basic Materials",
+            "weightage": "2.88"
+          },
+          {
+            "name": "State Bank of India",
             "sector": "Financial Services",
-            "weightage": "3.67"
+            "weightage": "2.77"
           },
           {
-            "name": "Indus Towers Ltd Ordinary Shares",
-            "sector": "Communication Services",
-            "weightage": "3.65"
-          },
-          {
-            "name": "Axis Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "3.40"
-          },
-          {
-            "name": "Cholamandalam Investment and Finance Co Ltd",
-            "sector": "Financial Services",
-            "weightage": "3.40"
-          },
-          {
-            "name": "Tata Motors Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "3.30"
-          },
-          {
-            "name": "Bharti Airtel Ltd",
-            "sector": "Communication Services",
-            "weightage": "3.05"
-          },
-          {
-            "name": "Multi Commodity Exchange of India Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.89"
-          },
-          {
-            "name": "Motherson Sumi Wiring India Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "2.74"
-          },
-          {
-            "name": "Indian Hotels Co Ltd",
-            "sector": "Consumer Cyclical",
+            "name": "Amc Repo Clearing Limited",
+            "sector": "",
             "weightage": "2.68"
           },
           {
-            "name": "Premier Energies Ltd",
-            "sector": "Technology",
-            "weightage": "2.65"
+            "name": "Embassy Office Parks REIT",
+            "sector": "Real Estate",
+            "weightage": "2.53"
           },
           {
-            "name": "Eternal Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "2.59"
-          },
-          {
-            "name": "CG Power & Industrial Solutions Ltd",
+            "name": "Ashok Leyland Ltd",
             "sector": "Industrials",
-            "weightage": "2.32"
+            "weightage": "2.51"
+          },
+          {
+            "name": "Hindalco Industries Ltd",
+            "sector": "Basic Materials",
+            "weightage": "2.47"
           }
         ],
-        "Net Alpha (%)": 10.54,
+        "Net Alpha (%)": null,
         "Rating_Score": null,
         "Sub_Rating_Performance": 0.625,
-        "Sub_Rating_IR": 1.0688,
-        "Sub_Rating_Alpha": 1.0509,
-        "Sub_Rating_Protection": 0.8969,
+        "Sub_Rating_IR": 0.625,
+        "Sub_Rating_Alpha": 0.625,
+        "Sub_Rating_Protection": 0.625,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
         "AUM_Adj": 0.0,
@@ -4198,114 +4198,114 @@
         "Manager_Change_Date": null
       },
       {
-        "code": "153738",
-        "Fund Name": "CAPITALMIND FLEXI CAP FUND DIRECT GROWTH",
-        "1Y Return (%)": 4.5,
-        "3Y Return (%)": null,
+        "code": "151796",
+        "Fund Name": "360 ONE FLEXICAP FUND-DIRECT PLAN- GROWTH",
+        "1Y Return (%)": 7.69,
+        "3Y Return (%)": 18.63,
         "5Y Return (%)": null,
-        "Sharpe (3Y)": null,
+        "Sharpe (3Y)": 0.8,
         "Sharpe (5Y)": null,
-        "Information Ratio (3Y)": null,
+        "Information Ratio (3Y)": 1.42,
         "Information Ratio (5Y)": null,
-        "Beta (3Y)": null,
+        "Beta (3Y)": 1.0,
         "Beta (5Y)": null,
-        "Alpha (3Y)": null,
+        "Alpha (3Y)": 10.54,
         "Alpha (5Y)": null,
-        "Downside Capture (3Y)": null,
+        "Downside Capture (3Y)": 96.3,
         "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": null,
+        "1Y Rolling Return (%)": 16.48,
         "3Y Rolling Return (%)": null,
         "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 431.45,
-        "Expense Ratio (%)": 0.94,
-        "Top 10 Stocks Weight (%)": 27.64,
-        "Large Cap (%)": 36.42,
-        "Mid Cap (%)": 31.13,
-        "Small Cap (%)": 22.84,
-        "Managers": "Prateek Jain, Anoop Vijaykumar, Divyansh Agnani",
+        "AUM (Cr)": 2042.06,
+        "Expense Ratio (%)": 0.51,
+        "Top 10 Stocks Weight (%)": 36.52,
+        "Large Cap (%)": 49.19,
+        "Mid Cap (%)": 23.64,
+        "Small Cap (%)": 13.74,
+        "Managers": "Mayur Patel, Ashish Ongari",
         "Holdings": [
           {
-            "name": "Clearing Corporation Of India Ltd",
-            "sector": "",
-            "weightage": "7.68"
-          },
-          {
-            "name": "Hsbc Investdirect Financial Services India Limited",
-            "sector": "",
-            "weightage": "4.75"
-          },
-          {
-            "name": "Capitalmind Liquid Dir Gr",
-            "sector": "",
-            "weightage": "4.07"
-          },
-          {
-            "name": "Rec Limited",
-            "sector": "",
-            "weightage": "3.75"
-          },
-          {
-            "name": "Indian Bank",
-            "sector": "",
-            "weightage": "3.17"
-          },
-          {
-            "name": "The Federal Bank Ltd",
+            "name": "ICICI Bank Ltd",
             "sector": "Financial Services",
-            "weightage": "3.14"
+            "weightage": "4.68"
           },
           {
-            "name": "Torrent Pharmaceuticals Ltd",
-            "sector": "Healthcare",
-            "weightage": "3.13"
+            "name": "GE Vernova T&D India Ltd",
+            "sector": "Industrials",
+            "weightage": "4.67"
           },
           {
-            "name": "National Aluminium Co Ltd",
-            "sector": "Basic Materials",
-            "weightage": "3.02"
+            "name": "Larsen & Toubro Ltd",
+            "sector": "Industrials",
+            "weightage": "3.80"
           },
           {
-            "name": "Coal India Ltd",
-            "sector": "Energy",
-            "weightage": "2.97"
-          },
-          {
-            "name": "Vedanta Ltd",
-            "sector": "Basic Materials",
-            "weightage": "2.88"
-          },
-          {
-            "name": "State Bank of India",
+            "name": "Kotak Mahindra Bank Ltd",
             "sector": "Financial Services",
-            "weightage": "2.77"
+            "weightage": "3.67"
           },
           {
-            "name": "Amc Repo Clearing Limited",
-            "sector": "",
+            "name": "Indus Towers Ltd Ordinary Shares",
+            "sector": "Communication Services",
+            "weightage": "3.65"
+          },
+          {
+            "name": "Axis Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "3.40"
+          },
+          {
+            "name": "Cholamandalam Investment and Finance Co Ltd",
+            "sector": "Financial Services",
+            "weightage": "3.40"
+          },
+          {
+            "name": "Tata Motors Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "3.30"
+          },
+          {
+            "name": "Bharti Airtel Ltd",
+            "sector": "Communication Services",
+            "weightage": "3.05"
+          },
+          {
+            "name": "Multi Commodity Exchange of India Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.89"
+          },
+          {
+            "name": "Motherson Sumi Wiring India Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "2.74"
+          },
+          {
+            "name": "Indian Hotels Co Ltd",
+            "sector": "Consumer Cyclical",
             "weightage": "2.68"
           },
           {
-            "name": "Embassy Office Parks REIT",
-            "sector": "Real Estate",
-            "weightage": "2.53"
+            "name": "Premier Energies Ltd",
+            "sector": "Technology",
+            "weightage": "2.65"
           },
           {
-            "name": "Ashok Leyland Ltd",
+            "name": "Eternal Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "2.59"
+          },
+          {
+            "name": "CG Power & Industrial Solutions Ltd",
             "sector": "Industrials",
-            "weightage": "2.51"
-          },
-          {
-            "name": "Hindalco Industries Ltd",
-            "sector": "Basic Materials",
-            "weightage": "2.47"
+            "weightage": "2.32"
           }
         ],
-        "Net Alpha (%)": null,
+        "Net Alpha (%)": 10.54,
         "Rating_Score": null,
         "Sub_Rating_Performance": 0.625,
-        "Sub_Rating_IR": 0.625,
-        "Sub_Rating_Alpha": 0.625,
-        "Sub_Rating_Protection": 0.625,
+        "Sub_Rating_IR": 1.0688,
+        "Sub_Rating_Alpha": 1.0509,
+        "Sub_Rating_Protection": 0.8969,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
         "AUM_Adj": 0.0,
@@ -6538,7 +6538,7 @@
         "1Y Rolling Return (%)": 15.79,
         "3Y Rolling Return (%)": 18.72,
         "5Y Rolling Return (%)": 16.83,
-        "AUM (Cr)": 5920.57,
+        "AUM (Cr)": 6811.17,
         "Expense Ratio (%)": 0.68,
         "Top 10 Stocks Weight (%)": 24.62,
         "Large Cap (%)": 37.5,
@@ -6655,7 +6655,7 @@
         "3Y Rolling Return (%)": 18.0,
         "5Y Rolling Return (%)": null,
         "AUM (Cr)": 2806.8,
-        "Expense Ratio (%)": null,
+        "Expense Ratio (%)": 0.93,
         "Top 10 Stocks Weight (%)": 29.44,
         "Large Cap (%)": 43.15,
         "Mid Cap (%)": 26.03,
@@ -6771,7 +6771,7 @@
         "3Y Rolling Return (%)": 27.24,
         "5Y Rolling Return (%)": 27.34,
         "AUM (Cr)": 7663.81,
-        "Expense Ratio (%)": 0.68,
+        "Expense Ratio (%)": 0.95,
         "Top 10 Stocks Weight (%)": 43.22,
         "Large Cap (%)": 36.43,
         "Mid Cap (%)": 21.1,
@@ -7003,7 +7003,7 @@
         "3Y Rolling Return (%)": 9.41,
         "5Y Rolling Return (%)": null,
         "AUM (Cr)": 2525.11,
-        "Expense Ratio (%)": null,
+        "Expense Ratio (%)": 0.93,
         "Top 10 Stocks Weight (%)": 29.44,
         "Large Cap (%)": 43.15,
         "Mid Cap (%)": 26.03,
@@ -7096,6 +7096,238 @@
         "Manager_Tenure_Adj": 0.025,
         "AUM_Adj": 0.0,
         "Rating": "\u2605\u00bd",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
+        "code": "151824",
+        "Fund Name": "Canara Robeco Multi Cap Fund - Direct Plan - Growth Option",
+        "1Y Return (%)": 4.19,
+        "3Y Return (%)": 16.51,
+        "5Y Return (%)": null,
+        "Sharpe (3Y)": 0.71,
+        "Sharpe (5Y)": null,
+        "Information Ratio (3Y)": 1.22,
+        "Information Ratio (5Y)": null,
+        "Beta (3Y)": 0.93,
+        "Beta (5Y)": null,
+        "Alpha (3Y)": 8.37,
+        "Alpha (5Y)": null,
+        "Downside Capture (3Y)": 94.8,
+        "Downside Capture (5Y)": null,
+        "1Y Rolling Return (%)": 14.64,
+        "3Y Rolling Return (%)": null,
+        "5Y Rolling Return (%)": null,
+        "AUM (Cr)": 5250.1,
+        "Expense Ratio (%)": 0.44,
+        "Top 10 Stocks Weight (%)": 24.17,
+        "Large Cap (%)": 43.67,
+        "Mid Cap (%)": 27.31,
+        "Small Cap (%)": 25.63,
+        "Managers": "Vishal Mishra, Shridatta Bhandwaldar",
+        "Holdings": [
+          {
+            "name": "Treps",
+            "sector": "",
+            "weightage": "4.65"
+          },
+          {
+            "name": "HDFC Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "4.57"
+          },
+          {
+            "name": "ICICI Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "3.42"
+          },
+          {
+            "name": "Bharti Airtel Ltd",
+            "sector": "Communication Services",
+            "weightage": "2.52"
+          },
+          {
+            "name": "State Bank of India",
+            "sector": "Financial Services",
+            "weightage": "2.39"
+          },
+          {
+            "name": "Infosys Ltd",
+            "sector": "Technology",
+            "weightage": "2.11"
+          },
+          {
+            "name": "Larsen & Toubro Ltd",
+            "sector": "Industrials",
+            "weightage": "2.07"
+          },
+          {
+            "name": "Reliance Industries Ltd",
+            "sector": "Energy",
+            "weightage": "2.01"
+          },
+          {
+            "name": "Ajanta Pharma Ltd",
+            "sector": "Healthcare",
+            "weightage": "1.76"
+          },
+          {
+            "name": "Eternal Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "1.74"
+          },
+          {
+            "name": "TBO Tek Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "1.57"
+          },
+          {
+            "name": "JK Cement Ltd",
+            "sector": "Basic Materials",
+            "weightage": "1.48"
+          },
+          {
+            "name": "J.B. Chemicals & Pharmaceuticals Ltd",
+            "sector": "Healthcare",
+            "weightage": "1.44"
+          },
+          {
+            "name": "Mahindra & Mahindra Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "1.42"
+          },
+          {
+            "name": "Axis Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "1.36"
+          }
+        ],
+        "Net Alpha (%)": 8.37,
+        "Rating_Score": null,
+        "Sub_Rating_Performance": 0.625,
+        "Sub_Rating_IR": 1.0063,
+        "Sub_Rating_Alpha": 0.954,
+        "Sub_Rating_Protection": 0.9417,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "UR",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
+        "code": "152310",
+        "Fund Name": "DSP Multicap Fund - Direct - Growth",
+        "1Y Return (%)": 4.16,
+        "3Y Return (%)": null,
+        "5Y Return (%)": null,
+        "Sharpe (3Y)": null,
+        "Sharpe (5Y)": null,
+        "Information Ratio (3Y)": null,
+        "Information Ratio (5Y)": null,
+        "Beta (3Y)": null,
+        "Beta (5Y)": null,
+        "Alpha (3Y)": null,
+        "Alpha (5Y)": null,
+        "Downside Capture (3Y)": null,
+        "Downside Capture (5Y)": null,
+        "1Y Rolling Return (%)": 4.32,
+        "3Y Rolling Return (%)": null,
+        "5Y Rolling Return (%)": null,
+        "AUM (Cr)": 2808.66,
+        "Expense Ratio (%)": 0.46,
+        "Top 10 Stocks Weight (%)": 33.47,
+        "Large Cap (%)": 29.86,
+        "Mid Cap (%)": 25.52,
+        "Small Cap (%)": 37.7,
+        "Managers": "Chirag Dagli",
+        "Holdings": [
+          {
+            "name": "HDFC Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "5.73"
+          },
+          {
+            "name": "ICICI Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "4.32"
+          },
+          {
+            "name": "Axis Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "4.31"
+          },
+          {
+            "name": "Hero MotoCorp Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "3.04"
+          },
+          {
+            "name": "Treps / Reverse Repo Investments",
+            "sector": "",
+            "weightage": "2.90"
+          },
+          {
+            "name": "Nippon Life India Asset Management Ltd Ordinary Shares",
+            "sector": "Financial Services",
+            "weightage": "2.81"
+          },
+          {
+            "name": "Schaeffler India Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "2.78"
+          },
+          {
+            "name": "Max Financial Services Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.72"
+          },
+          {
+            "name": "ICICI Lombard General Insurance Co Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.61"
+          },
+          {
+            "name": "APL Apollo Tubes Ltd",
+            "sector": "Basic Materials",
+            "weightage": "2.59"
+          },
+          {
+            "name": "Coal India Ltd",
+            "sector": "Energy",
+            "weightage": "2.55"
+          },
+          {
+            "name": "Cipla Ltd",
+            "sector": "Healthcare",
+            "weightage": "2.44"
+          },
+          {
+            "name": "UTI Asset Management Co Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.24"
+          },
+          {
+            "name": "Archean Chemical Industries Ltd",
+            "sector": "Basic Materials",
+            "weightage": "2.04"
+          },
+          {
+            "name": "ICICI Prudential Life Insurance Co Ltd",
+            "sector": "Financial Services",
+            "weightage": "1.99"
+          }
+        ],
+        "Net Alpha (%)": null,
+        "Rating_Score": null,
+        "Sub_Rating_Performance": 0.625,
+        "Sub_Rating_IR": 0.625,
+        "Sub_Rating_Alpha": 0.625,
+        "Sub_Rating_Protection": 0.625,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "UR",
         "Manager_Changed_Recently": false,
         "Manager_Change_Date": null
       },
@@ -7332,122 +7564,6 @@
         "Manager_Change_Date": null
       },
       {
-        "code": "152310",
-        "Fund Name": "DSP Multicap Fund - Direct - Growth",
-        "1Y Return (%)": 4.16,
-        "3Y Return (%)": null,
-        "5Y Return (%)": null,
-        "Sharpe (3Y)": null,
-        "Sharpe (5Y)": null,
-        "Information Ratio (3Y)": null,
-        "Information Ratio (5Y)": null,
-        "Beta (3Y)": null,
-        "Beta (5Y)": null,
-        "Alpha (3Y)": null,
-        "Alpha (5Y)": null,
-        "Downside Capture (3Y)": null,
-        "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": 4.32,
-        "3Y Rolling Return (%)": null,
-        "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 2808.66,
-        "Expense Ratio (%)": 0.46,
-        "Top 10 Stocks Weight (%)": 33.47,
-        "Large Cap (%)": 29.86,
-        "Mid Cap (%)": 25.52,
-        "Small Cap (%)": 37.7,
-        "Managers": "Chirag Dagli",
-        "Holdings": [
-          {
-            "name": "HDFC Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "5.73"
-          },
-          {
-            "name": "ICICI Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "4.32"
-          },
-          {
-            "name": "Axis Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "4.31"
-          },
-          {
-            "name": "Hero MotoCorp Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "3.04"
-          },
-          {
-            "name": "Treps / Reverse Repo Investments",
-            "sector": "",
-            "weightage": "2.90"
-          },
-          {
-            "name": "Nippon Life India Asset Management Ltd Ordinary Shares",
-            "sector": "Financial Services",
-            "weightage": "2.81"
-          },
-          {
-            "name": "Schaeffler India Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "2.78"
-          },
-          {
-            "name": "Max Financial Services Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.72"
-          },
-          {
-            "name": "ICICI Lombard General Insurance Co Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.61"
-          },
-          {
-            "name": "APL Apollo Tubes Ltd",
-            "sector": "Basic Materials",
-            "weightage": "2.59"
-          },
-          {
-            "name": "Coal India Ltd",
-            "sector": "Energy",
-            "weightage": "2.55"
-          },
-          {
-            "name": "Cipla Ltd",
-            "sector": "Healthcare",
-            "weightage": "2.44"
-          },
-          {
-            "name": "UTI Asset Management Co Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.24"
-          },
-          {
-            "name": "Archean Chemical Industries Ltd",
-            "sector": "Basic Materials",
-            "weightage": "2.04"
-          },
-          {
-            "name": "ICICI Prudential Life Insurance Co Ltd",
-            "sector": "Financial Services",
-            "weightage": "1.99"
-          }
-        ],
-        "Net Alpha (%)": null,
-        "Rating_Score": null,
-        "Sub_Rating_Performance": 0.625,
-        "Sub_Rating_IR": 0.625,
-        "Sub_Rating_Alpha": 0.625,
-        "Sub_Rating_Protection": 0.625,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "UR",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
         "code": "152094",
         "Fund Name": "Edelweiss Multi Cap Fund - Direct Plan - Growth",
         "1Y Return (%)": 6.47,
@@ -7556,122 +7672,6 @@
         "Sub_Rating_IR": 1.0969,
         "Sub_Rating_Alpha": 1.0496,
         "Sub_Rating_Protection": 0.8537,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "UR",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
-        "code": "151824",
-        "Fund Name": "Canara Robeco Multi Cap Fund - Direct Plan - Growth Option",
-        "1Y Return (%)": 4.19,
-        "3Y Return (%)": 16.51,
-        "5Y Return (%)": null,
-        "Sharpe (3Y)": 0.71,
-        "Sharpe (5Y)": null,
-        "Information Ratio (3Y)": 1.22,
-        "Information Ratio (5Y)": null,
-        "Beta (3Y)": 0.93,
-        "Beta (5Y)": null,
-        "Alpha (3Y)": 8.37,
-        "Alpha (5Y)": null,
-        "Downside Capture (3Y)": 94.8,
-        "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": 14.64,
-        "3Y Rolling Return (%)": null,
-        "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 5250.1,
-        "Expense Ratio (%)": 0.44,
-        "Top 10 Stocks Weight (%)": 24.17,
-        "Large Cap (%)": 43.67,
-        "Mid Cap (%)": 27.31,
-        "Small Cap (%)": 25.63,
-        "Managers": "Vishal Mishra, Shridatta Bhandwaldar",
-        "Holdings": [
-          {
-            "name": "Treps",
-            "sector": "",
-            "weightage": "4.65"
-          },
-          {
-            "name": "HDFC Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "4.57"
-          },
-          {
-            "name": "ICICI Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "3.42"
-          },
-          {
-            "name": "Bharti Airtel Ltd",
-            "sector": "Communication Services",
-            "weightage": "2.52"
-          },
-          {
-            "name": "State Bank of India",
-            "sector": "Financial Services",
-            "weightage": "2.39"
-          },
-          {
-            "name": "Infosys Ltd",
-            "sector": "Technology",
-            "weightage": "2.11"
-          },
-          {
-            "name": "Larsen & Toubro Ltd",
-            "sector": "Industrials",
-            "weightage": "2.07"
-          },
-          {
-            "name": "Reliance Industries Ltd",
-            "sector": "Energy",
-            "weightage": "2.01"
-          },
-          {
-            "name": "Ajanta Pharma Ltd",
-            "sector": "Healthcare",
-            "weightage": "1.76"
-          },
-          {
-            "name": "Eternal Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "1.74"
-          },
-          {
-            "name": "TBO Tek Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "1.57"
-          },
-          {
-            "name": "JK Cement Ltd",
-            "sector": "Basic Materials",
-            "weightage": "1.48"
-          },
-          {
-            "name": "J.B. Chemicals & Pharmaceuticals Ltd",
-            "sector": "Healthcare",
-            "weightage": "1.44"
-          },
-          {
-            "name": "Mahindra & Mahindra Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "1.42"
-          },
-          {
-            "name": "Axis Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "1.36"
-          }
-        ],
-        "Net Alpha (%)": 8.37,
-        "Rating_Score": null,
-        "Sub_Rating_Performance": 0.625,
-        "Sub_Rating_IR": 1.0063,
-        "Sub_Rating_Alpha": 0.954,
-        "Sub_Rating_Protection": 0.9417,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
         "AUM_Adj": 0.0,
@@ -8945,7 +8945,7 @@
           }
         ],
         "Net Alpha (%)": 7.83,
-        "Rating_Score": 3.622864583333333,
+        "Rating_Score": 3.6228645833333335,
         "Sub_Rating_Performance": 0.7252,
         "Sub_Rating_IR": 1.15,
         "Sub_Rating_Alpha": 0.9242,
@@ -9177,7 +9177,7 @@
           }
         ],
         "Net Alpha (%)": 4.01,
-        "Rating_Score": 3.4782809583333334,
+        "Rating_Score": 3.478280958333334,
         "Sub_Rating_Performance": 0.7196,
         "Sub_Rating_IR": 1.075,
         "Sub_Rating_Alpha": 0.6258,
@@ -9293,7 +9293,7 @@
           }
         ],
         "Net Alpha (%)": 6.36,
-        "Rating_Score": 3.4302083333333333,
+        "Rating_Score": 3.4302083333333337,
         "Sub_Rating_Performance": 0.6665,
         "Sub_Rating_IR": 1.1125,
         "Sub_Rating_Alpha": 0.8094,
@@ -9409,7 +9409,7 @@
           }
         ],
         "Net Alpha (%)": 6.2,
-        "Rating_Score": 3.426875,
+        "Rating_Score": 3.426875000000001,
         "Sub_Rating_Performance": 0.5952,
         "Sub_Rating_IR": 1.075,
         "Sub_Rating_Alpha": 0.7969,
@@ -9525,7 +9525,7 @@
           }
         ],
         "Net Alpha (%)": 9.62,
-        "Rating_Score": 3.404717261904762,
+        "Rating_Score": 3.4047172619047625,
         "Sub_Rating_Performance": 0.6096,
         "Sub_Rating_IR": 0.9906,
         "Sub_Rating_Alpha": 1.0098,
@@ -9641,7 +9641,7 @@
           }
         ],
         "Net Alpha (%)": 4.55,
-        "Rating_Score": 3.3700520833333334,
+        "Rating_Score": 3.370052083333334,
         "Sub_Rating_Performance": 0.709,
         "Sub_Rating_IR": 1.1469,
         "Sub_Rating_Alpha": 0.668,
@@ -10020,7 +10020,7 @@
         "1Y Rolling Return (%)": 16.12,
         "3Y Rolling Return (%)": 17.62,
         "5Y Rolling Return (%)": 17.81,
-        "AUM (Cr)": 26701.73,
+        "AUM (Cr)": 28640.28,
         "Expense Ratio (%)": 0.81,
         "Top 10 Stocks Weight (%)": 45.64,
         "Large Cap (%)": 80.94,
@@ -10105,14 +10105,14 @@
           }
         ],
         "Net Alpha (%)": 3.8,
-        "Rating_Score": 3.2871049583333334,
+        "Rating_Score": 3.3113368333333337,
         "Sub_Rating_Performance": 0.6546,
         "Sub_Rating_IR": 1.0875,
         "Sub_Rating_Alpha": 0.6094,
         "Sub_Rating_Protection": 0.8519,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0838,
+        "AUM_Adj": 0.108,
         "Rating": "\u2605\u2605\u2605\u00bd",
         "Manager_Changed_Recently": false,
         "Manager_Change_Date": null
@@ -10221,7 +10221,7 @@
           }
         ],
         "Net Alpha (%)": 7.24,
-        "Rating_Score": 3.2752083333333335,
+        "Rating_Score": 3.275208333333334,
         "Sub_Rating_Performance": 0.5708,
         "Sub_Rating_IR": 1.0219,
         "Sub_Rating_Alpha": 0.8781,
@@ -10917,7 +10917,7 @@
           }
         ],
         "Net Alpha (%)": 4.13,
-        "Rating_Score": 3.0078645833333333,
+        "Rating_Score": 3.0078645833333337,
         "Sub_Rating_Performance": 0.6021,
         "Sub_Rating_IR": 0.975,
         "Sub_Rating_Alpha": 0.6352,
@@ -11033,7 +11033,7 @@
           }
         ],
         "Net Alpha (%)": 4.19,
-        "Rating_Score": 2.9706770833333334,
+        "Rating_Score": 2.970677083333334,
         "Sub_Rating_Performance": 0.5233,
         "Sub_Rating_IR": 0.9844,
         "Sub_Rating_Alpha": 0.6398,
@@ -11149,7 +11149,7 @@
           }
         ],
         "Net Alpha (%)": 4.75,
-        "Rating_Score": 2.9266145833333335,
+        "Rating_Score": 2.926614583333334,
         "Sub_Rating_Performance": 0.4852,
         "Sub_Rating_IR": 0.9313,
         "Sub_Rating_Alpha": 0.6836,
@@ -11265,7 +11265,7 @@
           }
         ],
         "Net Alpha (%)": 3.52,
-        "Rating_Score": 2.9167708333333335,
+        "Rating_Score": 2.916770833333334,
         "Sub_Rating_Performance": 0.5777,
         "Sub_Rating_IR": 0.8562,
         "Sub_Rating_Alpha": 0.5875,
@@ -11845,7 +11845,7 @@
           }
         ],
         "Net Alpha (%)": 1.54,
-        "Rating_Score": 2.474895833333333,
+        "Rating_Score": 2.474895833333334,
         "Sub_Rating_Performance": 0.5808,
         "Sub_Rating_IR": 0.5875,
         "Sub_Rating_Alpha": 0.4328,
@@ -12659,7 +12659,7 @@
           }
         ],
         "Net Alpha (%)": 9.99,
-        "Rating_Score": 3.764044540229885,
+        "Rating_Score": 3.764044540229886,
         "Sub_Rating_Performance": 0.6616,
         "Sub_Rating_IR": 0.8813,
         "Sub_Rating_Alpha": 1.4369,
@@ -12891,7 +12891,7 @@
           }
         ],
         "Net Alpha (%)": 7.77,
-        "Rating_Score": 3.531679956896552,
+        "Rating_Score": 3.5316799568965522,
         "Sub_Rating_Performance": 0.6831,
         "Sub_Rating_IR": 0.8188,
         "Sub_Rating_Alpha": 1.2873,
@@ -13007,7 +13007,7 @@
           }
         ],
         "Net Alpha (%)": 8.16,
-        "Rating_Score": 3.5315862068965513,
+        "Rating_Score": 3.531586206896552,
         "Sub_Rating_Performance": 0.6871,
         "Sub_Rating_IR": 0.7625,
         "Sub_Rating_Alpha": 1.3225,
@@ -13935,7 +13935,7 @@
           }
         ],
         "Net Alpha (%)": 7.17,
-        "Rating_Score": 2.583388290229885,
+        "Rating_Score": 2.5833882902298853,
         "Sub_Rating_Performance": 0.7231,
         "Sub_Rating_IR": 0.5813,
         "Sub_Rating_Alpha": 1.2217,
@@ -14167,7 +14167,7 @@
           }
         ],
         "Net Alpha (%)": 3.64,
-        "Rating_Score": 2.496714906896552,
+        "Rating_Score": 2.496714906896553,
         "Sub_Rating_Performance": 0.9091,
         "Sub_Rating_IR": 0.3063,
         "Sub_Rating_Alpha": 0.8356,
@@ -14631,7 +14631,7 @@
           }
         ],
         "Net Alpha (%)": 3.74,
-        "Rating_Score": 2.413732040229885,
+        "Rating_Score": 2.4137320402298856,
         "Sub_Rating_Performance": 0.4581,
         "Sub_Rating_IR": 0.3312,
         "Sub_Rating_Alpha": 0.8466,
@@ -14662,7 +14662,7 @@
         "1Y Rolling Return (%)": 20.99,
         "3Y Rolling Return (%)": 22.13,
         "5Y Rolling Return (%)": 20.37,
-        "AUM (Cr)": 5493.37,
+        "AUM (Cr)": 6397.52,
         "Expense Ratio (%)": 0.87,
         "Top 10 Stocks Weight (%)": 28.06,
         "Large Cap (%)": 5.74,
@@ -14979,7 +14979,7 @@
           }
         ],
         "Net Alpha (%)": 3.48,
-        "Rating_Score": 2.1749612068965516,
+        "Rating_Score": 2.174961206896552,
         "Sub_Rating_Performance": 0.2626,
         "Sub_Rating_IR": 0.3187,
         "Sub_Rating_Alpha": 0.8181,
@@ -15095,7 +15095,7 @@
           }
         ],
         "Net Alpha (%)": 5.86,
-        "Rating_Score": 2.149107040229885,
+        "Rating_Score": 2.1491070402298855,
         "Sub_Rating_Performance": 0.5136,
         "Sub_Rating_IR": 0.5312,
         "Sub_Rating_Alpha": 1.0784,
@@ -15327,7 +15327,7 @@
           }
         ],
         "Net Alpha (%)": 0.29,
-        "Rating_Score": 1.7024716235632185,
+        "Rating_Score": 1.7024716235632187,
         "Sub_Rating_Performance": 0.3731,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.4692,
@@ -15443,7 +15443,7 @@
           }
         ],
         "Net Alpha (%)": -0.31,
-        "Rating_Score": 1.4694612068965518,
+        "Rating_Score": 1.4694612068965522,
         "Sub_Rating_Performance": 0.2876,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.4104,
@@ -15559,7 +15559,7 @@
           }
         ],
         "Net Alpha (%)": -1.91,
-        "Rating_Score": 1.2501278735632184,
+        "Rating_Score": 1.2501278735632186,
         "Sub_Rating_Performance": 0.1876,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.2704,
@@ -15675,7 +15675,7 @@
           }
         ],
         "Net Alpha (%)": -5.28,
-        "Rating_Score": 0.9560862068965517,
+        "Rating_Score": 0.9560862068965519,
         "Sub_Rating_Performance": 0.2786,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.0,
@@ -15791,7 +15791,7 @@
           }
         ],
         "Net Alpha (%)": -1.06,
-        "Rating_Score": 0.8253739068965518,
+        "Rating_Score": 0.825373906896552,
         "Sub_Rating_Performance": 0.3396,
         "Sub_Rating_IR": 0.075,
         "Sub_Rating_Alpha": 0.3448,
@@ -16141,7 +16141,7 @@
           }
         ],
         "Net Alpha (%)": 8.36,
-        "Rating_Score": 3.7897282608695644,
+        "Rating_Score": 3.7897282608695653,
         "Sub_Rating_Performance": 0.63,
         "Sub_Rating_IR": 1.1687,
         "Sub_Rating_Alpha": 1.335,
@@ -16257,7 +16257,7 @@
           }
         ],
         "Net Alpha (%)": 12.09,
-        "Rating_Score": 3.7506467608695644,
+        "Rating_Score": 3.7506467608695653,
         "Sub_Rating_Performance": 0.844,
         "Sub_Rating_IR": 1.25,
         "Sub_Rating_Alpha": 1.5681,
@@ -16373,7 +16373,7 @@
           }
         ],
         "Net Alpha (%)": 8.08,
-        "Rating_Score": 3.7061032608695648,
+        "Rating_Score": 3.706103260869565,
         "Sub_Rating_Performance": 0.71,
         "Sub_Rating_IR": 0.9844,
         "Sub_Rating_Alpha": 1.3175,
@@ -16721,7 +16721,7 @@
           }
         ],
         "Net Alpha (%)": 3.34,
-        "Rating_Score": 2.431290760869565,
+        "Rating_Score": 2.4312907608695653,
         "Sub_Rating_Performance": 0.501,
         "Sub_Rating_IR": 0.3875,
         "Sub_Rating_Alpha": 0.8028,
@@ -16837,7 +16837,7 @@
           }
         ],
         "Net Alpha (%)": 2.7,
-        "Rating_Score": 2.350290760869565,
+        "Rating_Score": 2.3502907608695653,
         "Sub_Rating_Performance": 0.5705,
         "Sub_Rating_IR": 0.3125,
         "Sub_Rating_Alpha": 0.7328,
@@ -16953,7 +16953,7 @@
           }
         ],
         "Net Alpha (%)": 2.68,
-        "Rating_Score": 2.308853260869565,
+        "Rating_Score": 2.3088532608695655,
         "Sub_Rating_Performance": 0.42,
         "Sub_Rating_IR": 0.4813,
         "Sub_Rating_Alpha": 0.7306,
@@ -16985,7 +16985,7 @@
         "3Y Rolling Return (%)": 30.67,
         "5Y Rolling Return (%)": 28.32,
         "AUM (Cr)": 31773.74,
-        "Expense Ratio (%)": 0.69,
+        "Expense Ratio (%)": 0.81,
         "Top 10 Stocks Weight (%)": 37.62,
         "Large Cap (%)": 22.31,
         "Mid Cap (%)": 6.57,
@@ -17301,7 +17301,7 @@
           }
         ],
         "Net Alpha (%)": 0.38,
-        "Rating_Score": 1.883790760869565,
+        "Rating_Score": 1.8837907608695654,
         "Sub_Rating_Performance": 0.629,
         "Sub_Rating_IR": 0.0563,
         "Sub_Rating_Alpha": 0.4791,
@@ -17417,7 +17417,7 @@
           }
         ],
         "Net Alpha (%)": 2.35,
-        "Rating_Score": 1.7282595108695649,
+        "Rating_Score": 1.7282595108695653,
         "Sub_Rating_Performance": 0.7415,
         "Sub_Rating_IR": 0.325,
         "Sub_Rating_Alpha": 0.6945,
@@ -17448,7 +17448,7 @@
         "1Y Rolling Return (%)": 18.88,
         "3Y Rolling Return (%)": 20.62,
         "5Y Rolling Return (%)": 18.61,
-        "AUM (Cr)": 4449.15,
+        "AUM (Cr)": 5452.53,
         "Expense Ratio (%)": 0.78,
         "Top 10 Stocks Weight (%)": 23.36,
         "Large Cap (%)": 0.0,
@@ -17533,7 +17533,7 @@
           }
         ],
         "Net Alpha (%)": 0.77,
-        "Rating_Score": 1.6779470108695653,
+        "Rating_Score": 1.6779470108695658,
         "Sub_Rating_Performance": 0.2985,
         "Sub_Rating_IR": 0.1562,
         "Sub_Rating_Alpha": 0.5217,
@@ -17649,7 +17649,7 @@
           }
         ],
         "Net Alpha (%)": 0.34,
-        "Rating_Score": 1.6421657608695652,
+        "Rating_Score": 1.6421657608695657,
         "Sub_Rating_Performance": 0.3755,
         "Sub_Rating_IR": 0.0813,
         "Sub_Rating_Alpha": 0.4747,
@@ -17765,7 +17765,7 @@
           }
         ],
         "Net Alpha (%)": -0.7,
-        "Rating_Score": 1.6015615942028987,
+        "Rating_Score": 1.601561594202899,
         "Sub_Rating_Performance": 0.433,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.3762,
@@ -17881,7 +17881,7 @@
           }
         ],
         "Net Alpha (%)": 1.42,
-        "Rating_Score": 1.5414574275362316,
+        "Rating_Score": 1.541457427536232,
         "Sub_Rating_Performance": 0.0525,
         "Sub_Rating_IR": 0.125,
         "Sub_Rating_Alpha": 0.5928,
@@ -17997,7 +17997,7 @@
           }
         ],
         "Net Alpha (%)": -1.39,
-        "Rating_Score": 1.4903532608695653,
+        "Rating_Score": 1.4903532608695655,
         "Sub_Rating_Performance": 0.45,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.3159,
@@ -18113,7 +18113,7 @@
           }
         ],
         "Net Alpha (%)": -0.69,
-        "Rating_Score": 1.4710620942028987,
+        "Rating_Score": 1.471062094202899,
         "Sub_Rating_Performance": 0.336,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.3771,
@@ -18229,7 +18229,7 @@
           }
         ],
         "Net Alpha (%)": -3.7,
-        "Rating_Score": 1.4019782608695652,
+        "Rating_Score": 1.4019782608695655,
         "Sub_Rating_Performance": 0.575,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.1137,
@@ -18345,7 +18345,7 @@
           }
         ],
         "Net Alpha (%)": -0.43,
-        "Rating_Score": 1.3483572608695653,
+        "Rating_Score": 1.3483572608695658,
         "Sub_Rating_Performance": 0.185,
         "Sub_Rating_IR": 0.1187,
         "Sub_Rating_Alpha": 0.3999,
@@ -18461,7 +18461,7 @@
           }
         ],
         "Net Alpha (%)": 1.57,
-        "Rating_Score": 1.2796111775362318,
+        "Rating_Score": 1.2796111775362322,
         "Sub_Rating_Performance": 0.4405,
         "Sub_Rating_IR": 0.1062,
         "Sub_Rating_Alpha": 0.6092,
@@ -18577,7 +18577,7 @@
           }
         ],
         "Net Alpha (%)": -1.82,
-        "Rating_Score": 0.8472282608695652,
+        "Rating_Score": 0.8472282608695654,
         "Sub_Rating_Performance": 0.5835,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.2782,
@@ -18693,7 +18693,7 @@
           }
         ],
         "Net Alpha (%)": -0.78,
-        "Rating_Score": 0.7333949275362319,
+        "Rating_Score": 0.7333949275362321,
         "Sub_Rating_Performance": 0.3035,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.3692,
@@ -19402,122 +19402,6 @@
         "Manager_Change_Date": null
       },
       {
-        "code": "152939",
-        "Fund Name": "TRUSTMF SMALL CAP FUND -DIRECT PLAN-GROWTH",
-        "1Y Return (%)": 28.35,
-        "3Y Return (%)": null,
-        "5Y Return (%)": null,
-        "Sharpe (3Y)": null,
-        "Sharpe (5Y)": null,
-        "Information Ratio (3Y)": null,
-        "Information Ratio (5Y)": null,
-        "Beta (3Y)": null,
-        "Beta (5Y)": null,
-        "Alpha (3Y)": null,
-        "Alpha (5Y)": null,
-        "Downside Capture (3Y)": null,
-        "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": 15.07,
-        "3Y Rolling Return (%)": null,
-        "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 1890.75,
-        "Expense Ratio (%)": 0.4,
-        "Top 10 Stocks Weight (%)": 21.83,
-        "Large Cap (%)": 1.83,
-        "Mid Cap (%)": 22.34,
-        "Small Cap (%)": 73.31,
-        "Managers": "Mihir Vora, Saurabh Kataria, Aakash Manghani",
-        "Holdings": [
-          {
-            "name": "Treps 01-Jun-2026",
-            "sector": "",
-            "weightage": "3.80"
-          },
-          {
-            "name": "Navin Fluorine International Ltd",
-            "sector": "Basic Materials",
-            "weightage": "2.58"
-          },
-          {
-            "name": "Multi Commodity Exchange of India Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.46"
-          },
-          {
-            "name": "Acutaas Chemicals Ltd",
-            "sector": "Basic Materials",
-            "weightage": "2.22"
-          },
-          {
-            "name": "Cemindia Projects Ltd",
-            "sector": "Industrials",
-            "weightage": "2.21"
-          },
-          {
-            "name": "Sai Life Sciences Ltd",
-            "sector": "Healthcare",
-            "weightage": "2.20"
-          },
-          {
-            "name": "City Union Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.16"
-          },
-          {
-            "name": "Sansera Engineering Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "2.09"
-          },
-          {
-            "name": "Kirloskar Oil Engines Ltd",
-            "sector": "Industrials",
-            "weightage": "2.01"
-          },
-          {
-            "name": "Laurus Labs Ltd",
-            "sector": "Healthcare",
-            "weightage": "1.98"
-          },
-          {
-            "name": "Aditya Infotech Ltd",
-            "sector": "Industrials",
-            "weightage": "1.93"
-          },
-          {
-            "name": "Ather Energy Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "1.92"
-          },
-          {
-            "name": "PNB Housing Finance Ltd",
-            "sector": "Financial Services",
-            "weightage": "1.90"
-          },
-          {
-            "name": "SJS Enterprises Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "1.88"
-          },
-          {
-            "name": "Aster DM Healthcare Ltd Ordinary Shares",
-            "sector": "Healthcare",
-            "weightage": "1.88"
-          }
-        ],
-        "Net Alpha (%)": null,
-        "Rating_Score": null,
-        "Sub_Rating_Performance": 0.5,
-        "Sub_Rating_IR": 0.625,
-        "Sub_Rating_Alpha": 0.875,
-        "Sub_Rating_Protection": 0.5,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "UR",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
         "code": "152107",
         "Fund Name": "QUANTUM SMALL CAP FUND - DIRECT PLAN GROWTH OPTION",
         "1Y Return (%)": 10.23,
@@ -19626,6 +19510,122 @@
         "Sub_Rating_IR": 0.25,
         "Sub_Rating_Alpha": 0.63,
         "Sub_Rating_Protection": 0.8342,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "UR",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
+        "code": "152939",
+        "Fund Name": "TRUSTMF SMALL CAP FUND -DIRECT PLAN-GROWTH",
+        "1Y Return (%)": 28.35,
+        "3Y Return (%)": null,
+        "5Y Return (%)": null,
+        "Sharpe (3Y)": null,
+        "Sharpe (5Y)": null,
+        "Information Ratio (3Y)": null,
+        "Information Ratio (5Y)": null,
+        "Beta (3Y)": null,
+        "Beta (5Y)": null,
+        "Alpha (3Y)": null,
+        "Alpha (5Y)": null,
+        "Downside Capture (3Y)": null,
+        "Downside Capture (5Y)": null,
+        "1Y Rolling Return (%)": 15.07,
+        "3Y Rolling Return (%)": null,
+        "5Y Rolling Return (%)": null,
+        "AUM (Cr)": 1890.75,
+        "Expense Ratio (%)": 0.4,
+        "Top 10 Stocks Weight (%)": 21.83,
+        "Large Cap (%)": 1.83,
+        "Mid Cap (%)": 22.34,
+        "Small Cap (%)": 73.31,
+        "Managers": "Mihir Vora, Saurabh Kataria, Aakash Manghani",
+        "Holdings": [
+          {
+            "name": "Treps 01-Jun-2026",
+            "sector": "",
+            "weightage": "3.80"
+          },
+          {
+            "name": "Navin Fluorine International Ltd",
+            "sector": "Basic Materials",
+            "weightage": "2.58"
+          },
+          {
+            "name": "Multi Commodity Exchange of India Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.46"
+          },
+          {
+            "name": "Acutaas Chemicals Ltd",
+            "sector": "Basic Materials",
+            "weightage": "2.22"
+          },
+          {
+            "name": "Cemindia Projects Ltd",
+            "sector": "Industrials",
+            "weightage": "2.21"
+          },
+          {
+            "name": "Sai Life Sciences Ltd",
+            "sector": "Healthcare",
+            "weightage": "2.20"
+          },
+          {
+            "name": "City Union Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.16"
+          },
+          {
+            "name": "Sansera Engineering Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "2.09"
+          },
+          {
+            "name": "Kirloskar Oil Engines Ltd",
+            "sector": "Industrials",
+            "weightage": "2.01"
+          },
+          {
+            "name": "Laurus Labs Ltd",
+            "sector": "Healthcare",
+            "weightage": "1.98"
+          },
+          {
+            "name": "Aditya Infotech Ltd",
+            "sector": "Industrials",
+            "weightage": "1.93"
+          },
+          {
+            "name": "Ather Energy Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "1.92"
+          },
+          {
+            "name": "PNB Housing Finance Ltd",
+            "sector": "Financial Services",
+            "weightage": "1.90"
+          },
+          {
+            "name": "SJS Enterprises Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "1.88"
+          },
+          {
+            "name": "Aster DM Healthcare Ltd Ordinary Shares",
+            "sector": "Healthcare",
+            "weightage": "1.88"
+          }
+        ],
+        "Net Alpha (%)": null,
+        "Rating_Score": null,
+        "Sub_Rating_Performance": 0.5,
+        "Sub_Rating_IR": 0.625,
+        "Sub_Rating_Alpha": 0.875,
+        "Sub_Rating_Protection": 0.5,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
         "AUM_Adj": 0.0,
@@ -22322,7 +22322,7 @@
         "1Y Rolling Return (%)": 16.16,
         "3Y Rolling Return (%)": 16.3,
         "5Y Rolling Return (%)": 16.64,
-        "AUM (Cr)": 5103.03,
+        "AUM (Cr)": 5666.48,
         "Expense Ratio (%)": 0.93,
         "Top 10 Stocks Weight (%)": 28.64,
         "Large Cap (%)": 43.18,
@@ -22438,7 +22438,7 @@
         "1Y Rolling Return (%)": 17.79,
         "3Y Rolling Return (%)": 19.61,
         "5Y Rolling Return (%)": 19.65,
-        "AUM (Cr)": 267.45,
+        "AUM (Cr)": 303.39,
         "Expense Ratio (%)": 0.5,
         "Top 10 Stocks Weight (%)": 27.61,
         "Large Cap (%)": 35.87,
@@ -23601,7 +23601,7 @@
         "3Y Rolling Return (%)": 30.66,
         "5Y Rolling Return (%)": 30.87,
         "AUM (Cr)": 13070.35,
-        "Expense Ratio (%)": 0.72,
+        "Expense Ratio (%)": 1.19,
         "Top 10 Stocks Weight (%)": 68.44,
         "Large Cap (%)": 75.37,
         "Mid Cap (%)": 15.78,
@@ -24033,7 +24033,7 @@
           }
         ],
         "Net Alpha (%)": 11.12,
-        "Rating_Score": 3.9435325091575093,
+        "Rating_Score": 3.9435325091575097,
         "Sub_Rating_Performance": 0.7653,
         "Sub_Rating_IR": 1.1625,
         "Sub_Rating_Alpha": 1.0768,
@@ -24149,7 +24149,7 @@
           }
         ],
         "Net Alpha (%)": 9.09,
-        "Rating_Score": 3.8889491758241754,
+        "Rating_Score": 3.8889491758241763,
         "Sub_Rating_Performance": 0.8097,
         "Sub_Rating_IR": 1.2156,
         "Sub_Rating_Alpha": 0.9862,
@@ -24265,7 +24265,7 @@
           }
         ],
         "Net Alpha (%)": 9.92,
-        "Rating_Score": 3.6694402472527474,
+        "Rating_Score": 3.669440247252748,
         "Sub_Rating_Performance": 0.7997,
         "Sub_Rating_IR": 1.0156,
         "Sub_Rating_Alpha": 1.0232,
@@ -24613,7 +24613,7 @@
           }
         ],
         "Net Alpha (%)": 7.57,
-        "Rating_Score": 3.6251322115384617,
+        "Rating_Score": 3.625132211538462,
         "Sub_Rating_Performance": 0.7484,
         "Sub_Rating_IR": 1.1219,
         "Sub_Rating_Alpha": 0.9039,
@@ -24644,7 +24644,7 @@
         "1Y Rolling Return (%)": 18.69,
         "3Y Rolling Return (%)": 20.81,
         "5Y Rolling Return (%)": 21.03,
-        "AUM (Cr)": 6406.52,
+        "AUM (Cr)": 6038.73,
         "Expense Ratio (%)": 0.91,
         "Top 10 Stocks Weight (%)": 45.94,
         "Large Cap (%)": 74.22,
@@ -24729,7 +24729,7 @@
           }
         ],
         "Net Alpha (%)": 6.71,
-        "Rating_Score": 3.582319711538461,
+        "Rating_Score": 3.5823197115384615,
         "Sub_Rating_Performance": 0.7347,
         "Sub_Rating_IR": 1.1406,
         "Sub_Rating_Alpha": 0.8367,
@@ -24961,7 +24961,7 @@
           }
         ],
         "Net Alpha (%)": 5.13,
-        "Rating_Score": 3.4729447115384615,
+        "Rating_Score": 3.472944711538462,
         "Sub_Rating_Performance": 0.8484,
         "Sub_Rating_IR": 0.9875,
         "Sub_Rating_Alpha": 0.7133,
@@ -25077,7 +25077,7 @@
           }
         ],
         "Net Alpha (%)": 7.88,
-        "Rating_Score": 3.4646634615384615,
+        "Rating_Score": 3.464663461538462,
         "Sub_Rating_Performance": 0.9109,
         "Sub_Rating_IR": 0.8313,
         "Sub_Rating_Alpha": 0.9281,
@@ -25657,7 +25657,7 @@
           }
         ],
         "Net Alpha (%)": 5.61,
-        "Rating_Score": 3.3341947115384616,
+        "Rating_Score": 3.334194711538462,
         "Sub_Rating_Performance": 0.7009,
         "Sub_Rating_IR": 1.0125,
         "Sub_Rating_Alpha": 0.7508,
@@ -25889,7 +25889,7 @@
           }
         ],
         "Net Alpha (%)": 5.45,
-        "Rating_Score": 3.2360697115384616,
+        "Rating_Score": 3.236069711538462,
         "Sub_Rating_Performance": 0.7322,
         "Sub_Rating_IR": 0.9406,
         "Sub_Rating_Alpha": 0.7383,
@@ -26268,7 +26268,7 @@
         "1Y Rolling Return (%)": 12.56,
         "3Y Rolling Return (%)": 12.87,
         "5Y Rolling Return (%)": 13.16,
-        "AUM (Cr)": 13117.29,
+        "AUM (Cr)": 14249.2,
         "Expense Ratio (%)": 0.83,
         "Top 10 Stocks Weight (%)": 40.51,
         "Large Cap (%)": 67.49,
@@ -26469,7 +26469,7 @@
           }
         ],
         "Net Alpha (%)": 3.37,
-        "Rating_Score": 2.9466947115384614,
+        "Rating_Score": 2.946694711538462,
         "Sub_Rating_Performance": 0.6922,
         "Sub_Rating_IR": 0.8188,
         "Sub_Rating_Alpha": 0.5758,
@@ -26617,7 +26617,7 @@
         "3Y Rolling Return (%)": 15.56,
         "5Y Rolling Return (%)": null,
         "AUM (Cr)": 1263.36,
-        "Expense Ratio (%)": null,
+        "Expense Ratio (%)": 1.64,
         "Top 10 Stocks Weight (%)": 40.94,
         "Large Cap (%)": 65.16,
         "Mid Cap (%)": 13.57,
@@ -26817,7 +26817,7 @@
           }
         ],
         "Net Alpha (%)": 3.26,
-        "Rating_Score": 2.7293509615384615,
+        "Rating_Score": 2.729350961538462,
         "Sub_Rating_Performance": 0.5409,
         "Sub_Rating_IR": 0.7375,
         "Sub_Rating_Alpha": 0.5672,
@@ -26933,7 +26933,7 @@
           }
         ],
         "Net Alpha (%)": 3.5,
-        "Rating_Score": 2.679663461538462,
+        "Rating_Score": 2.6796634615384622,
         "Sub_Rating_Performance": 0.5153,
         "Sub_Rating_IR": 0.6875,
         "Sub_Rating_Alpha": 0.5859,
@@ -27049,7 +27049,7 @@
           }
         ],
         "Net Alpha (%)": 2.2,
-        "Rating_Score": 2.5549759615384615,
+        "Rating_Score": 2.554975961538462,
         "Sub_Rating_Performance": 0.6403,
         "Sub_Rating_IR": 0.5563,
         "Sub_Rating_Alpha": 0.4844,
@@ -27468,7 +27468,7 @@
         "1Y Rolling Return (%)": 12.43,
         "3Y Rolling Return (%)": 10.98,
         "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 101.04,
+        "AUM (Cr)": 152.32,
         "Expense Ratio (%)": 0.2,
         "Top 10 Stocks Weight (%)": 53.73,
         "Large Cap (%)": 99.9,
@@ -27553,7 +27553,7 @@
           }
         ],
         "Net Alpha (%)": 0.82,
-        "Rating_Score": 2.2868509615384616,
+        "Rating_Score": 2.286850961538462,
         "Sub_Rating_Performance": 0.1203,
         "Sub_Rating_IR": 1.0,
         "Sub_Rating_Alpha": 0.3766,
@@ -27669,7 +27669,7 @@
           }
         ],
         "Net Alpha (%)": 1.94,
-        "Rating_Score": 2.2840384615384615,
+        "Rating_Score": 2.284038461538462,
         "Sub_Rating_Performance": 0.4653,
         "Sub_Rating_IR": 0.475,
         "Sub_Rating_Alpha": 0.4641,
@@ -27785,7 +27785,7 @@
           }
         ],
         "Net Alpha (%)": 1.68,
-        "Rating_Score": 2.1299759615384612,
+        "Rating_Score": 2.1299759615384617,
         "Sub_Rating_Performance": 0.4128,
         "Sub_Rating_IR": 0.45,
         "Sub_Rating_Alpha": 0.4437,
@@ -29558,7 +29558,7 @@
         "1Y Rolling Return (%)": 18.51,
         "3Y Rolling Return (%)": 20.97,
         "5Y Rolling Return (%)": 21.18,
-        "AUM (Cr)": 5638.64,
+        "AUM (Cr)": 6529.52,
         "Expense Ratio (%)": 0.87,
         "Top 10 Stocks Weight (%)": 31.95,
         "Large Cap (%)": 47.75,
@@ -30805,7 +30805,7 @@
           }
         ],
         "Net Alpha (%)": 7.11,
-        "Rating_Score": 3.7448437499999994,
+        "Rating_Score": 3.7448437500000002,
         "Sub_Rating_Performance": 0.8873,
         "Sub_Rating_IR": 1.0094,
         "Sub_Rating_Alpha": 0.868,
@@ -30921,7 +30921,7 @@
           }
         ],
         "Net Alpha (%)": 10.58,
-        "Rating_Score": 3.663720238095238,
+        "Rating_Score": 3.6637202380952383,
         "Sub_Rating_Performance": 0.5323,
         "Sub_Rating_IR": 1.2063,
         "Sub_Rating_Alpha": 1.0527,
@@ -31037,7 +31037,7 @@
           }
         ],
         "Net Alpha (%)": 9.22,
-        "Rating_Score": 3.4076934523809523,
+        "Rating_Score": 3.407693452380953,
         "Sub_Rating_Performance": 0.4554,
         "Sub_Rating_IR": 1.1344,
         "Sub_Rating_Alpha": 0.992,
@@ -33042,7 +33042,7 @@
         "1Y Rolling Return (%)": 13.89,
         "3Y Rolling Return (%)": 15.17,
         "5Y Rolling Return (%)": 15.24,
-        "AUM (Cr)": 100.91,
+        "AUM (Cr)": 110.8,
         "Expense Ratio (%)": 0.49,
         "Top 10 Stocks Weight (%)": 41.48,
         "Large Cap (%)": 24.59,
@@ -33390,7 +33390,7 @@
         "1Y Rolling Return (%)": 13.45,
         "3Y Rolling Return (%)": 14.53,
         "5Y Rolling Return (%)": 14.76,
-        "AUM (Cr)": 6592.18,
+        "AUM (Cr)": 6934.15,
         "Expense Ratio (%)": 0.92,
         "Top 10 Stocks Weight (%)": 33.38,
         "Large Cap (%)": 53.23,
@@ -33507,7 +33507,7 @@
         "3Y Rolling Return (%)": 13.94,
         "5Y Rolling Return (%)": null,
         "AUM (Cr)": 8629.36,
-        "Expense Ratio (%)": null,
+        "Expense Ratio (%)": 0.71,
         "Top 10 Stocks Weight (%)": 42.36,
         "Large Cap (%)": 51.51,
         "Mid Cap (%)": 11.35,
@@ -34593,7 +34593,7 @@
         "3Y Rolling Return (%)": 19.85,
         "5Y Rolling Return (%)": null,
         "AUM (Cr)": 922.29,
-        "Expense Ratio (%)": 0.83,
+        "Expense Ratio (%)": 1.4,
         "Top 10 Stocks Weight (%)": 90.45,
         "Large Cap (%)": 60.66,
         "Mid Cap (%)": 14.67,
@@ -35288,7 +35288,7 @@
         "1Y Rolling Return (%)": 13.34,
         "3Y Rolling Return (%)": 13.98,
         "5Y Rolling Return (%)": 14.15,
-        "AUM (Cr)": 8539.88,
+        "AUM (Cr)": 9252.62,
         "Expense Ratio (%)": 0.6,
         "Top 10 Stocks Weight (%)": 32.27,
         "Large Cap (%)": 40.19,
@@ -37706,122 +37706,6 @@
         "Manager_Change_Date": null
       },
       {
-        "code": "152194",
-        "Fund Name": "Bajaj Finserv Balanced Advantage Fund-Direct Plan-Growth",
-        "1Y Return (%)": 3.72,
-        "3Y Return (%)": null,
-        "5Y Return (%)": null,
-        "Sharpe (3Y)": null,
-        "Sharpe (5Y)": null,
-        "Information Ratio (3Y)": null,
-        "Information Ratio (5Y)": null,
-        "Beta (3Y)": null,
-        "Beta (5Y)": null,
-        "Alpha (3Y)": null,
-        "Alpha (5Y)": null,
-        "Downside Capture (3Y)": null,
-        "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": 5.42,
-        "3Y Rolling Return (%)": null,
-        "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 1230.51,
-        "Expense Ratio (%)": 0.48,
-        "Top 10 Stocks Weight (%)": 42.94,
-        "Large Cap (%)": 72.87,
-        "Mid Cap (%)": 10.64,
-        "Small Cap (%)": 2.15,
-        "Managers": "Nimesh Chandan, Siddharth Chaudhary, Sorbh Gupta",
-        "Holdings": [
-          {
-            "name": "HDFC Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "7.15"
-          },
-          {
-            "name": "Bajaj Finserv Money Market Dir Gr",
-            "sector": "",
-            "weightage": "5.43"
-          },
-          {
-            "name": "ICICI Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "5.26"
-          },
-          {
-            "name": "Bharti Airtel Ltd",
-            "sector": "Communication Services",
-            "weightage": "4.87"
-          },
-          {
-            "name": "Reliance Industries Ltd",
-            "sector": "Energy",
-            "weightage": "4.47"
-          },
-          {
-            "name": "Bajaj Auto Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "3.70"
-          },
-          {
-            "name": "Bajaj Finserv Bkg & PSU Dir Gr",
-            "sector": "",
-            "weightage": "3.29"
-          },
-          {
-            "name": "Hindustan Unilever Ltd",
-            "sector": "Consumer Defensive",
-            "weightage": "2.97"
-          },
-          {
-            "name": "Divi's Laboratories Ltd",
-            "sector": "Healthcare",
-            "weightage": "2.93"
-          },
-          {
-            "name": "State Bank of India",
-            "sector": "Financial Services",
-            "weightage": "2.88"
-          },
-          {
-            "name": "Axis Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.68"
-          },
-          {
-            "name": "UltraTech Cement Ltd",
-            "sector": "Basic Materials",
-            "weightage": "2.61"
-          },
-          {
-            "name": "Tata Steel Ltd",
-            "sector": "Basic Materials",
-            "weightage": "2.61"
-          },
-          {
-            "name": "Larsen & Toubro Ltd",
-            "sector": "Industrials",
-            "weightage": "2.36"
-          },
-          {
-            "name": "Schaeffler India Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "1.77"
-          }
-        ],
-        "Net Alpha (%)": null,
-        "Rating_Score": null,
-        "Sub_Rating_Performance": 0.625,
-        "Sub_Rating_IR": 0.625,
-        "Sub_Rating_Alpha": 0.375,
-        "Sub_Rating_Protection": 0.875,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "UR",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
         "code": "152688",
         "Fund Name": "Canara Robeco Balanced Advantage Fund - Direct Plan - Growth Option",
         "1Y Return (%)": 1.45,
@@ -37938,6 +37822,122 @@
         "Manager_Change_Date": null
       },
       {
+        "code": "152194",
+        "Fund Name": "Bajaj Finserv Balanced Advantage Fund-Direct Plan-Growth",
+        "1Y Return (%)": 3.72,
+        "3Y Return (%)": null,
+        "5Y Return (%)": null,
+        "Sharpe (3Y)": null,
+        "Sharpe (5Y)": null,
+        "Information Ratio (3Y)": null,
+        "Information Ratio (5Y)": null,
+        "Beta (3Y)": null,
+        "Beta (5Y)": null,
+        "Alpha (3Y)": null,
+        "Alpha (5Y)": null,
+        "Downside Capture (3Y)": null,
+        "Downside Capture (5Y)": null,
+        "1Y Rolling Return (%)": 5.42,
+        "3Y Rolling Return (%)": null,
+        "5Y Rolling Return (%)": null,
+        "AUM (Cr)": 1230.51,
+        "Expense Ratio (%)": 0.48,
+        "Top 10 Stocks Weight (%)": 42.94,
+        "Large Cap (%)": 72.87,
+        "Mid Cap (%)": 10.64,
+        "Small Cap (%)": 2.15,
+        "Managers": "Nimesh Chandan, Siddharth Chaudhary, Sorbh Gupta",
+        "Holdings": [
+          {
+            "name": "HDFC Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "7.15"
+          },
+          {
+            "name": "Bajaj Finserv Money Market Dir Gr",
+            "sector": "",
+            "weightage": "5.43"
+          },
+          {
+            "name": "ICICI Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "5.26"
+          },
+          {
+            "name": "Bharti Airtel Ltd",
+            "sector": "Communication Services",
+            "weightage": "4.87"
+          },
+          {
+            "name": "Reliance Industries Ltd",
+            "sector": "Energy",
+            "weightage": "4.47"
+          },
+          {
+            "name": "Bajaj Auto Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "3.70"
+          },
+          {
+            "name": "Bajaj Finserv Bkg & PSU Dir Gr",
+            "sector": "",
+            "weightage": "3.29"
+          },
+          {
+            "name": "Hindustan Unilever Ltd",
+            "sector": "Consumer Defensive",
+            "weightage": "2.97"
+          },
+          {
+            "name": "Divi's Laboratories Ltd",
+            "sector": "Healthcare",
+            "weightage": "2.93"
+          },
+          {
+            "name": "State Bank of India",
+            "sector": "Financial Services",
+            "weightage": "2.88"
+          },
+          {
+            "name": "Axis Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.68"
+          },
+          {
+            "name": "UltraTech Cement Ltd",
+            "sector": "Basic Materials",
+            "weightage": "2.61"
+          },
+          {
+            "name": "Tata Steel Ltd",
+            "sector": "Basic Materials",
+            "weightage": "2.61"
+          },
+          {
+            "name": "Larsen & Toubro Ltd",
+            "sector": "Industrials",
+            "weightage": "2.36"
+          },
+          {
+            "name": "Schaeffler India Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "1.77"
+          }
+        ],
+        "Net Alpha (%)": null,
+        "Rating_Score": null,
+        "Sub_Rating_Performance": 0.625,
+        "Sub_Rating_IR": 0.625,
+        "Sub_Rating_Alpha": 0.375,
+        "Sub_Rating_Protection": 0.875,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "UR",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
         "code": "152509",
         "Fund Name": "Helios Balanced Advantage Fund- Direct Plan- Growth Option",
         "1Y Return (%)": 6.56,
@@ -38038,6 +38038,122 @@
             "name": "State Bank of India",
             "sector": "Financial Services",
             "weightage": "2.26"
+          }
+        ],
+        "Net Alpha (%)": null,
+        "Rating_Score": null,
+        "Sub_Rating_Performance": 0.625,
+        "Sub_Rating_IR": 0.625,
+        "Sub_Rating_Alpha": 0.375,
+        "Sub_Rating_Protection": 0.875,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "UR",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
+        "code": "152468",
+        "Fund Name": "Parag Parikh Dynamic Asset Allocation Fund - Direct Plan Growth",
+        "1Y Return (%)": 4.96,
+        "3Y Return (%)": null,
+        "5Y Return (%)": null,
+        "Sharpe (3Y)": null,
+        "Sharpe (5Y)": null,
+        "Information Ratio (3Y)": null,
+        "Information Ratio (5Y)": null,
+        "Beta (3Y)": null,
+        "Beta (5Y)": null,
+        "Alpha (3Y)": null,
+        "Alpha (5Y)": null,
+        "Downside Capture (3Y)": null,
+        "Downside Capture (5Y)": null,
+        "1Y Rolling Return (%)": 6.95,
+        "3Y Rolling Return (%)": null,
+        "5Y Rolling Return (%)": null,
+        "AUM (Cr)": 2691.13,
+        "Expense Ratio (%)": 0.23,
+        "Top 10 Stocks Weight (%)": 46.62,
+        "Large Cap (%)": 12.99,
+        "Mid Cap (%)": 3.72,
+        "Small Cap (%)": 2.36,
+        "Managers": "Raj Mehta, Rajeev Thakkar, Raunak Onkar, Rukun Tarachandani, Tejas Soman, Mansi Kariya",
+        "Holdings": [
+          {
+            "name": "Cash Offset For Derivatives",
+            "sector": "",
+            "weightage": "12.92"
+          },
+          {
+            "name": "Embassy Office Parks REIT",
+            "sector": "Real Estate",
+            "weightage": "5.09"
+          },
+          {
+            "name": "Brookfield India Real Estate Trust",
+            "sector": "Real Estate",
+            "weightage": "5.08"
+          },
+          {
+            "name": "Future on BANK Index",
+            "sector": "",
+            "weightage": "4.12"
+          },
+          {
+            "name": "Parag Parikh Liquid Dir Gr",
+            "sector": "",
+            "weightage": "3.96"
+          },
+          {
+            "name": "Tamil Nadu (Government of) 7.12%",
+            "sector": "",
+            "weightage": "3.63"
+          },
+          {
+            "name": "Coal India Ltd",
+            "sector": "Energy",
+            "weightage": "3.20"
+          },
+          {
+            "name": "Reliance Industries Ltd",
+            "sector": "Energy",
+            "weightage": "3.07"
+          },
+          {
+            "name": "7.72% Maharashtra Sgs 2031",
+            "sector": "",
+            "weightage": "2.81"
+          },
+          {
+            "name": "National Bank For Agriculture And Rural Development",
+            "sector": "",
+            "weightage": "2.75"
+          },
+          {
+            "name": "Power Grid Corp Of India Ltd",
+            "sector": "Utilities",
+            "weightage": "2.74"
+          },
+          {
+            "name": "HDFC Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.71"
+          },
+          {
+            "name": "ITC Ltd",
+            "sector": "Consumer Defensive",
+            "weightage": "2.63"
+          },
+          {
+            "name": "7.6% Karnataka Sgs 2033",
+            "sector": "",
+            "weightage": "2.59"
+          },
+          {
+            "name": "Petronet LNG Ltd",
+            "sector": "Energy",
+            "weightage": "2.56"
           }
         ],
         "Net Alpha (%)": null,
@@ -38270,122 +38386,6 @@
             "name": "Keertana Finserv Limited",
             "sector": "",
             "weightage": "2.52"
-          }
-        ],
-        "Net Alpha (%)": null,
-        "Rating_Score": null,
-        "Sub_Rating_Performance": 0.625,
-        "Sub_Rating_IR": 0.625,
-        "Sub_Rating_Alpha": 0.375,
-        "Sub_Rating_Protection": 0.875,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "UR",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
-        "code": "152468",
-        "Fund Name": "Parag Parikh Dynamic Asset Allocation Fund - Direct Plan Growth",
-        "1Y Return (%)": 4.96,
-        "3Y Return (%)": null,
-        "5Y Return (%)": null,
-        "Sharpe (3Y)": null,
-        "Sharpe (5Y)": null,
-        "Information Ratio (3Y)": null,
-        "Information Ratio (5Y)": null,
-        "Beta (3Y)": null,
-        "Beta (5Y)": null,
-        "Alpha (3Y)": null,
-        "Alpha (5Y)": null,
-        "Downside Capture (3Y)": null,
-        "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": 6.95,
-        "3Y Rolling Return (%)": null,
-        "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 2691.13,
-        "Expense Ratio (%)": 0.23,
-        "Top 10 Stocks Weight (%)": 46.62,
-        "Large Cap (%)": 12.99,
-        "Mid Cap (%)": 3.72,
-        "Small Cap (%)": 2.36,
-        "Managers": "Raj Mehta, Rajeev Thakkar, Raunak Onkar, Rukun Tarachandani, Tejas Soman, Mansi Kariya",
-        "Holdings": [
-          {
-            "name": "Cash Offset For Derivatives",
-            "sector": "",
-            "weightage": "12.92"
-          },
-          {
-            "name": "Embassy Office Parks REIT",
-            "sector": "Real Estate",
-            "weightage": "5.09"
-          },
-          {
-            "name": "Brookfield India Real Estate Trust",
-            "sector": "Real Estate",
-            "weightage": "5.08"
-          },
-          {
-            "name": "Future on BANK Index",
-            "sector": "",
-            "weightage": "4.12"
-          },
-          {
-            "name": "Parag Parikh Liquid Dir Gr",
-            "sector": "",
-            "weightage": "3.96"
-          },
-          {
-            "name": "Tamil Nadu (Government of) 7.12%",
-            "sector": "",
-            "weightage": "3.63"
-          },
-          {
-            "name": "Coal India Ltd",
-            "sector": "Energy",
-            "weightage": "3.20"
-          },
-          {
-            "name": "Reliance Industries Ltd",
-            "sector": "Energy",
-            "weightage": "3.07"
-          },
-          {
-            "name": "7.72% Maharashtra Sgs 2031",
-            "sector": "",
-            "weightage": "2.81"
-          },
-          {
-            "name": "National Bank For Agriculture And Rural Development",
-            "sector": "",
-            "weightage": "2.75"
-          },
-          {
-            "name": "Power Grid Corp Of India Ltd",
-            "sector": "Utilities",
-            "weightage": "2.74"
-          },
-          {
-            "name": "HDFC Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.71"
-          },
-          {
-            "name": "ITC Ltd",
-            "sector": "Consumer Defensive",
-            "weightage": "2.63"
-          },
-          {
-            "name": "7.6% Karnataka Sgs 2033",
-            "sector": "",
-            "weightage": "2.59"
-          },
-          {
-            "name": "Petronet LNG Ltd",
-            "sector": "Energy",
-            "weightage": "2.56"
           }
         ],
         "Net Alpha (%)": null,
@@ -39319,7 +39319,7 @@
           }
         ],
         "Net Alpha (%)": -0.12,
-        "Rating_Score": 2.428078125,
+        "Rating_Score": 2.4280781250000003,
         "Sub_Rating_Performance": 0.6788,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.183,
@@ -39466,7 +39466,7 @@
         "1Y Rolling Return (%)": 7.03,
         "3Y Rolling Return (%)": 6.74,
         "5Y Rolling Return (%)": 6.53,
-        "AUM (Cr)": 25064.55,
+        "AUM (Cr)": 26280.08,
         "Expense Ratio (%)": 0.27,
         "Top 10 Stocks Weight (%)": 40.08,
         "Large Cap (%)": 45.41,
@@ -39551,7 +39551,7 @@
           }
         ],
         "Net Alpha (%)": -0.01,
-        "Rating_Score": 2.2980364583333333,
+        "Rating_Score": 2.2980364583333337,
         "Sub_Rating_Performance": 0.6363,
         "Sub_Rating_IR": 0.1562,
         "Sub_Rating_Alpha": 0.1871,
@@ -40479,7 +40479,7 @@
           }
         ],
         "Net Alpha (%)": -0.21,
-        "Rating_Score": 2.0785781249999995,
+        "Rating_Score": 2.078578125,
         "Sub_Rating_Performance": 0.6976,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.1796,
@@ -40711,7 +40711,7 @@
           }
         ],
         "Net Alpha (%)": -0.49,
-        "Rating_Score": 1.9450156249999995,
+        "Rating_Score": 1.9450156249999997,
         "Sub_Rating_Performance": 0.5951,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.1691,
@@ -42137,7 +42137,7 @@
         "3Y Rolling Return (%)": 43.03,
         "5Y Rolling Return (%)": 23.39,
         "AUM (Cr)": 30448.68,
-        "Expense Ratio (%)": 0.18,
+        "Expense Ratio (%)": 0.2,
         "Top 10 Stocks Weight (%)": 40.15,
         "Large Cap (%)": null,
         "Mid Cap (%)": null,
@@ -42453,7 +42453,7 @@
           }
         ],
         "Net Alpha (%)": 0.17,
-        "Rating_Score": 3.810189916666667,
+        "Rating_Score": 3.8101899166666664,
         "Sub_Rating_Performance": 0.527,
         "Sub_Rating_IR": 1.0,
         "Sub_Rating_Alpha": 0.0652,
@@ -42600,7 +42600,7 @@
         "1Y Rolling Return (%)": 702.62,
         "3Y Rolling Return (%)": 48.06,
         "5Y Rolling Return (%)": 10.84,
-        "AUM (Cr)": 62.25,
+        "AUM (Cr)": 78.4,
         "Expense Ratio (%)": 0.15,
         "Top 10 Stocks Weight (%)": 126.86,
         "Large Cap (%)": null,
@@ -42801,7 +42801,7 @@
           }
         ],
         "Net Alpha (%)": 0.08,
-        "Rating_Score": 3.706938833333334,
+        "Rating_Score": 3.706938833333333,
         "Sub_Rating_Performance": 0.6845,
         "Sub_Rating_IR": 0.8525,
         "Sub_Rating_Alpha": 0.0638,
@@ -43033,7 +43033,7 @@
           }
         ],
         "Net Alpha (%)": 0.22,
-        "Rating_Score": 3.6349062500000002,
+        "Rating_Score": 3.63490625,
         "Sub_Rating_Performance": 0.569,
         "Sub_Rating_IR": 1.0,
         "Sub_Rating_Alpha": 0.0659,
@@ -43529,7 +43529,7 @@
         "3Y Rolling Return (%)": 5.35,
         "5Y Rolling Return (%)": 5.14,
         "AUM (Cr)": 31752.32,
-        "Expense Ratio (%)": 0.17,
+        "Expense Ratio (%)": 0.2,
         "Top 10 Stocks Weight (%)": 36.42,
         "Large Cap (%)": null,
         "Mid Cap (%)": null,
@@ -43613,7 +43613,7 @@
           }
         ],
         "Net Alpha (%)": 0.17,
-        "Rating_Score": 3.6032276666666667,
+        "Rating_Score": 3.6032276666666663,
         "Sub_Rating_Performance": 0.5235,
         "Sub_Rating_IR": 1.0,
         "Sub_Rating_Alpha": 0.0652,
@@ -43729,7 +43729,7 @@
           }
         ],
         "Net Alpha (%)": 0.74,
-        "Rating_Score": 3.60103125,
+        "Rating_Score": 3.6010312499999997,
         "Sub_Rating_Performance": 0.527,
         "Sub_Rating_IR": 1.0,
         "Sub_Rating_Alpha": 0.0741,
@@ -44193,7 +44193,7 @@
           }
         ],
         "Net Alpha (%)": 0.07,
-        "Rating_Score": 3.5584375,
+        "Rating_Score": 3.5584374999999997,
         "Sub_Rating_Performance": 0.5348,
         "Sub_Rating_IR": 0.96,
         "Sub_Rating_Alpha": 0.0636,
@@ -44309,7 +44309,7 @@
           }
         ],
         "Net Alpha (%)": 0.71,
-        "Rating_Score": 3.5506875,
+        "Rating_Score": 3.5506874999999996,
         "Sub_Rating_Performance": 0.4771,
         "Sub_Rating_IR": 1.0,
         "Sub_Rating_Alpha": 0.0736,
@@ -44425,7 +44425,7 @@
           }
         ],
         "Net Alpha (%)": 0.6,
-        "Rating_Score": 3.52446875,
+        "Rating_Score": 3.5244687499999996,
         "Sub_Rating_Performance": 0.4526,
         "Sub_Rating_IR": 1.0,
         "Sub_Rating_Alpha": 0.0719,
@@ -44869,7 +44869,7 @@
           }
         ],
         "Net Alpha (%)": 0.01,
-        "Rating_Score": 3.265,
+        "Rating_Score": 3.2649999999999997,
         "Sub_Rating_Performance": 0.5173,
         "Sub_Rating_IR": 0.685,
         "Sub_Rating_Alpha": 0.0627,
@@ -44900,8 +44900,8 @@
         "1Y Rolling Return (%)": 5.5,
         "3Y Rolling Return (%)": 5.33,
         "5Y Rolling Return (%)": 5.13,
-        "AUM (Cr)": 43022.18,
-        "Expense Ratio (%)": 0.18,
+        "AUM (Cr)": 47519.52,
+        "Expense Ratio (%)": 0.21,
         "Top 10 Stocks Weight (%)": 39.95,
         "Large Cap (%)": null,
         "Mid Cap (%)": null,
@@ -44985,15 +44985,15 @@
           }
         ],
         "Net Alpha (%)": -0.01,
-        "Rating_Score": 3.212611916666667,
+        "Rating_Score": 3.2500897499999994,
         "Sub_Rating_Performance": 0.5217,
         "Sub_Rating_IR": 0.52,
         "Sub_Rating_Alpha": 0.0624,
         "Sub_Rating_Protection": 2.0,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.1085,
-        "Rating": "\u2605\u2605\u2605",
+        "AUM_Adj": 0.146,
+        "Rating": "\u2605\u2605\u2605\u00bd",
         "Manager_Changed_Recently": false,
         "Manager_Change_Date": null
       },
@@ -45101,7 +45101,7 @@
           }
         ],
         "Net Alpha (%)": -0.03,
-        "Rating_Score": 3.18121875,
+        "Rating_Score": 3.1812187499999998,
         "Sub_Rating_Performance": 0.5191,
         "Sub_Rating_IR": 0.6,
         "Sub_Rating_Alpha": 0.0621,
@@ -45217,7 +45217,7 @@
           }
         ],
         "Net Alpha (%)": -0.04,
-        "Rating_Score": 3.1792187500000004,
+        "Rating_Score": 3.17921875,
         "Sub_Rating_Performance": 0.5322,
         "Sub_Rating_IR": 0.585,
         "Sub_Rating_Alpha": 0.062,
@@ -45249,7 +45249,7 @@
         "3Y Rolling Return (%)": 5.7,
         "5Y Rolling Return (%)": 5.42,
         "AUM (Cr)": 7657.03,
-        "Expense Ratio (%)": null,
+        "Expense Ratio (%)": 0.14,
         "Top 10 Stocks Weight (%)": 30.88,
         "Large Cap (%)": null,
         "Mid Cap (%)": null,
@@ -45449,7 +45449,7 @@
           }
         ],
         "Net Alpha (%)": -0.13,
-        "Rating_Score": 2.8694687500000002,
+        "Rating_Score": 2.86946875,
         "Sub_Rating_Performance": 0.5436,
         "Sub_Rating_IR": 0.265,
         "Sub_Rating_Alpha": 0.0609,
@@ -45481,7 +45481,7 @@
         "3Y Rolling Return (%)": 5.26,
         "5Y Rolling Return (%)": 5.05,
         "AUM (Cr)": 79363.31,
-        "Expense Ratio (%)": 0.2,
+        "Expense Ratio (%)": 0.19,
         "Top 10 Stocks Weight (%)": 42.91,
         "Large Cap (%)": null,
         "Mid Cap (%)": null,
@@ -45681,7 +45681,7 @@
           }
         ],
         "Net Alpha (%)": -0.31,
-        "Rating_Score": 2.74659375,
+        "Rating_Score": 2.7465937499999997,
         "Sub_Rating_Performance": 0.688,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.0586,
@@ -46301,7 +46301,7 @@
           }
         ],
         "Net Alpha (%)": -0.8,
-        "Rating_Score": 2.5435937500000003,
+        "Rating_Score": 2.54359375,
         "Sub_Rating_Performance": 0.4911,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.0525,
@@ -46449,7 +46449,7 @@
         "3Y Rolling Return (%)": 5.24,
         "5Y Rolling Return (%)": 5.04,
         "AUM (Cr)": 58095.62,
-        "Expense Ratio (%)": 0.17,
+        "Expense Ratio (%)": 0.2,
         "Top 10 Stocks Weight (%)": 34.75,
         "Large Cap (%)": null,
         "Mid Cap (%)": null,
@@ -46662,15 +46662,15 @@
         "Manager_Change_Date": null
       },
       {
-        "code": "148415",
-        "Fund Name": "JM Liquid Fund - Withheld Brokerage I.E.F. (Direct) - Growth Plan",
+        "code": "148414",
+        "Fund Name": "JM Liquid Fund - Unclaimed Application Refund Amount I.E.F. (Direct) - Growth Plan",
         "1Y Return (%)": 0.0,
         "3Y Return (%)": 0.0,
         "5Y Return (%)": 0.0,
         "Sharpe (3Y)": 0.0,
         "Sharpe (5Y)": 0.0,
-        "Information Ratio (3Y)": -39.37,
-        "Information Ratio (5Y)": -30.99,
+        "Information Ratio (3Y)": -32.74,
+        "Information Ratio (5Y)": -33.74,
         "Beta (3Y)": 0.0,
         "Beta (5Y)": 0.0,
         "Alpha (3Y)": -6.47,
@@ -46858,15 +46858,15 @@
         "Manager_Change_Date": null
       },
       {
-        "code": "148414",
-        "Fund Name": "JM Liquid Fund - Unclaimed Application Refund Amount I.E.F. (Direct) - Growth Plan",
+        "code": "148415",
+        "Fund Name": "JM Liquid Fund - Withheld Brokerage I.E.F. (Direct) - Growth Plan",
         "1Y Return (%)": 0.0,
         "3Y Return (%)": 0.0,
         "5Y Return (%)": 0.0,
         "Sharpe (3Y)": 0.0,
         "Sharpe (5Y)": 0.0,
-        "Information Ratio (3Y)": -32.74,
-        "Information Ratio (5Y)": -33.74,
+        "Information Ratio (3Y)": -39.37,
+        "Information Ratio (5Y)": -30.99,
         "Beta (3Y)": 0.0,
         "Beta (5Y)": 0.0,
         "Alpha (3Y)": -6.47,
