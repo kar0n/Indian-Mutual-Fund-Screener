@@ -2,7 +2,7 @@
   "metadata": {
     "risk_free_rate": 6.47,
     "rfr_status": "Live",
-    "compile_date": "2026-08-02 05:17:23",
+    "compile_date": "2026-08-03 05:32:14",
     "benchmark_mapping": {
       "Equity Scheme - Flexi Cap Fund": "Nifty 50 Index",
       "Equity Scheme - Multi Cap Fund": "Nifty 50 Index",
@@ -357,7 +357,7 @@
           }
         ],
         "Net Alpha (%)": 12.05,
-        "Rating_Score": 3.889280133928571,
+        "Rating_Score": 3.8892801339285716,
         "Sub_Rating_Performance": 0.8666,
         "Sub_Rating_IR": 1.0844,
         "Sub_Rating_Alpha": 1.1183,
@@ -821,7 +821,7 @@
           }
         ],
         "Net Alpha (%)": 9.93,
-        "Rating_Score": 3.749949776785714,
+        "Rating_Score": 3.7499497767857144,
         "Sub_Rating_Performance": 0.7335,
         "Sub_Rating_IR": 1.0875,
         "Sub_Rating_Alpha": 1.0237,
@@ -1053,7 +1053,7 @@
           }
         ],
         "Net Alpha (%)": 8.4,
-        "Rating_Score": 3.6932087053571427,
+        "Rating_Score": 3.693208705357143,
         "Sub_Rating_Performance": 0.7735,
         "Sub_Rating_IR": 1.1469,
         "Sub_Rating_Alpha": 0.9554,
@@ -1401,7 +1401,7 @@
           }
         ],
         "Net Alpha (%)": 12.13,
-        "Rating_Score": 3.4600390625,
+        "Rating_Score": 3.4600390625000004,
         "Sub_Rating_Performance": 0.5122,
         "Sub_Rating_IR": 0.9844,
         "Sub_Rating_Alpha": 1.1219,
@@ -1517,7 +1517,7 @@
           }
         ],
         "Net Alpha (%)": 7.26,
-        "Rating_Score": 3.405872395833333,
+        "Rating_Score": 3.4058723958333337,
         "Sub_Rating_Performance": 0.9304,
         "Sub_Rating_IR": 0.8875,
         "Sub_Rating_Alpha": 0.8797,
@@ -1865,7 +1865,7 @@
           }
         ],
         "Net Alpha (%)": 5.22,
-        "Rating_Score": 3.2291015625,
+        "Rating_Score": 3.2291015625000004,
         "Sub_Rating_Performance": 0.6254,
         "Sub_Rating_IR": 1.0281,
         "Sub_Rating_Alpha": 0.7203,
@@ -1896,7 +1896,7 @@
         "1Y Rolling Return (%)": 15.44,
         "3Y Rolling Return (%)": 16.75,
         "5Y Rolling Return (%)": 16.97,
-        "AUM (Cr)": 6651.14,
+        "AUM (Cr)": 7417.4,
         "Expense Ratio (%)": 0.93,
         "Top 10 Stocks Weight (%)": 43.78,
         "Large Cap (%)": 74.29,
@@ -1981,7 +1981,7 @@
           }
         ],
         "Net Alpha (%)": 5.65,
-        "Rating_Score": 3.2061328125,
+        "Rating_Score": 3.2061328125000004,
         "Sub_Rating_Performance": 0.4966,
         "Sub_Rating_IR": 1.0437,
         "Sub_Rating_Alpha": 0.7539,
@@ -2097,7 +2097,7 @@
           }
         ],
         "Net Alpha (%)": 6.28,
-        "Rating_Score": 3.1572265625,
+        "Rating_Score": 3.1572265625000004,
         "Sub_Rating_Performance": 0.5054,
         "Sub_Rating_IR": 1.0031,
         "Sub_Rating_Alpha": 0.8031,
@@ -2445,7 +2445,7 @@
           }
         ],
         "Net Alpha (%)": 5.06,
-        "Rating_Score": 3.0814973958333334,
+        "Rating_Score": 3.081497395833334,
         "Sub_Rating_Performance": 0.5266,
         "Sub_Rating_IR": 0.8938,
         "Sub_Rating_Alpha": 0.7078,
@@ -3141,7 +3141,7 @@
           }
         ],
         "Net Alpha (%)": 5.6,
-        "Rating_Score": 2.7653515625,
+        "Rating_Score": 2.7653515625000002,
         "Sub_Rating_Performance": 0.4104,
         "Sub_Rating_IR": 0.7313,
         "Sub_Rating_Alpha": 0.75,
@@ -3257,7 +3257,7 @@
           }
         ],
         "Net Alpha (%)": 3.44,
-        "Rating_Score": 2.6916015625,
+        "Rating_Score": 2.6916015625000007,
         "Sub_Rating_Performance": 0.4035,
         "Sub_Rating_IR": 0.8438,
         "Sub_Rating_Alpha": 0.5813,
@@ -3489,7 +3489,7 @@
           }
         ],
         "Net Alpha (%)": 1.86,
-        "Rating_Score": 2.262955729166667,
+        "Rating_Score": 2.2629557291666673,
         "Sub_Rating_Performance": 0.3979,
         "Sub_Rating_IR": 0.4563,
         "Sub_Rating_Alpha": 0.4578,
@@ -3734,122 +3734,6 @@
         "Manager_Change_Date": "2026-07-17"
       },
       {
-        "code": "151895",
-        "Fund Name": "Bajaj Finserv Flexi Cap Fund-Direct Plan-Growth",
-        "1Y Return (%)": 7.28,
-        "3Y Return (%)": 18.4,
-        "5Y Return (%)": null,
-        "Sharpe (3Y)": 0.9,
-        "Sharpe (5Y)": null,
-        "Information Ratio (3Y)": 1.6,
-        "Information Ratio (5Y)": null,
-        "Beta (3Y)": 0.89,
-        "Beta (5Y)": null,
-        "Alpha (3Y)": 10.2,
-        "Alpha (5Y)": null,
-        "Downside Capture (3Y)": 92.79,
-        "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": 15.69,
-        "3Y Rolling Return (%)": null,
-        "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 7768.94,
-        "Expense Ratio (%)": 0.47,
-        "Top 10 Stocks Weight (%)": 33.11,
-        "Large Cap (%)": 45.3,
-        "Mid Cap (%)": 24.07,
-        "Small Cap (%)": 29.52,
-        "Managers": "Nimesh Chandan, Siddharth Chaudhary, Sorbh Gupta",
-        "Holdings": [
-          {
-            "name": "ICICI Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "5.49"
-          },
-          {
-            "name": "HDFC Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "4.87"
-          },
-          {
-            "name": "Reliance Industries Ltd",
-            "sector": "Energy",
-            "weightage": "3.71"
-          },
-          {
-            "name": "The Federal Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.85"
-          },
-          {
-            "name": "Divi's Laboratories Ltd",
-            "sector": "Healthcare",
-            "weightage": "2.80"
-          },
-          {
-            "name": "K.P.R. Mill Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "2.77"
-          },
-          {
-            "name": "Axis Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.75"
-          },
-          {
-            "name": "Sona BLW Precision Forgings Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "2.70"
-          },
-          {
-            "name": "State Bank of India",
-            "sector": "Financial Services",
-            "weightage": "2.64"
-          },
-          {
-            "name": "Bajaj Finance Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.53"
-          },
-          {
-            "name": "UltraTech Cement Ltd",
-            "sector": "Basic Materials",
-            "weightage": "2.51"
-          },
-          {
-            "name": "Thermax Ltd",
-            "sector": "Industrials",
-            "weightage": "2.49"
-          },
-          {
-            "name": "Page Industries Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "2.43"
-          },
-          {
-            "name": "Titan Co Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "2.39"
-          },
-          {
-            "name": "UNO Minda Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "2.30"
-          }
-        ],
-        "Net Alpha (%)": 10.2,
-        "Rating_Score": null,
-        "Sub_Rating_Performance": 0.625,
-        "Sub_Rating_IR": 1.125,
-        "Sub_Rating_Alpha": 1.0357,
-        "Sub_Rating_Protection": 0.9835,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "UR",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
         "code": "153738",
         "Fund Name": "CAPITALMIND FLEXI CAP FUND DIRECT GROWTH",
         "1Y Return (%)": 5.81,
@@ -3958,6 +3842,122 @@
         "Sub_Rating_IR": 0.625,
         "Sub_Rating_Alpha": 0.625,
         "Sub_Rating_Protection": 0.625,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "UR",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
+        "code": "151895",
+        "Fund Name": "Bajaj Finserv Flexi Cap Fund-Direct Plan-Growth",
+        "1Y Return (%)": 7.28,
+        "3Y Return (%)": 18.4,
+        "5Y Return (%)": null,
+        "Sharpe (3Y)": 0.9,
+        "Sharpe (5Y)": null,
+        "Information Ratio (3Y)": 1.6,
+        "Information Ratio (5Y)": null,
+        "Beta (3Y)": 0.89,
+        "Beta (5Y)": null,
+        "Alpha (3Y)": 10.2,
+        "Alpha (5Y)": null,
+        "Downside Capture (3Y)": 92.79,
+        "Downside Capture (5Y)": null,
+        "1Y Rolling Return (%)": 15.69,
+        "3Y Rolling Return (%)": null,
+        "5Y Rolling Return (%)": null,
+        "AUM (Cr)": 7768.94,
+        "Expense Ratio (%)": 0.47,
+        "Top 10 Stocks Weight (%)": 33.11,
+        "Large Cap (%)": 45.3,
+        "Mid Cap (%)": 24.07,
+        "Small Cap (%)": 29.52,
+        "Managers": "Nimesh Chandan, Siddharth Chaudhary, Sorbh Gupta",
+        "Holdings": [
+          {
+            "name": "ICICI Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "5.49"
+          },
+          {
+            "name": "HDFC Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "4.87"
+          },
+          {
+            "name": "Reliance Industries Ltd",
+            "sector": "Energy",
+            "weightage": "3.71"
+          },
+          {
+            "name": "The Federal Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.85"
+          },
+          {
+            "name": "Divi's Laboratories Ltd",
+            "sector": "Healthcare",
+            "weightage": "2.80"
+          },
+          {
+            "name": "K.P.R. Mill Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "2.77"
+          },
+          {
+            "name": "Axis Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.75"
+          },
+          {
+            "name": "Sona BLW Precision Forgings Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "2.70"
+          },
+          {
+            "name": "State Bank of India",
+            "sector": "Financial Services",
+            "weightage": "2.64"
+          },
+          {
+            "name": "Bajaj Finance Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.53"
+          },
+          {
+            "name": "UltraTech Cement Ltd",
+            "sector": "Basic Materials",
+            "weightage": "2.51"
+          },
+          {
+            "name": "Thermax Ltd",
+            "sector": "Industrials",
+            "weightage": "2.49"
+          },
+          {
+            "name": "Page Industries Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "2.43"
+          },
+          {
+            "name": "Titan Co Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "2.39"
+          },
+          {
+            "name": "UNO Minda Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "2.30"
+          }
+        ],
+        "Net Alpha (%)": 10.2,
+        "Rating_Score": null,
+        "Sub_Rating_Performance": 0.625,
+        "Sub_Rating_IR": 1.125,
+        "Sub_Rating_Alpha": 1.0357,
+        "Sub_Rating_Protection": 0.9835,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
         "AUM_Adj": 0.0,
@@ -5842,7 +5842,7 @@
         "1Y Rolling Return (%)": 18.95,
         "3Y Rolling Return (%)": 19.37,
         "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 2551.67,
+        "AUM (Cr)": 3005.32,
         "Expense Ratio (%)": 0.49,
         "Top 10 Stocks Weight (%)": 28.18,
         "Large Cap (%)": 44.5,
@@ -6636,122 +6636,6 @@
         "Manager_Change_Date": null
       },
       {
-        "code": "153309",
-        "Fund Name": "BAJAJ FINSERV MULTI CAP FUND - DIRECT - GROWTH",
-        "1Y Return (%)": 6.54,
-        "3Y Return (%)": null,
-        "5Y Return (%)": null,
-        "Sharpe (3Y)": null,
-        "Sharpe (5Y)": null,
-        "Information Ratio (3Y)": null,
-        "Information Ratio (5Y)": null,
-        "Beta (3Y)": null,
-        "Beta (5Y)": null,
-        "Alpha (3Y)": null,
-        "Alpha (5Y)": null,
-        "Downside Capture (3Y)": null,
-        "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": 7.21,
-        "3Y Rolling Return (%)": null,
-        "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 1429.44,
-        "Expense Ratio (%)": 0.57,
-        "Top 10 Stocks Weight (%)": 32.02,
-        "Large Cap (%)": 35.32,
-        "Mid Cap (%)": 26.01,
-        "Small Cap (%)": 28.69,
-        "Managers": "Nimesh Chandan, Siddharth Chaudhary, Sorbh Gupta",
-        "Holdings": [
-          {
-            "name": "Bharti Airtel Ltd",
-            "sector": "Communication Services",
-            "weightage": "5.73"
-          },
-          {
-            "name": "HDFC Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "4.46"
-          },
-          {
-            "name": "Schaeffler India Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "3.35"
-          },
-          {
-            "name": "The Federal Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "3.29"
-          },
-          {
-            "name": "Aurobindo Pharma Ltd",
-            "sector": "Healthcare",
-            "weightage": "2.60"
-          },
-          {
-            "name": "Zydus Wellness Ltd",
-            "sector": "Consumer Defensive",
-            "weightage": "2.58"
-          },
-          {
-            "name": "K.P.R. Mill Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "2.55"
-          },
-          {
-            "name": "Bajaj Auto Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "2.51"
-          },
-          {
-            "name": "Axis Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.50"
-          },
-          {
-            "name": "Vedanta Aluminium Metal Ltd",
-            "sector": "Basic Materials",
-            "weightage": "2.44"
-          },
-          {
-            "name": "ICICI Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.38"
-          },
-          {
-            "name": "Larsen & Toubro Ltd",
-            "sector": "Industrials",
-            "weightage": "2.34"
-          },
-          {
-            "name": "Neuland Laboratories Ltd",
-            "sector": "Healthcare",
-            "weightage": "2.25"
-          },
-          {
-            "name": "Steel Authority Of India Ltd",
-            "sector": "Basic Materials",
-            "weightage": "2.17"
-          },
-          {
-            "name": "Asian Paints Ltd",
-            "sector": "Basic Materials",
-            "weightage": "2.06"
-          }
-        ],
-        "Net Alpha (%)": null,
-        "Rating_Score": null,
-        "Sub_Rating_Performance": 0.625,
-        "Sub_Rating_IR": 0.625,
-        "Sub_Rating_Alpha": 0.625,
-        "Sub_Rating_Protection": 0.625,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "UR",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
         "code": "152739",
         "Fund Name": "Franklin India Multi Cap Fund - Direct - Growth",
         "1Y Return (%)": 6.03,
@@ -6984,9 +6868,9 @@
         "Manager_Change_Date": null
       },
       {
-        "code": "152310",
-        "Fund Name": "DSP Multicap Fund - Direct - Growth",
-        "1Y Return (%)": 0.25,
+        "code": "153309",
+        "Fund Name": "BAJAJ FINSERV MULTI CAP FUND - DIRECT - GROWTH",
+        "1Y Return (%)": 6.54,
         "3Y Return (%)": null,
         "5Y Return (%)": null,
         "Sharpe (3Y)": null,
@@ -6999,91 +6883,91 @@
         "Alpha (5Y)": null,
         "Downside Capture (3Y)": null,
         "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": 4.16,
+        "1Y Rolling Return (%)": 7.21,
         "3Y Rolling Return (%)": null,
         "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 2925.15,
-        "Expense Ratio (%)": 0.65,
-        "Top 10 Stocks Weight (%)": 30.52,
-        "Large Cap (%)": 27.19,
+        "AUM (Cr)": 1429.44,
+        "Expense Ratio (%)": 0.57,
+        "Top 10 Stocks Weight (%)": 32.02,
+        "Large Cap (%)": 35.32,
         "Mid Cap (%)": 26.01,
-        "Small Cap (%)": 37.7,
-        "Managers": "Chirag Dagli",
+        "Small Cap (%)": 28.69,
+        "Managers": "Nimesh Chandan, Siddharth Chaudhary, Sorbh Gupta",
         "Holdings": [
           {
-            "name": "Treps / Reverse Repo Investments",
-            "sector": "",
-            "weightage": "10.24"
+            "name": "Bharti Airtel Ltd",
+            "sector": "Communication Services",
+            "weightage": "5.73"
           },
           {
             "name": "HDFC Bank Ltd",
             "sector": "Financial Services",
-            "weightage": "5.11"
+            "weightage": "4.46"
+          },
+          {
+            "name": "Schaeffler India Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "3.35"
+          },
+          {
+            "name": "The Federal Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "3.29"
+          },
+          {
+            "name": "Aurobindo Pharma Ltd",
+            "sector": "Healthcare",
+            "weightage": "2.60"
+          },
+          {
+            "name": "Zydus Wellness Ltd",
+            "sector": "Consumer Defensive",
+            "weightage": "2.58"
+          },
+          {
+            "name": "K.P.R. Mill Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "2.55"
+          },
+          {
+            "name": "Bajaj Auto Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "2.51"
           },
           {
             "name": "Axis Bank Ltd",
             "sector": "Financial Services",
-            "weightage": "4.08"
+            "weightage": "2.50"
+          },
+          {
+            "name": "Vedanta Aluminium Metal Ltd",
+            "sector": "Basic Materials",
+            "weightage": "2.44"
           },
           {
             "name": "ICICI Bank Ltd",
             "sector": "Financial Services",
-            "weightage": "4.02"
+            "weightage": "2.38"
           },
           {
-            "name": "Kirloskar Oil Engines Ltd",
+            "name": "Larsen & Toubro Ltd",
             "sector": "Industrials",
-            "weightage": "2.86"
-          },
-          {
-            "name": "ICICI Lombard General Insurance Co Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.61"
-          },
-          {
-            "name": "Cipla Ltd",
-            "sector": "Healthcare",
-            "weightage": "2.39"
-          },
-          {
-            "name": "Coforge Ltd",
-            "sector": "Technology",
-            "weightage": "2.37"
-          },
-          {
-            "name": "KEI Industries Ltd",
-            "sector": "Industrials",
-            "weightage": "2.37"
-          },
-          {
-            "name": "Max Financial Services Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.36"
-          },
-          {
-            "name": "Hero MotoCorp Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "2.35"
-          },
-          {
-            "name": "Gland Pharma Ltd",
-            "sector": "Healthcare",
             "weightage": "2.34"
           },
           {
-            "name": "Info Edge (India) Ltd",
-            "sector": "Communication Services",
-            "weightage": "2.33"
+            "name": "Neuland Laboratories Ltd",
+            "sector": "Healthcare",
+            "weightage": "2.25"
           },
           {
-            "name": "PhysicsWallah Ltd",
-            "sector": "Consumer Defensive",
-            "weightage": "2.07"
+            "name": "Steel Authority Of India Ltd",
+            "sector": "Basic Materials",
+            "weightage": "2.17"
           },
           {
-            "name": "Coal India Ltd",
-            "sector": "Energy",
-            "weightage": "2.03"
+            "name": "Asian Paints Ltd",
+            "sector": "Basic Materials",
+            "weightage": "2.06"
           }
         ],
         "Net Alpha (%)": null,
@@ -7216,9 +7100,9 @@
         "Manager_Change_Date": null
       },
       {
-        "code": "152651",
-        "Fund Name": "Motilal Oswal Multi Cap Fund-Direct Plan Growth",
-        "1Y Return (%)": 4.14,
+        "code": "152310",
+        "Fund Name": "DSP Multicap Fund - Direct - Growth",
+        "1Y Return (%)": 0.25,
         "3Y Return (%)": null,
         "5Y Return (%)": null,
         "Sharpe (3Y)": null,
@@ -7231,207 +7115,91 @@
         "Alpha (5Y)": null,
         "Downside Capture (3Y)": null,
         "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": 7.34,
+        "1Y Rolling Return (%)": 4.16,
         "3Y Rolling Return (%)": null,
         "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 4225.5,
-        "Expense Ratio (%)": 1.23,
-        "Top 10 Stocks Weight (%)": 40.38,
-        "Large Cap (%)": 40.76,
-        "Mid Cap (%)": 25.47,
-        "Small Cap (%)": 22.85,
-        "Managers": "Swapnil Mayekar, Sandeep Jain, Rakesh Shetty, Atul Mehra, Bhalchandra Shinde",
+        "AUM (Cr)": 2925.15,
+        "Expense Ratio (%)": 0.65,
+        "Top 10 Stocks Weight (%)": 30.52,
+        "Large Cap (%)": 27.19,
+        "Mid Cap (%)": 26.01,
+        "Small Cap (%)": 37.7,
+        "Managers": "Chirag Dagli",
         "Holdings": [
           {
-            "name": "Shaily Engineering Plastics Ltd",
-            "sector": "Basic Materials",
-            "weightage": "5.26"
-          },
-          {
-            "name": "Eternal Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "4.70"
-          },
-          {
-            "name": "CG Power & Industrial Solutions Ltd",
-            "sector": "Industrials",
-            "weightage": "4.64"
-          },
-          {
-            "name": "ICICI Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "4.56"
-          },
-          {
-            "name": "Kalyan Jewellers India Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "4.30"
-          },
-          {
-            "name": "Bajaj Finance Ltd",
-            "sector": "Financial Services",
-            "weightage": "3.97"
-          },
-          {
-            "name": "BSE Ltd",
-            "sector": "Financial Services",
-            "weightage": "3.39"
-          },
-          {
-            "name": "Radico Khaitan Ltd",
-            "sector": "Consumer Defensive",
-            "weightage": "3.37"
-          },
-          {
-            "name": "IndusInd Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "3.18"
-          },
-          {
-            "name": "Aditya Infotech Ltd",
-            "sector": "Industrials",
-            "weightage": "3.02"
-          },
-          {
-            "name": "Shriram Finance Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.99"
-          },
-          {
-            "name": "Ellenbarrie Industrial Gases Ltd",
-            "sector": "Basic Materials",
-            "weightage": "2.92"
-          },
-          {
-            "name": "ABB India Ltd",
-            "sector": "Industrials",
-            "weightage": "2.91"
-          },
-          {
-            "name": "Divi's Laboratories Ltd",
-            "sector": "Healthcare",
-            "weightage": "2.87"
-          },
-          {
-            "name": "Coforge Ltd",
-            "sector": "Technology",
-            "weightage": "2.77"
-          }
-        ],
-        "Net Alpha (%)": null,
-        "Rating_Score": null,
-        "Sub_Rating_Performance": 0.625,
-        "Sub_Rating_IR": 0.625,
-        "Sub_Rating_Alpha": 0.625,
-        "Sub_Rating_Protection": 0.625,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "UR",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
-        "code": "152815",
-        "Fund Name": "PGIM India Multi Cap Fund - Direct Plan - Growth Option",
-        "1Y Return (%)": 8.39,
-        "3Y Return (%)": null,
-        "5Y Return (%)": null,
-        "Sharpe (3Y)": null,
-        "Sharpe (5Y)": null,
-        "Information Ratio (3Y)": null,
-        "Information Ratio (5Y)": null,
-        "Beta (3Y)": null,
-        "Beta (5Y)": null,
-        "Alpha (3Y)": null,
-        "Alpha (5Y)": null,
-        "Downside Capture (3Y)": null,
-        "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": 7.45,
-        "3Y Rolling Return (%)": null,
-        "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 430.86,
-        "Expense Ratio (%)": 0.8,
-        "Top 10 Stocks Weight (%)": 22.93,
-        "Large Cap (%)": 38.84,
-        "Mid Cap (%)": 27.22,
-        "Small Cap (%)": 24.77,
-        "Managers": "Puneet Pal, Anandha Padmanabhan Anjeneyan, Utsav Mehta, Vivek Sharma",
-        "Holdings": [
-          {
-            "name": "Clearing Corporation Of India Ltd.",
+            "name": "Treps / Reverse Repo Investments",
             "sector": "",
-            "weightage": "4.28"
-          },
-          {
-            "name": "ICICI Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "3.93"
+            "weightage": "10.24"
           },
           {
             "name": "HDFC Bank Ltd",
             "sector": "Financial Services",
-            "weightage": "3.51"
+            "weightage": "5.11"
           },
           {
-            "name": "Reliance Industries Ltd",
-            "sector": "Energy",
-            "weightage": "2.69"
-          },
-          {
-            "name": "CG Power & Industrial Solutions Ltd",
-            "sector": "Industrials",
-            "weightage": "2.25"
-          },
-          {
-            "name": "TVS Motor Co Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "2.05"
-          },
-          {
-            "name": "Eternal Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "1.77"
-          },
-          {
-            "name": "State Bank of India",
+            "name": "Axis Bank Ltd",
             "sector": "Financial Services",
-            "weightage": "1.76"
+            "weightage": "4.08"
           },
           {
-            "name": "Nippon Life India Asset Management Ltd Ordinary Shares",
+            "name": "ICICI Bank Ltd",
             "sector": "Financial Services",
-            "weightage": "1.73"
+            "weightage": "4.02"
           },
           {
-            "name": "Cummins India Ltd",
+            "name": "Kirloskar Oil Engines Ltd",
             "sector": "Industrials",
-            "weightage": "1.64"
+            "weightage": "2.86"
           },
           {
-            "name": "Krishna Institute of Medical Sciences Ltd",
+            "name": "ICICI Lombard General Insurance Co Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.61"
+          },
+          {
+            "name": "Cipla Ltd",
             "sector": "Healthcare",
-            "weightage": "1.63"
+            "weightage": "2.39"
+          },
+          {
+            "name": "Coforge Ltd",
+            "sector": "Technology",
+            "weightage": "2.37"
+          },
+          {
+            "name": "KEI Industries Ltd",
+            "sector": "Industrials",
+            "weightage": "2.37"
           },
           {
             "name": "Max Financial Services Ltd",
             "sector": "Financial Services",
-            "weightage": "1.59"
+            "weightage": "2.36"
           },
           {
-            "name": "Varun Beverages Ltd",
+            "name": "Hero MotoCorp Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "2.35"
+          },
+          {
+            "name": "Gland Pharma Ltd",
+            "sector": "Healthcare",
+            "weightage": "2.34"
+          },
+          {
+            "name": "Info Edge (India) Ltd",
+            "sector": "Communication Services",
+            "weightage": "2.33"
+          },
+          {
+            "name": "PhysicsWallah Ltd",
             "sector": "Consumer Defensive",
-            "weightage": "1.57"
+            "weightage": "2.07"
           },
           {
-            "name": "Solar Industries India Ltd",
-            "sector": "Basic Materials",
-            "weightage": "1.54"
-          },
-          {
-            "name": "Larsen & Toubro Ltd",
-            "sector": "Industrials",
-            "weightage": "1.49"
+            "name": "Coal India Ltd",
+            "sector": "Energy",
+            "weightage": "2.03"
           }
         ],
         "Net Alpha (%)": null,
@@ -7556,6 +7324,238 @@
         "Sub_Rating_IR": 0.975,
         "Sub_Rating_Alpha": 0.9117,
         "Sub_Rating_Protection": 0.8766,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "UR",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
+        "code": "152815",
+        "Fund Name": "PGIM India Multi Cap Fund - Direct Plan - Growth Option",
+        "1Y Return (%)": 8.39,
+        "3Y Return (%)": null,
+        "5Y Return (%)": null,
+        "Sharpe (3Y)": null,
+        "Sharpe (5Y)": null,
+        "Information Ratio (3Y)": null,
+        "Information Ratio (5Y)": null,
+        "Beta (3Y)": null,
+        "Beta (5Y)": null,
+        "Alpha (3Y)": null,
+        "Alpha (5Y)": null,
+        "Downside Capture (3Y)": null,
+        "Downside Capture (5Y)": null,
+        "1Y Rolling Return (%)": 7.45,
+        "3Y Rolling Return (%)": null,
+        "5Y Rolling Return (%)": null,
+        "AUM (Cr)": 430.86,
+        "Expense Ratio (%)": 0.8,
+        "Top 10 Stocks Weight (%)": 22.93,
+        "Large Cap (%)": 38.84,
+        "Mid Cap (%)": 27.22,
+        "Small Cap (%)": 24.77,
+        "Managers": "Puneet Pal, Anandha Padmanabhan Anjeneyan, Utsav Mehta, Vivek Sharma",
+        "Holdings": [
+          {
+            "name": "Clearing Corporation Of India Ltd.",
+            "sector": "",
+            "weightage": "4.28"
+          },
+          {
+            "name": "ICICI Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "3.93"
+          },
+          {
+            "name": "HDFC Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "3.51"
+          },
+          {
+            "name": "Reliance Industries Ltd",
+            "sector": "Energy",
+            "weightage": "2.69"
+          },
+          {
+            "name": "CG Power & Industrial Solutions Ltd",
+            "sector": "Industrials",
+            "weightage": "2.25"
+          },
+          {
+            "name": "TVS Motor Co Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "2.05"
+          },
+          {
+            "name": "Eternal Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "1.77"
+          },
+          {
+            "name": "State Bank of India",
+            "sector": "Financial Services",
+            "weightage": "1.76"
+          },
+          {
+            "name": "Nippon Life India Asset Management Ltd Ordinary Shares",
+            "sector": "Financial Services",
+            "weightage": "1.73"
+          },
+          {
+            "name": "Cummins India Ltd",
+            "sector": "Industrials",
+            "weightage": "1.64"
+          },
+          {
+            "name": "Krishna Institute of Medical Sciences Ltd",
+            "sector": "Healthcare",
+            "weightage": "1.63"
+          },
+          {
+            "name": "Max Financial Services Ltd",
+            "sector": "Financial Services",
+            "weightage": "1.59"
+          },
+          {
+            "name": "Varun Beverages Ltd",
+            "sector": "Consumer Defensive",
+            "weightage": "1.57"
+          },
+          {
+            "name": "Solar Industries India Ltd",
+            "sector": "Basic Materials",
+            "weightage": "1.54"
+          },
+          {
+            "name": "Larsen & Toubro Ltd",
+            "sector": "Industrials",
+            "weightage": "1.49"
+          }
+        ],
+        "Net Alpha (%)": null,
+        "Rating_Score": null,
+        "Sub_Rating_Performance": 0.625,
+        "Sub_Rating_IR": 0.625,
+        "Sub_Rating_Alpha": 0.625,
+        "Sub_Rating_Protection": 0.625,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "UR",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
+        "code": "152651",
+        "Fund Name": "Motilal Oswal Multi Cap Fund-Direct Plan Growth",
+        "1Y Return (%)": 4.14,
+        "3Y Return (%)": null,
+        "5Y Return (%)": null,
+        "Sharpe (3Y)": null,
+        "Sharpe (5Y)": null,
+        "Information Ratio (3Y)": null,
+        "Information Ratio (5Y)": null,
+        "Beta (3Y)": null,
+        "Beta (5Y)": null,
+        "Alpha (3Y)": null,
+        "Alpha (5Y)": null,
+        "Downside Capture (3Y)": null,
+        "Downside Capture (5Y)": null,
+        "1Y Rolling Return (%)": 7.34,
+        "3Y Rolling Return (%)": null,
+        "5Y Rolling Return (%)": null,
+        "AUM (Cr)": 4225.5,
+        "Expense Ratio (%)": 1.23,
+        "Top 10 Stocks Weight (%)": 40.38,
+        "Large Cap (%)": 40.76,
+        "Mid Cap (%)": 25.47,
+        "Small Cap (%)": 22.85,
+        "Managers": "Swapnil Mayekar, Sandeep Jain, Rakesh Shetty, Atul Mehra, Bhalchandra Shinde",
+        "Holdings": [
+          {
+            "name": "Shaily Engineering Plastics Ltd",
+            "sector": "Basic Materials",
+            "weightage": "5.26"
+          },
+          {
+            "name": "Eternal Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "4.70"
+          },
+          {
+            "name": "CG Power & Industrial Solutions Ltd",
+            "sector": "Industrials",
+            "weightage": "4.64"
+          },
+          {
+            "name": "ICICI Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "4.56"
+          },
+          {
+            "name": "Kalyan Jewellers India Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "4.30"
+          },
+          {
+            "name": "Bajaj Finance Ltd",
+            "sector": "Financial Services",
+            "weightage": "3.97"
+          },
+          {
+            "name": "BSE Ltd",
+            "sector": "Financial Services",
+            "weightage": "3.39"
+          },
+          {
+            "name": "Radico Khaitan Ltd",
+            "sector": "Consumer Defensive",
+            "weightage": "3.37"
+          },
+          {
+            "name": "IndusInd Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "3.18"
+          },
+          {
+            "name": "Aditya Infotech Ltd",
+            "sector": "Industrials",
+            "weightage": "3.02"
+          },
+          {
+            "name": "Shriram Finance Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.99"
+          },
+          {
+            "name": "Ellenbarrie Industrial Gases Ltd",
+            "sector": "Basic Materials",
+            "weightage": "2.92"
+          },
+          {
+            "name": "ABB India Ltd",
+            "sector": "Industrials",
+            "weightage": "2.91"
+          },
+          {
+            "name": "Divi's Laboratories Ltd",
+            "sector": "Healthcare",
+            "weightage": "2.87"
+          },
+          {
+            "name": "Coforge Ltd",
+            "sector": "Technology",
+            "weightage": "2.77"
+          }
+        ],
+        "Net Alpha (%)": null,
+        "Rating_Score": null,
+        "Sub_Rating_Performance": 0.625,
+        "Sub_Rating_IR": 0.625,
+        "Sub_Rating_Alpha": 0.625,
+        "Sub_Rating_Protection": 0.625,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
         "AUM_Adj": 0.0,
@@ -8512,7 +8512,7 @@
         "1Y Rolling Return (%)": 16.84,
         "3Y Rolling Return (%)": 17.81,
         "5Y Rolling Return (%)": 18.06,
-        "AUM (Cr)": 1820.86,
+        "AUM (Cr)": 2060.88,
         "Expense Ratio (%)": 0.77,
         "Top 10 Stocks Weight (%)": 46.45,
         "Large Cap (%)": 81.4,
@@ -12806,7 +12806,7 @@
         "1Y Rolling Return (%)": 24.19,
         "3Y Rolling Return (%)": 22.27,
         "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 1840.78,
+        "AUM (Cr)": 2324.65,
         "Expense Ratio (%)": 0.51,
         "Top 10 Stocks Weight (%)": 27.44,
         "Large Cap (%)": 19.4,
@@ -14876,122 +14876,6 @@
         "Manager_Change_Date": null
       },
       {
-        "code": "152002",
-        "Fund Name": "LIC MF Mid Cap Fund-Direct Plan-Growth",
-        "1Y Return (%)": 3.71,
-        "3Y Return (%)": 18.26,
-        "5Y Return (%)": null,
-        "Sharpe (3Y)": 0.71,
-        "Sharpe (5Y)": null,
-        "Information Ratio (3Y)": 0.32,
-        "Information Ratio (5Y)": null,
-        "Beta (3Y)": 0.81,
-        "Beta (5Y)": null,
-        "Alpha (3Y)": 4.1,
-        "Alpha (5Y)": null,
-        "Downside Capture (3Y)": 95.0,
-        "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": 14.2,
-        "3Y Rolling Return (%)": null,
-        "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 368.57,
-        "Expense Ratio (%)": 1.39,
-        "Top 10 Stocks Weight (%)": 25.76,
-        "Large Cap (%)": 12.17,
-        "Mid Cap (%)": 59.67,
-        "Small Cap (%)": 15.15,
-        "Managers": "Manoj Bajpai",
-        "Holdings": [
-          {
-            "name": "Treps",
-            "sector": "",
-            "weightage": "3.67"
-          },
-          {
-            "name": "Hitachi Energy India Ltd Ordinary Shares",
-            "sector": "Industrials",
-            "weightage": "3.47"
-          },
-          {
-            "name": "The Federal Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "3.22"
-          },
-          {
-            "name": "Garware Hi-Tech Films Ltd",
-            "sector": "Basic Materials",
-            "weightage": "2.83"
-          },
-          {
-            "name": "DEE Development Engineers Ltd",
-            "sector": "Industrials",
-            "weightage": "2.64"
-          },
-          {
-            "name": "UNO Minda Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "2.47"
-          },
-          {
-            "name": "KEI Industries Ltd",
-            "sector": "Industrials",
-            "weightage": "2.41"
-          },
-          {
-            "name": "Shakti Pumps (India) Ltd",
-            "sector": "Industrials",
-            "weightage": "2.28"
-          },
-          {
-            "name": "Nippon Life India Asset Management Ltd Ordinary Shares",
-            "sector": "Financial Services",
-            "weightage": "2.22"
-          },
-          {
-            "name": "Trent Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "2.17"
-          },
-          {
-            "name": "Allied Blenders and Distillers Ltd",
-            "sector": "Consumer Defensive",
-            "weightage": "2.06"
-          },
-          {
-            "name": "Multi Commodity Exchange of India Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.02"
-          },
-          {
-            "name": "SRF Ltd",
-            "sector": "Industrials",
-            "weightage": "1.98"
-          },
-          {
-            "name": "Bharat Electronics Ltd",
-            "sector": "Industrials",
-            "weightage": "1.93"
-          },
-          {
-            "name": "Aurobindo Pharma Ltd",
-            "sector": "Healthcare",
-            "weightage": "1.91"
-          }
-        ],
-        "Net Alpha (%)": 4.1,
-        "Rating_Score": null,
-        "Sub_Rating_Performance": 0.5,
-        "Sub_Rating_IR": 0.5125,
-        "Sub_Rating_Alpha": 0.8859,
-        "Sub_Rating_Protection": 0.75,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "UR",
-        "Manager_Changed_Recently": true,
-        "Manager_Change_Date": "2026-07-25"
-      },
-      {
         "code": "153326",
         "Fund Name": "Helios Mid Cap Fund - Direct Plan - Growth Option",
         "1Y Return (%)": 12.58,
@@ -15106,125 +14990,125 @@
         "Rating": "UR",
         "Manager_Changed_Recently": false,
         "Manager_Change_Date": null
+      },
+      {
+        "code": "152002",
+        "Fund Name": "LIC MF Mid Cap Fund-Direct Plan-Growth",
+        "1Y Return (%)": 3.71,
+        "3Y Return (%)": 18.26,
+        "5Y Return (%)": null,
+        "Sharpe (3Y)": 0.71,
+        "Sharpe (5Y)": null,
+        "Information Ratio (3Y)": 0.32,
+        "Information Ratio (5Y)": null,
+        "Beta (3Y)": 0.81,
+        "Beta (5Y)": null,
+        "Alpha (3Y)": 4.1,
+        "Alpha (5Y)": null,
+        "Downside Capture (3Y)": 95.0,
+        "Downside Capture (5Y)": null,
+        "1Y Rolling Return (%)": 14.2,
+        "3Y Rolling Return (%)": null,
+        "5Y Rolling Return (%)": null,
+        "AUM (Cr)": 368.57,
+        "Expense Ratio (%)": 1.39,
+        "Top 10 Stocks Weight (%)": 25.76,
+        "Large Cap (%)": 12.17,
+        "Mid Cap (%)": 59.67,
+        "Small Cap (%)": 15.15,
+        "Managers": "Manoj Bajpai",
+        "Holdings": [
+          {
+            "name": "Treps",
+            "sector": "",
+            "weightage": "3.67"
+          },
+          {
+            "name": "Hitachi Energy India Ltd Ordinary Shares",
+            "sector": "Industrials",
+            "weightage": "3.47"
+          },
+          {
+            "name": "The Federal Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "3.22"
+          },
+          {
+            "name": "Garware Hi-Tech Films Ltd",
+            "sector": "Basic Materials",
+            "weightage": "2.83"
+          },
+          {
+            "name": "DEE Development Engineers Ltd",
+            "sector": "Industrials",
+            "weightage": "2.64"
+          },
+          {
+            "name": "UNO Minda Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "2.47"
+          },
+          {
+            "name": "KEI Industries Ltd",
+            "sector": "Industrials",
+            "weightage": "2.41"
+          },
+          {
+            "name": "Shakti Pumps (India) Ltd",
+            "sector": "Industrials",
+            "weightage": "2.28"
+          },
+          {
+            "name": "Nippon Life India Asset Management Ltd Ordinary Shares",
+            "sector": "Financial Services",
+            "weightage": "2.22"
+          },
+          {
+            "name": "Trent Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "2.17"
+          },
+          {
+            "name": "Allied Blenders and Distillers Ltd",
+            "sector": "Consumer Defensive",
+            "weightage": "2.06"
+          },
+          {
+            "name": "Multi Commodity Exchange of India Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.02"
+          },
+          {
+            "name": "SRF Ltd",
+            "sector": "Industrials",
+            "weightage": "1.98"
+          },
+          {
+            "name": "Bharat Electronics Ltd",
+            "sector": "Industrials",
+            "weightage": "1.93"
+          },
+          {
+            "name": "Aurobindo Pharma Ltd",
+            "sector": "Healthcare",
+            "weightage": "1.91"
+          }
+        ],
+        "Net Alpha (%)": 4.1,
+        "Rating_Score": null,
+        "Sub_Rating_Performance": 0.5,
+        "Sub_Rating_IR": 0.5125,
+        "Sub_Rating_Alpha": 0.8859,
+        "Sub_Rating_Protection": 0.75,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "UR",
+        "Manager_Changed_Recently": true,
+        "Manager_Change_Date": "2026-07-25"
       }
     ],
     "Equity Scheme - Small Cap Fund": [
-      {
-        "code": "147946",
-        "Fund Name": "BANDHAN SMALL CAP FUND - DIRECT PLAN GROWTH",
-        "1Y Return (%)": 6.12,
-        "3Y Return (%)": 29.33,
-        "5Y Return (%)": 22.67,
-        "Sharpe (3Y)": 1.31,
-        "Sharpe (5Y)": 0.97,
-        "Information Ratio (3Y)": 2.37,
-        "Information Ratio (5Y)": 1.25,
-        "Beta (3Y)": 0.9,
-        "Beta (5Y)": 0.87,
-        "Alpha (3Y)": 11.84,
-        "Alpha (5Y)": 7.58,
-        "Downside Capture (3Y)": 97.05,
-        "Downside Capture (5Y)": 99.12,
-        "1Y Rolling Return (%)": 28.33,
-        "3Y Rolling Return (%)": 31.49,
-        "5Y Rolling Return (%)": 26.38,
-        "AUM (Cr)": 20129.67,
-        "Expense Ratio (%)": 0.35,
-        "Top 10 Stocks Weight (%)": 19.37,
-        "Large Cap (%)": 6.12,
-        "Mid Cap (%)": 13.25,
-        "Small Cap (%)": 67.71,
-        "Managers": "Manish Gunwani, Kirthi Jain, Ritika Behera, Gaurav Satra",
-        "Holdings": [
-          {
-            "name": "Triparty Repo Trp_010726",
-            "sector": "",
-            "weightage": "8.04"
-          },
-          {
-            "name": "REC Ltd",
-            "sector": "Financial Services",
-            "weightage": "3.19"
-          },
-          {
-            "name": "Sobha Ltd",
-            "sector": "Real Estate",
-            "weightage": "3.05"
-          },
-          {
-            "name": "State Bank of India",
-            "sector": "Financial Services",
-            "weightage": "2.19"
-          },
-          {
-            "name": "Arvind Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "1.91"
-          },
-          {
-            "name": "LT Foods Ltd",
-            "sector": "Consumer Defensive",
-            "weightage": "1.84"
-          },
-          {
-            "name": "The South Indian Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "1.74"
-          },
-          {
-            "name": "PNB Housing Finance Ltd",
-            "sector": "Financial Services",
-            "weightage": "1.47"
-          },
-          {
-            "name": "Cholamandalam Financial Holdings Ltd",
-            "sector": "Financial Services",
-            "weightage": "1.41"
-          },
-          {
-            "name": "Paradeep Phosphates Ltd",
-            "sector": "Basic Materials",
-            "weightage": "1.30"
-          },
-          {
-            "name": "Jubilant Pharmova Ltd",
-            "sector": "Healthcare",
-            "weightage": "1.28"
-          },
-          {
-            "name": "Yatharth Hospital and Trauma Care Services Ltd",
-            "sector": "Healthcare",
-            "weightage": "1.23"
-          },
-          {
-            "name": "Rashi Peripherals Ltd",
-            "sector": "Technology",
-            "weightage": "1.21"
-          },
-          {
-            "name": "Shaily Engineering Plastics Ltd",
-            "sector": "Basic Materials",
-            "weightage": "1.21"
-          },
-          {
-            "name": "Cyient Ltd",
-            "sector": "Industrials",
-            "weightage": "1.20"
-          }
-        ],
-        "Net Alpha (%)": 11.84,
-        "Rating_Score": 4.103584681818182,
-        "Sub_Rating_Performance": 0.8588,
-        "Sub_Rating_IR": 1.25,
-        "Sub_Rating_Alpha": 1.5525,
-        "Sub_Rating_Protection": 0.6988,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": -0.2565,
-        "Rating": "\u2605\u2605\u2605\u2605",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
       {
         "code": "147919",
         "Fund Name": "ITI Small Cap Fund - Direct Plan - Growth Option",
@@ -15337,6 +15221,122 @@
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
         "AUM_Adj": 0.0,
+        "Rating": "\u2605\u2605\u2605\u00bd",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
+        "code": "147946",
+        "Fund Name": "BANDHAN SMALL CAP FUND - DIRECT PLAN GROWTH",
+        "1Y Return (%)": 6.12,
+        "3Y Return (%)": 29.33,
+        "5Y Return (%)": 22.67,
+        "Sharpe (3Y)": 1.31,
+        "Sharpe (5Y)": 0.97,
+        "Information Ratio (3Y)": 2.37,
+        "Information Ratio (5Y)": 1.25,
+        "Beta (3Y)": 0.9,
+        "Beta (5Y)": 0.87,
+        "Alpha (3Y)": 11.84,
+        "Alpha (5Y)": 7.58,
+        "Downside Capture (3Y)": 97.05,
+        "Downside Capture (5Y)": 99.12,
+        "1Y Rolling Return (%)": 28.33,
+        "3Y Rolling Return (%)": 31.49,
+        "5Y Rolling Return (%)": 26.38,
+        "AUM (Cr)": 28466.18,
+        "Expense Ratio (%)": 0.35,
+        "Top 10 Stocks Weight (%)": 19.37,
+        "Large Cap (%)": 6.12,
+        "Mid Cap (%)": 13.25,
+        "Small Cap (%)": 67.71,
+        "Managers": "Manish Gunwani, Kirthi Jain, Ritika Behera, Gaurav Satra",
+        "Holdings": [
+          {
+            "name": "Triparty Repo Trp_010726",
+            "sector": "",
+            "weightage": "8.04"
+          },
+          {
+            "name": "REC Ltd",
+            "sector": "Financial Services",
+            "weightage": "3.19"
+          },
+          {
+            "name": "Sobha Ltd",
+            "sector": "Real Estate",
+            "weightage": "3.05"
+          },
+          {
+            "name": "State Bank of India",
+            "sector": "Financial Services",
+            "weightage": "2.19"
+          },
+          {
+            "name": "Arvind Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "1.91"
+          },
+          {
+            "name": "LT Foods Ltd",
+            "sector": "Consumer Defensive",
+            "weightage": "1.84"
+          },
+          {
+            "name": "The South Indian Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "1.74"
+          },
+          {
+            "name": "PNB Housing Finance Ltd",
+            "sector": "Financial Services",
+            "weightage": "1.47"
+          },
+          {
+            "name": "Cholamandalam Financial Holdings Ltd",
+            "sector": "Financial Services",
+            "weightage": "1.41"
+          },
+          {
+            "name": "Paradeep Phosphates Ltd",
+            "sector": "Basic Materials",
+            "weightage": "1.30"
+          },
+          {
+            "name": "Jubilant Pharmova Ltd",
+            "sector": "Healthcare",
+            "weightage": "1.28"
+          },
+          {
+            "name": "Yatharth Hospital and Trauma Care Services Ltd",
+            "sector": "Healthcare",
+            "weightage": "1.23"
+          },
+          {
+            "name": "Rashi Peripherals Ltd",
+            "sector": "Technology",
+            "weightage": "1.21"
+          },
+          {
+            "name": "Shaily Engineering Plastics Ltd",
+            "sector": "Basic Materials",
+            "weightage": "1.21"
+          },
+          {
+            "name": "Cyient Ltd",
+            "sector": "Industrials",
+            "weightage": "1.20"
+          }
+        ],
+        "Net Alpha (%)": 11.84,
+        "Rating_Score": 3.6867591818181817,
+        "Sub_Rating_Performance": 0.8588,
+        "Sub_Rating_IR": 1.25,
+        "Sub_Rating_Alpha": 1.5525,
+        "Sub_Rating_Protection": 0.6988,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": -0.6733,
         "Rating": "\u2605\u2605\u2605\u00bd",
         "Manager_Changed_Recently": false,
         "Manager_Change_Date": null
@@ -18010,122 +18010,6 @@
         "Manager_Change_Date": null
       },
       {
-        "code": "153196",
-        "Fund Name": "Mirae Asset Small Cap Fund - Direct Plan - Growth",
-        "1Y Return (%)": 6.89,
-        "3Y Return (%)": null,
-        "5Y Return (%)": null,
-        "Sharpe (3Y)": null,
-        "Sharpe (5Y)": null,
-        "Information Ratio (3Y)": null,
-        "Information Ratio (5Y)": null,
-        "Beta (3Y)": null,
-        "Beta (5Y)": null,
-        "Alpha (3Y)": null,
-        "Alpha (5Y)": null,
-        "Downside Capture (3Y)": null,
-        "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": 12.37,
-        "3Y Rolling Return (%)": null,
-        "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 4842.22,
-        "Expense Ratio (%)": 0.35,
-        "Top 10 Stocks Weight (%)": 23.63,
-        "Large Cap (%)": 5.5,
-        "Mid Cap (%)": 15.8,
-        "Small Cap (%)": 61.79,
-        "Managers": "Varun Goel",
-        "Holdings": [
-          {
-            "name": "Treps",
-            "sector": "",
-            "weightage": "3.60"
-          },
-          {
-            "name": "Welspun Corp Ltd",
-            "sector": "Basic Materials",
-            "weightage": "3.02"
-          },
-          {
-            "name": "Kirloskar Oil Engines Ltd",
-            "sector": "Industrials",
-            "weightage": "2.98"
-          },
-          {
-            "name": "GNG Electronics Ltd",
-            "sector": "Technology",
-            "weightage": "2.47"
-          },
-          {
-            "name": "Cholamandalam Financial Holdings Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.43"
-          },
-          {
-            "name": "Karur Vysya Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.35"
-          },
-          {
-            "name": "Voltamp Transformers Ltd",
-            "sector": "Industrials",
-            "weightage": "2.19"
-          },
-          {
-            "name": "Krishna Institute of Medical Sciences Ltd",
-            "sector": "Healthcare",
-            "weightage": "2.13"
-          },
-          {
-            "name": "Neuland Laboratories Ltd",
-            "sector": "Healthcare",
-            "weightage": "2.05"
-          },
-          {
-            "name": "Dr. Lal PathLabs Ltd",
-            "sector": "Healthcare",
-            "weightage": "2.02"
-          },
-          {
-            "name": "Anthem Biosciences Ltd",
-            "sector": "Healthcare",
-            "weightage": "1.98"
-          },
-          {
-            "name": "J.B. Chemicals & Pharmaceuticals Ltd",
-            "sector": "Healthcare",
-            "weightage": "1.90"
-          },
-          {
-            "name": "Delhivery Ltd",
-            "sector": "Industrials",
-            "weightage": "1.86"
-          },
-          {
-            "name": "Timken India Ltd",
-            "sector": "Industrials",
-            "weightage": "1.83"
-          },
-          {
-            "name": "Coromandel International Ltd",
-            "sector": "Basic Materials",
-            "weightage": "1.82"
-          }
-        ],
-        "Net Alpha (%)": null,
-        "Rating_Score": null,
-        "Sub_Rating_Performance": 0.5,
-        "Sub_Rating_IR": 0.625,
-        "Sub_Rating_Alpha": 0.875,
-        "Sub_Rating_Protection": 0.5,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "UR",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
         "code": "152004",
         "Fund Name": "LIC MF Small Cap Fund-Direct Plan-Growth",
         "1Y Return (%)": 7.81,
@@ -18240,6 +18124,122 @@
         "Rating": "UR",
         "Manager_Changed_Recently": true,
         "Manager_Change_Date": "2026-07-25"
+      },
+      {
+        "code": "153196",
+        "Fund Name": "Mirae Asset Small Cap Fund - Direct Plan - Growth",
+        "1Y Return (%)": 6.89,
+        "3Y Return (%)": null,
+        "5Y Return (%)": null,
+        "Sharpe (3Y)": null,
+        "Sharpe (5Y)": null,
+        "Information Ratio (3Y)": null,
+        "Information Ratio (5Y)": null,
+        "Beta (3Y)": null,
+        "Beta (5Y)": null,
+        "Alpha (3Y)": null,
+        "Alpha (5Y)": null,
+        "Downside Capture (3Y)": null,
+        "Downside Capture (5Y)": null,
+        "1Y Rolling Return (%)": 12.37,
+        "3Y Rolling Return (%)": null,
+        "5Y Rolling Return (%)": null,
+        "AUM (Cr)": 4842.22,
+        "Expense Ratio (%)": 0.35,
+        "Top 10 Stocks Weight (%)": 23.63,
+        "Large Cap (%)": 5.5,
+        "Mid Cap (%)": 15.8,
+        "Small Cap (%)": 61.79,
+        "Managers": "Varun Goel",
+        "Holdings": [
+          {
+            "name": "Treps",
+            "sector": "",
+            "weightage": "3.60"
+          },
+          {
+            "name": "Welspun Corp Ltd",
+            "sector": "Basic Materials",
+            "weightage": "3.02"
+          },
+          {
+            "name": "Kirloskar Oil Engines Ltd",
+            "sector": "Industrials",
+            "weightage": "2.98"
+          },
+          {
+            "name": "GNG Electronics Ltd",
+            "sector": "Technology",
+            "weightage": "2.47"
+          },
+          {
+            "name": "Cholamandalam Financial Holdings Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.43"
+          },
+          {
+            "name": "Karur Vysya Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.35"
+          },
+          {
+            "name": "Voltamp Transformers Ltd",
+            "sector": "Industrials",
+            "weightage": "2.19"
+          },
+          {
+            "name": "Krishna Institute of Medical Sciences Ltd",
+            "sector": "Healthcare",
+            "weightage": "2.13"
+          },
+          {
+            "name": "Neuland Laboratories Ltd",
+            "sector": "Healthcare",
+            "weightage": "2.05"
+          },
+          {
+            "name": "Dr. Lal PathLabs Ltd",
+            "sector": "Healthcare",
+            "weightage": "2.02"
+          },
+          {
+            "name": "Anthem Biosciences Ltd",
+            "sector": "Healthcare",
+            "weightage": "1.98"
+          },
+          {
+            "name": "J.B. Chemicals & Pharmaceuticals Ltd",
+            "sector": "Healthcare",
+            "weightage": "1.90"
+          },
+          {
+            "name": "Delhivery Ltd",
+            "sector": "Industrials",
+            "weightage": "1.86"
+          },
+          {
+            "name": "Timken India Ltd",
+            "sector": "Industrials",
+            "weightage": "1.83"
+          },
+          {
+            "name": "Coromandel International Ltd",
+            "sector": "Basic Materials",
+            "weightage": "1.82"
+          }
+        ],
+        "Net Alpha (%)": null,
+        "Rating_Score": null,
+        "Sub_Rating_Performance": 0.5,
+        "Sub_Rating_IR": 0.625,
+        "Sub_Rating_Alpha": 0.875,
+        "Sub_Rating_Protection": 0.5,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "UR",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
       },
       {
         "code": "152237",
@@ -18358,122 +18358,6 @@
         "Manager_Change_Date": "2026-07-18"
       },
       {
-        "code": "152107",
-        "Fund Name": "QUANTUM SMALL CAP FUND - DIRECT PLAN GROWTH OPTION",
-        "1Y Return (%)": 6.05,
-        "3Y Return (%)": 13.55,
-        "5Y Return (%)": null,
-        "Sharpe (3Y)": 0.49,
-        "Sharpe (5Y)": null,
-        "Information Ratio (3Y)": -0.08,
-        "Information Ratio (5Y)": null,
-        "Beta (3Y)": 0.69,
-        "Beta (5Y)": null,
-        "Alpha (3Y)": 1.74,
-        "Alpha (5Y)": null,
-        "Downside Capture (3Y)": 90.5,
-        "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": 8.42,
-        "3Y Rolling Return (%)": null,
-        "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 242.6,
-        "Expense Ratio (%)": 0.82,
-        "Top 10 Stocks Weight (%)": 27.81,
-        "Large Cap (%)": 6.83,
-        "Mid Cap (%)": 3.9,
-        "Small Cap (%)": 72.03,
-        "Managers": "Chirag Mehta, Abhilasha Satale",
-        "Holdings": [
-          {
-            "name": "Treps ^",
-            "sector": "",
-            "weightage": "7.78"
-          },
-          {
-            "name": "Supriya Lifescience Ltd",
-            "sector": "Healthcare",
-            "weightage": "4.47"
-          },
-          {
-            "name": "CCL Products (India) Ltd",
-            "sector": "Consumer Defensive",
-            "weightage": "2.82"
-          },
-          {
-            "name": "Carysil Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "2.75"
-          },
-          {
-            "name": "Mayur Uniquoters Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "2.75"
-          },
-          {
-            "name": "Star Health and Allied Insurance Co Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.75"
-          },
-          {
-            "name": "Karur Vysya Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.67"
-          },
-          {
-            "name": "Mold-tek Packaging Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "2.47"
-          },
-          {
-            "name": "Engineers India Ltd",
-            "sector": "Industrials",
-            "weightage": "2.46"
-          },
-          {
-            "name": "Alivus Life Sciences Ltd",
-            "sector": "Healthcare",
-            "weightage": "2.36"
-          },
-          {
-            "name": "Crompton Greaves Consumer Electricals Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "2.30"
-          },
-          {
-            "name": "Lumax Industries Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "2.28"
-          },
-          {
-            "name": "Equitas Small Finance Bank Ltd Ordinary Shares",
-            "sector": "Financial Services",
-            "weightage": "2.26"
-          },
-          {
-            "name": "Xpro India Ltd",
-            "sector": "Basic Materials",
-            "weightage": "2.19"
-          },
-          {
-            "name": "Sandhar Technologies Ltd Ordinary Shares",
-            "sector": "Consumer Cyclical",
-            "weightage": "2.17"
-          }
-        ],
-        "Net Alpha (%)": 1.74,
-        "Rating_Score": null,
-        "Sub_Rating_Performance": 0.5,
-        "Sub_Rating_IR": 0.2625,
-        "Sub_Rating_Alpha": 0.6278,
-        "Sub_Rating_Protection": 0.825,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "UR",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
         "code": "152939",
         "Fund Name": "TRUSTMF SMALL CAP FUND -DIRECT PLAN-GROWTH",
         "1Y Return (%)": 24.55,
@@ -18582,6 +18466,122 @@
         "Sub_Rating_IR": 0.625,
         "Sub_Rating_Alpha": 0.875,
         "Sub_Rating_Protection": 0.5,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "UR",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
+        "code": "152107",
+        "Fund Name": "QUANTUM SMALL CAP FUND - DIRECT PLAN GROWTH OPTION",
+        "1Y Return (%)": 6.05,
+        "3Y Return (%)": 13.55,
+        "5Y Return (%)": null,
+        "Sharpe (3Y)": 0.49,
+        "Sharpe (5Y)": null,
+        "Information Ratio (3Y)": -0.08,
+        "Information Ratio (5Y)": null,
+        "Beta (3Y)": 0.69,
+        "Beta (5Y)": null,
+        "Alpha (3Y)": 1.74,
+        "Alpha (5Y)": null,
+        "Downside Capture (3Y)": 90.5,
+        "Downside Capture (5Y)": null,
+        "1Y Rolling Return (%)": 8.42,
+        "3Y Rolling Return (%)": null,
+        "5Y Rolling Return (%)": null,
+        "AUM (Cr)": 242.6,
+        "Expense Ratio (%)": 0.82,
+        "Top 10 Stocks Weight (%)": 27.81,
+        "Large Cap (%)": 6.83,
+        "Mid Cap (%)": 3.9,
+        "Small Cap (%)": 72.03,
+        "Managers": "Chirag Mehta, Abhilasha Satale",
+        "Holdings": [
+          {
+            "name": "Treps ^",
+            "sector": "",
+            "weightage": "7.78"
+          },
+          {
+            "name": "Supriya Lifescience Ltd",
+            "sector": "Healthcare",
+            "weightage": "4.47"
+          },
+          {
+            "name": "CCL Products (India) Ltd",
+            "sector": "Consumer Defensive",
+            "weightage": "2.82"
+          },
+          {
+            "name": "Carysil Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "2.75"
+          },
+          {
+            "name": "Mayur Uniquoters Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "2.75"
+          },
+          {
+            "name": "Star Health and Allied Insurance Co Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.75"
+          },
+          {
+            "name": "Karur Vysya Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.67"
+          },
+          {
+            "name": "Mold-tek Packaging Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "2.47"
+          },
+          {
+            "name": "Engineers India Ltd",
+            "sector": "Industrials",
+            "weightage": "2.46"
+          },
+          {
+            "name": "Alivus Life Sciences Ltd",
+            "sector": "Healthcare",
+            "weightage": "2.36"
+          },
+          {
+            "name": "Crompton Greaves Consumer Electricals Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "2.30"
+          },
+          {
+            "name": "Lumax Industries Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "2.28"
+          },
+          {
+            "name": "Equitas Small Finance Bank Ltd Ordinary Shares",
+            "sector": "Financial Services",
+            "weightage": "2.26"
+          },
+          {
+            "name": "Xpro India Ltd",
+            "sector": "Basic Materials",
+            "weightage": "2.19"
+          },
+          {
+            "name": "Sandhar Technologies Ltd Ordinary Shares",
+            "sector": "Consumer Cyclical",
+            "weightage": "2.17"
+          }
+        ],
+        "Net Alpha (%)": 1.74,
+        "Rating_Score": null,
+        "Sub_Rating_Performance": 0.5,
+        "Sub_Rating_IR": 0.2625,
+        "Sub_Rating_Alpha": 0.6278,
+        "Sub_Rating_Protection": 0.825,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
         "AUM_Adj": 0.0,
@@ -18726,7 +18726,7 @@
         "1Y Rolling Return (%)": 22.02,
         "3Y Rolling Return (%)": 23.9,
         "5Y Rolling Return (%)": 24.15,
-        "AUM (Cr)": 14108.57,
+        "AUM (Cr)": 18783.25,
         "Expense Ratio (%)": 0.45,
         "Top 10 Stocks Weight (%)": 26.73,
         "Large Cap (%)": 38.54,
@@ -21608,238 +21608,6 @@
         "Manager_Change_Date": null
       },
       {
-        "code": "152821",
-        "Fund Name": "ITI Large & Midcap Fund - Direct Plan - Growth",
-        "1Y Return (%)": 2.11,
-        "3Y Return (%)": null,
-        "5Y Return (%)": null,
-        "Sharpe (3Y)": null,
-        "Sharpe (5Y)": null,
-        "Information Ratio (3Y)": null,
-        "Information Ratio (5Y)": null,
-        "Beta (3Y)": null,
-        "Beta (5Y)": null,
-        "Alpha (3Y)": null,
-        "Alpha (5Y)": null,
-        "Downside Capture (3Y)": null,
-        "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": 1.86,
-        "3Y Rolling Return (%)": null,
-        "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 370.31,
-        "Expense Ratio (%)": 1.1,
-        "Top 10 Stocks Weight (%)": 19.31,
-        "Large Cap (%)": 36.2,
-        "Mid Cap (%)": 42.53,
-        "Small Cap (%)": 25.34,
-        "Managers": "Alok Ranjan, Nilay Dalal",
-        "Holdings": [
-          {
-            "name": "IndusInd Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.51"
-          },
-          {
-            "name": "Bharti Hexacom Ltd",
-            "sector": "Communication Services",
-            "weightage": "2.50"
-          },
-          {
-            "name": "ICICI Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.19"
-          },
-          {
-            "name": "Larsen & Toubro Ltd",
-            "sector": "Industrials",
-            "weightage": "1.99"
-          },
-          {
-            "name": "State Bank of India",
-            "sector": "Financial Services",
-            "weightage": "1.80"
-          },
-          {
-            "name": "Supriya Lifescience Ltd",
-            "sector": "Healthcare",
-            "weightage": "1.76"
-          },
-          {
-            "name": "Sun Pharmaceuticals Industries Ltd",
-            "sector": "Healthcare",
-            "weightage": "1.66"
-          },
-          {
-            "name": "LG Electronics India Ltd",
-            "sector": "Technology",
-            "weightage": "1.65"
-          },
-          {
-            "name": "Axis Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "1.65"
-          },
-          {
-            "name": "Reliance Industries Ltd",
-            "sector": "Energy",
-            "weightage": "1.60"
-          },
-          {
-            "name": "Bajaj Finance Ltd",
-            "sector": "Financial Services",
-            "weightage": "1.59"
-          },
-          {
-            "name": "TVS Motor Co Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "1.54"
-          },
-          {
-            "name": "Kotak Mahindra Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "1.54"
-          },
-          {
-            "name": "One97 Communications Ltd",
-            "sector": "Technology",
-            "weightage": "1.53"
-          },
-          {
-            "name": "KFin Technologies Ltd",
-            "sector": "Technology",
-            "weightage": "1.44"
-          }
-        ],
-        "Net Alpha (%)": null,
-        "Rating_Score": null,
-        "Sub_Rating_Performance": 0.5,
-        "Sub_Rating_IR": 0.625,
-        "Sub_Rating_Alpha": 0.875,
-        "Sub_Rating_Protection": 0.5,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "UR",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
-        "code": "153629",
-        "Fund Name": "JM Large & Mid Cap Fund (Direct) - Growth Option",
-        "1Y Return (%)": 7.66,
-        "3Y Return (%)": null,
-        "5Y Return (%)": null,
-        "Sharpe (3Y)": null,
-        "Sharpe (5Y)": null,
-        "Information Ratio (3Y)": null,
-        "Information Ratio (5Y)": null,
-        "Beta (3Y)": null,
-        "Beta (5Y)": null,
-        "Alpha (3Y)": null,
-        "Alpha (5Y)": null,
-        "Downside Capture (3Y)": null,
-        "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": null,
-        "3Y Rolling Return (%)": null,
-        "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 406.43,
-        "Expense Ratio (%)": 1.0,
-        "Top 10 Stocks Weight (%)": 25.23,
-        "Large Cap (%)": 44.4,
-        "Mid Cap (%)": 44.21,
-        "Small Cap (%)": 12.69,
-        "Managers": "Asit Bhandarkar, Ruchi Fozdar, Deepak Gupta",
-        "Holdings": [
-          {
-            "name": "ICICI Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "3.51"
-          },
-          {
-            "name": "HDFC Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "3.08"
-          },
-          {
-            "name": "Bajaj Finance Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.70"
-          },
-          {
-            "name": "Fortis Healthcare Ltd",
-            "sector": "Healthcare",
-            "weightage": "2.64"
-          },
-          {
-            "name": "Bharti Airtel Ltd",
-            "sector": "Communication Services",
-            "weightage": "2.36"
-          },
-          {
-            "name": "Reliance Industries Ltd",
-            "sector": "Energy",
-            "weightage": "2.34"
-          },
-          {
-            "name": "Shriram Finance Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.20"
-          },
-          {
-            "name": "Torrent Pharmaceuticals Ltd",
-            "sector": "Healthcare",
-            "weightage": "2.19"
-          },
-          {
-            "name": "Max Financial Services Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.15"
-          },
-          {
-            "name": "JSW Energy Ltd",
-            "sector": "Utilities",
-            "weightage": "2.06"
-          },
-          {
-            "name": "Coforge Ltd",
-            "sector": "Technology",
-            "weightage": "2.05"
-          },
-          {
-            "name": "GE Vernova T&D India Ltd",
-            "sector": "Industrials",
-            "weightage": "2.05"
-          },
-          {
-            "name": "One97 Communications Ltd",
-            "sector": "Technology",
-            "weightage": "2.02"
-          },
-          {
-            "name": "LG Electronics India Ltd",
-            "sector": "Technology",
-            "weightage": "2.01"
-          },
-          {
-            "name": "Radico Khaitan Ltd",
-            "sector": "Consumer Defensive",
-            "weightage": "1.95"
-          }
-        ],
-        "Net Alpha (%)": null,
-        "Rating_Score": null,
-        "Sub_Rating_Performance": 0.5,
-        "Sub_Rating_IR": 0.625,
-        "Sub_Rating_Alpha": 0.875,
-        "Sub_Rating_Protection": 0.5,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "UR",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
         "code": "152941",
         "Fund Name": "Helios Large & Mid Cap Fund - Direct Plan - Growth Option",
         "1Y Return (%)": 7.86,
@@ -22056,6 +21824,238 @@
             "name": "JK Cement Ltd",
             "sector": "Basic Materials",
             "weightage": "1.71"
+          }
+        ],
+        "Net Alpha (%)": null,
+        "Rating_Score": null,
+        "Sub_Rating_Performance": 0.5,
+        "Sub_Rating_IR": 0.625,
+        "Sub_Rating_Alpha": 0.875,
+        "Sub_Rating_Protection": 0.5,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "UR",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
+        "code": "153629",
+        "Fund Name": "JM Large & Mid Cap Fund (Direct) - Growth Option",
+        "1Y Return (%)": 7.66,
+        "3Y Return (%)": null,
+        "5Y Return (%)": null,
+        "Sharpe (3Y)": null,
+        "Sharpe (5Y)": null,
+        "Information Ratio (3Y)": null,
+        "Information Ratio (5Y)": null,
+        "Beta (3Y)": null,
+        "Beta (5Y)": null,
+        "Alpha (3Y)": null,
+        "Alpha (5Y)": null,
+        "Downside Capture (3Y)": null,
+        "Downside Capture (5Y)": null,
+        "1Y Rolling Return (%)": null,
+        "3Y Rolling Return (%)": null,
+        "5Y Rolling Return (%)": null,
+        "AUM (Cr)": 406.43,
+        "Expense Ratio (%)": 1.0,
+        "Top 10 Stocks Weight (%)": 25.23,
+        "Large Cap (%)": 44.4,
+        "Mid Cap (%)": 44.21,
+        "Small Cap (%)": 12.69,
+        "Managers": "Asit Bhandarkar, Ruchi Fozdar, Deepak Gupta",
+        "Holdings": [
+          {
+            "name": "ICICI Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "3.51"
+          },
+          {
+            "name": "HDFC Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "3.08"
+          },
+          {
+            "name": "Bajaj Finance Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.70"
+          },
+          {
+            "name": "Fortis Healthcare Ltd",
+            "sector": "Healthcare",
+            "weightage": "2.64"
+          },
+          {
+            "name": "Bharti Airtel Ltd",
+            "sector": "Communication Services",
+            "weightage": "2.36"
+          },
+          {
+            "name": "Reliance Industries Ltd",
+            "sector": "Energy",
+            "weightage": "2.34"
+          },
+          {
+            "name": "Shriram Finance Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.20"
+          },
+          {
+            "name": "Torrent Pharmaceuticals Ltd",
+            "sector": "Healthcare",
+            "weightage": "2.19"
+          },
+          {
+            "name": "Max Financial Services Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.15"
+          },
+          {
+            "name": "JSW Energy Ltd",
+            "sector": "Utilities",
+            "weightage": "2.06"
+          },
+          {
+            "name": "Coforge Ltd",
+            "sector": "Technology",
+            "weightage": "2.05"
+          },
+          {
+            "name": "GE Vernova T&D India Ltd",
+            "sector": "Industrials",
+            "weightage": "2.05"
+          },
+          {
+            "name": "One97 Communications Ltd",
+            "sector": "Technology",
+            "weightage": "2.02"
+          },
+          {
+            "name": "LG Electronics India Ltd",
+            "sector": "Technology",
+            "weightage": "2.01"
+          },
+          {
+            "name": "Radico Khaitan Ltd",
+            "sector": "Consumer Defensive",
+            "weightage": "1.95"
+          }
+        ],
+        "Net Alpha (%)": null,
+        "Rating_Score": null,
+        "Sub_Rating_Performance": 0.5,
+        "Sub_Rating_IR": 0.625,
+        "Sub_Rating_Alpha": 0.875,
+        "Sub_Rating_Protection": 0.5,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "UR",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
+        "code": "152821",
+        "Fund Name": "ITI Large & Midcap Fund - Direct Plan - Growth",
+        "1Y Return (%)": 2.11,
+        "3Y Return (%)": null,
+        "5Y Return (%)": null,
+        "Sharpe (3Y)": null,
+        "Sharpe (5Y)": null,
+        "Information Ratio (3Y)": null,
+        "Information Ratio (5Y)": null,
+        "Beta (3Y)": null,
+        "Beta (5Y)": null,
+        "Alpha (3Y)": null,
+        "Alpha (5Y)": null,
+        "Downside Capture (3Y)": null,
+        "Downside Capture (5Y)": null,
+        "1Y Rolling Return (%)": 1.86,
+        "3Y Rolling Return (%)": null,
+        "5Y Rolling Return (%)": null,
+        "AUM (Cr)": 370.31,
+        "Expense Ratio (%)": 1.1,
+        "Top 10 Stocks Weight (%)": 19.31,
+        "Large Cap (%)": 36.2,
+        "Mid Cap (%)": 42.53,
+        "Small Cap (%)": 25.34,
+        "Managers": "Alok Ranjan, Nilay Dalal",
+        "Holdings": [
+          {
+            "name": "IndusInd Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.51"
+          },
+          {
+            "name": "Bharti Hexacom Ltd",
+            "sector": "Communication Services",
+            "weightage": "2.50"
+          },
+          {
+            "name": "ICICI Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.19"
+          },
+          {
+            "name": "Larsen & Toubro Ltd",
+            "sector": "Industrials",
+            "weightage": "1.99"
+          },
+          {
+            "name": "State Bank of India",
+            "sector": "Financial Services",
+            "weightage": "1.80"
+          },
+          {
+            "name": "Supriya Lifescience Ltd",
+            "sector": "Healthcare",
+            "weightage": "1.76"
+          },
+          {
+            "name": "Sun Pharmaceuticals Industries Ltd",
+            "sector": "Healthcare",
+            "weightage": "1.66"
+          },
+          {
+            "name": "LG Electronics India Ltd",
+            "sector": "Technology",
+            "weightage": "1.65"
+          },
+          {
+            "name": "Axis Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "1.65"
+          },
+          {
+            "name": "Reliance Industries Ltd",
+            "sector": "Energy",
+            "weightage": "1.60"
+          },
+          {
+            "name": "Bajaj Finance Ltd",
+            "sector": "Financial Services",
+            "weightage": "1.59"
+          },
+          {
+            "name": "TVS Motor Co Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "1.54"
+          },
+          {
+            "name": "Kotak Mahindra Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "1.54"
+          },
+          {
+            "name": "One97 Communications Ltd",
+            "sector": "Technology",
+            "weightage": "1.53"
+          },
+          {
+            "name": "KFin Technologies Ltd",
+            "sector": "Technology",
+            "weightage": "1.44"
           }
         ],
         "Net Alpha (%)": null,
@@ -22641,7 +22641,7 @@
           }
         ],
         "Net Alpha (%)": 8.23,
-        "Rating_Score": 3.9696099624060155,
+        "Rating_Score": 3.9696099624060146,
         "Sub_Rating_Performance": 0.8131,
         "Sub_Rating_IR": 1.25,
         "Sub_Rating_Alpha": 0.9478,
@@ -22757,7 +22757,7 @@
           }
         ],
         "Net Alpha (%)": 10.97,
-        "Rating_Score": 3.9304730576441105,
+        "Rating_Score": 3.93047305764411,
         "Sub_Rating_Performance": 0.7668,
         "Sub_Rating_IR": 1.1531,
         "Sub_Rating_Alpha": 1.0701,
@@ -22873,7 +22873,7 @@
           }
         ],
         "Net Alpha (%)": 14.06,
-        "Rating_Score": 3.925502819548872,
+        "Rating_Score": 3.9255028195488717,
         "Sub_Rating_Performance": 0.9012,
         "Sub_Rating_IR": 0.9625,
         "Sub_Rating_Alpha": 1.208,
@@ -23105,7 +23105,7 @@
           }
         ],
         "Net Alpha (%)": 9.68,
-        "Rating_Score": 3.660904605263158,
+        "Rating_Score": 3.6609046052631578,
         "Sub_Rating_Performance": 0.8125,
         "Sub_Rating_IR": 1.0,
         "Sub_Rating_Alpha": 1.0125,
@@ -23453,7 +23453,7 @@
           }
         ],
         "Net Alpha (%)": 6.31,
-        "Rating_Score": 3.525435855263158,
+        "Rating_Score": 3.5254358552631575,
         "Sub_Rating_Performance": 0.7475,
         "Sub_Rating_IR": 1.1062,
         "Sub_Rating_Alpha": 0.8055,
@@ -23569,7 +23569,7 @@
           }
         ],
         "Net Alpha (%)": 6.87,
-        "Rating_Score": 3.5188733552631577,
+        "Rating_Score": 3.5188733552631573,
         "Sub_Rating_Performance": 0.7518,
         "Sub_Rating_IR": 1.0719,
         "Sub_Rating_Alpha": 0.8492,
@@ -23685,7 +23685,7 @@
           }
         ],
         "Net Alpha (%)": 7.46,
-        "Rating_Score": 3.462467105263158,
+        "Rating_Score": 3.4624671052631575,
         "Sub_Rating_Performance": 0.6418,
         "Sub_Rating_IR": 1.1062,
         "Sub_Rating_Alpha": 0.8953,
@@ -23716,7 +23716,7 @@
         "1Y Rolling Return (%)": 20.61,
         "3Y Rolling Return (%)": 22.55,
         "5Y Rolling Return (%)": 22.65,
-        "AUM (Cr)": 6273.86,
+        "AUM (Cr)": 6911.29,
         "Expense Ratio (%)": 0.62,
         "Top 10 Stocks Weight (%)": 42.8,
         "Large Cap (%)": 67.34,
@@ -24033,7 +24033,7 @@
           }
         ],
         "Net Alpha (%)": 7.09,
-        "Rating_Score": 3.400435855263158,
+        "Rating_Score": 3.4004358552631575,
         "Sub_Rating_Performance": 0.6581,
         "Sub_Rating_IR": 1.025,
         "Sub_Rating_Alpha": 0.8664,
@@ -24149,7 +24149,7 @@
           }
         ],
         "Net Alpha (%)": 7.04,
-        "Rating_Score": 3.386529605263158,
+        "Rating_Score": 3.3865296052631577,
         "Sub_Rating_Performance": 0.6525,
         "Sub_Rating_IR": 1.0219,
         "Sub_Rating_Alpha": 0.8625,
@@ -25077,7 +25077,7 @@
           }
         ],
         "Net Alpha (%)": 5.12,
-        "Rating_Score": 2.970592105263158,
+        "Rating_Score": 2.9705921052631576,
         "Sub_Rating_Performance": 0.5431,
         "Sub_Rating_IR": 0.7937,
         "Sub_Rating_Alpha": 0.7125,
@@ -25193,7 +25193,7 @@
           }
         ],
         "Net Alpha (%)": 5.6,
-        "Rating_Score": 2.912154605263158,
+        "Rating_Score": 2.9121546052631575,
         "Sub_Rating_Performance": 0.2543,
         "Sub_Rating_IR": 1.025,
         "Sub_Rating_Alpha": 0.75,
@@ -25309,7 +25309,7 @@
           }
         ],
         "Net Alpha (%)": 5.88,
-        "Rating_Score": 2.8014254385964916,
+        "Rating_Score": 2.801425438596491,
         "Sub_Rating_Performance": 0.3425,
         "Sub_Rating_IR": 0.6937,
         "Sub_Rating_Alpha": 0.7719,
@@ -25581,7 +25581,7 @@
         "Managers": "N/A",
         "Holdings": [],
         "Net Alpha (%)": 2.57,
-        "Rating_Score": 2.576060855263158,
+        "Rating_Score": 2.5760608552631576,
         "Sub_Rating_Performance": 0.6762,
         "Sub_Rating_IR": 0.5687,
         "Sub_Rating_Alpha": 0.5133,
@@ -25697,7 +25697,7 @@
           }
         ],
         "Net Alpha (%)": 2.21,
-        "Rating_Score": 2.567310855263158,
+        "Rating_Score": 2.5673108552631576,
         "Sub_Rating_Performance": 0.645,
         "Sub_Rating_IR": 0.5625,
         "Sub_Rating_Alpha": 0.4852,
@@ -26045,7 +26045,7 @@
           }
         ],
         "Net Alpha (%)": 3.61,
-        "Rating_Score": 2.519185855263158,
+        "Rating_Score": 2.5191858552631574,
         "Sub_Rating_Performance": 0.3412,
         "Sub_Rating_IR": 0.6937,
         "Sub_Rating_Alpha": 0.5945,
@@ -26277,7 +26277,7 @@
           }
         ],
         "Net Alpha (%)": 0.79,
-        "Rating_Score": 2.2951233552631582,
+        "Rating_Score": 2.295123355263158,
         "Sub_Rating_Performance": 0.1512,
         "Sub_Rating_IR": 0.975,
         "Sub_Rating_Alpha": 0.3742,
@@ -26393,7 +26393,7 @@
           }
         ],
         "Net Alpha (%)": 0.82,
-        "Rating_Score": 2.277467105263158,
+        "Rating_Score": 2.2774671052631574,
         "Sub_Rating_Performance": 0.1112,
         "Sub_Rating_IR": 1.0,
         "Sub_Rating_Alpha": 0.3766,
@@ -26509,7 +26509,7 @@
           }
         ],
         "Net Alpha (%)": 1.8,
-        "Rating_Score": 2.153717105263158,
+        "Rating_Score": 2.1537171052631576,
         "Sub_Rating_Performance": 0.4187,
         "Sub_Rating_IR": 0.4563,
         "Sub_Rating_Alpha": 0.4531,
@@ -27031,7 +27031,7 @@
           }
         ],
         "Net Alpha (%)": 19.36,
-        "Rating_Score": 4.334013888888889,
+        "Rating_Score": 4.334013888888888,
         "Sub_Rating_Performance": 0.7621,
         "Sub_Rating_IR": 1.0719,
         "Sub_Rating_Alpha": 1.25,
@@ -27147,7 +27147,7 @@
           }
         ],
         "Net Alpha (%)": 18.33,
-        "Rating_Score": 4.2840138888888895,
+        "Rating_Score": 4.284013888888889,
         "Sub_Rating_Performance": 0.9315,
         "Sub_Rating_IR": 1.1719,
         "Sub_Rating_Alpha": 1.25,
@@ -27263,7 +27263,7 @@
           }
         ],
         "Net Alpha (%)": 16.65,
-        "Rating_Score": 4.271513888888889,
+        "Rating_Score": 4.271513888888888,
         "Sub_Rating_Performance": 0.5215,
         "Sub_Rating_IR": 1.25,
         "Sub_Rating_Alpha": 1.25,
@@ -27611,7 +27611,7 @@
           }
         ],
         "Net Alpha (%)": 12.65,
-        "Rating_Score": 4.053790674603175,
+        "Rating_Score": 4.053790674603174,
         "Sub_Rating_Performance": 0.7478,
         "Sub_Rating_IR": 1.25,
         "Sub_Rating_Alpha": 1.1451,
@@ -27843,7 +27843,7 @@
           }
         ],
         "Net Alpha (%)": 16.74,
-        "Rating_Score": 3.960888888888889,
+        "Rating_Score": 3.9608888888888885,
         "Sub_Rating_Performance": 0.6296,
         "Sub_Rating_IR": 1.2031,
         "Sub_Rating_Alpha": 1.25,
@@ -28307,7 +28307,7 @@
           }
         ],
         "Net Alpha (%)": 12.06,
-        "Rating_Score": 3.840263888888889,
+        "Rating_Score": 3.8402638888888885,
         "Sub_Rating_Performance": 0.729,
         "Sub_Rating_IR": 1.1375,
         "Sub_Rating_Alpha": 1.1187,
@@ -28539,7 +28539,7 @@
           }
         ],
         "Net Alpha (%)": 11.74,
-        "Rating_Score": 3.729415674603175,
+        "Rating_Score": 3.7294156746031746,
         "Sub_Rating_Performance": 0.7053,
         "Sub_Rating_IR": 1.0969,
         "Sub_Rating_Alpha": 1.1045,
@@ -28595,7 +28595,7 @@
           }
         ],
         "Net Alpha (%)": 25.2,
-        "Rating_Score": 3.7115138888888892,
+        "Rating_Score": 3.711513888888889,
         "Sub_Rating_Performance": 0.3428,
         "Sub_Rating_IR": 0.8688,
         "Sub_Rating_Alpha": 1.25,
@@ -28711,7 +28711,7 @@
           }
         ],
         "Net Alpha (%)": 10.05,
-        "Rating_Score": 3.702719246031746,
+        "Rating_Score": 3.7027192460317457,
         "Sub_Rating_Performance": 0.5471,
         "Sub_Rating_IR": 1.25,
         "Sub_Rating_Alpha": 1.029,
@@ -28827,7 +28827,7 @@
           }
         ],
         "Net Alpha (%)": 9.59,
-        "Rating_Score": 3.674683531746032,
+        "Rating_Score": 3.6746835317460316,
         "Sub_Rating_Performance": 0.7615,
         "Sub_Rating_IR": 1.0938,
         "Sub_Rating_Alpha": 1.0085,
@@ -29090,7 +29090,7 @@
         "1Y Rolling Return (%)": 22.8,
         "3Y Rolling Return (%)": 25.24,
         "5Y Rolling Return (%)": 25.31,
-        "AUM (Cr)": 9041.82,
+        "AUM (Cr)": 9985.03,
         "Expense Ratio (%)": 0.61,
         "Top 10 Stocks Weight (%)": 40.7,
         "Large Cap (%)": 58.9,
@@ -29175,7 +29175,7 @@
           }
         ],
         "Net Alpha (%)": 5.32,
-        "Rating_Score": 3.434013888888889,
+        "Rating_Score": 3.4340138888888885,
         "Sub_Rating_Performance": 0.8434,
         "Sub_Rating_IR": 0.9469,
         "Sub_Rating_Alpha": 0.7281,
@@ -29291,7 +29291,7 @@
           }
         ],
         "Net Alpha (%)": 10.29,
-        "Rating_Score": 3.417496031746032,
+        "Rating_Score": 3.4174960317460314,
         "Sub_Rating_Performance": 0.5884,
         "Sub_Rating_IR": 1.0094,
         "Sub_Rating_Alpha": 1.0397,
@@ -29407,7 +29407,7 @@
           }
         ],
         "Net Alpha (%)": 7.99,
-        "Rating_Score": 3.378545138888889,
+        "Rating_Score": 3.3785451388888887,
         "Sub_Rating_Performance": 0.4178,
         "Sub_Rating_IR": 1.1062,
         "Sub_Rating_Alpha": 0.9367,
@@ -29755,7 +29755,7 @@
           }
         ],
         "Net Alpha (%)": 7.63,
-        "Rating_Score": 3.318232638888889,
+        "Rating_Score": 3.3182326388888885,
         "Sub_Rating_Performance": 0.7959,
         "Sub_Rating_IR": 0.825,
         "Sub_Rating_Alpha": 0.9086,
@@ -29871,7 +29871,7 @@
           }
         ],
         "Net Alpha (%)": 7.9,
-        "Rating_Score": 3.288388888888889,
+        "Rating_Score": 3.2883888888888886,
         "Sub_Rating_Performance": 0.6028,
         "Sub_Rating_IR": 0.9125,
         "Sub_Rating_Alpha": 0.9297,
@@ -30451,7 +30451,7 @@
           }
         ],
         "Net Alpha (%)": 5.32,
-        "Rating_Score": 3.0746388888888894,
+        "Rating_Score": 3.074638888888889,
         "Sub_Rating_Performance": 0.519,
         "Sub_Rating_IR": 0.9531,
         "Sub_Rating_Alpha": 0.7281,
@@ -30683,7 +30683,7 @@
           }
         ],
         "Net Alpha (%)": 5.16,
-        "Rating_Score": 3.005680555555556,
+        "Rating_Score": 3.0056805555555552,
         "Sub_Rating_Performance": 0.3746,
         "Sub_Rating_IR": 0.9625,
         "Sub_Rating_Alpha": 0.7156,
@@ -30799,7 +30799,7 @@
           }
         ],
         "Net Alpha (%)": 6.05,
-        "Rating_Score": 2.9244826388888896,
+        "Rating_Score": 2.924482638888889,
         "Sub_Rating_Performance": 0.4128,
         "Sub_Rating_IR": 0.8625,
         "Sub_Rating_Alpha": 0.7852,
@@ -31147,7 +31147,7 @@
           }
         ],
         "Net Alpha (%)": 3.52,
-        "Rating_Score": 2.8421388888888894,
+        "Rating_Score": 2.842138888888889,
         "Sub_Rating_Performance": 0.3715,
         "Sub_Rating_IR": 1.0375,
         "Sub_Rating_Alpha": 0.5875,
@@ -31263,7 +31263,7 @@
           }
         ],
         "Net Alpha (%)": 4.39,
-        "Rating_Score": 2.715420138888889,
+        "Rating_Score": 2.7154201388888883,
         "Sub_Rating_Performance": 0.2365,
         "Sub_Rating_IR": 1.0,
         "Sub_Rating_Alpha": 0.6555,
@@ -31379,7 +31379,7 @@
           }
         ],
         "Net Alpha (%)": 3.1,
-        "Rating_Score": 2.7115138888888892,
+        "Rating_Score": 2.711513888888889,
         "Sub_Rating_Performance": 0.5178,
         "Sub_Rating_IR": 0.7812,
         "Sub_Rating_Alpha": 0.5547,
@@ -31611,7 +31611,7 @@
           }
         ],
         "Net Alpha (%)": 3.45,
-        "Rating_Score": 2.2626076388888894,
+        "Rating_Score": 2.262607638888889,
         "Sub_Rating_Performance": 0.1684,
         "Sub_Rating_IR": 0.675,
         "Sub_Rating_Alpha": 0.582,
@@ -31727,7 +31727,7 @@
           }
         ],
         "Net Alpha (%)": 3.34,
-        "Rating_Score": 2.048701388888889,
+        "Rating_Score": 2.0487013888888885,
         "Sub_Rating_Performance": 0.0296,
         "Sub_Rating_IR": 0.6188,
         "Sub_Rating_Alpha": 0.5734,
@@ -31843,7 +31843,7 @@
           }
         ],
         "Net Alpha (%)": 0.74,
-        "Rating_Score": 1.9387013888888893,
+        "Rating_Score": 1.938701388888889,
         "Sub_Rating_Performance": 0.3034,
         "Sub_Rating_IR": 0.4062,
         "Sub_Rating_Alpha": 0.3703,
@@ -31852,122 +31852,6 @@
         "Manager_Tenure_Adj": 0.025,
         "AUM_Adj": 0.0,
         "Rating": "\u2605\u00bd",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
-        "code": "153303",
-        "Fund Name": "Mahindra Manulife Value Fund - Direct Plan - Growth",
-        "1Y Return (%)": 10.72,
-        "3Y Return (%)": null,
-        "5Y Return (%)": null,
-        "Sharpe (3Y)": null,
-        "Sharpe (5Y)": null,
-        "Information Ratio (3Y)": null,
-        "Information Ratio (5Y)": null,
-        "Beta (3Y)": null,
-        "Beta (5Y)": null,
-        "Alpha (3Y)": null,
-        "Alpha (5Y)": null,
-        "Downside Capture (3Y)": null,
-        "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": 12.75,
-        "3Y Rolling Return (%)": null,
-        "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 892.62,
-        "Expense Ratio (%)": 0.41,
-        "Top 10 Stocks Weight (%)": 26.62,
-        "Large Cap (%)": 42.33,
-        "Mid Cap (%)": 25.89,
-        "Small Cap (%)": 28.54,
-        "Managers": "Krishna Sanghavi, Vishal Jajoo",
-        "Holdings": [
-          {
-            "name": "ICICI Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "5.01"
-          },
-          {
-            "name": "Triparty Repo",
-            "sector": "",
-            "weightage": "3.57"
-          },
-          {
-            "name": "JSW Energy Ltd",
-            "sector": "Utilities",
-            "weightage": "2.78"
-          },
-          {
-            "name": "Axis Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.53"
-          },
-          {
-            "name": "Reliance Industries Ltd",
-            "sector": "Energy",
-            "weightage": "2.46"
-          },
-          {
-            "name": "Tube Investments of India Ltd Ordinary Shares",
-            "sector": "Industrials",
-            "weightage": "2.44"
-          },
-          {
-            "name": "IndusInd Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.34"
-          },
-          {
-            "name": "Shriram Finance Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.30"
-          },
-          {
-            "name": "HDFC Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.27"
-          },
-          {
-            "name": "Punjab National Bank",
-            "sector": "Financial Services",
-            "weightage": "2.26"
-          },
-          {
-            "name": "Indus Towers Ltd Ordinary Shares",
-            "sector": "Communication Services",
-            "weightage": "2.22"
-          },
-          {
-            "name": "Bandhan Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.21"
-          },
-          {
-            "name": "Bajaj Auto Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "2.18"
-          },
-          {
-            "name": "Vodafone Idea Ltd",
-            "sector": "Communication Services",
-            "weightage": "2.00"
-          },
-          {
-            "name": "Jindal Saw Ltd",
-            "sector": "Basic Materials",
-            "weightage": "1.95"
-          }
-        ],
-        "Net Alpha (%)": null,
-        "Rating_Score": null,
-        "Sub_Rating_Performance": 0.625,
-        "Sub_Rating_IR": 0.625,
-        "Sub_Rating_Alpha": 0.625,
-        "Sub_Rating_Protection": 0.625,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "UR",
         "Manager_Changed_Recently": false,
         "Manager_Change_Date": null
       },
@@ -32088,6 +31972,122 @@
         "Manager_Change_Date": null
       },
       {
+        "code": "153303",
+        "Fund Name": "Mahindra Manulife Value Fund - Direct Plan - Growth",
+        "1Y Return (%)": 10.72,
+        "3Y Return (%)": null,
+        "5Y Return (%)": null,
+        "Sharpe (3Y)": null,
+        "Sharpe (5Y)": null,
+        "Information Ratio (3Y)": null,
+        "Information Ratio (5Y)": null,
+        "Beta (3Y)": null,
+        "Beta (5Y)": null,
+        "Alpha (3Y)": null,
+        "Alpha (5Y)": null,
+        "Downside Capture (3Y)": null,
+        "Downside Capture (5Y)": null,
+        "1Y Rolling Return (%)": 12.75,
+        "3Y Rolling Return (%)": null,
+        "5Y Rolling Return (%)": null,
+        "AUM (Cr)": 892.62,
+        "Expense Ratio (%)": 0.41,
+        "Top 10 Stocks Weight (%)": 26.62,
+        "Large Cap (%)": 42.33,
+        "Mid Cap (%)": 25.89,
+        "Small Cap (%)": 28.54,
+        "Managers": "Krishna Sanghavi, Vishal Jajoo",
+        "Holdings": [
+          {
+            "name": "ICICI Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "5.01"
+          },
+          {
+            "name": "Triparty Repo",
+            "sector": "",
+            "weightage": "3.57"
+          },
+          {
+            "name": "JSW Energy Ltd",
+            "sector": "Utilities",
+            "weightage": "2.78"
+          },
+          {
+            "name": "Axis Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.53"
+          },
+          {
+            "name": "Reliance Industries Ltd",
+            "sector": "Energy",
+            "weightage": "2.46"
+          },
+          {
+            "name": "Tube Investments of India Ltd Ordinary Shares",
+            "sector": "Industrials",
+            "weightage": "2.44"
+          },
+          {
+            "name": "IndusInd Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.34"
+          },
+          {
+            "name": "Shriram Finance Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.30"
+          },
+          {
+            "name": "HDFC Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.27"
+          },
+          {
+            "name": "Punjab National Bank",
+            "sector": "Financial Services",
+            "weightage": "2.26"
+          },
+          {
+            "name": "Indus Towers Ltd Ordinary Shares",
+            "sector": "Communication Services",
+            "weightage": "2.22"
+          },
+          {
+            "name": "Bandhan Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.21"
+          },
+          {
+            "name": "Bajaj Auto Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "2.18"
+          },
+          {
+            "name": "Vodafone Idea Ltd",
+            "sector": "Communication Services",
+            "weightage": "2.00"
+          },
+          {
+            "name": "Jindal Saw Ltd",
+            "sector": "Basic Materials",
+            "weightage": "1.95"
+          }
+        ],
+        "Net Alpha (%)": null,
+        "Rating_Score": null,
+        "Sub_Rating_Performance": 0.625,
+        "Sub_Rating_IR": 0.625,
+        "Sub_Rating_Alpha": 0.625,
+        "Sub_Rating_Protection": 0.625,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "UR",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
         "code": "153034",
         "Fund Name": "Groww Multicap Fund - Direct - Growth",
         "1Y Return (%)": 15.66,
@@ -32188,122 +32188,6 @@
             "name": "ICICI Prudential Asset Management Co Ltd",
             "sector": "Financial Services",
             "weightage": "2.01"
-          }
-        ],
-        "Net Alpha (%)": null,
-        "Rating_Score": null,
-        "Sub_Rating_Performance": 0.625,
-        "Sub_Rating_IR": 0.625,
-        "Sub_Rating_Alpha": 0.625,
-        "Sub_Rating_Protection": 0.625,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "UR",
-        "Manager_Changed_Recently": true,
-        "Manager_Change_Date": "2026-07-29"
-      },
-      {
-        "code": "152254",
-        "Fund Name": "Groww Banking & Financial Services Fund - Direct Plan - Growth",
-        "1Y Return (%)": 10.7,
-        "3Y Return (%)": null,
-        "5Y Return (%)": null,
-        "Sharpe (3Y)": null,
-        "Sharpe (5Y)": null,
-        "Information Ratio (3Y)": null,
-        "Information Ratio (5Y)": null,
-        "Beta (3Y)": null,
-        "Beta (5Y)": null,
-        "Alpha (3Y)": null,
-        "Alpha (5Y)": null,
-        "Downside Capture (3Y)": null,
-        "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": 11.0,
-        "3Y Rolling Return (%)": null,
-        "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 75.51,
-        "Expense Ratio (%)": 0.54,
-        "Top 10 Stocks Weight (%)": 47.26,
-        "Large Cap (%)": 32.34,
-        "Mid Cap (%)": 23.7,
-        "Small Cap (%)": 25.24,
-        "Managers": "Anupam Tiwari, Saptarshee Chatterjee, Nikhil Satam, Gagan Thareja",
-        "Holdings": [
-          {
-            "name": "ICICI Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "7.91"
-          },
-          {
-            "name": "Axis Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "6.91"
-          },
-          {
-            "name": "BSE Ltd",
-            "sector": "Financial Services",
-            "weightage": "5.12"
-          },
-          {
-            "name": "Multi Commodity Exchange of India Ltd",
-            "sector": "Financial Services",
-            "weightage": "4.33"
-          },
-          {
-            "name": "CarTrade Tech Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "4.28"
-          },
-          {
-            "name": "Bajaj Finance Ltd",
-            "sector": "Financial Services",
-            "weightage": "4.02"
-          },
-          {
-            "name": "ICICI Prudential Asset Management Co Ltd",
-            "sector": "Financial Services",
-            "weightage": "3.77"
-          },
-          {
-            "name": "Ujjivan Small Finance Bank Ltd Ordinary Shares",
-            "sector": "Financial Services",
-            "weightage": "3.73"
-          },
-          {
-            "name": "RBL Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "3.66"
-          },
-          {
-            "name": "Piramal Finance Ltd",
-            "sector": "Financial Services",
-            "weightage": "3.53"
-          },
-          {
-            "name": "Aditya Birla Capital Ltd",
-            "sector": "Financial Services",
-            "weightage": "3.19"
-          },
-          {
-            "name": "SBFC Finance Ltd",
-            "sector": "Financial Services",
-            "weightage": "3.17"
-          },
-          {
-            "name": "OnEMI Technology Solutions Ltd",
-            "sector": "Financial Services",
-            "weightage": "3.10"
-          },
-          {
-            "name": "L&T Finance Ltd",
-            "sector": "Financial Services",
-            "weightage": "3.02"
-          },
-          {
-            "name": "The Federal Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.88"
           }
         ],
         "Net Alpha (%)": null,
@@ -32434,6 +32318,122 @@
         "Rating": "UR",
         "Manager_Changed_Recently": false,
         "Manager_Change_Date": null
+      },
+      {
+        "code": "152254",
+        "Fund Name": "Groww Banking & Financial Services Fund - Direct Plan - Growth",
+        "1Y Return (%)": 10.7,
+        "3Y Return (%)": null,
+        "5Y Return (%)": null,
+        "Sharpe (3Y)": null,
+        "Sharpe (5Y)": null,
+        "Information Ratio (3Y)": null,
+        "Information Ratio (5Y)": null,
+        "Beta (3Y)": null,
+        "Beta (5Y)": null,
+        "Alpha (3Y)": null,
+        "Alpha (5Y)": null,
+        "Downside Capture (3Y)": null,
+        "Downside Capture (5Y)": null,
+        "1Y Rolling Return (%)": 11.0,
+        "3Y Rolling Return (%)": null,
+        "5Y Rolling Return (%)": null,
+        "AUM (Cr)": 75.51,
+        "Expense Ratio (%)": 0.54,
+        "Top 10 Stocks Weight (%)": 47.26,
+        "Large Cap (%)": 32.34,
+        "Mid Cap (%)": 23.7,
+        "Small Cap (%)": 25.24,
+        "Managers": "Anupam Tiwari, Saptarshee Chatterjee, Nikhil Satam, Gagan Thareja",
+        "Holdings": [
+          {
+            "name": "ICICI Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "7.91"
+          },
+          {
+            "name": "Axis Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "6.91"
+          },
+          {
+            "name": "BSE Ltd",
+            "sector": "Financial Services",
+            "weightage": "5.12"
+          },
+          {
+            "name": "Multi Commodity Exchange of India Ltd",
+            "sector": "Financial Services",
+            "weightage": "4.33"
+          },
+          {
+            "name": "CarTrade Tech Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "4.28"
+          },
+          {
+            "name": "Bajaj Finance Ltd",
+            "sector": "Financial Services",
+            "weightage": "4.02"
+          },
+          {
+            "name": "ICICI Prudential Asset Management Co Ltd",
+            "sector": "Financial Services",
+            "weightage": "3.77"
+          },
+          {
+            "name": "Ujjivan Small Finance Bank Ltd Ordinary Shares",
+            "sector": "Financial Services",
+            "weightage": "3.73"
+          },
+          {
+            "name": "RBL Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "3.66"
+          },
+          {
+            "name": "Piramal Finance Ltd",
+            "sector": "Financial Services",
+            "weightage": "3.53"
+          },
+          {
+            "name": "Aditya Birla Capital Ltd",
+            "sector": "Financial Services",
+            "weightage": "3.19"
+          },
+          {
+            "name": "SBFC Finance Ltd",
+            "sector": "Financial Services",
+            "weightage": "3.17"
+          },
+          {
+            "name": "OnEMI Technology Solutions Ltd",
+            "sector": "Financial Services",
+            "weightage": "3.10"
+          },
+          {
+            "name": "L&T Finance Ltd",
+            "sector": "Financial Services",
+            "weightage": "3.02"
+          },
+          {
+            "name": "The Federal Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.88"
+          }
+        ],
+        "Net Alpha (%)": null,
+        "Rating_Score": null,
+        "Sub_Rating_Performance": 0.625,
+        "Sub_Rating_IR": 0.625,
+        "Sub_Rating_Alpha": 0.625,
+        "Sub_Rating_Protection": 0.625,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "UR",
+        "Manager_Changed_Recently": true,
+        "Manager_Change_Date": "2026-07-29"
       },
       {
         "code": "153291",
@@ -33810,7 +33810,7 @@
         "1Y Rolling Return (%)": 16.24,
         "3Y Rolling Return (%)": 17.09,
         "5Y Rolling Return (%)": 17.35,
-        "AUM (Cr)": 1676.28,
+        "AUM (Cr)": 2184.38,
         "Expense Ratio (%)": 0.48,
         "Top 10 Stocks Weight (%)": 37.97,
         "Large Cap (%)": 56.65,
@@ -36605,7 +36605,7 @@
           }
         ],
         "Net Alpha (%)": 5.83,
-        "Rating_Score": 3.7381594551282045,
+        "Rating_Score": 3.738159455128205,
         "Sub_Rating_Performance": 0.791,
         "Sub_Rating_IR": 0.8875,
         "Sub_Rating_Alpha": 0.4608,
@@ -36721,7 +36721,7 @@
           }
         ],
         "Net Alpha (%)": 6.0,
-        "Rating_Score": 3.650961538461538,
+        "Rating_Score": 3.6509615384615386,
         "Sub_Rating_Performance": 0.601,
         "Sub_Rating_IR": 0.8313,
         "Sub_Rating_Alpha": 0.4688,
@@ -37069,7 +37069,7 @@
           }
         ],
         "Net Alpha (%)": 5.5,
-        "Rating_Score": 3.6043990384615383,
+        "Rating_Score": 3.6043990384615388,
         "Sub_Rating_Performance": 0.6403,
         "Sub_Rating_IR": 0.7688,
         "Sub_Rating_Alpha": 0.4453,
@@ -37185,7 +37185,7 @@
           }
         ],
         "Net Alpha (%)": 4.34,
-        "Rating_Score": 3.523732371794871,
+        "Rating_Score": 3.5237323717948716,
         "Sub_Rating_Performance": 0.7347,
         "Sub_Rating_IR": 0.7,
         "Sub_Rating_Alpha": 0.3909,
@@ -37301,7 +37301,7 @@
           }
         ],
         "Net Alpha (%)": 4.91,
-        "Rating_Score": 3.514867788461538,
+        "Rating_Score": 3.5148677884615385,
         "Sub_Rating_Performance": 0.6472,
         "Sub_Rating_IR": 0.7,
         "Sub_Rating_Alpha": 0.4177,
@@ -37765,7 +37765,7 @@
           }
         ],
         "Net Alpha (%)": 3.45,
-        "Rating_Score": 3.254555288461538,
+        "Rating_Score": 3.2545552884615385,
         "Sub_Rating_Performance": 0.6053,
         "Sub_Rating_IR": 0.55,
         "Sub_Rating_Alpha": 0.3492,
@@ -38144,7 +38144,7 @@
         "1Y Rolling Return (%)": 11.67,
         "3Y Rolling Return (%)": 11.98,
         "5Y Rolling Return (%)": 12.15,
-        "AUM (Cr)": 2071.17,
+        "AUM (Cr)": 2236.44,
         "Expense Ratio (%)": 0.66,
         "Top 10 Stocks Weight (%)": 43.57,
         "Large Cap (%)": 37.26,
@@ -38345,7 +38345,7 @@
           }
         ],
         "Net Alpha (%)": 2.75,
-        "Rating_Score": 3.0917427884615383,
+        "Rating_Score": 3.0917427884615387,
         "Sub_Rating_Performance": 0.5503,
         "Sub_Rating_IR": 0.475,
         "Sub_Rating_Alpha": 0.3164,
@@ -38577,7 +38577,7 @@
           }
         ],
         "Net Alpha (%)": 3.08,
-        "Rating_Score": 3.008503205128205,
+        "Rating_Score": 3.0085032051282052,
         "Sub_Rating_Performance": 0.506,
         "Sub_Rating_IR": 0.6312,
         "Sub_Rating_Alpha": 0.3319,
@@ -38809,7 +38809,7 @@
           }
         ],
         "Net Alpha (%)": 1.49,
-        "Rating_Score": 2.8583052884615383,
+        "Rating_Score": 2.8583052884615388,
         "Sub_Rating_Performance": 0.4947,
         "Sub_Rating_IR": 0.3563,
         "Sub_Rating_Alpha": 0.2573,
@@ -38925,7 +38925,7 @@
           }
         ],
         "Net Alpha (%)": 0.95,
-        "Rating_Score": 2.6859094551282046,
+        "Rating_Score": 2.685909455128205,
         "Sub_Rating_Performance": 0.5072,
         "Sub_Rating_IR": 0.325,
         "Sub_Rating_Alpha": 0.232,
@@ -39170,122 +39170,6 @@
         "Manager_Change_Date": null
       },
       {
-        "code": "152688",
-        "Fund Name": "Canara Robeco Balanced Advantage Fund - Direct Plan - Growth Option",
-        "1Y Return (%)": 1.15,
-        "3Y Return (%)": null,
-        "5Y Return (%)": null,
-        "Sharpe (3Y)": null,
-        "Sharpe (5Y)": null,
-        "Information Ratio (3Y)": null,
-        "Information Ratio (5Y)": null,
-        "Beta (3Y)": null,
-        "Beta (5Y)": null,
-        "Alpha (3Y)": null,
-        "Alpha (5Y)": null,
-        "Downside Capture (3Y)": null,
-        "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": 3.49,
-        "3Y Rolling Return (%)": null,
-        "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 1125.26,
-        "Expense Ratio (%)": 0.7,
-        "Top 10 Stocks Weight (%)": 35.37,
-        "Large Cap (%)": 57.52,
-        "Mid Cap (%)": 5.78,
-        "Small Cap (%)": 9.06,
-        "Managers": "Suman Prasad, Avnish Jain, Pranav Gokhale, Ennette Fernandes, Amit Kadam",
-        "Holdings": [
-          {
-            "name": "HDFC Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "5.96"
-          },
-          {
-            "name": "Reliance Industries Ltd",
-            "sector": "Energy",
-            "weightage": "4.79"
-          },
-          {
-            "name": "ICICI Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "4.77"
-          },
-          {
-            "name": "LIC Housing Finance Ltd",
-            "sector": "",
-            "weightage": "4.46"
-          },
-          {
-            "name": "India (Republic of)",
-            "sector": "",
-            "weightage": "3.95"
-          },
-          {
-            "name": "Bharti Airtel Ltd",
-            "sector": "Communication Services",
-            "weightage": "3.23"
-          },
-          {
-            "name": "Larsen & Toubro Ltd",
-            "sector": "Industrials",
-            "weightage": "3.07"
-          },
-          {
-            "name": "Axis Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.77"
-          },
-          {
-            "name": "Eternal Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "2.35"
-          },
-          {
-            "name": "State Bank of India",
-            "sector": "Financial Services",
-            "weightage": "2.24"
-          },
-          {
-            "name": "Bajaj Finance Limited",
-            "sector": "",
-            "weightage": "2.23"
-          },
-          {
-            "name": "Kotak Mahindra Prime Limited",
-            "sector": "",
-            "weightage": "2.22"
-          },
-          {
-            "name": "Rec Limited",
-            "sector": "",
-            "weightage": "2.22"
-          },
-          {
-            "name": "Bajaj Housing Finance Limited",
-            "sector": "",
-            "weightage": "2.20"
-          },
-          {
-            "name": "Power Finance Corp Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.19"
-          }
-        ],
-        "Net Alpha (%)": null,
-        "Rating_Score": null,
-        "Sub_Rating_Performance": 0.625,
-        "Sub_Rating_IR": 0.625,
-        "Sub_Rating_Alpha": 0.375,
-        "Sub_Rating_Protection": 0.875,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "UR",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
         "code": "152194",
         "Fund Name": "Bajaj Finserv Balanced Advantage Fund-Direct Plan-Growth",
         "1Y Return (%)": 5.19,
@@ -39386,6 +39270,122 @@
             "name": "Tata Steel Ltd",
             "sector": "Basic Materials",
             "weightage": "2.34"
+          }
+        ],
+        "Net Alpha (%)": null,
+        "Rating_Score": null,
+        "Sub_Rating_Performance": 0.625,
+        "Sub_Rating_IR": 0.625,
+        "Sub_Rating_Alpha": 0.375,
+        "Sub_Rating_Protection": 0.875,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "UR",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
+        "code": "152688",
+        "Fund Name": "Canara Robeco Balanced Advantage Fund - Direct Plan - Growth Option",
+        "1Y Return (%)": 1.15,
+        "3Y Return (%)": null,
+        "5Y Return (%)": null,
+        "Sharpe (3Y)": null,
+        "Sharpe (5Y)": null,
+        "Information Ratio (3Y)": null,
+        "Information Ratio (5Y)": null,
+        "Beta (3Y)": null,
+        "Beta (5Y)": null,
+        "Alpha (3Y)": null,
+        "Alpha (5Y)": null,
+        "Downside Capture (3Y)": null,
+        "Downside Capture (5Y)": null,
+        "1Y Rolling Return (%)": 3.49,
+        "3Y Rolling Return (%)": null,
+        "5Y Rolling Return (%)": null,
+        "AUM (Cr)": 1125.26,
+        "Expense Ratio (%)": 0.7,
+        "Top 10 Stocks Weight (%)": 35.37,
+        "Large Cap (%)": 57.52,
+        "Mid Cap (%)": 5.78,
+        "Small Cap (%)": 9.06,
+        "Managers": "Suman Prasad, Avnish Jain, Pranav Gokhale, Ennette Fernandes, Amit Kadam",
+        "Holdings": [
+          {
+            "name": "HDFC Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "5.96"
+          },
+          {
+            "name": "Reliance Industries Ltd",
+            "sector": "Energy",
+            "weightage": "4.79"
+          },
+          {
+            "name": "ICICI Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "4.77"
+          },
+          {
+            "name": "LIC Housing Finance Ltd",
+            "sector": "",
+            "weightage": "4.46"
+          },
+          {
+            "name": "India (Republic of)",
+            "sector": "",
+            "weightage": "3.95"
+          },
+          {
+            "name": "Bharti Airtel Ltd",
+            "sector": "Communication Services",
+            "weightage": "3.23"
+          },
+          {
+            "name": "Larsen & Toubro Ltd",
+            "sector": "Industrials",
+            "weightage": "3.07"
+          },
+          {
+            "name": "Axis Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.77"
+          },
+          {
+            "name": "Eternal Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "2.35"
+          },
+          {
+            "name": "State Bank of India",
+            "sector": "Financial Services",
+            "weightage": "2.24"
+          },
+          {
+            "name": "Bajaj Finance Limited",
+            "sector": "",
+            "weightage": "2.23"
+          },
+          {
+            "name": "Kotak Mahindra Prime Limited",
+            "sector": "",
+            "weightage": "2.22"
+          },
+          {
+            "name": "Rec Limited",
+            "sector": "",
+            "weightage": "2.22"
+          },
+          {
+            "name": "Bajaj Housing Finance Limited",
+            "sector": "",
+            "weightage": "2.20"
+          },
+          {
+            "name": "Power Finance Corp Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.19"
           }
         ],
         "Net Alpha (%)": null,
@@ -39634,122 +39634,6 @@
         "Manager_Change_Date": "2026-07-17"
       },
       {
-        "code": "153376",
-        "Fund Name": "Unifi Dynamic Asset Allocation Fund - Direct Growth",
-        "1Y Return (%)": 8.35,
-        "3Y Return (%)": null,
-        "5Y Return (%)": null,
-        "Sharpe (3Y)": null,
-        "Sharpe (5Y)": null,
-        "Information Ratio (3Y)": null,
-        "Information Ratio (5Y)": null,
-        "Beta (3Y)": null,
-        "Beta (5Y)": null,
-        "Alpha (3Y)": null,
-        "Alpha (5Y)": null,
-        "Downside Capture (3Y)": null,
-        "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": 8.01,
-        "3Y Rolling Return (%)": null,
-        "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 1290.08,
-        "Expense Ratio (%)": 1.39,
-        "Top 10 Stocks Weight (%)": 70.84,
-        "Large Cap (%)": 30.27,
-        "Mid Cap (%)": 5.57,
-        "Small Cap (%)": 0.0,
-        "Managers": "Aejas Lakhani, Saravanan V N, Karthik Srinivas",
-        "Holdings": [
-          {
-            "name": "Cash Offset For Derivatives",
-            "sector": "",
-            "weightage": "35.52"
-          },
-          {
-            "name": "Tvs Motor Company Limited",
-            "sector": "",
-            "weightage": "7.72"
-          },
-          {
-            "name": "Si Creva Capital Services Private Limited",
-            "sector": "",
-            "weightage": "5.12"
-          },
-          {
-            "name": "Vedanta Limited",
-            "sector": "",
-            "weightage": "4.72"
-          },
-          {
-            "name": "GMR Airports Limited",
-            "sector": "",
-            "weightage": "4.53"
-          },
-          {
-            "name": "Shrem Infra Invest Private Limited",
-            "sector": "",
-            "weightage": "4.37"
-          },
-          {
-            "name": "7.06% Govt Stock 2028",
-            "sector": "",
-            "weightage": "4.34"
-          },
-          {
-            "name": "GMR Goa International Airport Limited",
-            "sector": "",
-            "weightage": "3.12"
-          },
-          {
-            "name": "Future on HDFC Bank Ltd",
-            "sector": "",
-            "weightage": "2.52"
-          },
-          {
-            "name": "HDFC Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "2.50"
-          },
-          {
-            "name": "SPandana SPhoorty Financial Limited",
-            "sector": "",
-            "weightage": "2.48"
-          },
-          {
-            "name": "Srg Housing Finance Limited",
-            "sector": "",
-            "weightage": "2.32"
-          },
-          {
-            "name": "Jubilant Bevco Limited",
-            "sector": "",
-            "weightage": "2.15"
-          },
-          {
-            "name": "Mahaveer Finance (India) Limited",
-            "sector": "",
-            "weightage": "2.08"
-          },
-          {
-            "name": "Progfin Private Limited",
-            "sector": "",
-            "weightage": "2.06"
-          }
-        ],
-        "Net Alpha (%)": null,
-        "Rating_Score": null,
-        "Sub_Rating_Performance": 0.625,
-        "Sub_Rating_IR": 0.625,
-        "Sub_Rating_Alpha": 0.375,
-        "Sub_Rating_Protection": 0.875,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "UR",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
         "code": "151885",
         "Fund Name": "UTI Balanced Advantage Fund - Direct Plan - Growth Option",
         "1Y Return (%)": 1.58,
@@ -39858,6 +39742,122 @@
         "Sub_Rating_IR": 0.4813,
         "Sub_Rating_Alpha": 0.3098,
         "Sub_Rating_Protection": 1.75,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "UR",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
+        "code": "153376",
+        "Fund Name": "Unifi Dynamic Asset Allocation Fund - Direct Growth",
+        "1Y Return (%)": 8.35,
+        "3Y Return (%)": null,
+        "5Y Return (%)": null,
+        "Sharpe (3Y)": null,
+        "Sharpe (5Y)": null,
+        "Information Ratio (3Y)": null,
+        "Information Ratio (5Y)": null,
+        "Beta (3Y)": null,
+        "Beta (5Y)": null,
+        "Alpha (3Y)": null,
+        "Alpha (5Y)": null,
+        "Downside Capture (3Y)": null,
+        "Downside Capture (5Y)": null,
+        "1Y Rolling Return (%)": 8.01,
+        "3Y Rolling Return (%)": null,
+        "5Y Rolling Return (%)": null,
+        "AUM (Cr)": 1290.08,
+        "Expense Ratio (%)": 1.39,
+        "Top 10 Stocks Weight (%)": 70.84,
+        "Large Cap (%)": 30.27,
+        "Mid Cap (%)": 5.57,
+        "Small Cap (%)": 0.0,
+        "Managers": "Aejas Lakhani, Saravanan V N, Karthik Srinivas",
+        "Holdings": [
+          {
+            "name": "Cash Offset For Derivatives",
+            "sector": "",
+            "weightage": "35.52"
+          },
+          {
+            "name": "Tvs Motor Company Limited",
+            "sector": "",
+            "weightage": "7.72"
+          },
+          {
+            "name": "Si Creva Capital Services Private Limited",
+            "sector": "",
+            "weightage": "5.12"
+          },
+          {
+            "name": "Vedanta Limited",
+            "sector": "",
+            "weightage": "4.72"
+          },
+          {
+            "name": "GMR Airports Limited",
+            "sector": "",
+            "weightage": "4.53"
+          },
+          {
+            "name": "Shrem Infra Invest Private Limited",
+            "sector": "",
+            "weightage": "4.37"
+          },
+          {
+            "name": "7.06% Govt Stock 2028",
+            "sector": "",
+            "weightage": "4.34"
+          },
+          {
+            "name": "GMR Goa International Airport Limited",
+            "sector": "",
+            "weightage": "3.12"
+          },
+          {
+            "name": "Future on HDFC Bank Ltd",
+            "sector": "",
+            "weightage": "2.52"
+          },
+          {
+            "name": "HDFC Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "2.50"
+          },
+          {
+            "name": "SPandana SPhoorty Financial Limited",
+            "sector": "",
+            "weightage": "2.48"
+          },
+          {
+            "name": "Srg Housing Finance Limited",
+            "sector": "",
+            "weightage": "2.32"
+          },
+          {
+            "name": "Jubilant Bevco Limited",
+            "sector": "",
+            "weightage": "2.15"
+          },
+          {
+            "name": "Mahaveer Finance (India) Limited",
+            "sector": "",
+            "weightage": "2.08"
+          },
+          {
+            "name": "Progfin Private Limited",
+            "sector": "",
+            "weightage": "2.06"
+          }
+        ],
+        "Net Alpha (%)": null,
+        "Rating_Score": null,
+        "Sub_Rating_Performance": 0.625,
+        "Sub_Rating_IR": 0.625,
+        "Sub_Rating_Alpha": 0.375,
+        "Sub_Rating_Protection": 0.875,
         "Manager_Tenure_Years": 3.5,
         "Manager_Tenure_Adj": 0.025,
         "AUM_Adj": 0.0,
@@ -40203,7 +40203,7 @@
           }
         ],
         "Net Alpha (%)": 0.0,
-        "Rating_Score": 2.4886413043478264,
+        "Rating_Score": 2.488641304347826,
         "Sub_Rating_Performance": 0.6449,
         "Sub_Rating_IR": 0.3125,
         "Sub_Rating_Alpha": 0.1875,
@@ -41015,7 +41015,7 @@
           }
         ],
         "Net Alpha (%)": -0.31,
-        "Rating_Score": 2.264141304347826,
+        "Rating_Score": 2.2641413043478256,
         "Sub_Rating_Performance": 0.5911,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.1759,
@@ -41278,7 +41278,7 @@
         "1Y Rolling Return (%)": 7.03,
         "3Y Rolling Return (%)": 6.73,
         "5Y Rolling Return (%)": 6.51,
-        "AUM (Cr)": 7790.46,
+        "AUM (Cr)": 8189.71,
         "Expense Ratio (%)": 0.29,
         "Top 10 Stocks Weight (%)": 127.15,
         "Large Cap (%)": 15.68,
@@ -41943,7 +41943,7 @@
           }
         ],
         "Net Alpha (%)": -0.48,
-        "Rating_Score": 1.8955163043478263,
+        "Rating_Score": 1.895516304347826,
         "Sub_Rating_Performance": 0.5955,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.1695,
@@ -42175,7 +42175,7 @@
           }
         ],
         "Net Alpha (%)": -0.29,
-        "Rating_Score": 1.820391304347826,
+        "Rating_Score": 1.8203913043478257,
         "Sub_Rating_Performance": 0.5955,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.1766,
@@ -42291,7 +42291,7 @@
           }
         ],
         "Net Alpha (%)": -0.15,
-        "Rating_Score": 1.6900163043478262,
+        "Rating_Score": 1.690016304347826,
         "Sub_Rating_Performance": 0.6493,
         "Sub_Rating_IR": 0.0687,
         "Sub_Rating_Alpha": 0.1819,
@@ -42523,7 +42523,7 @@
           }
         ],
         "Net Alpha (%)": -0.66,
-        "Rating_Score": 1.4101100543478264,
+        "Rating_Score": 1.4101100543478262,
         "Sub_Rating_Performance": 0.6705,
         "Sub_Rating_IR": 0.0,
         "Sub_Rating_Alpha": 0.1627,
@@ -42884,122 +42884,6 @@
         "Manager_Change_Date": null
       },
       {
-        "code": "152109",
-        "Fund Name": "Parag Parikh Arbitrage Fund - Direct Plan Growth",
-        "1Y Return (%)": 6.56,
-        "3Y Return (%)": 7.21,
-        "5Y Return (%)": null,
-        "Sharpe (3Y)": 0.8,
-        "Sharpe (5Y)": null,
-        "Information Ratio (3Y)": -1.74,
-        "Information Ratio (5Y)": null,
-        "Beta (3Y)": 0.93,
-        "Beta (5Y)": null,
-        "Alpha (3Y)": -0.43,
-        "Alpha (5Y)": null,
-        "Downside Capture (3Y)": 95.66,
-        "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": 7.11,
-        "3Y Rolling Return (%)": null,
-        "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 2631.73,
-        "Expense Ratio (%)": 0.19,
-        "Top 10 Stocks Weight (%)": 148.52,
-        "Large Cap (%)": 25.16,
-        "Mid Cap (%)": 4.56,
-        "Small Cap (%)": 1.46,
-        "Managers": "Raj Mehta, Rajeev Thakkar, Raunak Onkar, Rukun Tarachandani, Tejas Soman, Aishwarya Dhar",
-        "Holdings": [
-          {
-            "name": "Cash Offset For Derivatives",
-            "sector": "",
-            "weightage": "75.02"
-          },
-          {
-            "name": "Future on BANK Index",
-            "sector": "",
-            "weightage": "26.68"
-          },
-          {
-            "name": "Parag Parikh Liquid Dir Gr",
-            "sector": "",
-            "weightage": "11.02"
-          },
-          {
-            "name": "ICICI Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "6.01"
-          },
-          {
-            "name": "HDFC Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "5.98"
-          },
-          {
-            "name": "Axis Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "5.04"
-          },
-          {
-            "name": "Future on Reliance Industries Ltd",
-            "sector": "",
-            "weightage": "4.77"
-          },
-          {
-            "name": "Reliance Industries Ltd",
-            "sector": "Energy",
-            "weightage": "4.75"
-          },
-          {
-            "name": "Future on Bharti Airtel Ltd",
-            "sector": "",
-            "weightage": "4.63"
-          },
-          {
-            "name": "Bharti Airtel Ltd",
-            "sector": "Communication Services",
-            "weightage": "4.63"
-          },
-          {
-            "name": "Kotak Mahindra Bank Ltd",
-            "sector": "Financial Services",
-            "weightage": "3.94"
-          },
-          {
-            "name": "Future on Bharat Heavy Electricals Ltd",
-            "sector": "",
-            "weightage": "3.14"
-          },
-          {
-            "name": "Bharat Heavy Electricals Ltd",
-            "sector": "Industrials",
-            "weightage": "3.11"
-          },
-          {
-            "name": "HDFC Bank Limited",
-            "sector": "",
-            "weightage": "2.78"
-          },
-          {
-            "name": "Mahindra & Mahindra Ltd",
-            "sector": "Consumer Cyclical",
-            "weightage": "2.70"
-          }
-        ],
-        "Net Alpha (%)": -0.43,
-        "Rating_Score": null,
-        "Sub_Rating_Performance": 0.625,
-        "Sub_Rating_IR": 0.0,
-        "Sub_Rating_Alpha": 0.1714,
-        "Sub_Rating_Protection": 1.2836,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "UR",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
         "code": "153426",
         "Fund Name": "quant Arbitrage Fund - Growth Option - Direct Plan",
         "1Y Return (%)": 7.82,
@@ -43114,6 +42998,122 @@
         "Rating": "UR",
         "Manager_Changed_Recently": true,
         "Manager_Change_Date": "2026-07-30"
+      },
+      {
+        "code": "152109",
+        "Fund Name": "Parag Parikh Arbitrage Fund - Direct Plan Growth",
+        "1Y Return (%)": 6.56,
+        "3Y Return (%)": 7.21,
+        "5Y Return (%)": null,
+        "Sharpe (3Y)": 0.8,
+        "Sharpe (5Y)": null,
+        "Information Ratio (3Y)": -1.74,
+        "Information Ratio (5Y)": null,
+        "Beta (3Y)": 0.93,
+        "Beta (5Y)": null,
+        "Alpha (3Y)": -0.43,
+        "Alpha (5Y)": null,
+        "Downside Capture (3Y)": 95.66,
+        "Downside Capture (5Y)": null,
+        "1Y Rolling Return (%)": 7.11,
+        "3Y Rolling Return (%)": null,
+        "5Y Rolling Return (%)": null,
+        "AUM (Cr)": 2631.73,
+        "Expense Ratio (%)": 0.19,
+        "Top 10 Stocks Weight (%)": 148.52,
+        "Large Cap (%)": 25.16,
+        "Mid Cap (%)": 4.56,
+        "Small Cap (%)": 1.46,
+        "Managers": "Raj Mehta, Rajeev Thakkar, Raunak Onkar, Rukun Tarachandani, Tejas Soman, Aishwarya Dhar",
+        "Holdings": [
+          {
+            "name": "Cash Offset For Derivatives",
+            "sector": "",
+            "weightage": "75.02"
+          },
+          {
+            "name": "Future on BANK Index",
+            "sector": "",
+            "weightage": "26.68"
+          },
+          {
+            "name": "Parag Parikh Liquid Dir Gr",
+            "sector": "",
+            "weightage": "11.02"
+          },
+          {
+            "name": "ICICI Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "6.01"
+          },
+          {
+            "name": "HDFC Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "5.98"
+          },
+          {
+            "name": "Axis Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "5.04"
+          },
+          {
+            "name": "Future on Reliance Industries Ltd",
+            "sector": "",
+            "weightage": "4.77"
+          },
+          {
+            "name": "Reliance Industries Ltd",
+            "sector": "Energy",
+            "weightage": "4.75"
+          },
+          {
+            "name": "Future on Bharti Airtel Ltd",
+            "sector": "",
+            "weightage": "4.63"
+          },
+          {
+            "name": "Bharti Airtel Ltd",
+            "sector": "Communication Services",
+            "weightage": "4.63"
+          },
+          {
+            "name": "Kotak Mahindra Bank Ltd",
+            "sector": "Financial Services",
+            "weightage": "3.94"
+          },
+          {
+            "name": "Future on Bharat Heavy Electricals Ltd",
+            "sector": "",
+            "weightage": "3.14"
+          },
+          {
+            "name": "Bharat Heavy Electricals Ltd",
+            "sector": "Industrials",
+            "weightage": "3.11"
+          },
+          {
+            "name": "HDFC Bank Limited",
+            "sector": "",
+            "weightage": "2.78"
+          },
+          {
+            "name": "Mahindra & Mahindra Ltd",
+            "sector": "Consumer Cyclical",
+            "weightage": "2.70"
+          }
+        ],
+        "Net Alpha (%)": -0.43,
+        "Rating_Score": null,
+        "Sub_Rating_Performance": 0.625,
+        "Sub_Rating_IR": 0.0,
+        "Sub_Rating_Alpha": 0.1714,
+        "Sub_Rating_Protection": 1.2836,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "UR",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
       },
       {
         "code": "153090",
@@ -43716,7 +43716,7 @@
         "1Y Rolling Return (%)": 698.26,
         "3Y Rolling Return (%)": 47.75,
         "5Y Rolling Return (%)": 10.26,
-        "AUM (Cr)": 62.25,
+        "AUM (Cr)": 74.71,
         "Expense Ratio (%)": 0.15,
         "Top 10 Stocks Weight (%)": 74.77,
         "Large Cap (%)": null,
@@ -44181,7 +44181,7 @@
         "3Y Rolling Return (%)": 5.35,
         "5Y Rolling Return (%)": 5.15,
         "AUM (Cr)": 35870.39,
-        "Expense Ratio (%)": 0.17,
+        "Expense Ratio (%)": 0.2,
         "Top 10 Stocks Weight (%)": 36.94,
         "Large Cap (%)": null,
         "Mid Cap (%)": null,
@@ -46142,7 +46142,7 @@
         "1Y Rolling Return (%)": 5.45,
         "3Y Rolling Return (%)": 5.29,
         "5Y Rolling Return (%)": 5.08,
-        "AUM (Cr)": 12083.14,
+        "AUM (Cr)": 15800.35,
         "Expense Ratio (%)": 0.06,
         "Top 10 Stocks Weight (%)": 52.75,
         "Large Cap (%)": null,
@@ -46375,7 +46375,7 @@
         "3Y Rolling Return (%)": 5.34,
         "5Y Rolling Return (%)": 5.13,
         "AUM (Cr)": 43022.18,
-        "Expense Ratio (%)": 0.18,
+        "Expense Ratio (%)": 0.21,
         "Top 10 Stocks Weight (%)": 32.5,
         "Large Cap (%)": null,
         "Mid Cap (%)": null,
@@ -46607,7 +46607,7 @@
         "3Y Rolling Return (%)": 5.26,
         "5Y Rolling Return (%)": 5.06,
         "AUM (Cr)": 71448.39,
-        "Expense Ratio (%)": 0.2,
+        "Expense Ratio (%)": 0.19,
         "Top 10 Stocks Weight (%)": 47.39,
         "Large Cap (%)": null,
         "Mid Cap (%)": null,
@@ -47535,7 +47535,7 @@
         "3Y Rolling Return (%)": 5.24,
         "5Y Rolling Return (%)": 5.04,
         "AUM (Cr)": 54543.06,
-        "Expense Ratio (%)": 0.17,
+        "Expense Ratio (%)": 0.2,
         "Top 10 Stocks Weight (%)": 33.05,
         "Large Cap (%)": null,
         "Mid Cap (%)": null,
@@ -47864,15 +47864,15 @@
         "Manager_Change_Date": null
       },
       {
-        "code": "148415",
-        "Fund Name": "JM Liquid Fund - Withheld Brokerage I.E.F. (Direct) - Growth Plan",
+        "code": "148414",
+        "Fund Name": "JM Liquid Fund - Unclaimed Application Refund Amount I.E.F. (Direct) - Growth Plan",
         "1Y Return (%)": 0.0,
         "3Y Return (%)": 0.0,
         "5Y Return (%)": 0.0,
         "Sharpe (3Y)": 0.0,
         "Sharpe (5Y)": 0.0,
-        "Information Ratio (3Y)": -39.37,
-        "Information Ratio (5Y)": -30.99,
+        "Information Ratio (3Y)": -32.37,
+        "Information Ratio (5Y)": -33.67,
         "Beta (3Y)": 0.0,
         "Beta (5Y)": 0.0,
         "Alpha (3Y)": -6.47,
@@ -48060,15 +48060,15 @@
         "Manager_Change_Date": null
       },
       {
-        "code": "148414",
-        "Fund Name": "JM Liquid Fund - Unclaimed Application Refund Amount I.E.F. (Direct) - Growth Plan",
+        "code": "148415",
+        "Fund Name": "JM Liquid Fund - Withheld Brokerage I.E.F. (Direct) - Growth Plan",
         "1Y Return (%)": 0.0,
         "3Y Return (%)": 0.0,
         "5Y Return (%)": 0.0,
         "Sharpe (3Y)": 0.0,
         "Sharpe (5Y)": 0.0,
-        "Information Ratio (3Y)": -32.37,
-        "Information Ratio (5Y)": -33.67,
+        "Information Ratio (3Y)": -39.37,
+        "Information Ratio (5Y)": -30.99,
         "Beta (3Y)": 0.0,
         "Beta (5Y)": 0.0,
         "Alpha (3Y)": -6.47,
@@ -48216,122 +48216,6 @@
         "Manager_Change_Date": null
       },
       {
-        "code": "153035",
-        "Fund Name": "Shriram Liquid Fund - Direct Plan Growth Option",
-        "1Y Return (%)": 4.84,
-        "3Y Return (%)": null,
-        "5Y Return (%)": null,
-        "Sharpe (3Y)": null,
-        "Sharpe (5Y)": null,
-        "Information Ratio (3Y)": null,
-        "Information Ratio (5Y)": null,
-        "Beta (3Y)": null,
-        "Beta (5Y)": null,
-        "Alpha (3Y)": null,
-        "Alpha (5Y)": null,
-        "Downside Capture (3Y)": null,
-        "Downside Capture (5Y)": null,
-        "1Y Rolling Return (%)": 5.04,
-        "3Y Rolling Return (%)": null,
-        "5Y Rolling Return (%)": null,
-        "AUM (Cr)": 169.47,
-        "Expense Ratio (%)": 0.14,
-        "Top 10 Stocks Weight (%)": 93.37,
-        "Large Cap (%)": null,
-        "Mid Cap (%)": null,
-        "Small Cap (%)": null,
-        "Managers": "Amit Modani, Sudip More",
-        "Holdings": [
-          {
-            "name": "India (Republic of)",
-            "sector": "",
-            "weightage": "17.53"
-          },
-          {
-            "name": "HDFC Bank Ltd.",
-            "sector": "",
-            "weightage": "8.77"
-          },
-          {
-            "name": "Bank of Baroda",
-            "sector": "",
-            "weightage": "8.77"
-          },
-          {
-            "name": "Axis Bank Ltd.",
-            "sector": "",
-            "weightage": "8.77"
-          },
-          {
-            "name": "Punjab National Bank",
-            "sector": "",
-            "weightage": "8.76"
-          },
-          {
-            "name": "National Bank for Agriculture and Rural Development",
-            "sector": "",
-            "weightage": "8.74"
-          },
-          {
-            "name": "Canara Bank",
-            "sector": "",
-            "weightage": "8.74"
-          },
-          {
-            "name": "Union Bank of India",
-            "sector": "",
-            "weightage": "8.73"
-          },
-          {
-            "name": "Small Industries Development Bank of India",
-            "sector": "",
-            "weightage": "8.72"
-          },
-          {
-            "name": "Icici Securities Limited",
-            "sector": "",
-            "weightage": "5.84"
-          },
-          {
-            "name": "Kotak Securities Ltd",
-            "sector": "",
-            "weightage": "5.82"
-          },
-          {
-            "name": "HDFC Securities Limited",
-            "sector": "",
-            "weightage": "5.81"
-          },
-          {
-            "name": "Net Receivables / (Payables)",
-            "sector": "",
-            "weightage": "5.24"
-          },
-          {
-            "name": "SBI Funds Management Private Ltd",
-            "sector": "",
-            "weightage": "0.25"
-          },
-          {
-            "name": "Motilal Oswal Financial Services Ltd",
-            "sector": "",
-            "weightage": "0.00"
-          }
-        ],
-        "Net Alpha (%)": null,
-        "Rating_Score": null,
-        "Sub_Rating_Performance": 0.875,
-        "Sub_Rating_IR": 0.5,
-        "Sub_Rating_Alpha": 0.125,
-        "Sub_Rating_Protection": 1.0,
-        "Manager_Tenure_Years": 3.5,
-        "Manager_Tenure_Adj": 0.025,
-        "AUM_Adj": 0.0,
-        "Rating": "UR",
-        "Manager_Changed_Recently": false,
-        "Manager_Change_Date": null
-      },
-      {
         "code": "153883",
         "Fund Name": "THE WEALTH COMPANY LIQUID FUND DIRECT GROWTH",
         "1Y Return (%)": 5.28,
@@ -48432,6 +48316,122 @@
             "name": "Aditya Birla Housing Finance Ltd.",
             "sector": "",
             "weightage": "4.38"
+          }
+        ],
+        "Net Alpha (%)": null,
+        "Rating_Score": null,
+        "Sub_Rating_Performance": 0.875,
+        "Sub_Rating_IR": 0.5,
+        "Sub_Rating_Alpha": 0.125,
+        "Sub_Rating_Protection": 1.0,
+        "Manager_Tenure_Years": 3.5,
+        "Manager_Tenure_Adj": 0.025,
+        "AUM_Adj": 0.0,
+        "Rating": "UR",
+        "Manager_Changed_Recently": false,
+        "Manager_Change_Date": null
+      },
+      {
+        "code": "153035",
+        "Fund Name": "Shriram Liquid Fund - Direct Plan Growth Option",
+        "1Y Return (%)": 4.84,
+        "3Y Return (%)": null,
+        "5Y Return (%)": null,
+        "Sharpe (3Y)": null,
+        "Sharpe (5Y)": null,
+        "Information Ratio (3Y)": null,
+        "Information Ratio (5Y)": null,
+        "Beta (3Y)": null,
+        "Beta (5Y)": null,
+        "Alpha (3Y)": null,
+        "Alpha (5Y)": null,
+        "Downside Capture (3Y)": null,
+        "Downside Capture (5Y)": null,
+        "1Y Rolling Return (%)": 5.04,
+        "3Y Rolling Return (%)": null,
+        "5Y Rolling Return (%)": null,
+        "AUM (Cr)": 169.47,
+        "Expense Ratio (%)": 0.14,
+        "Top 10 Stocks Weight (%)": 93.37,
+        "Large Cap (%)": null,
+        "Mid Cap (%)": null,
+        "Small Cap (%)": null,
+        "Managers": "Amit Modani, Sudip More",
+        "Holdings": [
+          {
+            "name": "India (Republic of)",
+            "sector": "",
+            "weightage": "17.53"
+          },
+          {
+            "name": "HDFC Bank Ltd.",
+            "sector": "",
+            "weightage": "8.77"
+          },
+          {
+            "name": "Bank of Baroda",
+            "sector": "",
+            "weightage": "8.77"
+          },
+          {
+            "name": "Axis Bank Ltd.",
+            "sector": "",
+            "weightage": "8.77"
+          },
+          {
+            "name": "Punjab National Bank",
+            "sector": "",
+            "weightage": "8.76"
+          },
+          {
+            "name": "National Bank for Agriculture and Rural Development",
+            "sector": "",
+            "weightage": "8.74"
+          },
+          {
+            "name": "Canara Bank",
+            "sector": "",
+            "weightage": "8.74"
+          },
+          {
+            "name": "Union Bank of India",
+            "sector": "",
+            "weightage": "8.73"
+          },
+          {
+            "name": "Small Industries Development Bank of India",
+            "sector": "",
+            "weightage": "8.72"
+          },
+          {
+            "name": "Icici Securities Limited",
+            "sector": "",
+            "weightage": "5.84"
+          },
+          {
+            "name": "Kotak Securities Ltd",
+            "sector": "",
+            "weightage": "5.82"
+          },
+          {
+            "name": "HDFC Securities Limited",
+            "sector": "",
+            "weightage": "5.81"
+          },
+          {
+            "name": "Net Receivables / (Payables)",
+            "sector": "",
+            "weightage": "5.24"
+          },
+          {
+            "name": "SBI Funds Management Private Ltd",
+            "sector": "",
+            "weightage": "0.25"
+          },
+          {
+            "name": "Motilal Oswal Financial Services Ltd",
+            "sector": "",
+            "weightage": "0.00"
           }
         ],
         "Net Alpha (%)": null,
